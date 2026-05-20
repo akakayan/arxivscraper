@@ -1,1 +1,232 @@
-[]
+[
+  {
+    "id": "2503.13126",
+    "title": "error analysis of the strang splitting for the 3d semilinear wave equation with finite-energy data",
+    "authors": [
+      "maximilian ruff"
+    ],
+    "abstract": "we study a variant of the strang splitting for the time integration of the semilinear wave equation under the finite-energy condition on the torus $\\mathbb{t}^3$. in the case of a cubic nonlinearity, we show almost second-order convergence in $l^2$ and almost first-order convergence in $h^1$. if the nonlinearity has a quartic form instead, we show an analogous convergence results, where the order is reduced by $1/2$ in both cases. to our knowledge these are the best convergence results available for the 3d cubic and quartic wave equations under the finite-energy condition. our approach relies on continuous- and discrete-time strichartz estimates. we also make use of the integration and summation by parts formulas to exploit cancellations in the error terms. moreover, error bounds for a full discretization using the fourier pseudo-spectral method in space are given. finally, we discuss a numerical example indicating the sharpness of our theoretical results.",
+    "submitted": "2026-05-18",
+    "categories": [
+      "math.na",
+      "cs.na",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2503.13126",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2601.22665",
+    "title": "sharp thresholds for the escobar functional: the escobar-willmore mass, geometric selection, and compactness trichotomy",
+    "authors": [
+      "mayukh mukherjee",
+      "utsab sarkar"
+    ],
+    "abstract": "we study the hemisphere threshold for the conformally covariant escobar functional on compact riemannian manifolds $(m^n,g)$ with boundary. the near-threshold landscape is organized by boundary invariants: the first-order coefficient $ρ_n^{\\mathrm{conf}}h_g$ vanishes identically, so the leading obstruction is a renormalized boundary mass $\\mathfrak r_g$ (second order, $n\\ge5$), followed by a cubic invariant $θ_g$ (third order, $n\\ge6$), with a green kernel interaction $\\mathsf g_\\partial$ in the multi-bubble regime.   exact evaluation of weighted profile moments yields $κ_1=κ_2=0$: the coefficients of $\\operatorname{ric}_g(ν,ν)$ and $\\mathrm{scal}_{\\bar g}$ in the bare mass vanish. on $\\{h_g=0\\}$ the mass reduces to $\\mathfrak r_g^{\\mathrm{bare}}=\\frac{6-n}{2(n-1)(n-3)(n-4)}|\\mathring{\\mathrm{ii}}|^2$. the lyapunov--schmidt correction gives $\\mathfrak r_g^{\\mathrm{red}}\\le\\mathfrak r_g^{\\mathrm{bare}}\\le0$ for $n\\ge6$; for $n=5$ the nonlocal back-reaction overcomes the positive bare coefficient. in every dimension $n\\ge5$, non-umbilic boundaries are automatically subcritical: $c^*_{\\mathrm{esc}}<s_\\ast$ whenever $\\mathring{\\mathrm{ii}}\\neq0$.   at threshold, on manifolds not conformally diffeomorphic to the hemisphere, every blow-up of positive constrained critical points is one-bubble and concentrates at an umbilic point with $\\mathfrak r_g=0$, $\\nabla_\\partial\\mathfrak r_g=0$. since $\\mathfrak r_g^{\\mathrm{red}}<0$ at every non-umbilic point, threshold concentration occurs only on the umbilic stratum $\\{\\mathring{\\mathrm{ii}}=0\\}$. there $θ_g$ governs the next bifurcation: $θ_g<0$ forces subcriticality; for $n\\ge7$, $θ_g>0$ yields compactness and hemispherical rigidity. in the multi-bubble regime we establish global compactness at escobar multiples with equal-mass quantization and conditional exclusion of pure multi-bubbling.",
+    "submitted": "2026-05-17",
+    "categories": [
+      "math.dg",
+      "math.ap",
+      "math.ca"
+    ],
+    "link": "https://arxiv.org/abs/2601.22665",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.27755",
+    "title": "gårding polynomials",
+    "authors": [
+      "hao fang",
+      "biao ma"
+    ],
+    "abstract": "we introduce gårding polynomials, a class of real multivariate polynomials characterized by positivity regions that are invariant under translation by positive vectors and closed under strictly positive affine transformations. we prove that this geometric formulation is equivalent both to a reduction to the multi-affine setting via polarization and to a recursive criterion in terms of partial derivatives.   the class of gårding polynomials strictly extends that of real stable polynomials while preserving many of their structural properties. in particular, multi-affine gårding polynomials with nonnegative coefficients satisfy the rayleigh property, and their positive univariate specializations have ultra log-concave coefficient sequences.   the gårding property for several matroid generating functions is preserved under natural matroid operations. as applications, we derive new negative dependence results for generating functions associated with various classes of matroids and graphs, including examples previously beyond the scope of real stability and lorentzian methods. we further obtain analogous results for characteristic polynomials arising from certain matrix classes.",
+    "submitted": "2026-05-18",
+    "categories": [
+      "math.co",
+      "math.ap",
+      "math.ca",
+      "math.oc",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2604.27755",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.17400",
+    "title": "threshold-sharp conformal scalar stability on carter slabs and black hole exteriors",
+    "authors": [
+      "bobby eka gunara"
+    ],
+    "abstract": "we prove a threshold-sharp stability theory for the conformal scalar-curvature sector on zero-curvature carter backgrounds. the main result is a fully closed bounded-slab theorem: the reflecting evolution is constructed, the conserved energy is proved positive, the complete affine threshold obstruction is identified, and all remaining finite-energy dynamics are shown to be uniformly stable with no unstable modes. this is the sharp statement for compact reflecting slabs, where genuine time decay is false in general. we then extend the same threshold philosophy to black-hole exteriors, separating the intrinsic conformal mechanism from the exterior scalar-wave inputs needed for red-shift, local energy, limiting absorption, and zero-frequency control. the framework gives main applications to kerr, reissner-nordström, slowly rotating weakly charged kerr-newman wall exteriors, and extremal horizon-charge obstructions. our precise result is that it proves stability only for the conformal scalar-curvature sector, not tensorial or nonlinear gravitational stability, and it distinguishes boundedness, qualitative local decay, polynomial decay, and extremal aretakis-type obstruction without conflating them.",
+    "submitted": "2026-05-17",
+    "categories": [
+      "math.ap",
+      "gr-qc",
+      "hep-th",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2605.17400",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2605.17536",
+    "title": "on variational approximations for wave maps",
+    "authors": [
+      "zhiyuan geng",
+      "changyou wang"
+    ],
+    "abstract": "n this paper, we revisit the existence of global weak solutions of wave maps from $\\r^n$ into the sphere $\\mathbb{s}^{l-1}$, $\\box u\\perp t_u \\mathbb{s}^{l-1}$, by establishing it as a singular limit of maps from $\\r^n\\times \\r_+$ to $\\mathbb s^{l-1}$ that minimize elliptic regularized variational functionals that contain an exponential weight in the time direction with a small parameter $\\varepsilon$, where the initial data of the cauchy problem serve as the boundary condition. the idea went back to de giorgi \\cite{giorgi1996}, which has been implemented by serra and tilli \\cite{serra-tilli2012, serra-tilli2016} for certain class of nonlinear wave equations. this approach is also applicable to the $so(m)$-target manifold.",
+    "submitted": "2026-05-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.17536",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.18011",
+    "title": "global regularity of axisymmetric navier-stokes equations with nhl boundary conditions under a critical smallness condition",
+    "authors": [
+      "tsz-lik chan"
+    ],
+    "abstract": "we investigate the global regularity problem for the three-dimensional incompressible navier-stokes equations restricted to axisymmetric flows in a finite cylinder $d = \\{(r,θ,x_3): 0 \\le r \\le 1, 0 \\le θ< 2π, 0 \\le x_3 \\le 1\\}$, subject to the navier-hodge-lions (nhl) boundary condition. while global existence of smooth solutions is known in the swirl-free case, the presence of swirl ($v_θ\\neq 0$) introduces vortex stretching that may potentially lead to finite-time singularity formation. in this work, we prove that if the initial data satisfy a scaling-invariant smallness condition of the form \\[ \\frac{9c_1c_3^{1/2}}{4}\\left(\\frac{1}{2}\\|v_0\\|_{l^4}^4 + \\|ω_0\\|_{l^2}^2\\right)^{1/4}\\|γ_0\\|_{l^4} \\le \\frac{1}{4}, \\] where $v = v_θ/\\sqrt{r}$, $ω= ω_θ/r$, $γ= r v_θ$, and $c_1, c_3$ are explicit constants given in this paper, then the solution remains globally regular for all time. the proof proceeds via a transformed system for $ω$ and $v$, leveraging a maximum principle for $γ$, refined agmon-type inequalities to control $\\|v_r/r\\|_{l^\\infty}$, and delicate boundary analysis of the finite cylinder geometry. key energy estimates yield $l^\\infty_t l^4_x$ bounds for all velocity components, which fall within the regularity class, thereby precluding finite-time blow-up. the result extends the known criticality theory for axisymmetric navier-stokes flows to the setting of nhl boundary conditions, which are physically relevant for flows with stress-free or slip-type constraints on lateral and horizontal boundaries.",
+    "submitted": "2026-05-18",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.18011",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.18730",
+    "title": "the spacetime penrose inequality under a quasi final state hypothesis",
+    "authors": [
+      "ahmed ellithy"
+    ],
+    "abstract": "penrose's original heuristic for his eponymous spacetime inequality -- a conjectured lower bound on the adm mass in terms of the area of a horizon cross-section -- relies on the black hole final state conjecture. in this paper we isolate a substantially weaker but precise late-time condition, which we call the quasi final state hypothesis and prove the spacetime penrose inequality under this hypothesis. more precisely, for an asymptotically flat globally hyperbolic spacetime with a black-hole-type apparent horizon tube ${h}_{app}$ satisfying the dominant energy condition and the quasi final state hypothesis, we show that every asymptotically flat initial data set whose boundary is a mots cross-section of ${h}_{app}$ satisfies the spacetime penrose inequality. the quasi final state hypothesis requires only a late-time decay condition on the normal component of the shift and the ratio of timelike to spacelike mean curvature, together with convergence of the cross-sectional areas of ${h}_{app}$ to a finite limit.   our approach is new and formulated directly in spacetime. the main geometric object is what we call a \\emph{tangentially maximal} hypersurface, carrying a foliation by spacelike spheres whose timelike mean curvature vanishes. we show that these hypersurfaces are governed by a quasilinear inward-parabolic pde, and we develop the corresponding a priori theory and prove global existence. on these hypersurfaces, the spacetime hawking mass reduces to the riemannian hawking mass, and the dominant energy condition gives nonnegative scalar curvature. the riemannian penrose inequality, combined with the area laws for dynamical and isolated horizons, then yields the result.",
+    "submitted": "2026-05-18",
+    "categories": [
+      "gr-qc",
+      "math.ap",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2605.18730",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2511.05679",
+    "title": "on the asymptotically linear problem for an elliptic equation with an indefinite nonlinearity",
+    "authors": [
+      "mónica clapp",
+      "cristian morales-encinos",
+      "alberto saldaña",
+      "mayra soares"
+    ],
+    "abstract": "we study the semilinear elliptic problem \\[ -δu = q_ω |u|^{p-2}u \\quad \\text{in } \\mathbb{r}^n, \\] where \\( q_ω = χ_ω - χ_{\\mathbb{r}^n \\setminus ω} \\) for a bounded smooth domain \\( ω\\subset \\mathbb{r}^n \\), \\( n \\ge 3 \\), and \\( 1 < p < 2^{*} \\). this equation arises in the study of optical waveguides and exhibits indefinite nonlinearity due to the sign-changing weight \\( q_ω \\). we prove that, for \\( p > 2 \\) sufficiently close to \\( 2 \\), the problem admits a unique positive solution, which is nondegenerate. our approach combines a detailed analysis of an associated eigenvalue problem involving \\( q_ω \\) with variational methods and blow-up techniques in the asymptotically linear regime. we also provide a comprehensive study of the spectral properties of the corresponding linear problem, including the existence and qualitative behavior of eigenfunctions, sharp decay estimates, and symmetry results. in particular, we establish analogues of the faber--krahn and hong--krahn--szeg{ö} inequalities in this non-standard setting.",
+    "submitted": "2026-05-18",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2511.05679",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.09861",
+    "title": "a fast dynamo on the three-torus",
+    "authors": [
+      "michele coti zelati",
+      "massimo sorella",
+      "david villringer"
+    ],
+    "abstract": "we study the kinematic dynamo equation on the three-torus and provide a rigorous proof of fast dynamo action for a time-periodic, divergence-free, lipschitz velocity field. our construction is based on a stretch-fold-shear mechanism generating a uniformly hyperbolic flow. to analyze the associated dynamics, we develop anisotropic banach spaces adapted to the underlying hyperbolic structure, allowing us to recover a discrete spectral picture for the ideal dynamo operator. in the strong-chaos regime, we show that this operator admits an eigenvalue with modulus strictly larger than one. we then prove that this instability persists under the singular perturbation induced by diffusion, yielding exponential growth of the magnetic field uniformly in the vanishing resistivity limit.",
+    "submitted": "2026-05-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2603.09861",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.24746",
+    "title": "the hyperboloidal and spacetime positive mass theorem in all dimensions",
+    "authors": [
+      "sven hirsch",
+      "marcus khuri",
+      "martin lesourd",
+      "yiyue zhang"
+    ],
+    "abstract": "using the recent work of brendle--wang on the riemannian positive mass theorem, we prove the spacetime positive mass theorem for asymptotically flat and asymptotically hyperboloidal initial data sets in arbitrary dimensions.",
+    "submitted": "2026-05-19",
+    "categories": [
+      "math.dg",
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2604.24746",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2605.01814",
+    "title": "large data global well-posedness for a one-dimensional quasilinear wave equation",
+    "authors": [
+      "yuusuke sugiyama"
+    ],
+    "abstract": "in this paper, we prove global well-posedness with large initial data for the one-dimensional quasilinear wave equation $$   u_{tt}=c(u)^2u_{xx},   \\qquad (t,x)\\in (0,t)\\times\\r, $$ where \\(c\\) is a positive, bounded, monotonically increasing function with bounded derivative. this result gives a partial resolution of an open problem posed by glassey, hunter and zheng on the global existence of smooth solutions to this equation for large initial data. our proof is based on upper and lower estimates for the riemann variables via a new comparison principle.",
+    "submitted": "2026-05-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.01814",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.15130",
+    "title": "asymptotically self-similar blowup for 3d incompressible euler with $c^{1, 1/3-}$ velocity ii: 3d profiles, blowup, and limiting behavior",
+    "authors": [
+      "jiajie chen"
+    ],
+    "abstract": "for any $α\\in (0,1/3)$, we construct exact $c^α$ self-similar blowup profiles for the vorticity of the 3d incompressible euler equation without swirl, and build on them to prove asymptotically self-similar blowup from $c_c^α$ initial vorticity and $c^{1,α}\\cap l^2$ initial velocity. moreover, we provide a complete characterization of the limiting behavior of the $c^α$ vorticity profiles and the associated blowup solutions as $α\\to(1/3)^-$. specifically, as $α\\to(1/3)^-$, the spatial blowup rate $\\mathsf{c}_{\\mathsf{x},α}$ diverges to $\\infty$, while the $c^α$ vorticity profile $ω_{*,α}^θ$ asymptotically factorizes and converges strongly in a weighted $l^\\infty$ norm to a nonzero constant multiple of $r^{1/3}\\bar w_{1/3}(z)$, where $\\bar w_{1/3}$ is a $c^\\infty$ 1d blowup profile. our construction is inspired by the hou--zhang blowup scenario. using a fixed-point argument, we lift the $c^\\infty$ blowup profiles for a 1d model constructed in the companion work [11] to exact 3d blowup profiles. to overcome the lack of $r$-directional decay in the approximate profile and capture the anisotropic structure, we develop a family of anisotropic weighted estimates and introduce a crucial integration-by-parts method along trajectories that exploits the equation twice. we then develop a finite codimension stability argument in a low-regularity setting to prove stability of the 3d profiles and establish asymptotically self-similar blowup. this blowup result is sharp in view of the global regularity theory for axisymmetric euler without swirl with $ c_c^α$ initial vorticity for all $α\\geq 1/3$. to the best of our knowledge, our results provide the first example in which a singularity from a 1d nonlocal fluid model is lifted to construct blowup for incompressible fluid equations in $\\mathbb{r}^2$ or $\\mathbb{r}^3$.",
+    "submitted": "2026-05-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.15130",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.19143",
+    "title": "weak cosmic censorship for the circularly symmetric einstein-scalar field system in $2+1$ dimensions",
+    "authors": [
+      "serban cicortas"
+    ],
+    "abstract": "we prove the weak cosmic censorship conjecture in $2+1$ spacetime dimensions for the circularly symmetric einstein-scalar field system in the presence of a negative cosmological constant $λ<0$. more precisely, we show that for any integer $k\\geq2$, the maximal development of generic $c^k$ initial data does not contain naked singularities. an essential step of the proof is establishing the presence of a mass gap. in particular, this implies that all naked singularities have infinite blueshift, which represents the main instability mechanism.",
+    "submitted": "2026-05-18",
+    "categories": [
+      "gr-qc",
+      "math-ph",
+      "math.ap",
+      "math.dg",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2605.19143",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2605.19716",
+    "title": "self-similar blow-up solutions of incompressible euler equations in $\\mathbb r^d, d\\geq 3$ with $c^{1,1-2/d-}$ velocity",
+    "authors": [
+      "feng shao",
+      "dongyi wei",
+      "ping zhang",
+      "zhifei zhang"
+    ],
+    "abstract": "we investigate the axisymmetric incompressible euler equations without swirl in $\\mathbb r^d$ with $d\\geq 3$. for any $α\\in(0, α_d)$, where $α_d=1-2/d$, we construct a self-similar blow-up solution whose initial velocity fields satisfy $u_0\\in c^{1,α}(\\mathbb r^d)\\cap c^\\infty(\\mathbb r^d\\setminus\\{0\\})$. our construction relies on a fixed-point framework formulated for the self-similar profile system, which takes the form of a coupled elliptic-transport system. specifically, the transport equation recovers the vorticity profile from given data along characteristic curves, whereas the elliptic equation reconstructs the velocity field via newtonian potentials defined in an auxiliary $(d+4)$-dimensional space. the main challenge lies in selecting suitable function spaces that remain invariant under such nonlinear compositions, while simultaneously capturing the exact singular behavior near the origin and symmetry axis.",
+    "submitted": "2026-05-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.19716",
+    "filter_reason": "keyword match"
+  }
+]
