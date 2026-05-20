@@ -12,9 +12,13 @@ import requests
 
 ARXIV_API = "https://export.arxiv.org/api/query"
 PAGE_SIZE = 100
-POLITENESS_DELAY = 3   # seconds between pages, per arxiv API guidelines
-MAX_RETRIES = 4
-RETRY_BACKOFF = [15, 60, 120, 300]  # seconds to wait before each retry attempt
+POLITENESS_DELAY = 5   # seconds between pages, per arxiv API guidelines
+MAX_RETRIES = 3
+RETRY_BACKOFF = [10, 30, 60]  # seconds to wait before each retry attempt
+
+_HEADERS = {
+    "User-Agent": "arxivscraper/1.0 (mailto:abakakayan@gmail.com; math.AP newsletter bot)"
+}
 
 _NS = {
     "atom": "http://www.w3.org/2005/Atom",
@@ -26,7 +30,7 @@ def _get_with_retry(params: dict) -> requests.Response:
     """GET the arxiv API with retries on timeout, 5xx, and 429 errors."""
     for attempt, default_wait in enumerate(RETRY_BACKOFF, start=1):
         try:
-            resp = requests.get(ARXIV_API, params=params, timeout=30)
+            resp = requests.get(ARXIV_API, params=params, headers=_HEADERS, timeout=30)
             resp.raise_for_status()
             return resp
         except (requests.Timeout, requests.ConnectionError) as exc:
