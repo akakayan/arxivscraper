@@ -2,15 +2,15 @@
 from datetime import date
 
 SECTIONS = [
-    ("Mathematical General Relativity", lambda p: "gr-qc" in p.get("categories", [])),
-    ("Nonlinear Waves & Dispersive PDEs",  lambda p: p.get("filter_reason", "").startswith("keyword")),
-    ("Related Papers",                     lambda p: True),  # catch-all
+    ("Mathematical General Relativity",   lambda p: "gr-qc" in p.get("categories", [])),
+    ("Known Authors",                     lambda p: p.get("filter_reason") == "known author"),
+    ("Nonlinear Waves & Dispersive PDEs", lambda p: p.get("filter_reason", "").startswith("keyword")),
 ]
 
 SECTION_COLORS = {
-    "Mathematical General Relativity": "#1a56db",
-    "Nonlinear Waves & Dispersive PDEs": "#1a7a3c",
-    "Related Papers": "#7a5c1a",
+    "Mathematical General Relativity":    "#1a56db",
+    "Known Authors":                      "#6b21a8",
+    "Nonlinear Waves & Dispersive PDEs":  "#1a7a3c",
 }
 
 

@@ -62,7 +62,14 @@ def filter_papers(papers: list[dict], authors_set: set) -> list[dict]:
             relevant.append(paper)
             continue
 
-        # Tier 2: keyword match
+        # Tier 2: known author
+        paper_authors = {normalize_author(a) for a in paper.get("authors", [])}
+        if authors_set and paper_authors & authors_set:
+            paper["filter_reason"] = "known author"
+            relevant.append(paper)
+            continue
+
+        # Tier 3: keyword match
         if _matches_keyword(paper["title"], paper["abstract"]):
             paper["filter_reason"] = "keyword match"
             relevant.append(paper)
