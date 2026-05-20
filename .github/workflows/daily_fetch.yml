@@ -25,6 +25,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
       # Cache the sentence-transformers model (~90 MB) to avoid re-downloading
       # on every run. Keyed on model name so a model upgrade busts the cache.
