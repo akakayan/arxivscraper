@@ -26,7 +26,7 @@ def _load(path: str, default):
     p = Path(path)
     if not p.exists() or p.stat().st_size == 0:
         return default
-    return json.loads(p.read_text(encoding="utf-8"))
+    return json.loads(p.read_text(encoding="utf-8-sig"))
 
 
 def _save(path: str, data) -> None:

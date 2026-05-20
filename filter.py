@@ -15,18 +15,12 @@ from sentence_transformers import SentenceTransformer, util
 
 KEYWORDS = [
     r"nonlinear wave|semilinear wave|quasilinear wave|wave equation",
-    r"hyperbolic",
+    r"hyperbolic (equation|PDE|system|conservation|problem|flow)",
     r"shock wave",
-    r"dispersive",
+    r"dispersive (equation|PDE|estimate|decay|wave)",
     r"Klein.?Gordon",
-    r"Maxwell equation",
-    r"Dirac equation",
-    r"Cauchy problem",
     r"null condition",
     r"blow.?up|blowup",
-    r"global existence",
-    r"scatter",
-    r"energy estimate",
     r"black hole|Schwarzschild|Kerr",
     r"general relativity|Einstein equation",
     r"spacetime|Minkowski|Lorentzian",
@@ -36,7 +30,7 @@ KEYWORDS = [
 _PATTERNS = [re.compile(r"\b(?:" + kw + r")\b", re.IGNORECASE) for kw in KEYWORDS]
 
 TOPIC = "nonlinear wave equations, hyperbolic PDEs, mathematical general relativity, dispersive equations"
-SEMANTIC_THRESHOLD = 0.35             # default threshold for unknown authors
+SEMANTIC_THRESHOLD = 0.50             # default threshold for unknown authors
 SEMANTIC_THRESHOLD_KNOWN_AUTHOR = 0.20  # lower bar for authors in authors.json
 MODEL_NAME = "all-MiniLM-L6-v2"
 
