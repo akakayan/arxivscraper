@@ -1,0 +1,43 @@
+name: Send Newsletter
+
+on:
+  schedule:
+    - cron: "0 9 * * 1,4"  # 9am UTC on Monday (1) and Thursday (4)
+  workflow_dispatch:         # allow manual trigger
+
+# Serialize with the fetch job to prevent simultaneous state-file commits.
+concurrency:
+  group: state-files
+  cancel-in-progress: false
+
+permissions:
+  contents: write            # needed to commit cleared pending.json back
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send newsletter
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python main_send.py
+
+      - name: Commit cleared pending.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pending.json
+          git diff --staged --quiet || git commit -m "chore: clear pending after newsletter [skip ci]"
+          git push

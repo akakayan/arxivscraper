@@ -1,0 +1,45 @@
+"""Format a list of papers into an HTML email body and subject line."""
+from datetime import date
+
+
+def render_html(papers: list[dict]) -> str:
+    today = date.today().strftime("%B %d, %Y")
+    n = len(papers)
+    paper_html = "\n".join(_paper_section(p) for p in papers)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="font-family: Georgia, 'Times New Roman', serif; max-width: 740px; margin: 40px auto; padding: 0 24px; color: #1a1a1a; line-height: 1.7; background: #fff;">
+  <h1 style="font-size: 1.45em; border-bottom: 2px solid #1a56db; padding-bottom: 0.4em; margin-bottom: 1.5em; color: #111;">
+    Arxiv Newsletter &mdash; {n} new paper{'s' if n != 1 else ''} &mdash; {today}
+  </h1>
+  {paper_html}
+  <p style="margin-top: 3em; color: #aaa; font-size: 0.8em; border-top: 1px solid #eee; padding-top: 1em;">
+    Source: <a href="https://arxiv.org/list/math.AP/recent" style="color: #aaa;">math.AP recent listings</a>
+  </p>
+</body>
+</html>"""
+
+
+def _paper_section(p: dict) -> str:
+    authors_str = ", ".join(p["authors"])
+    reason = p.get("filter_reason", "")
+    cats = " &middot; ".join(p.get("categories", []))
+    return f"""  <div style="margin-bottom: 2.2em; padding-bottom: 1.8em; border-bottom: 1px solid #e8e8e8;">
+    <h2 style="margin: 0 0 0.3em; font-size: 1.05em; font-weight: bold;">
+      <a href="{p['link']}" style="color: #1a56db; text-decoration: none;">{p['title']}</a>
+    </h2>
+    <p style="margin: 0.15em 0; color: #444; font-size: 0.9em;">{authors_str}</p>
+    <p style="margin: 0.15em 0; color: #888; font-size: 0.82em;">{p['submitted']} &middot; {cats} &middot; <em>{reason}</em></p>
+    <p style="margin: 0.9em 0 0; font-size: 0.95em; line-height: 1.65;">{p['abstract']}</p>
+  </div>"""
+
+
+def make_subject(papers: list[dict]) -> str:
+    n = len(papers)
+    today = date.today().strftime("%Y-%m-%d")
+    return f"Arxiv Newsletter — {n} new paper{'s' if n != 1 else ''} — {today}"
