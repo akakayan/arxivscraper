@@ -1,2 +1,2 @@
-requests>=2.31.0
+arxivscraper
 # sentence-transformers>=2.7.0  # disabled for testing

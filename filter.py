@@ -35,7 +35,7 @@ _PATTERNS = [re.compile(r"\b(?:" + kw + r")\b", re.IGNORECASE) for kw in KEYWORD
 
 TOPIC = "nonlinear wave equations, hyperbolic PDEs, mathematical general relativity, dispersive equations"
 SEMANTIC_THRESHOLD = 0.50             # default threshold for unknown authors
-SEMANTIC_THRESHOLD_KNOWN_AUTHOR = 0.20  # lower bar for authors in authors.json
+SEMANTIC_THRESHOLD_KNOWN_AUTHOR = 0.40  # lower bar for authors in authors.json
 MODEL_NAME = "all-MiniLM-L6-v2"
 
 _model = None
