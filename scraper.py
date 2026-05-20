@@ -13,8 +13,8 @@ import requests
 ARXIV_API = "https://export.arxiv.org/api/query"
 PAGE_SIZE = 100
 POLITENESS_DELAY = 3   # seconds between pages, per arxiv API guidelines
-MAX_RETRIES = 3
-RETRY_BACKOFF = [10, 30, 60]  # seconds to wait before each retry attempt
+MAX_RETRIES = 4
+RETRY_BACKOFF = [15, 60, 120, 300]  # seconds to wait before each retry attempt
 
 _NS = {
     "atom": "http://www.w3.org/2005/Atom",
@@ -23,8 +23,8 @@ _NS = {
 
 
 def _get_with_retry(params: dict) -> requests.Response:
-    """GET the arxiv API with retries on timeout or 5xx errors."""
-    for attempt, wait in enumerate(RETRY_BACKOFF, start=1):
+    """GET the arxiv API with retries on timeout, 5xx, and 429 errors."""
+    for attempt, default_wait in enumerate(RETRY_BACKOFF, start=1):
         try:
             resp = requests.get(ARXIV_API, params=params, timeout=30)
             resp.raise_for_status()
@@ -32,12 +32,17 @@ def _get_with_retry(params: dict) -> requests.Response:
         except (requests.Timeout, requests.ConnectionError) as exc:
             if attempt == MAX_RETRIES:
                 raise
-            print(f"arxiv request failed (attempt {attempt}/{MAX_RETRIES}): {exc} — retrying in {wait}s")
-            time.sleep(wait)
+            print(f"arxiv request failed (attempt {attempt}/{MAX_RETRIES}): {exc} — retrying in {default_wait}s")
+            time.sleep(default_wait)
         except requests.HTTPError as exc:
-            if resp.status_code < 500 or attempt == MAX_RETRIES:
+            status = resp.status_code
+            retryable = status == 429 or status >= 500
+            if not retryable or attempt == MAX_RETRIES:
                 raise
-            print(f"arxiv HTTP {resp.status_code} (attempt {attempt}/{MAX_RETRIES}) — retrying in {wait}s")
+            # Honour Retry-After if the server sends one, otherwise use backoff table.
+            retry_after = resp.headers.get("Retry-After")
+            wait = int(retry_after) if retry_after and retry_after.isdigit() else default_wait
+            print(f"arxiv HTTP {status} (attempt {attempt}/{MAX_RETRIES}) — retrying in {wait}s")
             time.sleep(wait)
     raise RuntimeError("unreachable")
 
