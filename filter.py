@@ -8,10 +8,14 @@ Tiers in priority order:
      Known authors get a lower bar: SEMANTIC_THRESHOLD_KNOWN_AUTHOR
 """
 import json
+import os
 import re
 from pathlib import Path
 
-from sentence_transformers import SentenceTransformer, util
+SEMANTIC_ENABLED = os.environ.get("SEMANTIC", "1") != "0"
+
+if SEMANTIC_ENABLED:
+    from sentence_transformers import SentenceTransformer, util
 
 KEYWORDS = [
     r"nonlinear wave|semilinear wave|quasilinear wave|wave equation",
@@ -99,7 +103,7 @@ def filter_papers(papers: list[dict], authors_set: set) -> list[dict]:
         needs_semantic.append((paper, is_known))
 
     # Semantic scoring — batch encode for efficiency
-    if needs_semantic:
+    if needs_semantic and SEMANTIC_ENABLED:
         model = _get_model()
         topic_emb = model.encode(TOPIC, convert_to_tensor=True)
         texts = [f"{p['title']}. {p['abstract']}" for p, _ in needs_semantic]
@@ -113,5 +117,7 @@ def filter_papers(papers: list[dict], authors_set: set) -> list[dict]:
                 tag = " (known author)" if is_known else ""
                 paper["filter_reason"] = f"semantic {score_val:.2f}{tag}"
                 relevant.append(paper)
+    elif needs_semantic:
+        print(f"Semantic scoring disabled — skipping {len(needs_semantic)} papers")
 
     return relevant

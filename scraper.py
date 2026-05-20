@@ -1,8 +1,9 @@
 """
-Fetch recent math.AP papers from the arxiv API.
+Fetch recent math.AP papers from the arXiv OAI-PMH harvesting interface.
 
-Paginates in windows of 100 until all papers newer than `lookback_days` are
-retrieved, then stops. Papers already in `seen_ids` are excluded.
+OAI-PMH is designed for automated harvesting (unlike the search API which
+rate-limits cloud IPs aggressively). We use metadataPrefix=arXiv for full
+metadata including abstract and categories.
 """
 import time
 import xml.etree.ElementTree as ET
@@ -10,109 +11,117 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-ARXIV_API = "https://export.arxiv.org/api/query"
-PAGE_SIZE = 100
-POLITENESS_DELAY = 5   # seconds between pages, per arxiv API guidelines
-MAX_RETRIES = 3
-RETRY_BACKOFF = [10, 30, 60]  # seconds to wait before each retry attempt
+OAI_ENDPOINT = "https://export.arxiv.org/oai2"
+POLITENESS_DELAY = 5  # seconds between paginated requests
 
 _HEADERS = {
     "User-Agent": "arxivscraper/1.0 (mailto:abakakayan@gmail.com; math.AP newsletter bot)"
 }
 
-_NS = {
-    "atom": "http://www.w3.org/2005/Atom",
-    "arxiv": "http://arxiv.org/schemas/atom",
-}
+_OAI_NS = "http://www.openarchives.org/OAI/2.0/"
+_ARXIV_NS = "http://arxiv.org/OAI/arXiv/"
 
 
 def _get_with_retry(params: dict) -> requests.Response:
-    """GET the arxiv API with retries on timeout, 5xx, and 429 errors."""
-    for attempt, default_wait in enumerate(RETRY_BACKOFF, start=1):
+    """GET the OAI-PMH endpoint with basic retry on transient errors."""
+    for attempt in range(1, 4):
         try:
-            resp = requests.get(ARXIV_API, params=params, headers=_HEADERS, timeout=30)
+            resp = requests.get(OAI_ENDPOINT, params=params, headers=_HEADERS, timeout=60)
             resp.raise_for_status()
             return resp
         except (requests.Timeout, requests.ConnectionError) as exc:
-            if attempt == MAX_RETRIES:
+            if attempt == 3:
                 raise
-            print(f"arxiv request failed (attempt {attempt}/{MAX_RETRIES}): {exc} — retrying in {default_wait}s")
-            time.sleep(default_wait)
-        except requests.HTTPError as exc:
-            status = resp.status_code
-            retryable = status == 429 or status >= 500
-            if not retryable or attempt == MAX_RETRIES:
-                raise
-            # Honour Retry-After if the server sends one, otherwise use backoff table.
-            retry_after = resp.headers.get("Retry-After")
-            wait = int(retry_after) if retry_after and retry_after.isdigit() else default_wait
-            print(f"arxiv HTTP {status} (attempt {attempt}/{MAX_RETRIES}) — retrying in {wait}s")
+            wait = attempt * 30
+            print(f"OAI request failed (attempt {attempt}/3): {exc} — retrying in {wait}s")
             time.sleep(wait)
+        except requests.HTTPError as exc:
+            if resp.status_code >= 500 and attempt < 3:
+                wait = attempt * 30
+                print(f"OAI HTTP {resp.status_code} (attempt {attempt}/3) — retrying in {wait}s")
+                time.sleep(wait)
+            else:
+                raise
     raise RuntimeError("unreachable")
 
 
 def fetch_new_papers(seen_ids: set, lookback_days: int = 3) -> list[dict]:
     """Return math.AP papers from the last `lookback_days` days not in `seen_ids`."""
-    cutoff = datetime.now(timezone.utc) - timedelta(days=lookback_days)
+    from_date = (datetime.now(timezone.utc) - timedelta(days=lookback_days)).strftime("%Y-%m-%d")
+
     papers = []
-    start = 0
+    params = {
+        "verb": "ListRecords",
+        "set": "math.AP",
+        "metadataPrefix": "arXiv",
+        "from": from_date,
+    }
 
     while True:
-        params = {
-            "search_query": "cat:math.AP",
-            "start": start,
-            "max_results": PAGE_SIZE,
-            "sortBy": "submittedDate",
-            "sortOrder": "descending",
-        }
         resp = _get_with_retry(params)
-
         root = ET.fromstring(resp.text)
-        entries = root.findall("atom:entry", _NS)
 
-        if not entries:
-            break
+        for record in root.findall(f".//{{{_OAI_NS}}}record"):
+            # Skip deleted records
+            header = record.find(f"{{{_OAI_NS}}}header")
+            if header is not None and header.get("status") == "deleted":
+                continue
 
-        stop = False
-        for entry in entries:
-            paper, submitted_dt = _parse_entry(entry)
-            if submitted_dt < cutoff:
-                stop = True
-                break
-            if paper["id"] not in seen_ids:
+            paper = _parse_record(record)
+            if paper and paper["id"] not in seen_ids:
                 papers.append(paper)
 
-        if stop or len(entries) < PAGE_SIZE:
+        # Follow resumptionToken for pagination
+        token_el = root.find(f".//{{{_OAI_NS}}}resumptionToken")
+        if token_el is not None and token_el.text and token_el.text.strip():
+            params = {"verb": "ListRecords", "resumptionToken": token_el.text.strip()}
+            time.sleep(POLITENESS_DELAY)
+        else:
             break
-
-        start += PAGE_SIZE
-        time.sleep(POLITENESS_DELAY)
 
     return papers
 
 
-def _parse_entry(entry) -> tuple[dict, datetime]:
-    arxiv_id = entry.find("atom:id", _NS).text.split("/abs/")[-1]
-    title = " ".join(entry.find("atom:title", _NS).text.split())
-    abstract = " ".join(entry.find("atom:summary", _NS).text.split())
+def _parse_record(record) -> dict | None:
+    meta = record.find(f".//{{{_ARXIV_NS}}}arXiv")
+    if meta is None:
+        return None
 
-    authors = [
-        a.find("atom:name", _NS).text.strip()
-        for a in entry.findall("atom:author", _NS)
-    ]
+    arxiv_id = _text(meta, "id")
+    if not arxiv_id:
+        return None
 
-    published_str = entry.find("atom:published", _NS).text
-    submitted_dt = datetime.fromisoformat(published_str.replace("Z", "+00:00"))
-    submitted_date = submitted_dt.strftime("%Y-%m-%d")
+    title = " ".join((_text(meta, "title") or "").split())
+    abstract = " ".join((_text(meta, "abstract") or "").split())
 
-    categories = [c.get("term") for c in entry.findall("atom:category", _NS)]
+    authors = []
+    for author in meta.findall(f"{{{_ARXIV_NS}}}authors/{{{_ARXIV_NS}}}author"):
+        keyname = _text(author, "keyname") or ""
+        forenames = _text(author, "forenames") or ""
+        name = f"{forenames} {keyname}".strip()
+        if name:
+            authors.append(name)
+
+    submitted_str = _text(meta, "created") or ""
+    try:
+        submitted_dt = datetime.strptime(submitted_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+    categories_str = _text(meta, "categories") or ""
+    categories = categories_str.split()
 
     return {
         "id": arxiv_id,
         "title": title,
         "authors": authors,
         "abstract": abstract,
-        "submitted": submitted_date,
+        "submitted": submitted_str,
         "categories": categories,
         "link": f"https://arxiv.org/abs/{arxiv_id}",
-    }, submitted_dt
+    }
+
+
+def _text(el, tag: str) -> str | None:
+    child = el.find(f"{{{_ARXIV_NS}}}{tag}")
+    return child.text.strip() if child is not None and child.text else None
