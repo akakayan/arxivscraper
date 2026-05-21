@@ -1,1 +1,163 @@
-[]
+[
+  {
+    "id": "2412.17051",
+    "title": "cancellations for dispersive pdes with random initial data",
+    "authors": [
+      "yvain bruned",
+      "leonardo tolomeo"
+    ],
+    "abstract": "in this work, we provide a combinatorial formalism for dealing with the cancellations that have appeared recently in the context of dispersive pdes with random initial data. the main idea is to transform iterated integrals encoded by decorated trees into words via an arborification map. this provides a formalism alternative to the one of molecules introduced by deng and hani (2023). it allows us to compute the cancellations coming from wave turbulence and the proof of the invariance of the gibbs measure under the dynamics of the three-dimensional cubic wave equation.",
+    "submitted": "2026-05-20",
+    "categories": [
+      "math.ap",
+      "math.pr",
+      "math.ra"
+    ],
+    "link": "https://arxiv.org/abs/2412.17051",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2502.09745",
+    "title": "sharp energy decay rates for the damped wave equation on the torus via non-polynomial derivative bound conditions",
+    "authors": [
+      "perry kleinhenz"
+    ],
+    "abstract": "for the damped wave equation on the torus, when some geodesics never meet the positive set of the damping, energy decay rates are known to depend on derivative bounds and growth properties of the damping near the boundary of its support, as well as the geometry of the support of the damping. in this paper we obtain, sometimes sharp, energy decay rates for damping which satisfy more general non-polynomial derivative bounds and growth properties. we also show how these rates can depend on the geometry of the support of the damping. we prove general results and apply them to examples of damping growing exponentially slowly, polynomial-logarithmically, or logarithmically. the decay rates found for these examples interpolate between known sharp rates for purely polynomial damping. the proof relies on estimating the solution at very fine, non-poynomial, semiclassical scales to obtain resolvent estimates, which are then converted to energy decay rates via semigroup theory.",
+    "submitted": "2026-05-19",
+    "categories": [
+      "math.ap",
+      "math.sp"
+    ],
+    "link": "https://arxiv.org/abs/2502.09745",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2502.17205",
+    "title": "a hyperbolic model for two-layer thin film flow with a perfectly soluble anti-surfactant",
+    "authors": [
+      "rahul barthwal",
+      "christian rohde"
+    ],
+    "abstract": "we consider the motion of a two-layer thin film that consists of two immiscible viscous fluids and is endowed with an anti-surfactant solute. the presence of such solute particles induces variations of the surface tension and interfacial stress driving a marangoni-type flow. we first analyze a lubrication limit and derive one-dimensional evolution equations for film heights and solute concentrations. then, under the assumption that the capillarity and diffusion effects are negligible and the solute is perfectly soluble, we obtain a conservative first-order system in terms of film heights and concentration gradients. this reduced system is found to be strictly hyperbolic for a certain set of states and to admit an entire class of entropy/entropy-flux pairs. we also provide a strictly convex entropy for the hyperbolic system. thus, the well-posedness for the cauchy problem is given. moreover, the system is almost a temple-class system, which allows to compute explicit solutions of the riemann problem. the paper concludes with numerical experiments using a godunov-type finite volume method, which relies on the exact riemann solver.",
+    "submitted": "2026-05-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2502.17205",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2508.11600",
+    "title": "explicit solutions to christoffel-minkowski problems and hessian equations under rotational symmetries",
+    "authors": [
+      "fabian mussnig",
+      "jacopo ulivelli"
+    ],
+    "abstract": "an explicit solution to the christoffel-minkowski problem for convex bodies of revolution is presented. the conditions on the prescribed measure involve only first moments over spherical caps, and the support function of the resulting convex body is given by an explicit representation formula in terms of the measure. more generally, existence problems for mixed area measures are addressed. the approach relies on constructing explicit convex solutions to mixed monge-ampère equations on $\\mathbb{r}^n$ under the assumption of radial symmetry, with the conditions on the measure being expressed through its values on open balls. as a special case, the dirichlet problem for $k$-hessian equations on $\\mathbb{r}^n$ is treated.",
+    "submitted": "2026-05-20",
+    "categories": [
+      "math.mg",
+      "math.ap",
+      "math.dg",
+      "math.fa"
+    ],
+    "link": "https://arxiv.org/abs/2508.11600",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.23298",
+    "title": "kruskal-style algorithm for cubic schrödinger equation molecule reduction",
+    "authors": [
+      "yvain bruned",
+      "valentin clarisse"
+    ],
+    "abstract": "we are interested in the molecule reduction algorithm introduced by deng and hani. they use this algorithm to establish a rigidity theorem, which plays a central role in the kinetic-time derivation of the wave equation associated with the cubic schrödinger equation. in the present article, we show that this algorithm is a graph traversal algorithm of kruskal type, and we prove that it constructs a kruskal spanning tree of the input molecule. this reveals the origin of the main tool for deriving kinetic equations which has also been used for the long time derivation of the boltzmann equation.",
+    "submitted": "2026-05-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2603.23298",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.20426",
+    "title": "pointwise bounds and obstructions to blowup for the landau and boltzmann equations",
+    "authors": [
+      "william golding",
+      "christopher henderson",
+      "luis silvestre"
+    ],
+    "abstract": "we establish a new a priori estimate on solutions to the space-inhomogeneous landau and boltzmann equations. as a consequence, we prove a new continuation criterion, based on a weighted $l^\\infty$-norm, without requiring bounds on the hydrodynamic quantities. this complements existing conditional regularity results from a rather different perspective.   consequently, we show that the singularities present in the fluid equations are largely incompatible with the boltzmann and landau equations. more precisely, we largely rule out ``lifting a singularity'' from the 3d euler equations to the physical range of kinetic equations, a widely expected mechanism for singularity formation. under general considerations, this mechanism is essentially excluded for soft potentials, whereas for hard potentials the situation is more nuanced: one cannot produce blowup through the standard hydrodynamic ansatz using known imploding solutions to the euler equations.",
+    "submitted": "2026-05-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.20426",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.20557",
+    "title": "on the $l^{2}$ estimates of the diffusion waves",
+    "authors": [
+      "ryo ikehata",
+      "hiroshi takeda"
+    ],
+    "abstract": "in this paper, we investigate the long-time behavior of the $l^2$-norm of solutions to the cauchy problem for the strongly damped wave equation on $\\mathbb{r}^n$, with particular focus on the low-dimensional cases $n=1$ and $n=2$. although the energy is dissipative, the $l^2$-norm may grow because of low-frequency effects. we compare the diffusion-wave profile of the strongly damped equation with the corresponding free-wave evolution generated by the same initial velocity. introducing the difference operator $d(t)$ between these two evolutions, we prove that in one dimension $d(t)$ is controlled by $ct^{1/4}\\|g\\|_{l^1}$, showing that the free wave remains an effective asymptotic profile. in contrast, in two dimensions $d(t)$ has a logarithmic lower bound when the mass of the initial velocity is nonzero, implying that the wave approximation fails. corresponding estimates for the original solution are also obtained.",
+    "submitted": "2026-05-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.20557",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.20715",
+    "title": "threshold dynamics for the 4$d$ mass-energy double critical nls",
+    "authors": [
+      "alex h. ardila",
+      "zuyu ma",
+      "jason murphy",
+      "jiqiang zheng"
+    ],
+    "abstract": "we consider the 4$d$ mass-energy double critical nls \\[ (i\\partial_t+δ)u = -|u|^2 u + |u| u. \\] in luo (2024) and cheng--miao--zhao (2016), the authors established a scattering/blowup dichotomy for solutions satisfying the energy constraint $e(u_0)< e^c(w)$, where $w$ is the energy-critical nls ground state and $e^c$ is the energy for the underlying cubic nls. we prove that the scattering/blowup dichotomy persists even at the energy threshold $e(u_0)=e^c(w)$.",
+    "submitted": "2026-05-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.20715",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.20773",
+    "title": "peakon solutions and analytical properties for the camassa-holm type equations with quadratic nonlinearities",
+    "authors": [
+      "yonghong chen",
+      "zhijun qiao",
+      "mingxuan zhu"
+    ],
+    "abstract": "in this paper, we derive the multi-peakon dynamical system of a class of camassa-holm-type equations with quadratic nonlinearities. we also consider the analytical properties for the cauchy problem. firstly, we establish local well-posedness of solutions in besov spaces and then provide the blow-up criteria. subsequently, we impose appropriate sufficient conditions on the initial data to guaranty that the corresponding solution either exists globally or blows up in a finite time. finally, we prove the ill-posedness in the besov space $b_{2,\\infty}^{3/2}$ by utilizing the non-traveling wave solutions.",
+    "submitted": "2026-05-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.20773",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.21158",
+    "title": "experimental detection of inclusions for the time-harmonic elastic wave equation",
+    "authors": [
+      "sarah eberle-blick",
+      "jochen moll"
+    ],
+    "abstract": "we are concerned with the reconstruction of inclusions in elastic bodies based on measurements from a laboratory experiment. in doing so, we solve the inverse problem of the time-harmonic elastic wave equation, in contrast to the stationary wave equation and the corresponding lab experiment proposed earlier in eberle and moll (2021). the investigation of the harmonic problem leads to a better reconstruction compared to the stationary one. since we deal with real measurement data, we have to take into account, that those measurements always include measurement errors, so that we have to handle noisy data. thus, we consider the linearized monotonicity method for noisy data and introduce a modified version of this method. based on this, we reconstruct the inclusions numerically.",
+    "submitted": "2026-05-20",
+    "categories": [
+      "math.ap",
+      "cs.na",
+      "math.na"
+    ],
+    "link": "https://arxiv.org/abs/2605.21158",
+    "filter_reason": "keyword match"
+  }
+]
