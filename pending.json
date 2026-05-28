@@ -143,5 +143,134 @@
     ],
     "link": "https://arxiv.org/abs/2605.27341",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2504.15911",
+    "title": "direct and inverse problem for bi-wave equation with time-dependent coefficients from partial data",
+    "authors": [
+      "sombuddha bhattacharyya",
+      "pranav kumar"
+    ],
+    "abstract": "in this article, we study a direct and an inverse problem for the bi-wave operator $(\\box^2)$ along with second and lower order time-dependent perturbations. in the direct problem, we prove that the operator is well-posed, given initial and boundary data in suitable function spaces. in the inverse problem, we prove uniqueness of the lower order time-dependent perturbations from the partial input-output operator. the restriction in the measurements are considered by restricting some of the neumann data over a portion of the lateral boundary.",
+    "submitted": "2026-05-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2504.15911",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.13163",
+    "title": "pfem-gp-dphs : a finite element framework for combining gaussian processes and infinite-dimensional port-hamiltonian systems",
+    "authors": [
+      "florian courteville",
+      "iain henderson",
+      "denis matignon",
+      "sylvain dubreuil"
+    ],
+    "abstract": "in order to learn distributed port-hamiltonian systems (dphs) using gaussian processes (gps), the partitioned finite element method (pfem) is combined with the gp-dphs method. by following a late lumping approach, the discretization of the functional hyperparameters of the gp prior over the hamiltonian functional is chosen independently from the discretization of the dphs, thus reducing the numerical complexity of our method. we next model the mean of the gp prior of the hamiltonian as a quadratic form, enabling the gp kernel to focus on the nonlinear part of a given dphs. we illustrate our method on a nonlinear one dimensional wave equation with unknown physical parameters (tension and linear mass).",
+    "submitted": "2026-05-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.13163",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.18376",
+    "title": "explicit harmonic and wave maps into variable-curvature surfaces",
+    "authors": [
+      "anestis fotiadis",
+      "giannis polychrou"
+    ],
+    "abstract": "explicit harmonic and wave maps are typically available only in highly symmetric or constant-curvature settings, where additional symmetry or integrability structures are present. we develop a reduction framework for pseudo-riemannian surfaces that extends explicit constructions to a geometrically significant class of variable-curvature targets. for target metrics of the form $a(r)\\,dr^2 - δ^2 b(r)\\,ds^2$, a geometrically adapted travelling-wave ansatz reduces the euler--lagrange system to a solvable system of first-order odes. the method applies simultaneously to harmonic and wave maps, treating the elliptic and hyperbolic regimes uniformly within a single framework. as concrete applications, we construct explicit harmonic maps into ellipsoids, lorentzian wave maps into hyperboloids and the schwarzschild exterior, and a mixed-signature example, all in genuinely variable-curvature geometries where explicit constructions are substantially less accessible.",
+    "submitted": "2026-05-27",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.18376",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.27994",
+    "title": "rigidity of the multi-bubble solutions to the energy critical wave equation in dimension five",
+    "authors": [
+      "jacek jendrej",
+      "chencheng zhang",
+      "lifeng zhao"
+    ],
+    "abstract": "we study the asymptotic dynamics of multi-bubble solutions to the focusing energy-critical wave equation in five dimensions. assuming that the solution asymptotically decomposes into a finite superposition of spatially separated bubbles with comparable scales, we prove a rigidity result that describes the precise long-time behavior of these scales.   more precisely, we show that all scaling parameters are necessarily of order $t^{-2}$, and that the corresponding renormalized modulation vector converges to a connected component of a finite-dimensional algebraic set determined by the limiting spatial configuration of the bubbles. this algebraic system encodes the strong interactions between the polynomial tails of the bubbles and governs the effective asymptotic dynamics of the multi-bubble regime.",
+    "submitted": "2026-05-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.27994",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.28189",
+    "title": "dynamic stabilisation of boundary control systems",
+    "authors": [
+      "mohamed fkirine",
+      "lassi paunonen"
+    ],
+    "abstract": "we design observer-based controllers to stabilise abstract linear boundary control systems on hilbert spaces. our main results introduce conditions for exponential, strong, and polynomial stability, and establish external well-posedness of the closed-loop system. we design controllers for a one-dimensional wave equation, a two-dimensional wave equation with distributed control and observation, and a non-uniform scole model.",
+    "submitted": "2026-05-27",
+    "categories": [
+      "math.oc",
+      "math.ap",
+      "math.fa"
+    ],
+    "link": "https://arxiv.org/abs/2605.28189",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.28262",
+    "title": "$l_p$ minkowski problem and brunn-minkowski inequality for dual quermassintegrals",
+    "authors": [
+      "xiaojuan chen",
+      "shengyu tang",
+      "sinan wang"
+    ],
+    "abstract": "this paper studies the core problems in the $l_p$ dual brunn-minkowski theory, encompassing the $l_p$ minkowski problem and $l_p$ brunn-minkowski inequality for dual quermassintegrals. for the case $0<p<q\\leq n$, we establish $c^0$ estimates for the $l_p$ dual minkowski problem without symmetric assumptions, thereby resolving a related problem proposed by böröczky-chen-liu-saroglou in the smooth sense. we further prove the uniqueness of smooth solutions under appropriate conditions, provided the density function is sufficiently close to a constant in the hölder norm. finally, exploiting the fact that the uniqueness of the minkowski type problem is equivalent to the validity of the brunn-minkowski inequality in a certain sense, we study the $l_p$ brunn-minkowski inequality for dual quermassintegrals for origin-symmetric convex bodies with $p<q$.",
+    "submitted": "2026-05-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.28262",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2605.28415",
+    "title": "statistical comparison of reconstruction methods for the inverse boundary problem of the one-dimensional wave equation",
+    "authors": [
+      "samuel agenorwoth",
+      "emilia blåsten"
+    ],
+    "abstract": "several numerical reconstruction algorithms for the inverse boundary value problem of the 1-dimensional wave equation exist. in this paper we revisit two of them, the sondhi-gopinath (sg) method from 1971 and the korpela-lassas-oksanen (klo) method from 2016. the former is stable enough that it was used in practical applications. the latter has a regularisation scheme with a theoretical proof, and is an evolution of the boundary control method. both are based on the idea of constructing solutions that are characteristic functions of a set at a given time. this similarity has been pointed out before, but no systematic comparison has been published.   we compare the performance of the two algorithms with noisy simulated data. the application in our minds is reconstructing the internal cross-sectional area of a pressurised fluid pipe which corresponds to the first order $\\partial_x$ term of the wave equation. instead of just observing the performance on a few test cases, we generate $n=1000$ random area profiles of various smoothness levels and measurement noise up to $10\\%$ of the signal energy and perform statistical tests. sg and klo have a difference of one time-derivative in their standard boundary data, which complicates the analysis. our results show that sg performs better in the low noise regime, and klo with high noise. sg is easier to implement and runs faster.",
+    "submitted": "2026-05-27",
+    "categories": [
+      "math.na",
+      "cs.na",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.28415",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.28789",
+    "title": "finite-time blow-up solutions for the calogero--sutherland derivative nls",
+    "authors": [
+      "xi chen",
+      "enno lenzmann"
+    ],
+    "abstract": "we construct an explicit family of smooth finite-time blow-up solutions for the focusing calogero--sutherland derivative nls given by $$ i \\partial_t u = -\\partial_x^2 u - 2 d π(|u|^2) u \\quad \\mbox{with} \\quad (t,x) \\in \\mathbb{r} \\times \\mathbb{t} , $$ where $d=-i \\partial_x$ and $π$ denotes the cauchy--szegő projector. this is a mass-critical nls-type equation with a lax pair structure. the cauchy problem is global well-posed in the class of hardy-sobolev spaces $h^s_+(\\mathbb{t})=l^2_+(\\mathbb{t}) \\cap h^s(\\mathbb{t})$ for small $l^2$-mass $\\| u_0 \\|_{l^2}^2 < 1$ as recently proven in [r.~badreddine, pure appl. anal. 6 (2024)].   by a non-perturbative method, we construct smooth blow-up initial data with $l^2$-mass in the entire range $1 < \\|u_0 \\|_{l^2}^2 <2$. the strategy is based on a stability analysis for the explicit formula for (cs) combined with a suitable choice of finite-gap potentials as initial data that bifurcate from the discrete set of trivial plane waves $e^{i m x}$ with $m \\in \\mathbb{z}_{\\ge 0}$. more precisely, we find a parametrized family of smooth initial data $u_0$ in $l^2_+(\\mathbb{t})$ such that the corresponding solution $u(t)$ of (cs) blows up with $$ \\| u(t) \\|_{h^s} \\sim \\frac{1}{(t-t)^{2s}} \\quad \\mbox{as} \\quad \\mbox{$t \\nearrow t$} \\quad \\mbox{for all $s > 0$} $$ for some finite time $0 < t < \\infty$. moreover, we give a full description of the blow-up dynamics and we identify the unique weak limit of $u(t)$ in $l^2_+(\\mathbb{t})$ as $t \\nearrow t$. finally, we show instability of these blow-up solutions and complement our results by showing global existence for a class of finite-gap potentials as initial data with arbitrarily large $l^2$-mass.",
+    "submitted": "2026-05-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.28789",
+    "filter_reason": "known author"
   }
 ]
