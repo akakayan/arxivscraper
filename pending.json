@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "id": "2502.05614",
+    "title": "resolvent bounds for repulsive potentials",
+    "authors": [
+      "andrés larraín-hubach",
+      "yulong li",
+      "jacob shapiro",
+      "joseph tiller"
+    ],
+    "abstract": "we prove limiting absorption resolvent bounds for the semiclassical schrödinger operator with a repulsive potential in dimension $n\\ge 3$, which may have a singularity at the origin. as an application, we obtain time decay for the weighted energy of the solution to the associated wave equation with a short range repulsive potential and compactly supported initial data.",
+    "submitted": "2026-05-28",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2502.05614",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.07999",
+    "title": "a schauder regularity theory for nonlocal and mixed local-nonlocal viscous hamilton$\\unicode{x2013}$jacobi equations",
+    "authors": [
+      "espen robstad jakobsen",
+      "robin østern lien",
+      "artur rutkowski"
+    ],
+    "abstract": "we prove space-time schauder estimates $\\unicode{x2013}$ optimal regularity estimates in hölder spaces $\\unicode{x2013}$ and well-posedness results for mild and classical solutions of viscous hamilton$\\unicode{x2013}$jacobi equations with subcritical nonlocal and mixed local-nonlocal diffusions in $\\mathbb{r}^d$. our spatial schauder estimates hold under mild assumptions on the nonlocal/mixed operators and hamiltonians. the laplacian, fractional laplacians, nonsymmetric, spectrally one-sided, and strongly anisotropic integral operators, as well as sums of such operators are covered. we observe an interplay between the regularity of the initial data and the growth of the hamiltonian in the gradient, and develop a spatial schauder theory for two canonical cases: (i) lipschitz initial data and general hamiltonians that are hölder in space and merely locally lipschitz in the gradient, and (ii) hölder initial data and hamiltonians that are hölder in space and locally lipschitz with power growth in the gradient. we compute explicit blow-up rates for $c^1$ and higher order hölder norms as $t\\to 0$. the results include short and long time existence of mild solutions, optimal regularity in hölder spaces and corresponding schauder a priori estimates, and that spatially smooth mild solutions are regular in time and pointwise classical solutions. under further assumptions on the diffusion operator, we then prove time and space-time schauder regularity estimates in optimal hölder spaces which respect the natural fractional parabolic scaling. these results generalize classical linear local and fractional schauder estimates to our non-linear fractional, possibly anisotropic and nonsymmetric setting.",
+    "submitted": "2026-05-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.07999",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.15620",
+    "title": "vanishing viscosity limit for $n\\times n$ hyperbolic system of conservation laws in 1-d with nonlinear viscosity: part-i uniform bv estimates",
+    "authors": [
+      "boris haspot",
+      "animesh jana"
+    ],
+    "abstract": "we consider the following parabolic approximation for hyperbolic system of conservation laws in 1-d with non-singular viscosity matrix $b(u)$ and $a(u)$ strictly hyperbolic,   \\[u^\\varepsilon_t+a(u^\\varepsilon)u^\\varepsilon_x=\\varepsilon(b(u^\\varepsilon)u^\\varepsilon_x)_x.\\] we prove global in time uniform $bv$ bound for solution to this parabolic system when $\\varepsilon>0$ provided that the initial data is small in $bv$ and the matrix $a(u)$ and $b(u)$ commutate. moreover, in the case where the system is conservative, we show that the sequence $(u^\\varepsilon)_{\\varepsilon>0}$ admits a limit $u$, which is the unique global weak solution to the limiting strictly hyperbolic system. we provide a concrete application of this result in the study of the visco-dispersive limit of the navier-stokes-korteweg system.",
+    "submitted": "2026-05-28",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.15620",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.04202",
+    "title": "coulomb sectors and scattering for maxwell-higgs fields on schwarzschild and slowly rotating kerr backgrounds",
+    "authors": [
+      "bobby eka gunara",
+      "n/a mulyanto",
+      "fiki taufik akbar"
+    ],
+    "abstract": "we develop a small-data maxwell--higgs theory on schwarzschild and slowly rotating kerr black-hole exteriors for gauge-invariant nonnegative self-interactions near the trivial vacuum. the schwarzschild part gives a complete global, radiative, and scattering theory, while the slowly rotating kerr part gives a robust massless forward theory and a perturbative small-electric extension. the main mechanism is a transfer principle: once the required linear energy, decay, horizon, and far-field estimates are available, the nonlinear lorenz-gauge problem yields global existence, gauge-covariant radiation fields, nonlinear wave operators, and asymptotic completeness. the coulomb-sector analysis identifies the correct long-range normalization in fixed electric sectors and separates the genuinely proved results from the remaining rotating massive final-state problems. all kerr scattering statements beyond the established massless and small-electric forward regimes are stated explicitly under their necessary spectral and final-state conditions, namely, no rapid-rotation, large-charge, and unconditional massive rotating scattering.",
+    "submitted": "2026-05-28",
+    "categories": [
+      "gr-qc",
+      "hep-th",
+      "math-ph",
+      "math.ap",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2603.04202",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2604.02084",
+    "title": "boundedness and decay for the conformal wave equation in schwarzschild-ads under dissipative boundary conditions",
+    "authors": [
+      "alex tullini"
+    ],
+    "abstract": "we study the conformal wave equation $\\square_g ψ+ \\frac{2}{l^2} ψ= 0$ on 4-dimensional schwarzschild--anti de sitter spacetimes under dissipative boundary conditions. we prove boundedness and decay of the non-degenerate energy of $ψ$ at an arbitrary polynomial rate of $(1+v)^{-n}$ provided that we control the (up to) $n$-times $t$-commuted energy. this contrasts with the inverse logarithmic decay obtained under dirichlet boundary conditions and is in line with the result obtained in the pure anti-de sitter case under dissipative boundary conditions. in particular, the decay is not affected by the additional trapping at the photon sphere.",
+    "submitted": "2026-05-28",
+    "categories": [
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2604.02084",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2605.29750",
+    "title": "elliptic boundary value problems and partial group actions",
+    "authors": [
+      "eske ewert",
+      "anton yu. savin",
+      "elmar schrohe"
+    ],
+    "abstract": "we consider a smooth compact manifold with boundary, $m$, embedded in a smooth manifold of the same dimension on which an amenable group $γ$ acts by isometries. we do not assume $m$ to be invariant under $γ$. this results in a {\\em partial action} of $γ$ on $m^\\circ$: for $g\\in γ$ we let $m^\\circ_g = g(m^\\circ)\\cap m^\\circ$ and obtain diffeomorphisms $g:m^\\circ_{g^{-1}} \\to m^\\circ_g$.   we assume that any two images of $\\partial m$ under $ γ$ either coincide or are disjoint and that only finitely many lie in $m$. the spherical blow-up of these images of $\\partial m$ in $m$ yields a manifold $y$ with boundary consisting of finitely many components. moreover, $y$ inherits a partial action of~$γ$.   we can then define the $c^*$-algebra $\\mathcal a=\\overline{ψ_γ(y,\\partial y)}$ of operators on $l^2(y)\\oplus l^2(\\partial y)$, generated by the algebra $ψ(y,\\partial y)$ of operators of order and type zero in boutet de monvel's calculus on $y$ and partial isometries associated with the partial action. denote by $σ=\\overline{ψ(y,\\partial y)}/\\mathbb k$ its symbol space. if the partial action of $γ$ on prim$(σ)$ is topologically free, we find a criterion for the fredholm property of the operators in $\\overline{ψ_γ(y,\\partial y)}$.   moreover, we obtain the classification of the elliptic elements in $\\overline{ψ_γ(y,\\partial y)}$ modulo stable homotopies: for $\\mathcal a_0= c(y\\sqcup \\partial y)\\rtimesγ$ $${\\rm ell}(\\mathcal a_0,\\mathcal a)\\cong k_0(c_0(t^*y^\\circ)\\rtimesγ)\\oplus k_0(c(\\partial y)\\rtimes γ).$$ if $γ$ is finitely generated and of polynomial growth, then the elements associated with the second summand do not contribute to the index.",
+    "submitted": "2026-05-28",
+    "categories": [
+      "math.oa",
+      "math.ap",
+      "math.fa"
+    ],
+    "link": "https://arxiv.org/abs/2605.29750",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.29866",
+    "title": "vorticity blow-up for the 2d incompressible non-homogeneous euler equations with uniform $c^{1,\\sqrt{\\frac{4}{3}}-1-\\varepsilon}$ force",
+    "authors": [
+      "diego córdoba",
+      "andrés laín-sanclemente",
+      "luis martínez-zoroa"
+    ],
+    "abstract": "we establish the existence of solutions of the 2d incompressible non-homogeneous euler equations with $c^{0}_{t}c^{1,\\,\\sqrt{\\frac{4}{3}}-1-\\varepsilon}_{x}\\cap c^{0}_{t}l^{2}_{x}$ source terms that develop a singularity in finite time. in order to achieve this, we adapt the boussinesq blow-up we set up in arxiv:2505.20988 to the non-homogeneous euler setting. furthermore, we bring the potential existence of two different types of singularities of the forced system to light.",
+    "submitted": "2026-05-28",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.29866",
+    "filter_reason": "keyword match"
+  }
+]
