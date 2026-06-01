@@ -115,5 +115,144 @@
     ],
     "link": "https://arxiv.org/abs/2605.29866",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2602.21968",
+    "title": "a universal bound on the blow-up rate for the focusing mass-critical nonlinear schrödinger equation",
+    "authors": [
+      "beomjong kwak",
+      "soonsik kwon"
+    ],
+    "abstract": "in this paper, we investigate a universal blow-up bound for the focusing mass-critical nonlinear schrödinger equation for general initial data in $l^2(\\mathbb r^d)$, extending previous knowledge for mass near the ground-state threshold due to merle and raphaël. the main results are twofold. first, we show the nonexistence of self-similar rate blow-up solutions. second, under radial symmetry, we establish the sharp log--log correction to the self-similar bound on the blow-up rate. the proofs are based on a new analysis of general blow-up solutions, which does not rely on any ansatz or variational structure.",
+    "submitted": "2026-05-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2602.21968",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.30681",
+    "title": "on a structural acoustic model with logarithmic supercritical source terms",
+    "authors": [
+      "baowei feng",
+      "yanqiu guo",
+      "mohammad a. rammaha"
+    ],
+    "abstract": "in this paper, we study a structural acoustic model consisting of a semilinear wave equation defined on a three-dimensional bounded domain, coupled with a kirchhoff-love plate equation acting on a flat portion of the boundary. primarily for mathematical interest, we impose nonlinear damping terms and logarithmic-type supercritical source terms on the system. we investigate local and global well-posedness, energy decay rates of potential well solutions, and blow-up of solutions under different conditions on the parameters and initial data. the main novelties include the analysis of the interaction between nonlinear damping and logarithmic energy-amplifying source terms, as well as the development of techniques for handling logarithmic source terms within potential well theory. the logarithmic nonlinearities are not homogeneous under scaling, which creates difficulties in studying potential well solutions. the wave-plate coupling through the acoustic pressure also causes technical difficulties in the analysis, especially in the proof of blow-up of weak solutions.",
+    "submitted": "2026-05-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.30681",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.30937",
+    "title": "admissibility criteria for normal traces and cauchy fluxes",
+    "authors": [
+      "christopher irving",
+      "akram sharif"
+    ],
+    "abstract": "we compare notions of admissible surfaces for cauchy fluxes, formulated as understanding when the normal trace of the underlying stress field can be represented by a measure. if this field is unbounded, the problem of admissibility is necessitated by the fact that the normal trace need not admit a measure representation on every regular surface, but only on ``almost all'' such surfaces. we compare an approach based on a precise majorant introduced by šilhavý (arch. ration. mech. anal. 116.3 (1991)) with a minkowski-type condition introduced by chen, torres and the first author (arch. ration. mech. anal. 249.6 (2025)) by showing that, under mild geometric conditions, the former condition implies the latter. we also show, by means of an explicit construction, that the latter admissibility condition can allow for arbitrary measure concentrations as a normal trace.",
+    "submitted": "2026-05-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.30937",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.31202",
+    "title": "mass-$p$-capacity inequalities in asymptotically flat half-spaces",
+    "authors": [
+      "chao xia",
+      "jiabin yin",
+      "xingjian zhou"
+    ],
+    "abstract": "in this paper, we establish general monotone quantities and sharp mass-capacity inequalities related to $p$-capacitary functions in $3$-dimensional asymptotically flat half-spaces of simple topology with nonnegative scalar curvature and nonnegative boundary mean curvature. these inequalities attain equality on a schwarzschild half-space outside a rotationally symmetric half sphere.",
+    "submitted": "2026-05-29",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.31202",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.31322",
+    "title": "strong well-posedness of a fluid--poro-viscoelastic interaction problem: an approach by spectral analysis",
+    "authors": [
+      "tim binz",
+      "matthias hieber",
+      "arnab roy"
+    ],
+    "abstract": "this article investigates a coupled viscoelastic navier--stokes--biot system describing the interaction between an incompressible viscous fluid and a poro--viscoelastic medium in three spatial dimensions. the coupling between the fluid and the porous medium is realized through beavers--joseph--saffman type interface conditions. using spectral analysis, it is proved that the coupled system admits a unique, strong, global solution for small initial data. in addition, a serrin--type blow-up criterion is established.",
+    "submitted": "2026-05-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.31322",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.31359",
+    "title": "a pathological set regarding the propagation of almost sure properties of gaussian measures",
+    "authors": [
+      "pablo merino"
+    ],
+    "abstract": "we provide a complementary result to the quasi-invariance of gaussian measures supported on sobolev spaces with high regularity under the dynamics of the three-dimensional periodic defocusing nonlinear wave equation from gunaratnam-oh-tzvetkov-weber (2022). namely, given $p$ and $σ$ large enough, we prove the existence of dense sets of sobolev spaces $w^{σ,p}(\\mathbb{t}^3)$ which do not preserve the regularity $σ$ throughout the aforementioned dynamics. this is in sharp contrast with the propagation under the flow of almost sure properties.",
+    "submitted": "2026-05-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.31359",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.31461",
+    "title": "local existence of solutions and blow-up criteria for the boussinesq equations in lei-lin-gevrey spaces",
+    "authors": [
+      "patrícia l. guidolin",
+      "wilberclay g. melo",
+      "thyago s. r. santos"
+    ],
+    "abstract": "this paper studies the local well-posedness and the behavior at potential finite blow-up times of mild solutions to the three-dimensional fractional boussinesq equations in lei-lin and lei-lin-gevrey spaces $\\mathcal{x}_{a,σ}^s(\\mathbb{r}^3)$. by combining fixed point arguments with fourier estimates adapted to these spaces, we obtain local existence and uniqueness results for data in $\\mathcal{x}_{a,σ}^s(\\mathbb{r}^3)$, including the usual lei-lin case $a=0$. we also establish several blow-up criteria for maximal mild solutions and derive lower bounds for the growth of the corresponding norms as the maximal time is approached. in the strict lei-lin-gevrey regime, and when the dissipative exponents coincide, these estimates yield an exponential type blow-up criterion.",
+    "submitted": "2026-05-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.31461",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.31585",
+    "title": "stability and instability of torus-symmetric einstein spacetimes with square-integrable connection",
+    "authors": [
+      "bruno le floch",
+      "philippe g. lefloch"
+    ],
+    "abstract": "we study the global evolution problem for the einstein equations under t2 symmetry on t3, allowing vacuum, scalar-field, and compressible-fluid matter models, governed by a general equation of state including isothermal and polytropic fluids. under this symmetry, we obtain the first non-perturbative, global existence and stability theory with connection coefficients being merely square-integrable, which allows both impulsive gravitational waves and shock waves. in areal gauge, we introduce new fluid and geometric variables and reformulate the einstein-euler system as a first-order system of nonlinear balance laws with constraints and an entropy structure. the resulting formulation exhibits hyperbolicity, null forms, entropy currents, div-curl structure, maximum principles, and spacetime estimates. this leads to a notion of tame einstein-euler flow for which the essential geometric and fluid variables are square-integrable (finite energy), and the secondary variables are absolutely continuous (or, more generally, of bounded variation). in this non-perturbative and weak regularity setting, the equations remain meaningful even when the weyl curvature concentrates into dirac masses along timelike hypersurfaces, and the ricci curvature remains only integrable. our main results are a global existence theorem for areal foliations, a nonlinear stability theorem for well-prepared initial data, and a nonlinear instability theorem for geometrically oscillatory data, the latter producing measure corrections to the stress energy tensor. in the future-contracting regime, the areal foliation reaches a geometric singularity where the volume of t3 spatial slices degenerates to zero. the areal function reaches zero generically in the non-vacuum gowdy-symmetric and vacuum torus-symmetric cases. in the future-expanding regime, the areal foliation is complete.",
+    "submitted": "2026-05-29",
+    "categories": [
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.31585",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2605.31587",
+    "title": "a conditional lagrangian clock barrier at the $c^{1,\\frac{1}{3}}$ threshold for axisymmetric euler without swirl",
+    "authors": [
+      "ovidiu-neculai avadanei"
+    ],
+    "abstract": "we consider axisymmetric no-swirl solutions to the three-dimensional incompressible euler equations, with initial velocity in $c^{1,α}\\cap l^2$, where $α\\in\\left[\\frac{1}{3},1\\right)$. motivated by shkoller's lagrangian clock-and-driver framework for finite-time blow-up below the $c^{1,\\frac{1}{3}}$ threshold, we introduce coherent lagrangian classes of initial data and conditional solutions for which the same clock mechanism yields a supercritical/critical barrier when $α\\geq\\frac{1}{3}$, with a genuinely depleted barrier for $α>\\frac{1}{3}$ and an exponential bound at the critical endpoint $α=\\frac{1}{3}$. in the general case, we formulate a matrix-clock criterion in terms of the smallest singular value of the deformation gradient and show that, under cusp-tail, dini coherence, near-field compatibility, and bounded transverse-distortion hypotheses, this singular value cannot collapse in finite time. in the on-axis case, the criterion reduces to the scalar clock inequality $\\displaystyle \\dot{j}(t)\\gtrsim -b(t)j(t)-cj(t)^{3α}$, which rules out shkoller-type clock collapse for $α\\geq\\frac{1}{3}$. these results do not enlarge the known lorentz-space global regularity classes. rather, they in particular identify the supercritical lagrangian obstruction dual to shkoller's subcritical blow-up mechanism in the case $α>\\frac{1}{3}$.",
+    "submitted": "2026-05-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.31587",
+    "filter_reason": "keyword match"
   }
 ]
