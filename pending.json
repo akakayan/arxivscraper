@@ -215,5 +215,76 @@
     ],
     "link": "https://arxiv.org/abs/2606.02051",
     "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2502.12457",
+    "title": "well-posedness and asymptotic decay of solutions to the three-dimensional euler equations with damping",
+    "authors": [
+      "gui-qiang g. chen",
+      "feimin huang",
+      "houzhi tang",
+      "shuxing zhang",
+      "weiyuan zou"
+    ],
+    "abstract": "the global well-posedness of the multi-dimensional compressible euler equations with damping remains a longstanding open problem. this problem has been partially resolved in the isentropic regime ({\\it i.e.}, the adiabatic exponent \\(γ>1\\)) for small smooth initial data (see \\cite{wy, stw}). in this paper, we establish the global well-posedness and asymptotic decay of smooth solutions of the cauchy problem of the three-dimensional compressible euler equations with damping for the isentropic regime \\(γ>1\\) and the isothermal regime \\(γ=1\\), allowing for partially large initial data. more precisely, the \\(l^2\\)-norm of the initial data is allowed to be large, while the third-order sobolev norm of the initial data is assumed to be small. for the isentropic case, we develop a new analytical framework in which all required {\\it a priori} estimates of solution $(ρ,u)$ can be derived under the condition that $\\int_0^t \\big( \\|\\nablaρ\\|_{l^\\infty} + \\|\\nabla u\\|_{l^\\infty} \\big) \\, \\mathrm{d}t$ remains sufficiently small. moreover, we obtain the optimal algebraic decay rates of global solutions. furthermore, we study the isothermal limit of solutions of the isentropic regime as $γ\\to 1$, and establish the global well-posedness and asymptotic decay of solutions to the isothermal euler equations with damping.",
+    "submitted": "2026-06-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2502.12457",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2601.16053",
+    "title": "fujita exponents on quantum euclidean spaces",
+    "authors": [
+      "edward mcdonald",
+      "michael ruzhansky",
+      "serikbol shaimardan",
+      "kanat tulenov"
+    ],
+    "abstract": "we study the well-posedness of a non-linear heat equation with power nonlinearity with positive initial data on quantum euclidean spaces. we prove a noncommutative analogue of the classical fujita theorem by identifying the critical exponent separating finite-time blow-up from global existence for small initial data. moreover, we establish a fundamental inequality in general semifinite von neumann algebras that is of independent interest and plays a crucial role in the study of global existence and local well-posedness of solutions of nonlinear equations in noncommutative setting.",
+    "submitted": "2026-06-02",
+    "categories": [
+      "math.ap",
+      "math.oa"
+    ],
+    "link": "https://arxiv.org/abs/2601.16053",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.03840",
+    "title": "on a system of semilinear damped $σ$-evolution equations with different damping types in the critical case",
+    "authors": [
+      "trung loc tang",
+      "tuan anh dao",
+      "the anh cung"
+    ],
+    "abstract": "in this paper, we study the non-symmetric system of semilinear damped $σ$-evolution equations with different damping types, where two power exponents of nonlinearities belong to the critical curve, by using moduli of continuity in nonlinear terms. our goal is to determine the sharp conditions on these moduli of continuity that guarantee the global (in time) existence of sobolev solutions or, conversely, lead to finite-time blow-up. furthermore, by employing the analysis introduced in the proof of our blow-up result, we provide a positive answer to an open problem for the symmetric models posed in the literature.",
+    "submitted": "2026-06-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.03840",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.03873",
+    "title": "positive resolution of bartnik's cosmological splitting conjecture",
+    "authors": [
+      "robert j. mccann",
+      "argam ohanyan"
+    ],
+    "abstract": "we give a proof of the cosmological splitting conjecture of robert bartnik from 1988, which expresses the rigidity of the cosmological hawking--penrose singularity theorem. it states that a timelike geodesically complete, globally hyperbolic spacetime which has compact cauchy surfaces and satisfies the strong energy condition must split isometrically as a lorentzian product. our methods combine the construction of global viscosity solutions to the lorentzian eikonal equation by zhu--wu--cui with our recently developed elliptic approach to the proof of lorentzian splitting theorems in joint work with braun, gigli and sämann, where we make use of the $p$-d'alembertian operator for $p < 1$.",
+    "submitted": "2026-06-02",
+    "categories": [
+      "math.dg",
+      "gr-qc",
+      "math-ph",
+      "math.ap",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2606.03873",
+    "filter_reason": "gr-qc cross-listing"
   }
 ]
