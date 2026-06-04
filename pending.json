@@ -286,5 +286,119 @@
     ],
     "link": "https://arxiv.org/abs/2606.03873",
     "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2511.13567",
+    "title": "a smoluchowski-kramers approximation for the stochastic variational wave equation",
+    "authors": [
+      "billel guelmame",
+      "julien vovelle"
+    ],
+    "abstract": "we investigate the smoluchowski-kramers approximation for the one-dimensional periodic variational wave equation with state-dependent damping and additive noise. we show that weak ``dissipative'' solutions converge to solutions of a stochastic quasilinear parabolic equation.",
+    "submitted": "2026-06-03",
+    "categories": [
+      "math.ap",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2511.13567",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.06789",
+    "title": "existence of global solutions to semilinear damped wave equations with nonlinearities of derivative type",
+    "authors": [
+      "dinh van duong",
+      "tuan anh dao"
+    ],
+    "abstract": "in this paper, we would like to consider the semi-linear damped wave equation with the power nonlinearity of derivative type $|u_t|^p$. the main contribution of this work is to improve the results for global (in time) solution existence in a comparison with the pioneering paper \\cite{matsumura1976} of matsumura, who first established that the solutions exist globally for $p > 1$ ($n = 1$) and $p \\ge 2$ ($n \\ge 2$). more precisely, we have extended such a result for any $p > 1$ ($n = 1,2$) and $p > 3/2$ ($n = 3$). our approach relies on constructing appropriately weighted solution spaces linked to the delicate application of several tools from harmonic analysis and banach fixed-point theorem.",
+    "submitted": "2026-06-03",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.06789",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2601.21422",
+    "title": "wellposedness and dynamics of two types of reaction--nonlocal diffusion systems under the inhomogeneous spectral fractional laplacian",
+    "authors": [
+      "pu yuan",
+      "paul a. zegeling"
+    ],
+    "abstract": "reactio-nonlocal diffusion equations model nonlocal transport and anomalous diffusion by replacing the laplacian with a fractional power, capturing diffusion mechanisms beyond brownian motion. we primarily study the semilinear problem \\[ \\partial_t u + ε^2(-δ)_g^αu = \\mathcal{n}(u) \\] allowing constant inhomogeneous dirichlet boundary condition $u|_{\\partialω}=g$. to handle the boundary constraint, we use a harmonic lifting to reformulate the problem as an equivalent homogeneous system with a shifted nonlinearity. working in \\(c_0(ω)\\), analytic contraction semigroup theory yields the duhamel formula and quantitative smoothing, implying local wellposedness for locally lipschitz reactions and a blow-up alternative. the semigroup viewpoint also provides $l^\\infty$-contractivity and positivity preservation, which drive pointwise maximum principles and stability bounds. furthermore, we analyze two prototypes. for the bistable rnde, we derive an energy dissipation identity and, using a fractional weak maximum principle, obtain an invariant-range property that confines solutions between the two stable steady states. for the nonlocal gray-scott system with possibly different fractional diffusion orders, we prove that solutions preserve positivity. moreover, we identify an explicit \\(l^\\infty\\) invariant set ensuring global boundedness, and derive an eigenfunction-weighted interior \\(l^2\\) bound. finally, we perform numerical simulations using a sine pseudospectral discretization and etdrk4 time-stepping, which illustrate the impact of fractional orders on pattern formation, consistently with our analytical results.",
+    "submitted": "2026-06-03",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2601.21422",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.04403",
+    "title": "well-posedness and vanishing rotational limit for the rotating incompressible navier-stokes equations in hybird besov space",
+    "authors": [
+      "zihua guo",
+      "zihao song",
+      "minghua yang"
+    ],
+    "abstract": "we establish the well-posedness of the 3d rotating incompressible navier-stokes equations with critical initial data $u_{0,ω}\\in x_{0,q,p}^ω$ for $p<5$, where $x_{0,q,p}^ω$ is defined by the norm \\begin{equation*} \\begin{aligned} &\\|u_{0,ω}\\|_{x_{0,q,p}^ω}:= ω^{3- \\frac{6}{q}}\\|u_{0,ω}\\|_{\\dot{b}_{q,\\infty}^{-7+\\frac{15}{q}}}^{\\ell_ω} +\\|u_{0,ω}\\|_{\\dot{b}_{p,\\infty}^{-1+\\frac{3}{p}}}^{h_ω}. \\end{aligned} \\end{equation*} this extends the previous results by chen, miao, and zhang (\\cite{cmz2013}). the main ingredients are a new global-in-time dissipative-dispersive estimate for the stokes--coriolis semigroup and corresponding bilinear estimates. furthermore, we establish the vanishing rotational limit for the 3d rotating navier-stokes equations as $ω\\rightarrow 0^{+}$.",
+    "submitted": "2026-06-03",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.04403",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.04407",
+    "title": "exponential stability for the three-dimensional navier-stokes equations on negatively curved manifolds",
+    "authors": [
+      "zhi-wei wang",
+      "samuel l. braunstein"
+    ],
+    "abstract": "we extend the exponential stability theorem for the three-dimensional incompressible navier-stokes equations from hyperbolic 3-space $\\hh^3$ (established in a companion paper) to complete simply connected riemannian 3-manifolds $(m^3, g)$ with pinched negative sectional curvature $-b^2 \\leq k \\leq -a^2 < 0$ and bounded geometry (including a strictly positive injectivity radius). the deformation laplacian $δ_\\def = δ_b + \\ric$ remains the viscous operator, selected by lagrangian kinematics. we prove that the {exact} system admits a unique global mild solution for small $l^3$ data, with exponential decay at a rate determined by the spectral gap of the stokes operator. the extension overcomes three obstacles absent on $\\hh^3$: (i) the semigroup factorisation $e^{tδ_\\def} = e^{-2t}e^{tδ_b}$ fails because $\\ric$ is not a scalar multiple of the metric; (ii) the leray projector no longer commutes with $δ_\\def$; (iii) the exact spectral gap is unknown. we resolve (i) unconditionally, without any curvature restriction, by observing that the ricci perturbation $v = \\ric + 2a^2 g$ is negative semi-definite and applying a trotter product bound with the diamagnetic inequality. we resolve (ii) by an algebraic reduction of the commutator $[\\pp, δ_\\def]$ to the complementary projector $(i-\\pp)$ applied to the shifted ricci endomorphism, giving a clean zeroth-order bound proportional to the curvature variation $b^2 - a^2$. this is the sole source of a curvature pinching constraint. we resolve (iii) via mckean's theorem, the diamagnetic inequality, and the weitzenböck identity. the fujita-kato temporal singularity exponent $1/2 - 3/(2p)$ is unchanged from the $\\hh^3$ case, confirming that the ultraviolet scaling obstruction is local and geometry-independent, driven fundamentally by an unresolvable temporal scaling mismatch.",
+    "submitted": "2026-06-03",
+    "categories": [
+      "math.ap",
+      "gr-qc",
+      "math-ph",
+      "math.dg",
+      "math.mp",
+      "math.sp"
+    ],
+    "link": "https://arxiv.org/abs/2606.04407",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2606.04449",
+    "title": "construction of multi-bubble solutions for the energy-critical wave equation in dimension four",
+    "authors": [
+      "jingyuan gu",
+      "jacek jendrej",
+      "lifeng zhao"
+    ],
+    "abstract": "for any $n\\geq 2$, we construct a global solution of the energy-critical focusing wave equation in dimension four which blows up in infinite time at $n$ prescribed points $z_1,\\ldots,z_n\\in \\mathbb r^4$, provided that the points form one orbit under a finite group of orthogonal symmetries. we denote by $c:=2\\sum_{j\\ne k}|z_j-z_k|^{-2}>0$ the corresponding interaction coefficient, which is independent of $k$. the common concentration scale satisfies \\[ \\log\\frac{1}{λ(t)} = \\left(\\frac{9c}{4}\\right)^{1/3}t^{2/3}+o(t^{1/3}) \\qquad \\text{as } t\\to+\\infty . \\] this concentration rate comes from a genuinely four-dimensional effect: the borderline decay of the ground state makes the interaction between different bubbles enter the leading order parameter dynamics.",
+    "submitted": "2026-06-03",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.04449",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.04774",
+    "title": "weighted centro-affine poincaré inequalities",
+    "authors": [
+      "yingxiang hu",
+      "mohammad n. ivaki"
+    ],
+    "abstract": "we obtain weighted centro-affine bochner formulas on spherical caps associated with smooth strictly convex hypersurfaces. as a consequence, we prove weighted poincaré inequalities on caps and on intersections of caps for a class of weights depending on the position vector $x$ of the hypersurface. in the unconditional case, we obtain a centro-affine poincaré inequality with weight $|x|^2$, which is used to prove a brunn--minkowski inequality for the $(n+2)$-nd dual quermassintegral.   we also establish an $l_0$-brunn--minkowski inequality for the $q$-th dual quermassintegral for $q\\in(0,n)$, with equality only for dilates, and an $l_p$-brunn--minkowski inequality for $q=n+α$ whenever \\[ 0<α\\le \\frac{2p(1-p)}{2-p}, \\] which in particular covers the range $q\\in(n,n+6-4\\sqrt{2}]$ for suitable $p\\in(0,1)$. these brunn--minkowski inequalities imply weighted centro-affine poincaré inequalities and uniqueness results for the $l_{p,q}$-minkowski problem in the unconditional class.   our main contribution is the introduction of a flat logarithmic centro-affine geometry on the positive orthant $(0,\\infty)^n$, adapted to the multiplicative structure of the $l_0$-sum. in this geometry, a bochner formula yields a sharp poincaré inequality, as well as a new proof of the centro-affine poincaré inequality with constant $n$ due to kolesnikov--milman, for unconditional bodies and unconditional functions.",
+    "submitted": "2026-06-03",
+    "categories": [
+      "math.ap",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2606.04774",
+    "filter_reason": "keyword match"
   }
 ]
