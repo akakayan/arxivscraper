@@ -110,5 +110,83 @@
     ],
     "link": "https://arxiv.org/abs/2606.06166",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2601.03968",
+    "title": "the uniqueness and concentration behavior of solutions for a nonlinear fractional schrödinger system",
+    "authors": [
+      "chungen liu",
+      "zhigao zhang",
+      "jiabin zuo"
+    ],
+    "abstract": "the paper is concerned with a nonlinear system of two coupled fractional schrödinger equations with both attractive intraspecies and attractive interspecies interactions in $\\mathbb{r}$. by analyzing an associated $l^2$-constrained minimization problem, the uniqueness of solutions to this system is proved via the implicit function theorem. under a certain type of trapping potential, by establishing some delicate energy estimates, we present a detailed analysis on the concentration behavior of the solutions as the total strength of intraspecies and interspecies interactions tends to a critical value, where each component of the solutions blows up and concentrates at a flattest common minimum point of the associated trapping potentials. an optimal blow-up rate of solutions to the system is also given.",
+    "submitted": "2026-06-05",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2601.03968",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.04976",
+    "title": "lifespan of classical solutions to one-dimensional quasilinear wave equations",
+    "authors": [
+      "yuusuke sugiyama",
+      "taro yamanoi"
+    ],
+    "abstract": "in this paper, we consider the upper and lower bounds of the lifespan of classical solutions of the cauchy problem for the one-dimensional quasilinear wave equation $u_{tt}-c(u_x)^2u_{xx}=0$ where the derivative of $c(θ)$ tends to $0$ near the origin. in particular, our result shows that the lifespan of the solution extends algebraically depending on the smallness of the initial data. furthermore, we also show that when $c(θ)$ is flat at the origin ($c'(θ)$ and any higher order derivatives vanish at the origin), the lifespan extends exponentially depending on the smallness of the initial data. our proof is based on the method of lax's characteristics and riemann invariants.",
+    "submitted": "2026-06-05",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.04976",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.07021",
+    "title": "rogue waves for semilinear wave equations",
+    "authors": [
+      "julia henninger"
+    ],
+    "abstract": "we study the semilinear wave equation $ v(x) \\partial_t^2 u + d(t) m(x,\\nabla_x) u=\\tilde{v}(x) \\tilde{d}(t) |u|^{p-1}u$ on $ \\mathbb{r}^n \\times \\mathbb{r}$ and show the existence of solutions which are localized in space and in time, called rogue waves, by means of variational methods. we introduce an energy functional on a suitable hilbert space, and provide sufficient conditions on the coefficients $v, \\tilde{v}, d, \\tilde{d}$, the elliptic operator $m$ and $p>1$ for the existence of a critical point. our approach is based on a detailed analysis of the wave type operator and in particular its spectral properties. further regularity considerations show that critical points are weak solutions to our equation. moreover, we provide examples of the coefficients and the elliptic operator which satisfy our assumptions.",
+    "submitted": "2026-06-05",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.07021",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.07203",
+    "title": "gradient regularity for fully nonlinear equations with variable degeneracy and hamiltonian lower-order terms",
+    "authors": [
+      "gleiciano cosmo",
+      "rafael r. costa",
+      "diego marcon"
+    ],
+    "abstract": "we study local regularity properties of viscosity solutions to fully nonlinear elliptic equations with variable gradient degeneracy and hamiltonian-type lower-order terms,   \\[   |\\nabla u|^{p(x)}f(\\nabla^{2}u)   +   a(x)|\\nabla u|^{q(x)}   =   f(x).   \\] here, $f$ is uniformly elliptic, while the exponents $p$ and $q$ are allowed to vary in space. we prove interior hölder estimates for the gradient, with an exponent determined by the maximal degeneracy rate and by the regularity available for the associated homogeneous uniformly elliptic equation. we also obtain pointwise improvements at points where the source term and the hamiltonian coefficient vanish with prescribed hölder rates. finally, at extremal points, we establish a schauder-type estimate showing that the solution separates from its extremal value with order strictly larger than two. the proofs combine compactness estimates for shifted equations, stability of viscosity solutions, and improvement-of-flatness iterations.",
+    "submitted": "2026-06-05",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.07203",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2606.07417",
+    "title": "an optimal local theory for reaction-diffusion equations driven by non-trace-class noise",
+    "authors": [
+      "antonio agresti",
+      "fabian germ",
+      "mark veraar"
+    ],
+    "abstract": "we study local well-posedness for a class of stochastic reaction-diffusion equations driven by multiplicative, possibly colored, noise. the interaction between rough stochastic forcing and polynomial nonlinearities naturally leads to solutions with low spatial regularity, making the treatment of the nonlinear terms delicate. our main contribution is a general local existence and uniqueness theory for spdes with rough noise and highly irregular initial data. the framework also yields new results in standard noise regimes, including trace-class noise and space-time white noise. we identify the critical initial-data spaces for a wide range of nonlinearities, and we establish instantaneous parabolic regularization, general blow-up criteria, and sufficient conditions for positivity preservation. we apply the abstract theory to several prototypical models, including the stochastic allen-cahn, burgers, fisher-kpp, and coupled gray-scott equations. finally, in the one-dimensional space-time white-noise setting, we combine our local theory with existing global a priori results in a highly singular regime.",
+    "submitted": "2026-06-05",
+    "categories": [
+      "math.ap",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2606.07417",
+    "filter_reason": "keyword match"
   }
 ]
