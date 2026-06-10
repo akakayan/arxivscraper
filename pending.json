@@ -153,5 +153,53 @@
     ],
     "link": "https://arxiv.org/abs/2606.09429",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2507.15304",
+    "title": "proofs on singularity-free solutions and scalarization in nonlinear einstein-scalar-gauss-bonnet cosmology",
+    "authors": [
+      "chihang he",
+      "chao liu",
+      "jinhua wang"
+    ],
+    "abstract": "the search for singularity-free cosmological solutions has become a highly active topic in the physics community in recent years, yet existing results are largely numerical or based on asymptotic analysis. to place these developments on a firm mathematical footing, we rigorously establish the global existence and estimates of a class of singularity-free cosmological solutions to the fully nonlinear einstein--scalar system in einstein-scalar-gauss-bonnet gravity with quadratic coupling, providing proofs of previous numerical results in mathematical perspective. we further prove nonlinear scalarization triggered by a gauss-bonnet-induced tachyonic instability. our analysis relies on a novel structural identity, the power identity, which yields decoupled differential inequalities for the hubble parameter. this framework provides a new method for converting numerical evidence into a mathmatical proof for nonlinear systems.",
+    "submitted": "2026-06-09",
+    "categories": [
+      "math.ap",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2507.15304",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2606.10425",
+    "title": "well-posedness of second-order evolution equations with non-integrable and degenerate coefficients in weighted lp-spaces",
+    "authors": [
+      "ildoo kim",
+      "kyeong-hun kim"
+    ],
+    "abstract": "we study the cauchy problem for inhomogeneous evolution equations with time-dependent, potentially degenerate, and unbounded coefficients. a key feature of our work is allowing the principal coefficients to undergo arbitrary blow-up at both the initial and terminal times.",
+    "submitted": "2026-06-09",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.10425",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.10990",
+    "title": "isolated singularities for fractional hartree equations",
+    "authors": [
+      "guangze gu",
+      "aleks jevnikar",
+      "zhipeng yang"
+    ],
+    "abstract": "we study isolated singularities of positive solutions to a fractional hartree equation with riesz interaction, \\[ (-δ)^s u = \\left( \\int_{\\mathbb{r}^n\\setminus\\{0\\}} \\frac{u^p(y)}{|x-y|^μ}\\,dy \\right)u^q \\quad \\text{in } \\mathbb{r}^n\\setminus\\{0\\}. \\] the puncture changes the passage from the differential equation to its integral form: a fundamental solution term may appear at the singular point. under weighted assumptions on the hartree source, we derive a riesz decomposition containing this singular term and incorporate it into a kelvin moving-spheres argument to prove radial symmetry and monotonicity. the proof relies on a narrow-region principle based on a hartree defect estimate, which controls the contribution of the reflected negative set to the riesz interaction. we also construct explicit homogeneous singular solutions in a suitable regime and identify radial homogeneous blow-up profiles associated with the natural scaling.",
+    "submitted": "2026-06-09",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.10990",
+    "filter_reason": "keyword match"
   }
 ]
