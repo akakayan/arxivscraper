@@ -201,5 +201,23 @@
     ],
     "link": "https://arxiv.org/abs/2606.10990",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.24807",
+    "title": "heat kernel estimates for markov processes with blowing-up jump kernels",
+    "authors": [
+      "soobin cho",
+      "panki kim",
+      "renming song",
+      "zoran vondraček"
+    ],
+    "abstract": "in this paper, we establish sharp two-sided heat kernel estimates for a large class of purely discontinuous symmetric markov processes on closed subsets $f$ of $\\mathbb{r}^d$, whose jump kernels blow up on a borel subset $σ$ of $f$. we assume that $f\\setminus σ$ is a $κ$-fat set and is dense in $f$. to the best of our knowledge, this is the first work establishing sharp heat kernel estimates for jump processes whose jump kernels blow up on part of the state space.   the jump kernels under consideration take the form $j(x,y)=|x-y|^{-d-α}{\\mathcal b}(x,y)$, where $α\\in (0,2)$ and the function ${\\mathcal b}(x,y)$ blows up at a subset $σ$ of $f$. a fundamental obstacle is that the tails of the jump measures are not uniformly bounded, and hence standard techniques in heat kernel analysis do not provide a priori off-diagonal estimates. to overcome this difficulty, we develop a new approach based on weighted integral estimates for the heat kernel that are sensitive to both the blow-up behavior of the jump kernel and the geometry of $f\\setminus σ$.   examples of processes falling within our general framework include traces of isotropic $α$-stable processes in $c^{1,\\rm dini}$ sets, processes in lipschitz sets arising in connection with the nonlocal neumann problem, and a large class of resurrected self-similar processes in the closed upper half-space.",
+    "submitted": "2026-06-10",
+    "categories": [
+      "math.pr",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.24807",
+    "filter_reason": "keyword match"
   }
 ]
