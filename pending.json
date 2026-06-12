@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "2606.13029",
+    "title": "concavity and hot spots in elliptic problems under mixed boundary conditions",
+    "authors": [
+      "dorin bucur",
+      "ilaria fragalà"
+    ],
+    "abstract": "we consider the torsion function and the first laplacian eigenfunction in a convex curvilinear sector in the plane, under homogeneous neumann conditions on the two straight lateral sides and a homogeneous dirichlet condition on the remaining part of the boundary. we prove that they are, respectively, strictly $(\\frac 1 2)$-concave and strictly log-concave, provided the interior angles at the vertices are at most $\\frac π2$. under the same assumption, we further establish a billiard-type concavity, obtained through reflections across the neumann sides. as a consequence, we deduce that there exists a unique hot spot, located at the neumann--neumann vertex, and that some monotonicity properties hold along suitable segments. finally, we prove that the associated variational energies, namely the mixed torsional rigidity and the first mixed laplacian eigenvalue, satisfy brunn--minkowski type inequalities in the class of convex curvilinear sectors with a fixed opening angle.",
+    "submitted": "2026-06-11",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.13029",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.13050",
+    "title": "propagation dynamics for multidimensional nonlocal diffusion equations: a general freidlin-gärtner formula",
+    "authors": [
+      "hongjun guo",
+      "wan-tong li",
+      "biao liu"
+    ],
+    "abstract": "in this paper, we establish a unified geometric description for the propagation behavior of multidimensional nonlocal diffusion equations. by extending the classical freidlin-gärtner framework to general asymmetric, nonlocal operators, our theory naturally captures biased propagation--a regime where the intrinsic spreading set may exclude the origin. a key consequence is the representation of the spreading set as a minkowski sum, which holds for both bounded and unbounded initial supports. within this framework, we derive uniform spreading estimates and prove the local hausdorff convergence of level sets in arbitrary dimensions. our work therefore not only recovers known isotropic results but also provides a complete characterization of the biased case. moreover, the methods developed here are readily adaptable to a broader class of diffusion problems featuring general operators and nonlinearities.",
+    "submitted": "2026-06-11",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.13050",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2606.13337",
+    "title": "reconstruction for an inverse scattering problem with a kerr type nonlinearity",
+    "authors": [
+      "khaoula el maddah",
+      "matti lassas",
+      "tony liimatainen",
+      "valter pohjola",
+      "teemu tyni"
+    ],
+    "abstract": "we study the inverse scattering problem for the kerr-nonlinear helmholtz equation \\[ δu + k^2(1+q(x)|u|^2)u = 0 \\quad \\text{in }\\mathbb{r}^n,\\; n\\geq 2, \\] where the aim is to recover the unknown potential $q$ from the scattering amplitude. we obtain uniqueness for full data and partial data cases of backscattering, fixed angle scattering, and fixed energy scattering. for the linear helmholtz equation, uniqueness in backscattering and fixed angle cases are classical and largely open problems. we are able to explicitly reconstruct individual fourier modes of the potential, and if the measured directions and energies cover an open subset, we recover $q$. the simplicity of the approach leads to an efficient numerical method, and numerical experiments show accurate reconstructions, even in the presence of noise.",
+    "submitted": "2026-06-11",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.13337",
+    "filter_reason": "keyword match"
+  }
+]
