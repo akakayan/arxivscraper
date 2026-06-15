@@ -47,5 +47,55 @@
     ],
     "link": "https://arxiv.org/abs/2606.13337",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2508.10892",
+    "title": "upper bound on heat kernels of finite particle systems of keller-segel type",
+    "authors": [
+      "s. e. boutiah",
+      "d. kinzebulatov"
+    ],
+    "abstract": "we obtain upper bound on the heat kernel of keller-segel type finite particle system that exhibit blow up effects. the proof exploits a connection with certain non-local operators.",
+    "submitted": "2026-06-12",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2508.10892",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.13996",
+    "title": "the sharp lifespan of small data smooth solutions to 2-d quadratic quasilinear wave equations in exterior domains",
+    "authors": [
+      "bingbing ding",
+      "fei hou",
+      "huicheng yin"
+    ],
+    "abstract": "in the paper [m. keel, h. smith, c.d. sogge, almost global existence for quasilinear wave equations in three space dimensions. j. amer. math. soc. 17 (2004), no. 1, 109-153], the authors prove that for the 3-d quadratic quasilinear wave equation in exterior domains with homogenous dirichlet boundary value and small initial data of size $\\varepsilon$, the lifespan ${\\bar t}_{\\varepsilon}$ of the smooth solution fulfills ${\\bar t}_{\\varepsilon}\\ge e^{c/\\varepsilon}$. however, for the corresponding 2-d quadratic quasilinear wave equation in exterior domains with homogenous dirichlet or neumann boundary value, so far it is still open whether the expected sharp lifespan $t_{\\varepsilon}\\ge\\frac{c}{\\varepsilon^2}$ holds or not. in this paper, we will solve this open question. our main ingredients include: introducing the suitable friedlander radiation field for the 2-d linear wave equation in exterior domains with homogenous dirichlet or neumann boundary value, constructing the delicate approximate solution, and establishing some crucial space-time decay estimates for the solutions of 2-d quasilinear wave equation in exterior domains. on the other hand, for the radial symmetric solutions to a class of 2-d quadratic quasilinear wave equation in exterior domains, the upper bound of the lifespan $t_{\\varepsilon}\\le\\frac{c}{\\varepsilon^2}$ is derived and the sharp constant $c$ is also determined explicitly.",
+    "submitted": "2026-06-12",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.13996",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.14247",
+    "title": "time-asymptotic stability of viscous shocks for the outflow problem of one-dimensional compressible fluids of korteweg type",
+    "authors": [
+      "sungho han",
+      "jeongho kim",
+      "hyeonseop oh"
+    ],
+    "abstract": "we study the time-asymptotic stability of viscous-dispersive shock waves for the outflow problem of the barotropic navier--stokes--korteweg equations, which describe viscous fluids with internal capillarity. assuming that the far-field state is subsonic or transonic and that the velocity at the boundary is larger than the far-field velocity, we prove that the solution converges to the corresponding viscous-dispersive shock wave as $t \\to +\\infty$, provided that the shock amplitude and the initial perturbation are sufficiently small. the proof is based on the method of $a$-contraction with shifts (for viscous equations) introduced in \\cite{kv17,kv21,kvw23}. a main difficulty comes from controlling the boundary effect of the viscous-dispersive shock wave, as well as the influence of capillarity near the boundary.",
+    "submitted": "2026-06-12",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.14247",
+    "filter_reason": "keyword match"
   }
 ]
