@@ -215,5 +215,40 @@
     ],
     "link": "https://arxiv.org/abs/2606.17015",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2511.09508",
+    "title": "dynamical formation of black holes due to boundary effect in vacuum gravity",
+    "authors": [
+      "puskar mondal",
+      "shing-tung yau"
+    ],
+    "abstract": "we prove the dynamical formation of a marginally outer trapped surface in pure vacuum spacetime from smooth asymptotically flat cauchy data which initially contain no mots. the mechanism is a boundary effect rather than a collapse mechanism. we work in a cauchy--double-null framework and use yau's boundary criterion \\cite{yau}, which gives the existence of an interior mots from a lower bound for the generalized boundary mean curvature relative to the schoen--yau radius of the domain. we construct an explicit class of vacuum initial data for which this criterion is strictly subcritical on the initial hypersurface, while the einstein evolution drives the same domain into the supercritical regime. more precisely, a mild incoming gravitational radiation field increases the generalized boundary mean curvature of an isotropically large interior region sufficiently to force the formation of a mots in its future development. a characteristic feature of the initial data is a large interior anisotropic curvature component: the trace-free ricci curvature is of larger order than the scalar curvature, which is balanced at the vacuum constraint scale. thus the mots forms not from matter concentration or standard gravitational collapse, but from the interaction between boundary geometry, large-scale interior geometry, and the vacuum einstein dynamics. this gives a rigorous realization of a long-suspected physical idea that apparent horizons may form from global geometric effects in vacuum general relativity.",
+    "submitted": "2026-06-16",
+    "categories": [
+      "gr-qc",
+      "math-ph",
+      "math.ap",
+      "math.dg",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2511.09508",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2603.25104",
+    "title": "self-similar finite-time blowups with singular profiles of the generalized constantin-lax-majda model: theoretical and numerical investigations",
+    "authors": [
+      "de huang",
+      "jiajun tong",
+      "xiuyuan wang"
+    ],
+    "abstract": "we investigate novel scenarios of self-similar finite-time blowups of the generalized constantin-lax-majda model with a parameter $a$, which are induced by a new setting where the smooth initial data satisfy certain derivative degeneracy condition. in this setting, our numerical study reveals distinct self-similar blowup behaviors depending on the sign of $a$. for $a>0$, we observe one-scale self-similar blowups with regular profiles that have not been found in previous studies. in contrast, for $a\\le 0$, we discover a novel two-scale self-similar blowup scenario where the outer profile converges to a singular function at the blowup time while the inner profile remains regular on a much smaller scale. correspondingly, an $a$-parameterized family of singular self-similar profiles with explicit expressions are constructed for $a<0$ and shown to match nicely with the limiting profiles obtained in numerical simulation. in particular, for the specific case of $a=0$, we rigorously prove the convergence of the outer profile to an explicit singular function in self-similar coordinates. furthermore, we demonstrate the two-scale nature of the blowup in this scenario by showing that the local inner profile behavior around the singularity point of the outer profile is governed by a traveling wave on a smaller scale. to support this observation, we rigorously establish the existence of such traveling wave solutions via a fixed-point method.",
+    "submitted": "2026-06-16",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2603.25104",
+    "filter_reason": "keyword match"
   }
 ]
