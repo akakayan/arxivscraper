@@ -250,5 +250,87 @@
     ],
     "link": "https://arxiv.org/abs/2603.25104",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2508.07802",
+    "title": "critical exponent for semilinear damped wave equations with weighted nonlinear terms and data from sobolev spaces of negative order",
+    "authors": [
+      "dinh van duong",
+      "tuan anh dao"
+    ],
+    "abstract": "in this paper, we would like to study the critical exponent for semilinear damped wave equations with the nonlinearity terms of coulomb-type singularities $|x|^{-α} |u(t,x)|^p$ and the initial data belonging to sobolev spaces of negative order $\\dot{h}^{-β}$. precisely, we obtain a critical exponent $$p_{\\rm c}(α,β,n): = 1 + \\frac{4-2α}{n+2β} $$ for $1 \\leq n \\leq 4$ and $ 0 \\leq α, β< n/2,$ by proving the global (in time) existence of small data solutions when $p \\geq p_{\\rm c}(α,β,n)$ and the blow-up result for weak solutions in finite time even for small data if $1 < p < p_{\\rm c}(α,β,n)$. furthermore, we are going to provide lifespan estimates for solutions when a blow-up phenomenon occurs.",
+    "submitted": "2026-06-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2508.07802",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.18592",
+    "title": "global bounded solutions for a class of generalized hillen-painter models near couette flow in $\\mathbb{r}^2$",
+    "authors": [
+      "yubo chen",
+      "wendong wang",
+      "guoxu yang",
+      "yi zhang"
+    ],
+    "abstract": "we investigate the global well-posedness of a class of generalized hillen--painter systems -- specifically, supercritical volume-filling chemotaxis models -- in $\\mathbb{r}^2$ under the influence of couette flow. it is well established that, in the absence of fluid flow, solutions to this system may develop finite-time singularities (blow-up) for arbitrary initial cell mass. it is proved that the introduction of a couette flow with sufficiently large amplitude guarantees the global existence of solutions for all initial masses. by employing a novel frequency decomposition technique, we successfully remove the mass threshold limitation presented in previous studies on the domain $\\mathbb{t}\\times\\mathbb{r}$ (wang et al., commun. contemp. math.), thereby establishing global regularity in the whole space without any smallness assumptions.",
+    "submitted": "2026-06-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.18592",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.18695",
+    "title": "global existence, blow-up behavior and numerical simulations for a class of chemotaxis-driven fish-mussel systems",
+    "authors": [
+      "gnanasekaran shanmugasundaram",
+      "jitraj saha"
+    ],
+    "abstract": "in this work, we investigate a chemotaxis-driven fish--mussel ecosystem model described by a coupled system of partial differential equations subject to homogeneous neumann boundary conditions. under suitable assumptions on the system parameters and initial data, we establish the global existence of classical solutions by employing semigroup methods together with a priori estimates. we also examine the possible blow-up behavior of solutions in a three-dimensional domain. to support the theoretical analysis, a finite element method is developed for the numerical approximation of the system, and convergence studies based on mesh refinement are carried out to verify the accuracy and stability of the proposed numerical scheme. furthermore, numerical simulations illustrating the blow-up behavior of solutions in the computational domain are presented.",
+    "submitted": "2026-06-17",
+    "categories": [
+      "math.ap",
+      "cs.na",
+      "math.na"
+    ],
+    "link": "https://arxiv.org/abs/2606.18695",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.18919",
+    "title": "probabilistic representation and classical solutions of wave equations with complex polynomial nonlinearities",
+    "authors": [
+      "joshua j. y. chan",
+      "nicolas privault"
+    ],
+    "abstract": "we review the probabilistic representation of solutions of wave equations with polynomial nonlinearities in spatial dimensions d=1,2,3 using stochastic branching processes. under regularity assumptions on the initial data, we derive conditions ensuring the integrability of the corresponding monte carlo estimator, and the existence and smoothness of mild and classical solutions. we also present numerical results and comparisons with grid-based algorithms for the solution of nonlinear wave equations.",
+    "submitted": "2026-06-17",
+    "categories": [
+      "math.na",
+      "cs.na",
+      "math.ap",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2606.18919",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.19060",
+    "title": "delayed blow-up by transport noise for the 3d navier-stokes equation with navier-slip boundary conditions",
+    "authors": [
+      "meng zhao"
+    ],
+    "abstract": "we study the vorticity formulation of the 3d navier-stokes equation driven by transport noise in a periodic channel with navier-slip boundary conditions. we consider both non-degenerate transport noise and degenerate tangential transport noise. for any prescribed $t>0$ and $ε>0$, we prove that, by choosing the noise intensity sufficiently large and concentrating the noise on sufficiently high modes, the solution exists up to $t$ with probability at least $1-ε$.   a main contribution of this work is to identify and analyze the interaction between enhanced dissipation induced by transport noise and physical boundary effects. the no-flux condition breaks the isotropy of the noise and changes the scaling limit of the itô-stratonovich corrector. in the non-degenerate case, a boundary feedback term appears in the limiting effective operator; in the degenerate case, the limiting operator is a nonlocal anisotropic tangential dissipation. the proof is based on a combination of a boundary correction operator, a meyers-type estimate, a scaling-limit analysis of the itô-stratonovich corrector, and resolvent estimates for the deterministic limiting equations.",
+    "submitted": "2026-06-17",
+    "categories": [
+      "math.ap",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2606.19060",
+    "filter_reason": "keyword match"
   }
 ]
