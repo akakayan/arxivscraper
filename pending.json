@@ -1,1 +1,160 @@
-[]
+[
+  {
+    "id": "2505.07746",
+    "title": "the capillary $l_p$-minkowski problem",
+    "authors": [
+      "xinqun mei",
+      "guofang wang",
+      "liangjun weng"
+    ],
+    "abstract": "this paper is a continuation of our recent work [adv. math. 469 (2025), paper no. 110230] concerning the capillary minkowski problem. we propose, in this paper, a capillary $l_p$-minkowski problem for $p\\in \\mathbb{r}$, which seeks to find a capillary convex body with a prescribed capillary $l_p$-surface area measure in the euclidean half-space. this formulation provides a natural robin boundary analogue of the classical $l_p$-minkowski problem introduced by lutwak [j. differential geom. 38 (1993), no. 1, 131--150]. for $p>1$, we resolve the capillary $l_p$-minkowski problem in the smooth category by reducing it to a monge--ampère equation with a robin boundary condition on the unit spherical cap.",
+    "submitted": "2026-06-22",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2505.07746",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.21958",
+    "title": "absence of eigenvalues of dissipative operator for strictly convex obstacles",
+    "authors": [
+      "vesselin petkov"
+    ],
+    "abstract": "we study the wave equation in the exterior of a strictly convex bounded domain $k \\subset {\\mathbb r}^d, d \\geq 3,$ odd, with dissipative boundary condition $\\partial_ν u - γ(x) \\partial_t u = 0$ on the boundary $γ$ and $0 < γ(x) <1, \\:\\forall x \\in γ.$ the solutions are described by a contraction semigroup $v(t) = e^{tg}, \\: t \\geq 0.$ in [10] we established that for $γ\\equiv const$ and $k = \\{x \\in {\\mathbb r}^3: \\:|x| \\leq 1\\}$ the operator $g$ has no eigenvalues and we conjectured that the same result holds for every strictly convex obstacle. in this paper we prove this conjecture.",
+    "submitted": "2026-06-20",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2606.21958",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.22282",
+    "title": "stable blow-up on a sphere for a quadratic-derivative nonlinear wave equation",
+    "authors": [
+      "manuel del pino",
+      "oliver gough",
+      "monica musso"
+    ],
+    "abstract": "we study finite-time blow-up for the nonlinear wave equation \\begin{equation*} v_{tt}-δv=|\\nabla_x v|^2 \\end{equation*} in dimensions $n\\geq2$, under radial symmetry. for every prescribed radius $r_0>0$, we construct solutions which blow up in finite time $t>0$ on the sphere $\\{|x|=r_0\\}$ with logarithmic type-i rate. the leading singular dynamics are governed by ``generalised self-similar'' profiles of the associated one-dimensional equation, while the radial geometry generates a curvature correction of size $\\mathcal{o}((\\frac{t}{r_0})^2)$. a key simplification in our approach is a logarithmic radial correction which removes the first-order radial drift and reduces the geometry to a decaying inverse-square forcing.   we further prove asymptotic stability of the resulting family under radial perturbations. a new feature compared with the one-dimensional theory is that the stable blow-up family is not fully explicit. to overcome this, we develop spectral and semigroup estimates on an extended light cone, together with lipschitz dependence on the modulation parameters for the spectral projections, the stable flow, and the non-explicit correction.",
+    "submitted": "2026-06-21",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.22282",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.22755",
+    "title": "asymmetric fractional coupled magnetizable piezoelectric beams with infinite viscoelastic memory: polynomial decay and sharpness of the decay rate",
+    "authors": [
+      "jun zhou",
+      "min wang"
+    ],
+    "abstract": "this paper studies the long-time dynamics of a coupled hyperbolic system for magnetizable piezoelectric beams with infinite viscoelastic memory. memory dissipation is characterized by $a^α$, the fractional power of a positive self-adjoint operator $a$ with $α\\in[0,1)$. an asymmetric fractional magnetoelectric coupling is adopted: the mechanical-to-magnetic coupling uses integer-order operator $a$, while the magnetic feedback to mechanics is governed by fractional operator $a^β$ ($β\\in[0,1)$). this model bridges the gap between the well-studied integer coupling case ($β=1$) and the unsolved fully fractional symmetric coupling problem, offering a universal framework for related coupled systems.   under mild assumptions on memory kernels and system parameters, we prove well-posedness via semigroup theory and derive an explicit polynomial decay estimate for smooth initial data: \\[ \\|x(t)\\|_{\\mathcal h} \\le c t^{-\\frac{1}{4-2β-2α}}\\|x_0\\|_{d(\\mathcal a)},\\quad \\forall\\,t\\ge 1, \\] where the decay exponent is explicitly determined by $α$ and $β$. for exponentially decaying memory kernels, the decay rate is sharp if stiffness coefficients satisfy $α_1\\neα_2$. when $α_1=α_2$, we only obtain an upper bound $δ\\le \\frac{1}{3-β-2α}$ for decay index $δ$, leaving the optimal rate open.   comparisons with integer feedback coupling ($β=1$) show fractional feedback ($β<1$) slows energy decay. it demonstrates that $β$ weakens indirect damping and degrades structural stabilization. the results reveal the intrinsic interaction between fractional memory dissipation and fractional coupling in strongly coupled dissipative systems.",
+    "submitted": "2026-06-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.22755",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.22815",
+    "title": "on the yamabe flow in a bounded domain",
+    "authors": [
+      "fei fang",
+      "zhong tan"
+    ],
+    "abstract": "this paper investigates the dynamical behaviors of solutions to the yamabe flow via the modified potential well method. we first establish the local existence and regularity of weak solutions for the flow. several new results concerning global existence and blowup are obtained by classifying initial data into stable and unstable sets. specifically, solutions with initial data in the stable set exist globally and extinguish in finite time, whereas those originating from unstable initial data blow up in infinite time. for certain high-energy initial data, we show that the solution decays to zero as time tends to infinity and undergoes finite-time blowup. in addition, we analyze palais-smale sequences to reveal the intrinsic relationship between the long-time asymptotic behavior of solutions and steady states. finally, we derive the pohozaev identity for the equation and prove the corresponding nonexistence theorem.",
+    "submitted": "2026-06-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.22815",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.22847",
+    "title": "a brunn--minkowski inequality for the hessian eigenvalue in convex domain",
+    "authors": [
+      "jiahuan li",
+      "xi-nan ma",
+      "paolo salani"
+    ],
+    "abstract": "we use the deformation methods to obtain the strictly log concavity of solution of a class hessian equation in bounded convex domain in $\\mathbb{r}^{n}$, as an application we get the brunn--minkowski inequality for the hessian eigenvalue and characterize the equality case in bounded strictly convex domain in $\\mathbb{r}^{n}$.",
+    "submitted": "2026-06-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.22847",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.23248",
+    "title": "a mass-type invariant for smooth metric measure spaces and its relation with the fractional yamabe problem",
+    "authors": [
+      "sergio almaraz",
+      "levi lopes de lima",
+      "shaodong wang"
+    ],
+    "abstract": "on an asymptotically schwarzschild smooth metric measure space modelled on the euclidean half-space, we define a mass-type quantity similar to the classical adm mass in general relativity and show its geometric invariance properties. such quantity has a close relation with the fractional yamabe problem and the relevant green's function.",
+    "submitted": "2026-06-22",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.23248",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.23497",
+    "title": "strong traces for solutions of $2\\times 2$ nonlinear hyperbolic systems",
+    "authors": [
+      "luca talamini"
+    ],
+    "abstract": "in this paper we show that bounded entropy solutions of genuinely nonlinear $2\\times 2$ systems of hyperbolic conservation laws admit a strong trace on lipschitz curves. the main argument relies on a new half-space liouville-type theorem for isentropic solutions with constant normal traces, providing the first extension to general genuinely nonlinear systems of the strong trace properties available for scalar conservation laws.",
+    "submitted": "2026-06-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.23497",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.23529",
+    "title": "riemannian positive mass theorem in all dimensions in the presence of low-codimension singularities",
+    "authors": [
+      "marcus khuri",
+      "jian wang",
+      "jinmin wang"
+    ],
+    "abstract": "we prove the riemannian positive mass theorem in all dimensions for asymptotically flat $l^\\infty$-metrics with subcritical singular sets. more precisely, we consider complete asymptotically flat manifolds whose metrics are smooth away from a compact singular set of minkowski dimension less than $n-3+\\frac{2}{n}$, and whose scalar curvature is nonnegative on the regular set. we show that the adm mass of each asymptotically flat end is nonnegative, and that the mass vanishes in some end only in the euclidean case. for the rigidity statement, we require additionally that the minkowski dimension of the singular set is not larger than $n-3+\\frac{1}{n-1}$. this gives an asymptotically flat analogue of schoen's codimension-three conjecture for positive scalar curvature. the proof combines a density theorem for singular asymptotically flat metrics, capacity estimates across the singular set, conformal blow-up inspired by bi-hao-he-shi-zhu [3], and a $μ$-bubble dimension-descent argument adapted from brendle-wang [6].",
+    "submitted": "2026-06-22",
+    "categories": [
+      "math.dg",
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.23529",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2606.23605",
+    "title": "formation of singularities for a family of one-dimensional quasilinear wave equations beyond the variational case",
+    "authors": [
+      "yuusuke sugiyama"
+    ],
+    "abstract": "we consider finite-time singularity formation for classical solutions to the following parameterized nonlinear wave equation: \\[   u_{tt}=c(u)^2u_{xx}+λc(u)c'(u)(u_x)^2, \\] where \\(λ\\in[0,2]\\) is a parameter. in previous works, it is known that finite-time blow-up solutions exist for \\(0<λ\\le1\\) and for \\(λ=2\\).   the cases \\(λ=1\\) and \\(λ=2\\) are known as the variational wave equation and the \\(p\\)-system, respectively, and they possess symmetric structures or conservation laws. for \\(0<λ<1\\), the blow-up construction is based on the fact that, after decomposing the wave into two riemann variables, one component can be kept sufficiently small and hence does not prevent the other component from blowing up. in the present paper, we treat the remaining intermediate case \\(1<λ<2\\). this case is essentially different from the previous one, since both riemann variables may grow.   the key idea is to introduce suitable supremum functions for the riemann variables and to derive a comparison principle through right dini derivatives. this allows us to control the relative size of the two components and to obtain a riccati-type differential inequality for the dominant supremum function.",
+    "submitted": "2026-06-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.23605",
+    "filter_reason": "keyword match"
+  }
+]
