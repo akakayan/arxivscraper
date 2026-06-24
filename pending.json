@@ -156,5 +156,97 @@
     ],
     "link": "https://arxiv.org/abs/2606.23605",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2401.04115",
+    "title": "soliton resolution for the energy critical damped wave equations in the radial case",
+    "authors": [
+      "jingyuan gu",
+      "lifeng zhao"
+    ],
+    "abstract": "we consider energy-critical damped wave equation \\begin{equation*} \\partial_{tt}u-δu+α\\partial_t u=\\left|u\\right|^{\\frac{4}{d-2}}u \\end{equation*} with radial initial data in dimensions $d\\geq 4$. the equation has a nontrivial radial stationary solution $w$, called the ground state, which is unique up to sign and scale. we prove that any bounded energy norm solution behaves asymptotically as a superposition of the modulated ground states and a radiation term. in the global case, particularly, the solution converges to a pure multi-bubble due to the damping effect.",
+    "submitted": "2026-06-23",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2401.04115",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2407.08997",
+    "title": "asymptotic expansions for semilinear waves on asymptotically flat spacetimes",
+    "authors": [
+      "sam looi",
+      "haoren xiong"
+    ],
+    "abstract": "we establish precise asymptotic expansions for solutions to semilinear wave equations with power-type nonlinearities on asymptotically flat spacetimes. our analysis focuses on two key cases: cubic nonlinearities and higher-order power nonlinearities. for cubic nonlinearities of the form $a(t,x) \\, ϕ^3$, we prove asymptotic expansions for the solution globally in the spacetime. in the special case of compact spatial regions, solutions exhibit the asymptotic behavior $ϕ(t, x) = c \\, t^{-2} + \\mathcal{o}(t^{-3+})$. for higher-order nonlinearities $a(t,x) \\, ϕ^p$ with $p \\geq 4$, we prove the solution satisfies $ϕ(t, x) = d \\, t^{-3} + \\mathcal{o}(t^{-4+})$, thereby extending the classical price's law (a late-time tail postulated in 1972) to nonlinear settings in a precise fashion. these results sharpen previous decay estimates for nonlinear waves. we develop a radiation field expansion and a low-energy resolvent expansion adapted to conormal asymptotic inputs, extending hintz's approach for linear waves to the semilinear setting. our methods connect geometric microlocal analysis (b-calculus) with classical physical-space techniques, providing a convenient tool for analyzing asymptotic behavior of nonlinear waves.",
+    "submitted": "2026-06-23",
+    "categories": [
+      "math.ap",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2407.08997",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2603.19646",
+    "title": "sharp minkowski-type inequality in cartan-hadamard 3-spaces",
+    "authors": [
+      "fang hong"
+    ],
+    "abstract": "in this paper, we prove a sharp minkowski-type inequality in cartan-hadamard 3-spaces using harmonic mean curvature flow and improve the known estimates for total mean curvature in hyperbolic 3-space. in particular, we sharpen ghomi-spruck's result in \\cite{ghomi-spruck2023} by retaining the volume contribution in the monotonicity argument. as a corollary, we obtain a comparison theorem relating the total mean curvature of convex surfaces in cartan-hadamard 3-spaces to their enclosed volume.",
+    "submitted": "2026-06-22",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2603.19646",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.07290",
+    "title": "a revisit via slicing method on a quadratic semilinear wave equation in two space dimensions",
+    "authors": [
+      "masakazu kato",
+      "hiroyuki takamura",
+      "kyouhei wakasa"
+    ],
+    "abstract": "in this paper, we are focusing on the proof of the blow-up result for a quadratic semilinear wave equation in two space dimensions. there is a logarithmic loss in estimating the lifespan of classical solutions if the 0th moment of the initial speed does not vanish. this result is already known with almost sharp constants. but in order to have a direct application to numerical analysis, we show a simple proof by iteration argument of point-wise estimate of the solution with the slicing technique.",
+    "submitted": "2026-06-23",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.07290",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.24555",
+    "title": "nonexistence of finite-time blow-up for the equivariant harmonic map heat flow from $b^2$ to $s^2$",
+    "authors": [
+      "dylan samuelian"
+    ],
+    "abstract": "we consider $d$-equivariant solutions to the harmonic map heat flow from $b^2$ to $s^2$ under general time-dependent smooth boundary data and prove that there is no finite-time blow-up when $d \\geq 3$.",
+    "submitted": "2026-06-23",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.24555",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.24617",
+    "title": "geometric approaches for improved regularity in fully nonlinear parabolic models",
+    "authors": [
+      "junior da silva bessa",
+      "joão vitor da silva",
+      "mayra soares"
+    ],
+    "abstract": "in this paper, we derive improved estimates for a class of fully nonlinear parabolic equations with continuous drift and admissible source terms of the form $$ \\partial_{t}u - f(d^2u,x,t) + \\langle b(x,t), du\\rangle = f(x, t, u^{+}, u^{-}) \\quad \\text{in}\\quad q_1. $$ our analysis reveals two distinct regimes. in the first, $f=f(x,t)$ exhibits $θ$-hölder decay ($θ\\in(0,1)$), yielding improved gradient regularity at vanishing points via perturbative methods and geometric iteration, as well as nondegeneracy with explicit growth rates under a suitable structural condition. in the second, $f(\\cdot,u^+,u^-)=(u^+)^γ-(u^-)^γ$ with $γ\\in(0,1)$ (corresponding to an evolutionary semilinear two-phase model), we obtain enhanced regularity at branching points by combining a robust blow-up analysis with local derivative estimates for linear equations. our results remain relevant even in linear settings with merely continuous data, linking to classical free boundary problems arising in mathematical physics and related areas.",
+    "submitted": "2026-06-23",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.24617",
+    "filter_reason": "keyword match"
   }
 ]
