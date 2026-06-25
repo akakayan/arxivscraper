@@ -248,5 +248,83 @@
     ],
     "link": "https://arxiv.org/abs/2606.24617",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.25258",
+    "title": "geometric blow-up criteria for viscoelastic flows: oldroyd-b and fene-p models",
+    "authors": [
+      "sai peng"
+    ],
+    "abstract": "this paper proves geometric continuation criteria for two-dimensional stress-diffusion-free oldroyd--b and fene-p flows. in both models the conformation tensor is transported and stretched without spatial diffusion, while the elastic stress enters the viscous velocity equation through one derivative. the positive-cone geometry is encoded by the logarithmic variable b=log c. for oldroyd--b this leads to two possible continuation obstructions: loss of the endpoint velocity-gradient besov modulus and concentration of logarithmic conformation. for fene-p the state space is smaller, d_b={c in s_{++}^2: tr c<b}, and the same argument reveals a third, finite-extensibility obstruction measured by the barrier variable phi_b(c)=-log(b-tr c). the main theorem gives a closed continuation criterion involving the velocity-gradient besov modulus, the logarithmic conformation norm, and, in the fene-p case, the finite-extensibility barrier norm. the proof is organized around a logarithmic good unknown which removes the top matrix-exponential commutator and a separate trace-gap equation which isolates the fene boundary. on bounded trace windows the fene-p criterion reduces to the oldroyd--b criterion in the hookean limit b->infinity; at fixed b, however, the finite-extensibility barrier is an independent high-frequency obstruction.",
+    "submitted": "2026-06-24",
+    "categories": [
+      "math.ap",
+      "physics.flu-dyn"
+    ],
+    "link": "https://arxiv.org/abs/2606.25258",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.25405",
+    "title": "the lp centro-sectional minkowski problem",
+    "authors": [
+      "karoly j. boroczky",
+      "jiaqian liu",
+      "renqing you"
+    ],
+    "abstract": "as part of lutwak's broadening of the brunn-minkowski theory, and extending the notion of affine quermassintegrals and dual curvature measure discussed by milman, yehudayoff and huang, lutwak, yang and zhang, centro-sectional measures with real parameter q have been recently introduced by cai, leng, wu, xi. in this paper, we introduce the lp cross sectional minkowski problem analogously to the lp dual minkowski problem formulated by lutwak, yang and zhang. we solve the lp dual minkowski problem for p>1 and q>0, discuss the regularity and uniqueness of the solution, and prove lp brunn-minkowski-type inequalities when $p$ is relatively large.",
+    "submitted": "2026-06-24",
+    "categories": [
+      "math.ap",
+      "math.mg"
+    ],
+    "link": "https://arxiv.org/abs/2606.25405",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.25624",
+    "title": "local existence and blow-up behavior for the diffusive hamilton-jacobi equation in a half-space with unbounded initial data",
+    "authors": [
+      "loth damagui chabi"
+    ],
+    "abstract": "we study the local existence and blow-up behavior of solutions, with possible growth at space infinity, for the diffusive hamilton-jacobi equation $u_t-δu=|\\nabla u|^p$ ($p>1$), in a half-space with dirichlet boundary conditions. under optimal, polynomial growth assumptions on the initial data, characterized by the critical exponent $p/(p-1)$, we first prove local existence and uniqueness of a maximal classical solution and establish a blow-up alternative. this is complemented by a nonexistence result showing that $p/(p-1)$ is the sharp threshold for admissible growth at infinity. next, for initial data with subcritical growth, we show global-in-time existence for $1<p\\le2$ and that finite-time blow-up can occur only through gradient blow-up for $p>2$, and we derive sharp upper and lower estimates on the gradient, including a precise type~ii boundary blow-up rate and a dichotomy in its behavior near the singular time. finally, in the case $p>2$, for any type~ii blow-up solution, we prove convergence after rescaling) to an explicit one-dimensional profile and providing a refined description of the asymptotic singularity formation.",
+    "submitted": "2026-06-24",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.25624",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.25678",
+    "title": "brunn--minkowski inequality for the first complex $σ_{2}$-hessian eigenvalue",
+    "authors": [
+      "chuanqiang chen",
+      "jiahuan li",
+      "xi-nan ma"
+    ],
+    "abstract": "there are relatively few results on the convexity of solutions to complex equations. in this paper, we prove a strict real log-concavity theorem for the first eigenfunction of the complex $σ_{2}$-hessian operator on smooth, bounded, real uniformly strictly convex domains in $\\mathbb{c}^{n}$. as an application, we obtain a brunn--minkowski inequality for the first complex $σ_{2}$-hessian eigenvalue. the proof combines a bian--guan constant-rank argument, a new inverse-convexity lemma for the compressed real hessian, and salani's viscosity admissible-test-function method.",
+    "submitted": "2026-06-24",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.25678",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.25912",
+    "title": "optimal partition and segregation problems driven by torsional rigidity",
+    "authors": [
+      "gabriele fioravanti",
+      "nicola soave",
+      "giorgio tortone"
+    ],
+    "abstract": "spectral optimal partition and segregation problems are deeply connected with harmonic maps, eigenfunctions, and the fine structure of nodal sets for linear elliptic equations. in this paper, we show that replacing the spectral energy by torsional rigidity leads to a genuinely different theory. the resulting optimal configurations are governed locally not by harmonic equations, but by torsion-type energies and unstable free boundary problems, thereby creating a natural bridge between optimal partition theory and the analysis of sublinear free boundary phenomena.   we prove existence of optimal torsional partitions and segregated torsional configurations, together with optimal lipschitz regularity of the associated nonlinear eigenfunctions. we establish a strong unique continuation principle, characterize the admissible vanishing orders and the corresponding blow-up profiles, derive sharp hausdorff dimension estimates for the nodal set and its singular subset, and prove $c^{1,α}$-regularity of the regular part of the free boundary. the proofs combine variational arguments with almgren-type and weiss-type monotonicity formulae adapted to the intrinsically sublinear torsional regime, blow-up analysis, and tools from geometric measure theory.",
+    "submitted": "2026-06-24",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.25912",
+    "filter_reason": "keyword match"
   }
 ]
