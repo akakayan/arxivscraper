@@ -1,1 +1,78 @@
-[]
+[
+  {
+    "id": "2501.18398",
+    "title": "multisoliton solutions and blow up for the $l^2$-critical hartree equation",
+    "authors": [
+      "jaime gómez",
+      "tobias schmid",
+      "yutong wu"
+    ],
+    "abstract": "we construct multisoliton solutions for the $l^2$-critical hartree equation with trajectories asymptotically obeying a many-body law for an inverse square potential. precisely, we consider the $m$-body hyperbolic and parabolic non-trapped dynamics. the pseudo-conformal symmetry then implies finite-time collision blow up in the latter case and a solution blowing up at $m$ distinct points in the former case. the approach we take is based on the ideas of [krieger-martel-raphaël, 2009] and the third author's recent extension [wu, 2026]. the approximation scheme requires new aspects in order to deal with a certain degeneracy for generalized root space elements.",
+    "submitted": "2026-06-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2501.18398",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2511.05670",
+    "title": "on semilinear damped wave equations with initial data in homogeneous sobolev spaces",
+    "authors": [
+      "mitsuhiro matsunaga"
+    ],
+    "abstract": "in this paper, we study semilinear damped equations $u_{tt}+u_t-δu=|u|^p$ with the initial data in $(\\dot{h}^{-γ}\\cap h^s)\\times(\\dot{h}^{-γ}\\cap l^2)$ with the dimension $n\\le n$. chen-reissig(2023) studied the case $0<γ\\le\\min\\{\\frac{n}{2}, (-n+\\sqrt{n^2+16n})/4\\}$ and showed that the exponent $p_{\\mathrm{crit}}=1+4/(n+2γ)$ of $p$ distinguishes the time global existence and the blow-up of solution. in this paper, we discuss the case $γ\\ge\\min\\{\\frac{n}{2}, (-n+\\sqrt{n^2+16n})/4\\}$ and show that the critical exponent is not $1+4/(n+2γ)$ but $1+\\frac{2}{n}$ for $n=1,2$, and $(n+\\sqrt{n^2+16n})/(2n)$ for $3\\le n\\le 6$.",
+    "submitted": "2026-06-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2511.05670",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.09689",
+    "title": "regularity and pointwise convergence for dispersive equations on riemannian symmetric spaces of compact type",
+    "authors": [
+      "utsav dewan",
+      "sanjoy pusti"
+    ],
+    "abstract": "in this article, we first prove that for general dispersive equations on riemannian symmetric spaces of compact type $\\mathbb{x}=u/k$, of rank $1$ and $2$ respectively, the sobolev regularity thresholds for the initial data, $α>1/2$ and $α>1$ respectively, are sufficient to obtain pointwise convergence of the solution a.e. on $\\mathbb{x}$. we next focus on $k$-biinvariant initial data for certain special cases of rank $1$, depending on geometric considerations, and prove that the sufficiency of the regularity threshold can be improved down to $α>1/3$, whereas the phenomenon fails for $α<1/4$ for the schrödinger equation. we also obtain the same results for other dispersive equations: the boussinesq equation and the beam equation, also known as the fourth order wave equation, by a novel transference principle, which seems to be new even for the circle $\\mathbb{t} \\cong so(2)$ and may be of independent interest. our arguments involve harmonic analysis arising from the representation theory of compact semi-simple lie groups and also number theory.",
+    "submitted": "2026-06-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.09689",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.26555",
+    "title": "sharp lifespan estimates and fujita phenomena for fractional hardy-hénon type parabolic equations",
+    "authors": [
+      "mohamed majdoub",
+      "berikbol t. torebek"
+    ],
+    "abstract": "we study the lifespan of mild solutions to the fractional semilinear parabolic cauchy problem with a hardy--hénon-type weight \\[   u_t + (-δ)^s u = |x|^{-γ}\\,|u|^p,   \\qquad (t,x)\\in(0,\\infty)\\times\\mathbb{r}^n,   \\qquad u(0,x)=\\varepsilon\\,u_0(x), \\] where $0<s<1$, $0\\leγ<\\min(2s,n)$, $p>1$ and $u_0\\in l^1\\cap l^\\infty$ with $\\int_{\\mathbb{r}^n}u_0(x)\\,dx>0$. setting \\[   p_f \\;:=\\; 1+\\frac{2s-γ}{n}, \\] we prove that the lifespan $t_\\varepsilon$ obeys, for every sufficiently small $\\varepsilon>0$, \\[   t_\\varepsilon \\;\\approx\\;   \\begin{cases}   \\varepsilon^{-\\,β^{-1}},& 1<p<p_f,\\\\[1mm]   \\exp\\!\\big(c\\,\\varepsilon^{-(p-1)}\\big),& p=p_f,\\\\[1mm]   +\\infty,& p>p_f,   \\end{cases}   \\qquad   β\\;=\\;\\frac{(2s-γ)-n(p-1)}{2s(p-1)}. \\] the lower bound rests on fractional heat-kernel estimates and an $l^1$--$l^\\infty$ hardy-type interpolation inequality; the upper bound is obtained by testing the equation against the backward fractional heat kernel, a globally defined positive weight for which $(-δ)^s$ is controlled everywhere and the linear terms cancel identically by self-adjointness. this circumvents the compactly supported cutoffs of the classical test-function method, which are incompatible with a nonlocal operator. the exponent $β$ is sharp; for $γ=0$ it reduces to the fractional lee--ni exponent $\\frac{1}{p-1}-\\frac{n}{2s}$. to the best of our knowledge, these results are new even for $γ=0.$ we also establish a large-data lifespan law, sharp lower bounds on the blow-up rate together with a conditional type-i upper bound, a conditional self-similar profile result.",
+    "submitted": "2026-06-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.26555",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.26658",
+    "title": "exact blowup analysis for the weak-advection hou--li model",
+    "authors": [
+      "thomas y. hou",
+      "xiang qin",
+      "xiuyuan wang"
+    ],
+    "abstract": "we study self-similar singularity formation for the one-dimensional weak-advection hou--li model, a reduced model motivated by the axisymmetric euler equations. in the periodic setting, we construct exact finite-time self-similar blowup solutions for $2/3<a<1$, with profiles that are neither focusing nor expanding. in the whole-space setting with a neumann condition, we construct exact finite-time self-similar blowup solutions for the full range $0<a\\leq1$, with profiles of focusing, non-expanding/non-focusing, or expanding form depending on the sign of the self-similar scaling parameter. the construction is based on a fixed-point formulation near the origin, followed by an ode extension argument. we also establish regularity, asymptotic behavior, monotonicity properties of the profiles, and uniqueness up to the natural scaling invariance.",
+    "submitted": "2026-06-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.26658",
+    "filter_reason": "keyword match"
+  }
+]
