@@ -74,5 +74,134 @@
     ],
     "link": "https://arxiv.org/abs/2606.26658",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2411.11703",
+    "title": "construction of multi solitary waves with symmetry for the damped nonlinear klein-gordon equation",
+    "authors": [
+      "raphaël côte",
+      "haiming du"
+    ],
+    "abstract": "we are interested in the nonlinear damped klein-gordon equation \\[ \\partial_t^2 u+2α\\partial_t u-δu+u-|u|^{p-1}u=0 \\] on $\\mathbb{r}^d$ for $2\\le d\\le 5$ and energy sub-critical exponents $2 < p < \\frac{d+2}{d-2}$.   we construct multi-solitons, that is, solutions which behave for large times as a sum of decoupled solitons, in various configurations with symmetry: this includes multi-solitons whose soliton centers lie at the vertices of an expanding regular polygon (with or without a center), of a regular polyhedron (with a center), or of a higher dimensional regular polytope. we give a precise description of these multi-solitons: in particular the interaction between nearest neighbour solitons is asymptotic to $\\ln (t)$ as $t \\to +\\infty$.   we also prove that in any multi-soliton, the solitons can not all share the same sign.   both statements generalize and precise results from \\cite{f98}, \\cite{nak} and are based on the analysis developed in \\cite{cmyz,cmy}.",
+    "submitted": "2026-06-26",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2411.11703",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2602.21981",
+    "title": "fractal dimension of singular times for spdes: energy bounds, criticality, and weak-strong uniqueness",
+    "authors": [
+      "antonio agresti"
+    ],
+    "abstract": "for several physically relevant spdes, it is known that global weak solutions coexist with local strong ones. typically, weak-strong uniqueness results are known, and ensure that the global and strong solutions coincide as long as the latter exist. times at which a weak solution does not coincide with a strong one are called singular times. determining their fractal dimension is fundamental to capturing the regularity of weak solutions.   we define singular times for a wide class of semilinear spdes. we show that sets of singular times have fractal dimension (i.e., hausdorff and/or minkowski) at most $ 1-\\ell\\, \\mathsf{exc}$, where $\\ell$ and $\\mathsf{exc}$ are the time integrability and the excess of spatial regularity compared to the critical regularity of the energy bound associated with weak solutions, respectively. moreover, their corresponding $(1-\\ell\\,\\mathsf{exc} )$-dimensional measure is zero. we formulate and apply our theory to quenched strong leray-hopf solutions of 3d navier-stokes equations (nses) with physically relevant noises, including rough kraichnan and lie transport. in particular, we extend the fundamental $1/2$-dimensional bound of leray and scheffer on singular times for 3d nses to the stochastic setting, and we prove new conditional results under supercritical serrin's conditions, irrespective of the roughness of the noise. our framework is new even in the deterministic case, and provides the first partial regularity results for weak solutions to spdes with multiplicative noise.",
+    "submitted": "2026-06-26",
+    "categories": [
+      "math.pr",
+      "math-ph",
+      "math.ap",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2602.21981",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.27658",
+    "title": "constraint damping on subextremal kerr spacetimes",
+    "authors": [
+      "peter hintz"
+    ],
+    "abstract": "in the context of hyperbolic formulations of einstein's field equations obtained via gauge fixing, constraint damping is a desirable feature that ensures that violations of the gauge condition and thus of the constraint equations are suppressed in evolution. besides its utility in numerical relativity, it has played a key role in several (linear and nonlinear) stability proofs of spacetimes as solutions of the einstein equations. in this paper, we show that an enhanced form of constraint damping can be implemented for the linearization of the einstein equations around any subextremal kerr black hole metric. the results proved here are a key ingredient in the author's proof of the nonlinear stability of the subextremal kerr family.",
+    "submitted": "2026-06-26",
+    "categories": [
+      "math.ap",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2606.27658",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2606.28008",
+    "title": "(non-)linear waves on asymptotically flat spacetimes. ii: trapping, bound states, nonlinear applications",
+    "authors": [
+      "peter hintz"
+    ],
+    "abstract": "we study wave-type equations on dynamical spacetimes that settle down to a subextremal kerr black hole spacetime. we prove strong estimates for solutions of (tensorial) linear wave-type equations when the time-translation-invariant model satisfies a spectral assumption of mode stability type. we allow for this model to admit zero energy bound states; besides the scalar wave operator (which has no bound states), examples include the wave operator on 1-forms and the linearization of the einstein field equations in generalized harmonic gauge. we demonstrate the utility of our estimates by proving the global existence of solutions to some quasilinear wave equations, including in the presence of zero energy bound states. the results proved here are, moreover, crucial ingredients in the author's proof of the nonlinear stability of subextremal kerr black holes.   our key novel linear estimate controls linear waves in weighted $l^2$-based spacetime sobolev spaces that encode b-regularity, by which we mean regularity with respect to spacetime scaling, spatial scaling (in a hyperboloidal foliation of spacetime), and angular derivatives; this estimate is moreover tame in the b-regularity order, as needed for its applicability in a nash-moser iteration scheme. its proof combines four main ingredients: microlocal propagation estimates in the edge-b-setting near null infinity (as introduced by the author with vasy) and in the author's 3b-setting in the forward cone; estimates for the stationary model operator; energy estimates on edge-b-spaces on finite time intervals; and commutations with b-vector fields. for the nonlinear applications, we moreover develop a dictionary between decay rates in different spacetime regimes on the one hand and weighted low-energy resolvent estimates on the other hand.   this paper builds on part i only a broad conceptual level, and is largely self-contained.",
+    "submitted": "2026-06-26",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.28008",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.28020",
+    "title": "redshift suppression of nonlinear scalar fields in accelerating flrw spacetimes",
+    "authors": [
+      "mirda prisma wijayanto",
+      "emir syahreza fadhilla",
+      "ryan sugihakim",
+      "iwan setiawan",
+      "fiki taufik akbar",
+      "bobby eka gunara"
+    ],
+    "abstract": "we study small--data solutions of a nonlinear scalar field equation on spatially flat $d$--dimensional flrw spacetimes ($d\\ge4$). in conformal time $τ$ the field satisfies a damped semilinear wave/klein--gordon equation with time--dependent coefficients determined by the scale factor $a(τ)$ and the conformal hubble rate $h(τ)=\\dot a/a$. we focus on accelerated conformal expansion of the form $h(τ)=h_0(1+τ)^{-α}$ with $h_0>0$ and $0\\leα<1$, for which $a(τ)$ grows stretched--exponentially, and we assume a power potential $v(φ)=-\\frac{\\varepsilon}{m+1}|φ|^{m+1}$. for global solutions arising from sufficiently small, spatially localized initial data, we introduce the conformal rescaling $ϕ=a^{(d-2)/2}φ$, which removes the first--order hubble damping and exposes the interaction as a \\emph{time--dependent coupling}. in the rescaled equation the nonlinearity is weighted by $g(τ)=a(τ)^σ$ with $σ=\\frac{d+2-(d-2)m}{2}$, so the conformal power $m_{\\mathrm{conf}}=\\frac{d+2}{d-2}$ is the sharp threshold for redshift suppression: $g$ decays for $m>m_{\\mathrm{conf}}$, is constant for $m=m_{\\mathrm{conf}}$ (classical conformal invariance), and grows for $1<m<m_{\\mathrm{conf}}$. for accelerated conformal expansion $h(τ)=h_0(1+τ)^{-α}$ with $0\\leα<1$ and for superconformal interactions $m>m_{\\mathrm{conf}}$, we prove that $g\\in l^1([0,\\infty))$ and deduce small--data global existence together with scattering/asymptotic linearization for $ϕ$. as a complementary result in the diffusion--dominated regime $1<m<1+\\frac{2}{d-1}$, we adapt a weighted energy method for variable damping to deduce explicit $l^2$ and $l^1$ decay rates. these bounds provide a quantitative pde formulation of redshift--induced suppression of nonlinear scalar self--interactions at late conformal times.",
+    "submitted": "2026-06-26",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2606.28020",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.28131",
+    "title": "stochastically forced navier-stokes equations interacting with an elastic structure",
+    "authors": [
+      "felix brandt",
+      "matthias hieber",
+      "arnab roy"
+    ],
+    "abstract": "we prove global-in-time strong pathwise well-posedness for a stochastic fluid-structure interaction problem coupling a two-dimensional incompressible navier-stokes fluid to a one-dimensional damped kirchhoff plate. the coupling is imposed on a fixed interface through continuity of velocities and balance of normal stresses, and stochastic forcing, modeled by a cylindrical wiener process, acts on both the fluid and structure equations. we split the problem into a linear stochastic part and a nonlinear deterministic remainder. the linear stochastic problem is treated by proving that the associated fluid-structure operator admits a bounded \\(\\mathcal{h}^\\infty\\)-calculus, yielding stochastic maximal regularity. this requires a decoupling procedure for the non-diagonal operator domain, and pressure estimates via suitable lifting constructions. the deterministic remainder is solved locally by quasilinear methods, and the resulting blow-up criterion is ruled out by higher-order a priori estimates.   this is the first global-in-time strong pathwise well-posedness result for a stochastically forced navier-stokes system interacting with a deformable elastic structure.",
+    "submitted": "2026-06-26",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.28131",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.28248",
+    "title": "the fujita exponent across an interface",
+    "authors": [
+      "mohamed majdoub",
+      "ezzedine mliki"
+    ],
+    "abstract": "we consider the semilinear parabolic equation \\[ \\partial_t u = δu + 2\\mathfrak{q}\\,δ_{\\mathbb{s}}\\,\\nabla u + |u|^{p-1}u \\qquad \\text{in } (0,\\infty)\\times\\mathbb{r}^n, \\] where $|\\mathfrak{q}|\\le 1$, $p>1$, and $\\mathbb{s}$ is a fixed interface hyperplane.   working in lebesgue spaces, we first establish local well-posedness of mild solutions. this is achieved by combining gaussian bounds for the associated fundamental solution with a contraction mapping argument adapted to the lack of spatial homogeneity induced by the interface term.   we then prove a sharp fujita-type dichotomy for nonnegative solutions. specifically, we show that every nontrivial solution blows up in finite time when $1<p \\le 1+\\frac{2}{n}$, whereas for $p>1+\\frac{2}{n}$ global solutions exist for sufficiently small initial data. the blow-up analysis relies on a suitably adapted test-function method that accounts for the presence of the interface.   it is noteworthy that the critical exponent coincides with the classical fujita exponent for the heat equation, indicating that the fujita phenomenon remains stable under the presence of discontinuous diffusion effects and interface transmission conditions. to the best of our knowledge, this is the first result of this type for operators involving a singular drift supported on a hypersurface.",
+    "submitted": "2026-06-26",
+    "categories": [
+      "math.ap",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2606.28248",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.28253",
+    "title": "nonlinear stability of subextremal kerr black holes",
+    "authors": [
+      "peter hintz"
+    ],
+    "abstract": "we settle the global nonlinear stability problem for the family of kerr black holes in the full subextremal range: spacetimes evolving from initial data close to those of a subextremal kerr black hole as solutions of the einstein vacuum equation ${\\rm ric}(g)=0$ settle down to a nearby member of the kerr family at the rate $\\mathcal{o}(t_*^{-2-ε_{\\mathcal k}})$ in spatially compact regions.   for the initial data, we require $\\mathcal{o}(r^{-1-ε_0})$-decay for $ε_0>0$ -- more precisely, an arbitrary but finite expansion into terms $r^{-z}(\\log r)^k$ where $z>1$, $k\\in\\mathbb{n}_0$, plus a remainder term with $\\mathcal{o}(r^{-3-ε_0})$-decay. similarly to previous work with vasy in the kerr-de sitter setting, we use a generalized wave map gauge modified using gauge source terms that lie in a suitable finite-dimensional space determined by the expansion of the initial data. like the final black hole parameters (mass and angular momentum) and the gravitational wave tail, the gauge source terms are treated as unknowns in a nonlinear (nash-moser) iteration scheme. we work directly with the tensorial equation and in particular do not rely on reductions to scalar equations (except insofar as a reduction to the teukolsky equation is used in the proof of linear mode stability).   this paper relies on two companion papers by the author. the first one introduces a strong form of constraint damping in the full subextremal range, which we use in our formulation of the gauge-fixed einstein equation as a black box. the second one provides tame estimates (albeit with weak decay) for forward solutions of a general class of wave-type equations, which we show here to include the linearizations of the gauge-fixed einstein equation arising in our nonlinear iteration scheme; these estimates are the starting point for our detailed asymptotic analysis.",
+    "submitted": "2026-06-26",
+    "categories": [
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.28253",
+    "filter_reason": "gr-qc cross-listing"
   }
 ]
