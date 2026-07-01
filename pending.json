@@ -180,5 +180,54 @@
     ],
     "link": "https://arxiv.org/abs/2606.30640",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.31090",
+    "title": "stability of the minkowski spacetime in newman-unti gauge",
+    "authors": [
+      "jonathan luk",
+      "sung-jin oh",
+      "claude warnick"
+    ],
+    "abstract": "we prove small-data global stability of the minkowski solution to einstein's equations in a centre-normalised outgoing null-geodesic gauge. our scheme involves first using the $r^p$-estimates of dafermos-rodnianski to control certain components of the weyl tensor which satisfy a decoupled tensorial wave equation. having established this control, all remaining geometric quantities are controlled by transport equations, taking initial conditions at a regular central axis. this method establishes global stability for initial data which decay only weakly to flat space and can establish additional asymptotic control when the data are assumed to have more structure.",
+    "submitted": "2026-06-30",
+    "categories": [
+      "gr-qc",
+      "math-ph",
+      "math.ap",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2606.31090",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2606.31256",
+    "title": "nonlinear subwavelength resonances and bound states in the continuum in metascreens",
+    "authors": [
+      "habib ammari",
+      "yu gao"
+    ],
+    "abstract": "this paper establishes a mathematical framework for nonlinear subwavelength resonances and bound states in the continuum (bic) in an acoustic metascreen with a cubic kerr nonlinearity. we first use the quasiperiodic dirichlet-to-neumann operator to reduce the open resonance problem to an interior nonlinear variational problem. we then decompose the function space in which the variational problem is posed as the direct sum of two spaces and project the variational problem onto these two subspaces. solving the projected equations successively yields a finite-dimensional nonlinear resonance equation with controlled remainders. we next apply the implicit function theorem near simple capacitance modes. this proves the existence and asymptotic expansions of linear subwavelength resonance branches and their small-amplitude nonlinear continuations. finally, reflection symmetry gives a classification of the subwavelength branches. we characterize the symmetric resonance branches and prove that antisymmetric branches are exact bics in both the linear problem and the nonlinear problem.",
+    "submitted": "2026-06-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.31256",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.31643",
+    "title": "fujita-type blow-up for inhomogeneous semilinear heat equations with regularly varying forcing",
+    "authors": [
+      "vishvesh kumar",
+      "mohamed majdoub"
+    ],
+    "abstract": "we develop a unified framework for fujita-type blow-up of solutions to the inhomogeneous semilinear heat equation $$\\partial_tu-δu=|u|^p+\\mathbf{w}(x), \\qquad (t,x)\\in(0,\\infty)\\times\\mathbb{r}^n, \\qquad u(0, \\cdot)=u_0.$$ the classical integrability assumptions on the forcing term are replaced by quantitative regular variation properties of its spatial mass $$f(r)=\\int\\limits_{|x|\\le r}\\mathbf{w}(x)\\,dx.$$ using techniques from regular variation theory together with the mitidieri--pohozaev test-function method, we establish sharp fujita-type nonexistence results and identify the critical exponent in terms of the variation index of $f$. we prove that global solutions do not exist in the subcritical range and obtain critical-case blow-up under suitable slowly varying corrections.   the regular variation framework further shows the optimality of the underlying mass condition, extends naturally to anisotropic settings through operator regular variation, and yields sufficient blow-up criteria for sign-changing forcings via the gaussian-laplace transform. the approach also applies to space-time dependent forcings, riesz-potential type forcings, and equations involving the fractional laplacian, providing a unified description of blow-up thresholds beyond the classical fujita theory.",
+    "submitted": "2026-06-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.31643",
+    "filter_reason": "keyword match"
   }
 ]
