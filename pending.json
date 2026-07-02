@@ -229,5 +229,103 @@
     ],
     "link": "https://arxiv.org/abs/2606.31643",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2601.18355",
+    "title": "on fractional semilinear wave equations in non-cylindrical domains",
+    "authors": [
+      "mauro bonafini",
+      "van phu cuong le",
+      "riccardo molinarolo"
+    ],
+    "abstract": "in this paper, we investigate a class of semilinear wave equations in non-cylindrical time-dependent domains, subject to exterior homogeneous dirichlet conditions. under mild regularity and monotonicity assumptions on the evolving spatial domains, we establish existence of weak solutions by two different methods: a constructive time-discretization scheme and a penalty approach. the analysis applies to nonlocal fractional laplacians and potentials with lipschitz continuous gradient, and to vector-valued maps.",
+    "submitted": "2026-07-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2601.18355",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.00639",
+    "title": "inverse density problem for linear elasticity: uniqueness from local measurements on a partially accessible boundary",
+    "authors": [
+      "yu jia",
+      "chengyu wu",
+      "jiaqing yang"
+    ],
+    "abstract": "we consider the inverse boundary value problem in an elasticity system. it is proved that the density function $ρ$ and its derivatives at the boundary can be uniquely determined from the local cauchy data. furthermore, if the density function is analytic, we can uniquely determine the internal buried objects, as well as the unknown boundary and the boundary conditions imposed on it. our methods mainly based on a precise characterization for the principal part of the difference between a special first-order singular solution and the fundamental solution in the $h^m$ norm, and the blow-up property for the boundary sobolev norms of the volume potential corresponding to the fundamental solution.",
+    "submitted": "2026-07-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.00639",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.00800",
+    "title": "brownian motion in minkowski normed spaces",
+    "authors": [
+      "shin-ichi ohta",
+      "marco rehmeier",
+      "kohei suzuki"
+    ],
+    "abstract": "a minkowski normed space is the euclidean space equipped with a (possibly asymmetric) uniformly convex and smooth norm, forming a particular class of finsler manifolds. we construct a stochastic process with one-dimensional time marginal densities given by the fundamental solution to the nonlinear finsler heat equation in minkowski normed spaces. this process is constructed as a solution to a singular mckean--vlasov stochastic differential equation and constitutes a nonlinear markov process in the sense of mckean. furthermore, we show that solutions to this stochastic differential equation are pathwise unique, and thus probabilistically strong solutions, though the equation has singular coefficients beyond the subcritical regime. since our construction is a natural extension of the construction of standard brownian motion from the standard heat kernel, we call this process \\emph{brownian motion in minkowski normed spaces.} to the best of our knowledge, this is the first construction of stochastic processes associated with nonlinear heat equation in finslerian spaces.",
+    "submitted": "2026-07-01",
+    "categories": [
+      "math.pr",
+      "math.ap",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2607.00800",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.00810",
+    "title": "another look at a notion of fractional mass in codimension two",
+    "authors": [
+      "michele caselli",
+      "mattia freguglia",
+      "nicola picenni"
+    ],
+    "abstract": "we study a notion of fractional $s$-mass for codimension-two currents on closed riemannian manifolds, defined via energy minimization with a prescribed jacobian constraint. we prove equi-coercivity and $γ$-convergence, with respect to the flat topology, of the $s$-mass on general codimension-two currents. we also prove several additional results for fixed $s$. we establish improved regularity for $s$-harmonic maps that are minimizing among competitors with vanishing jacobian and show that their singular set has minkowski dimension at most $n-3$. moreover, we show that the $s$-mass defined via weak linking, as recently introduced by the authors, agrees with the prescribed jacobian formulation used here, clarifying the extent to which the $s$-mass depends, or ultimately does not depend, on the way singularities are prescribed.",
+    "submitted": "2026-07-01",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.00810",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.00891",
+    "title": "low-regularity a priori estimates, blow-up criterion, and self-intersection singularities for free-boundary ideal magnetohydrodynamics with surface tension",
+    "authors": [
+      "tao luo",
+      "siqi yang"
+    ],
+    "abstract": "we study the three-dimensional incompressible free-boundary ideal magnetohydrodynamic (mhd) equations with surface tension and a closed free surface. our first result establishes $h^3$ a priori estimates in general bounded domains, without graph structure, periodicity, or simple connectedness; in particular, for surface-tension ideal mhd in general domains this lowers the previously available threshold from $h^6$. compared with the free-boundary problem for incompressible euler equations, the feature is that the lorentz force enters the elliptic pressure estimates, and the frozen-in magnetic field must preserve the tangential boundary constraint. using these estimates, we prove a refined finite-time blow-up criterion for $h^3$ solutions that separates topological self-intersection, loss of boundary regularity, blow-up of the normal velocity, and interior mhd blow-up. the interior condition has an intrinsic magnetic-field asymmetry: besides $\\|\\nabla u\\|_{l^\\infty}$ and $\\|\\nabla h\\|_{l^\\infty}$, with $u$ and $h$ denoting the velocity and magnetic field, respectively, it requires the additional control of $\\|\\nabla^2 h\\|_{l^2}$, a quantity arising from the lorentz-force contribution to the pressure estimates and having no velocity analogue. finally, we construct regular initial data whose solutions develop finite-time boundary self-intersection while the sobolev regularity and curvature remain controlled up to the contact time. thus, neither surface tension nor the ideal magnetic coupling precludes topological self-intersection of the free boundary.",
+    "submitted": "2026-07-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.00891",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.01154",
+    "title": "local uniqueness and non-degeneracy of blow up solutions to a chern-simons system",
+    "authors": [
+      "zetao cheng",
+      "haoyu li",
+      "lei zhang"
+    ],
+    "abstract": "in this paper, we study blowup solutions of an important class of chern-simons systems. we first show that when blowup of mean-field type occurs, the corresponding blowup solution is unique under natural geometric assumptions. we also establish the non-degeneracy of the linearized system around these blowup solutions. to prove these main results, we carry out a precise blowup analysis, so that the asymptotic description of the solutions reveals the curvature information needed for the uniqueness and non-degeneracy results. compared with related work on similar problems, our estimates are more delicate and technically involved.",
+    "submitted": "2026-07-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.01154",
+    "filter_reason": "keyword match"
   }
 ]
