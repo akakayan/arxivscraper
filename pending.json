@@ -1,1 +1,132 @@
-[]
+[
+  {
+    "id": "2304.14220",
+    "title": "smooth solutions to the chord log-minkowski problem",
+    "authors": [
+      "jinrong hu",
+      "yong huang",
+      "jian lu"
+    ],
+    "abstract": "in integral geometry generalized with aleksandrov's variational theory, lutwak-xi-yang-zhang [comm. pure appl. math. 77 (2024)] recently opened the door to researching the cone-chord measures and their log-minkowski problem stemming from the chord integrals, named as the chord log-minkowski problem. in the smooth category, the solvability of the chord log-minkowski problem amounts to dealing with a nonlocal {m}onge-{a}mpère equation involving a riesz potential. in this paper, to study the chord log-minkowski problem, we first present some novel results on the boundary regularity of the riesz potential. based on these results, we obtain the regularity and existence for the chord log-minkowski problem from the perspective of a nonlocal {m}onge-{a}mpère equation and a nonlocal gauss curvature flow equation.",
+    "submitted": "2026-07-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2304.14220",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2602.05906",
+    "title": "explicit representation of solutions to a linear wave equation with time delay",
+    "authors": [
+      "javad a. asadzade",
+      "jasarat j. gasimov",
+      "nazim i. mahmudov",
+      "ismail t. huseynov"
+    ],
+    "abstract": "this paper develops an explicit spectral representation for solutions of a one-dimensional linear wave equation with a constant time delay. the model is considered on a bounded interval with non-homogeneous dirichlet boundary data and a prescribed history function. to accommodate the loss of global smoothness in time caused by delay terms, solutions are understood in a \\textit{stepwise classical sense}, allowing jump discontinuities in the second time derivative at multiples of the delay while maintaining continuity of the solution and its first time derivative.   by combining separation of variables with sturm-liouville expansions, the delayed pde is reduced to a family of scalar second-order delay differential equations. using delay-dependent fundamental solutions, we derive closed-form representation formulas for the modal dynamics and reconstruct the pde solution as a fourier series. convergence conditions guaranteeing uniform convergence and admissibility of termwise differentiation in space are established. a numerical example demonstrates the practical computation of truncated series solutions and their visualization.",
+    "submitted": "2026-07-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2602.05906",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.01447",
+    "title": "small denominators and subresonant accumulation in weakly nonlinear dispersive dynamics",
+    "authors": [
+      "p. yu. astafieva",
+      "o. m. kiselev"
+    ],
+    "abstract": "we study a small-denominator mechanism in weakly nonlinear dispersive dynamics. after fourier decomposition, a nonlinear dispersive equation becomes an infinite system of weakly coupled oscillators. higher-order correction terms may then contain infinite families of nonresonant fourier interactions whose detunings tend to zero. such families do not produce exact secular terms, but their accumulated contribution may grow as a power of time. we call this effect subresonant accumulation. the rigorous part of the paper is the analysis of a model forced oscillator and of an abstract subresonant duhamel sum. if the detuning and coefficients have the form $δ_n\\sim c n^{-p}$ and $b_n\\sim b n^{-κ}$, then the accumulated contribution grows as $t^{1-α}$, where $α=(κ-1)/p$. we then show how this mechanism appears in a quartic fourier family for the klein--gordon dispersion law. for the full nonlinear partial differential equation we formulate a conditional approximation result: provided that all remaining resonant and almost resonant interactions are controlled, the subresonant term gives the leading long-time correction.",
+    "submitted": "2026-07-01",
+    "categories": [
+      "math-ph",
+      "math.ap",
+      "math.ds",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2607.01447",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.01845",
+    "title": "a local linking theorem for relativistic action functionals",
+    "authors": [
+      "manuel garzón",
+      "salvador lópez-martínez"
+    ],
+    "abstract": "we establish an analogue of the brezis-nirenberg local linking theorem for a class of szulkin-type functionals arising from relativistic action principles. in this framework, compactness of palais-smale sequences is formulated with respect to a topology induced by the effective domain of the functional, replacing the classical strong palais-smale condition. the proof combines the original construction of the min-max geometry, based on a negative gradient flow, with the ekeland-lasry regularization. the main difficulty is that the regularized functional is naturally associated with the strong topology of the underlying functional space, whereas compactness for the original functional is formulated in the topology induced by the effective domain. we overcome this obstacle through a new perturbative construction that recovers the required min-max structure. we apply our abstract multiplicity result to two representative relativistic models: the lorentz force equation, describing the dynamics of a charged particle in an electromagnetic field, and the dirichlet problem for the prescribed mean curvature operator in minkowski space. as a consequence, under natural assumptions, each problem admits at least two non-constant solutions.",
+    "submitted": "2026-07-02",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.ds",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2607.01845",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.01857",
+    "title": "refined blow-up criteria and global solutions for triangular cross-diffusion systems",
+    "authors": [
+      "alexandre bertolino"
+    ],
+    "abstract": "we study the cauchy problem associated with a class of triangular cross-diffusion systems of shigesada-kawasaki-teramoto type. we develop a self-contained well-posedness theory in c 0 ([0, t ]; h s (t d )) based on regularity estimates for scalar kolmogorov equations. the diffusion coefficient of each species depends only on species of lower index, yielding a hierarchical structure that allows for refined blow-up criteria. finite-time singularities can occur only through the divergence of the l $\\infty$ (t d ) norm of the solution. assuming polynomial growth of the nonlinearities, this criterion is refined to an l p -based blow-up condition for some finite exponent p, yielding a substantially weaker obstruction to global existence than classical sobolev blow-up criteria. the proof is achieved through refined tame estimates for composition in sobolev spaces. as an application, we prove global existence of non-negative strong solutions for two-species systems with logistic-type reaction terms in dimensions d $\\le$ 2.",
+    "submitted": "2026-07-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.01857",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.01861",
+    "title": "semi-uniform stability estimates for impedance passive systems with saturated feedback *",
+    "authors": [
+      "swann marx"
+    ],
+    "abstract": "this article investigates the long-time behavior of (possibly infinite-dimensional) impedance passive systems under saturated output feedback and external disturbances. we assume that, in the absence of saturation and disturbances, the underlying linear output feedback exponentially stabilizes the system. our main contribution is to show that fractional sobolev regularity of the free output is preserved by the nonlinear feedback. more precisely, if the initial condition belongs to a suitable interpolation space associated with the linear closed-loop generator, then both the output and the state of the nonlinear closed-loop system inherit the corresponding fractional regularity. this regularity is sufficiently weak to be shared by the linear and nonlinear closed-loop systems, thereby avoiding the identification of the nonlinear generator domain. combining this regularity result with observability estimates for the linear system yields a characterization of the asymptotic behavior of the nonlinear closed-loop system in the presence of disturbances. in particular, under the impedance passivity framework and exact observability and regularity assumptions, we establish a semi-uniform input-tostate stability property. the theory is illustrated by a multidimensional wave equation with nonlinear boundary damping.",
+    "submitted": "2026-07-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.01861",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.02244",
+    "title": "foliations by constant spacetime mean curvature surfaces for asymptotically hyperboloidal initial data sets",
+    "authors": [
+      "jacopo tenan"
+    ],
+    "abstract": "we construct an exhaustive family of constant spacetime mean curvature (stcmc) surfaces for initial data sets close to the anti-de sitter-schwarzschild hyperboloid. in particular, we obtain such a foliation as the long time limit of the volume preserving spacetime mean curvature flow starting from the constant mean curvature foliation constructed by neves-tian (geom. funct. anal., 2009). as an application, inspired by the definition of stcmc center of mass for initial data sets proposed in the asymptotically euclidean setting by cederbaum-sakovich (calc. var. pde, 2021), we study the center of mass of an asymptotically hyperboloidal initial data set.",
+    "submitted": "2026-07-02",
+    "categories": [
+      "math.dg",
+      "math-ph",
+      "math.ap",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2607.02244",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.02493",
+    "title": "stability of global self-similar solutions to the cubic wave equation and the wave maps equation",
+    "authors": [
+      "akansha sanwal",
+      "birgit schörkhuber",
+      "david wallauch"
+    ],
+    "abstract": "we study the long-time stability of global self-similar solutions to two energy supercritical nonlinear wave equations, namely, the cubic nonlinear wave equation in $6$ dimensions and the corotational wave maps equation in $4$ dimensions. we prove the stability of self-similar solutions under perturbations that are small in the critical sobolev spaces. the proof is based on strichartz estimates for wave equations with potentials in similarity variables.",
+    "submitted": "2026-07-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.02493",
+    "filter_reason": "keyword match"
+  }
+]
