@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "2409.05363",
+    "title": "singularity formed by the collision of two collapsing solitons in interaction for the 2d keller-segel system",
+    "authors": [
+      "charles collot",
+      "tej-eddine ghoul",
+      "nader masmoudi",
+      "van tien nguyen"
+    ],
+    "abstract": "it is well-known that the two-dimensional parabolic-elliptic keller-segel system admits finite-time blowup solutions, which is the case if the initial density has total mass greater than $8π$. several constructive examples of such solutions have been given, where for all of them a perturbed stationary state undergoes scale instability and collapses at a point, resulting in an $8π$-mass concentration. it was conjectured that singular solutions concentrating more than one soliton simultaneously could exist. we construct rigorously such a new blowup mechanism, where two stationary states are simultaneously collapsing and colliding, resulting in a $16π$-mass concentration at a single blowup point, and with a new blowup rate which corresponds to the formal prediction by seki, sugiyama and velázquez. we develop, for the first time, a robust framework to rigorously construct blowup solutions that simultaneously involve the non-radial collision and concentration of several solitons, which we expect to have applications to other evolution problems.",
+    "submitted": "2026-07-06",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.fa",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2409.05363",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2607.04575",
+    "title": "global existence of small data solutions to 3-d semilinear euler-poisson-darboux equations",
+    "authors": [
+      "qianqian li",
+      "huicheng yin"
+    ],
+    "abstract": "there is an interesting open question: for $n$-d ($n\\ge 1$) semilinear euler-poisson-darboux equation $\\partial_t^2u-δu+\\fracμ{t}\\partial_tu=|u|^p$, where $t\\ge 1$, $p>1$ and $μ>0$, the global small data weak solution $u$ will exist when $p>p_{crit}(n,μ)=\\max\\{p_s(n+μ), p_f(n)\\}$ with the strauss exponent $p_{s}(n+μ)=\\frac{n+μ+1+\\sqrt{(n+μ)^2+10(n+μ)-7}}{2(n+μ-1)}$ and the fujita exponent $p_f(n)=1+\\frac{2}{n}$. the blowup of weak solution $u$ has been shown when $1<p\\le p_{crit}(n,μ)$ meanwhile this open question has been solved for $n=1,2$. in the present paper, we focus on this open question for $n=3$ and establish the global existence of small data solution $u$ for $μ\\geq\\frac{14}{5}$ (equivalent to $p_{crit}(3,μ)=p_f(3)=\\frac53$) and $p>\\max\\{\\frac53, 1+\\frac{2}μ\\}$.",
+    "submitted": "2026-07-06",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.04575",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.04952",
+    "title": "nonexistence of blow-up solutions with smooth radiation for energy-critical equivariant wave maps",
+    "authors": [
+      "jacek jendrej",
+      "yuchen yin",
+      "lifeng zhao"
+    ],
+    "abstract": "we study $k$-equivariant energy critical wave maps $\\mathbb{r}^{1+2} \\to \\mathbb{s}^2$, for any equivariance degree $k\\ge 2$. we prove that the radiation associated with any finite-energy blow-up solution cannot satisfy a certain regularity condition; in particular, it cannot be smooth. the assumption $k \\geq 2$ is necessary, since for $k = 1$ such solutions are known to exist. the starting point of our analysis is the soliton resolution theorem. the key ingredient is a novel application of the modulation method, in which we compare the effects of the radiation and inner bubbles to study the dynamic behavior of the widest bubble.",
+    "submitted": "2026-07-06",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.04952",
+    "filter_reason": "keyword match"
+  }
+]
