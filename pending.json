@@ -49,5 +49,116 @@
     ],
     "link": "https://arxiv.org/abs/2607.04952",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2404.08410",
+    "title": "on weak inverse mean curvature flow and minkowski-type inequalities in hyperbolic space",
+    "authors": [
+      "brian harvie"
+    ],
+    "abstract": "we prove that a proper weak solution $\\{ ω_{t} \\}_{0 \\leq t < \\infty}$ to inverse mean curvature flow in $\\mathbb{h}^{n}$, $3\\leq n \\leq 7$, is smooth and star-shaped by the time   \\begin{equation*}   t= (n-1) \\log \\left( \\frac{\\text{sinh} \\left( r_{+} \\right)}{ \\text{sinh} \\left( r_{-} \\right)} \\right), \\end{equation*} where $r_{+}$ and $r_{-}$ are the geodesic out-radius and in-radius of the initial domain $ω_{0}$. the argument is inspired by the alexandrov reflection method for extrinsic curvature flows in $\\mathbb{r}^{n}$ due to chow-gulliver and uses a result of li-wei. in addition to this, our methods establish expanding spheres as the only proper weak imcf on $\\mathbb{h}^{n} \\setminus \\{ 0 \\}$ in all dimensions.   as applications, we extend the minkowski inequalities of brendle-hung-wang and de lima-girao to outer-minimizing domains $ω_{0} \\subset \\mathbb{h}^{n}$ in dimensions $3 \\leq n \\leq 7$. from this, we also extend a penrose-type inequality to balanced asymptotically hyperbolic graphs over the exteriors of outer-minimizing domains of $\\mathbb{h}^{n}$ in these dimensions.",
+    "submitted": "2026-07-06",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2404.08410",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2405.15181",
+    "title": "inverse mean curvature flow with outer obstacle",
+    "authors": [
+      "kai xu"
+    ],
+    "abstract": "we develop a new boundary condition for the weak inverse mean curvature flow, which gives canonical and non-trivial solutions in bounded domains. roughly speaking, the boundary of the domain serves as an outer obstacle, and the evolving hypersurfaces are assumed to stick tangentially to the boundary upon contact. in smooth bounded domains, we prove an existence and uniqueness theorem for weak solutions, and establish $c^{1,α}$ regularity of the level sets up to the obstacle. the proof combines various techniques, including elliptic regularization, blow-up analysis, and certain parabolic estimates. as an analytic application, we address the well-posedness problem for the usual weak inverse mean curvature flow, showing that the initial value problem always admits a unique maximal (or innermost) weak solution.",
+    "submitted": "2026-07-07",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2405.15181",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2503.00633",
+    "title": "splitting algorithms for paraxial and itô-schrödinger models of wave propagation in random media",
+    "authors": [
+      "guillaume bal",
+      "anjali nair"
+    ],
+    "abstract": "this paper introduces a full discretization procedure to solve wave beam propagation in random media modeled by a paraxial wave equation or an itô-schrödinger stochastic partial differential equation. this method bears similarities with the phase screen method used routinely to solve such problems. the main axis of propagation is discretized by a centered splitting scheme with step $δz$ while the transverse variables are treated by a spectral method after appropriate spatial truncation. the originality of our approach is its theoretical validity even when the typical wavelength $θ$ of the propagating signal satisfies $θ\\llδz$. more precisely, we obtain a convergence of order $δz$ in mean-square sense while the errors on statistical moments are of order $(δz)^2$ as expected for standard centered splitting schemes. this is a surprising result as splitting schemes typically do not converge when $δz$ is not the smallest scale of the problem. the analysis is based on equations satisfied by statistical moments in the itô-schrödinger case and on integral (duhamel) expansions for the paraxial model. several numerical simulations illustrate and confirm the theoretical findings.",
+    "submitted": "2026-07-07",
+    "categories": [
+      "math.na",
+      "cs.na",
+      "math-ph",
+      "math.ap",
+      "math.mp",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2503.00633",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2505.14934",
+    "title": "solutions of second order schrödinger wave equations near static black holes and strong singularities of the potentials",
+    "authors": [
+      "igor m. oliynyk"
+    ],
+    "abstract": "we consider a linear schrödinger operator $h = -δ+ v$ with a strongly singular potential $v$ not bounded from below on a non-compact incomplete riemannian manifold $m$. we assume that the negative part of potential $v_{-}$ is measurable, and it does not necessarily belong to either local kato or stummel classes, and we define new geometric conditions on the growth of $v_{-}$ in a special $\\textit{range control neighborhood (rcn)}$ such that $h$ is semibounded from below on functions compactly supported in these neighborhoods. we define rcn by means of $\\textit{an inner time metric}$ which estimates the minimal time for a classical particle to travel between any two points on $m$, and we assume that $m$ is complete w.r.t. this metric, i.e. the potential $v$ is classically complete on $m$. for the corresponding cauchy problem of the wave equation $u_{tt} + hu = 0$ we define locally a lorentzian metric such that its light cone is formed along the minimizing curves with respect to the inner time metric, where both an energy inequality and uniqueness of solutions hold. inversely, for well-known lorentzian metrics of static black holes - schwarzschild, reissner-nordström, and de sitter metrics - we study the wave equations for the corresponding schrödinger operators, and we show that the event horizons of these black holes belong to the rcns of infinity w.r.t. the inner time metrics, and that all solutions of the mixed problems stay in these neighborhoods indefinitely long.",
+    "submitted": "2026-07-06",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2505.14934",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2508.15155",
+    "title": "future stability of tilted two-fluid bianchi i spacetimes",
+    "authors": [
+      "grigorios fournodavlos",
+      "elliot marshall",
+      "todd a. oliynyk"
+    ],
+    "abstract": "we establish the nonlinear stability to the future of tilted two-fluid bianchi i solutions to the einstein-euler equations with positive cosmological constant and linear equations of state $p_{(\\mathfrak{a})}=k_{(\\mathfrak{a})}ρ_{(\\mathfrak{a})}$, $\\mathfrak{a}\\in\\{1,2\\}$, where $\\frac{1}{3}<k_{(\\mathfrak{a})}<\\frac{5}{7}$.",
+    "submitted": "2026-07-07",
+    "categories": [
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2508.15155",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2607.05856",
+    "title": "the damped waves equation and generalized cosine and sine families on banach spaces",
+    "authors": [
+      "yuri latushkin",
+      "alin pogan"
+    ],
+    "abstract": "we study the abstract damped wave equation on a banach space, allowing the damping coefficient to be unbounded. by recasting the equation as a first-order system and identifying conditions under which the associated block operator generates a $c_0$-group, we construct generalized cosine and sine families that represent mild and classical solutions, extending the classical undamped theory. we establish existence, uniqueness, regularity, invariant subspaces, growth rate, and trigonometric type identities for these families. our setup applies to a broad class of damped wave, klein--gordon, and higher-order pde examples, including cases where damping restores well-posedness that fails in the undamped equation.",
+    "submitted": "2026-07-07",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.05856",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.06064",
+    "title": "a time-domain pressure-interface model for gas bubble dynamics with surface tension: well-posedness, classical limits, and resonance branches",
+    "authors": [
+      "long li",
+      "mourad sini"
+    ],
+    "abstract": "we derive and analyze a time-domain pressure--interface evolution model for a compressible gas bubble in a compressible liquid with surface tension. starting from the nonlinear two-phase euler free-boundary problem and linearizing about a spherical young--laplace equilibrium, we obtain a coupled bulk--surface hyperbolic system for the liquid pressure, the gas pressure, and the normal displacement of the interface.   the time-domain analysis is complicated by the fact that the surface-tension quadratic form is indefinite: the \\(y_0^0\\) component is the volume-changing breathing mode, the \\(y_1^m (m = \\{-1,0,1\\})\\) components are neutral translations, and only the higher spherical harmonics give a coercive shape-mode energy. we exploit this decomposition. the coercive sector is treated by a \\(c^0\\)-semigroup argument, while the breathing mode is analyzed separately by fourier--laplace methods. this yields well-posedness for admissible finite-energy data and classical solutions under the natural compatibility conditions.   we then justify two limiting descriptions with quantitative error estimates. in an acoustic quasi-static regime, the model reduces to the linearized rayleigh--plesset equation for the breathing mode and to the linearized rayleigh--lamb equations for the shape modes. in a different regime, it reduces to the frozen-interface acoustic transmission model. finally, a frequency-domain analysis identifies the corresponding minnaert, rayleigh--lamb, and fabry--pérot-type resonance mechanisms as different components and limits of the same pressure--interface formulation.",
+    "submitted": "2026-07-07",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.06064",
+    "filter_reason": "keyword match"
   }
 ]
