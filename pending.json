@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "1406.7675",
+    "title": "nonlinear pdes with modulated dispersion ii: korteweg-de vries equation",
+    "authors": [
+      "khalil chouk",
+      "massimiliano gubinelli",
+      "guopeng li",
+      "jiawei li",
+      "tadahiro oh"
+    ],
+    "abstract": "(due to the limit on the number of characters for an abstract set by arxiv, the full abstract can not be displayed here. see the abstract in the paper.)   we study dispersive equations with a time non-homogeneous modulation acting on the linear dispersion term. as primary models, we consider the korteweg-de vries equation (kdv) and related equations such as the benjamin-ono equation (bo) and the intermediate long wave equation (ilw), imposing certain irregularity conditions on the time non-homogeneous modulation. in this work, we establish phenomena called regularization by noise in three-folds: (i) when the modulation is sufficiently irregular, we show that the modulated kdv on both the circle and the real line is locally well-posed in the regime where the (unmodulated) kdv equation is known to be ill-posed. in particular, given any $s \\in \\mathbb r$, we show that the modulated kdv on the circle with a sufficiently irregular modulation is locally well-posed in $h^s(\\mathbb t)$. moreover, by adapting the $i$-method to the current modulated setting, we prove global well-posedness of the modulated kdv in negative sobolev spaces. (ii) it is known that certain (semilinear) dispersive equations such as bo and ilw exhibit quasilinear nature. we show that sufficiently irregular modulations make the modulated versions of these equations semilinear by establishing their local well-posedness by a contraction argument, providing local lipschitz continuity of the solution map. (iii) we also prove nonlinear smoothing for these modulated equations, where we show that a gain of regularity of the nonlinear part becomes (arbitrarily) larger for more irregular modulations.   as applications of our approach, we also include further examples.",
+    "submitted": "2026-07-09",
+    "categories": [
+      "math.ap",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/1406.7675",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.29989",
+    "title": "a brunn-minkowski inequality for schrödinger operators with kato class potentials",
+    "authors": [
+      "alessandro carbotti"
+    ],
+    "abstract": "in this paper we prove a brunn-minkowski inequality for the first dirichlet eigenvalue of a schrödinger type operator $\\mathcal{h}_v:=-\\operatorname{div}(a\\nabla)+v$, where $v$ is convex and kato decomposable, using the trace class property of the generated semigroup. as a consequence, we obtain the log-concavity of the ground state using the ultracontractivity of the semigroup, and also the strong log-concavity under additional assumptions on $ω$ and $v$.",
+    "submitted": "2026-07-09",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2603.29989",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.08433",
+    "title": "a note on the convergence of the eigenvalues in a subdomain to the continuous spectrum",
+    "authors": [
+      "miroslav bulíček",
+      "bjørn fredrik nielsen",
+      "zdeněk strakoš"
+    ],
+    "abstract": "the sigest paper nielsen and strakoš (2024) characterized the spectrum of the preconditioned operator $δ^{-1}[\\nabla \\cdot (k\\nabla u)]$ in a bounded open two-dimensional domain $ω$, where $δ$ denotes the laplacian and $k(x,y)$ is a continuous symmetric matrix-valued function. an important part of the analysis states that for a diagonal tensor $k$ constant in an open subdomain $s \\subset ω$, the closed interval defined by its diagonal elements belongs to the spectrum of the preconditioned operator. this result is correct, but the proof in nielsen and strakoš (2024) must be refined.   this paper presents a refined proof and extends the previous work. as shown in the cited papers, for any point $λ$ in the open interval defined by the elements of the diagonal tensor constant in $s$ and any point $(x_0,y_0)\\in s$, a rectangular subdomain $σ_l\\subset s$ can be constructed such that the generalized eigenvalue problem associated with the preconditioned operator restricted to $σ_l$, of arbitrarily small size, has the eigenvalue $λ$ and infinitely many eigenfunctions. these are given by solutions of a locally defined wave equation. however, such solutions of the locally restricted generalized eigenvalue problem cannot be extended to the whole domain $ω$. using instead rectangular subdomains whose size shrinks to zero, the present paper constructs a weyl singular sequence of \\emph{approximate} eigenfunctions associated with $λ$, proving that $λ$ belongs to the spectrum of the preconditioned operator. since self-adjoint operators in a separable hilbert space can have at most a countable set of eigenvalues, this shows that the eigenvalues of the locally defined operator converge to points of the continuous spectrum of the preconditioned operator on the entire domain.",
+    "submitted": "2026-07-09",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.08433",
+    "filter_reason": "keyword match"
+  }
+]
