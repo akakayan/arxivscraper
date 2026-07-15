@@ -155,5 +155,87 @@
     ],
     "link": "https://arxiv.org/abs/2607.11702",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2502.13670",
+    "title": "strichartz estimates for the half klein-gordon equation on asymptotically flat backgrounds and applications to cubic dirac equations",
+    "authors": [
+      "sebastian herr",
+      "seokchang hong"
+    ],
+    "abstract": "the aim of this paper is to establish the $l^2_t$-endpoint strichartz estimate for (half) klein-gordon equations on a weakly asymptotically flat space-time. as an application we prove small data global well-posedness and scattering for massive cubic dirac equations in the full subcritical range in this setting.   crucial ingredient is a parametrix contruction following the work of metcalfe-tataru and xue and complements strichartz estimates obtained by zheng-zhang. the proof of the global result for the cubic dirac equation follows the strategy developed by machihara-nakanishi-ozawa in the euclidean setting.",
+    "submitted": "2026-07-14",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2502.13670",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2502.19775",
+    "title": "axisymmetric type ii blowup solutions to the three-dimensional keller-segel system",
+    "authors": [
+      "thomas y. hou",
+      "van tien nguyen",
+      "peicong song"
+    ],
+    "abstract": "we construct axisymmetric solutions to the three-dimensional parabolic-elliptic keller-segel system that blow up in finite time. in particular, the singularity is of type ii, which locally admits a leading-order profile of the rescaled stationary solution of the two-dimensional system. additionally, mass concentration occurs along a one-dimensional ring in the plane. in the analysis, we rely on an approximate solution of the eigenproblem associated with the linearized operator around the stationary solution as well as the modulation dynamics to control the perturbation function and derive the accurate blowup rate.",
+    "submitted": "2026-07-14",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.fa",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2502.19775",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.11067",
+    "title": "blow-up phenomena for the $σ_2$-yamabe equation",
+    "authors": [
+      "bin deng",
+      "han lu",
+      "jun-cheng wei"
+    ],
+    "abstract": "for every integer $n\\ge27$, we construct a smooth metric on $\\mathbb s^n$ that is invariant under the antipodal map and is not locally conformally flat. for this fixed background metric, the normalized $σ_2$-yamabe equation admits a noncompact family of positive $γ_2^+$-admissible solutions. the main difficulty is the possible loss of ellipticity of the linearized operator. this difficulty does not occur for the scalar yamabe equation, whose linearization has a fixed laplace-type principal part. in the $σ_2$ problem, the positive newton tensor of a standard bubble decays in the far field, while the terms produced by the background metric need not decay at the same rate. our construction provides the relative decay needed to keep the conformal metrics inside the ellipticity cone. a quartic profile in the finite-dimensional reduction yields the endpoint dimension $n=27$.",
+    "submitted": "2026-07-13",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.11067",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.12413",
+    "title": "control and homogenization of a coupled hyperbolic system with an oscillating coefficient",
+    "authors": [
+      "vaibhav kumar jena",
+      "abu sufian"
+    ],
+    "abstract": "we study the control and homogenization properties of a coupled hyperbolic system characterised by a rapidly oscillating coefficient present in the principal term. due to the high-frequency microstructural variations of the density parameter $\\varepsilon$, classical uniform controllability results across all initial data fail under boundary controls alone. to overcome this limitation, we divide the spectrum into low and high-frequency components. utilizing ingham-beurling-type inequalities combined with spectral gap analysis, we demonstrate the uniform null controllability of the projected low-frequency and high-frequency states. furthermore, we analyse the structural limits as $\\varepsilon \\to 0$ and prove that the associated sequence of boundary controls converge weakly to a null control for the underlying homogenized system. finally, we show that by using an additional interior feedback control strategy, full space controllability can be achieved for all initial data in the energy space.",
+    "submitted": "2026-07-14",
+    "categories": [
+      "math.ap",
+      "math.oc"
+    ],
+    "link": "https://arxiv.org/abs/2607.12413",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.12899",
+    "title": "regular curves, singular graphs: cantor parts and the relaxed willmore energy",
+    "authors": [
+      "hans-christoph grunau",
+      "boris gulyak"
+    ],
+    "abstract": "one might expect that finite relaxed elastic energy rules out diffuse singularities in the derivative, leaving only absolutely continuous and jump parts. this is suggested by the role of $sbv$ in free-discontinuity problems and by interpreting jumps as vertical segments of limiting graphs. we show that it fails for the relaxed one-dimensional willmore energy. we construct a continuous function $u\\in bv((0,1))$ with $d^c u\\neq0$ and $\\overline{\\mathcal{w}}(u)<\\infty $, so finite relaxed willmore energy does not imply $u\\in sbv((0,1))$. the idea is to concentrate the cantor part exactly where the absolutely continuous slope blows up. there the singular diffuse measure meets the blow-up condition of the relaxation theorem, while the weighted curvature term stays integrable.   geometrically, the example shows that cantor parts of $bv$-graph derivatives need not be intrinsic singularities of the underlying curve. the graph has an arc-length parametrization of class $c^1\\cap w^{2,2}$, and a suitable rotation turns it into a lipschitz graph whose derivative has no singular part. the construction also rescales to make the relaxed willmore energy arbitrarily small, and it extends to relaxed $l^p$-curvature energies for all $p>1$.",
+    "submitted": "2026-07-14",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.12899",
+    "filter_reason": "keyword match"
   }
 ]
