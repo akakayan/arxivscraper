@@ -237,5 +237,165 @@
     ],
     "link": "https://arxiv.org/abs/2607.12899",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2504.06946",
+    "title": "uniqueness of lp minkowski problem in the supercritical range",
+    "authors": [
+      "shi-zhong du"
+    ],
+    "abstract": "the uniqueness of the $l_p$-minkowski problem has been a long standing problem in convex geometry, which draws back earlier in 1974 the paper (mathematika, {\\bf21}, 1974) by firey, and later developed by lutwak, yang, zhang (trans. am. math. soc., {\\bf356}, 2004) et al. in the groundbreaking paper by brendle-choi-daskalopoulos (acta math, {\\bf219}, 2017), a full uniqueness result was shown for the subcritical exponents $p\\in(-n-1,1]$. in the supercritical range, the uniqueness problem is much more complicated, even on the planar case $n=1$. one of the famous results was shown by andrews in (j. amer. math. soc., {\\bf16}, 2003), where he established that the uniqueness holds in the range $p\\in(-7,-2)$ and fails to hold for the other supercritical exponents $p\\in(-\\infty,-7)$. in this paper, we study the same uniqueness problem in the full supercritical range $p\\in(-2n-5,-n-1)$ for all higher dimensional cases $n\\geq2$. we will prove that for $p\\in(-2n-5,-n-1)$, the unique strongly symmetric solution is given by the unit sphere $§^n$. the uniqueness range $(-2n-5,-n-1)$ is optimal due to our recent preprint (arxiv: 2104.07426), where non-spherical strongly symmetric solutions have been constructed for all $p\\in(-\\infty,-2n-5)$. when considering general solutions which may not be symmetric, the uniqueness set $γ$ of $p$ for which the uniqueness holds, is shown to be both relatively open and closed in the full interval $(-2n-5,-n-1)$.",
+    "submitted": "2026-07-15",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2504.06946",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2506.16365",
+    "title": "output regulation for impedance passive systems with input saturation",
+    "authors": [
+      "thavamani govindaraj",
+      "lassi paunonen"
+    ],
+    "abstract": "we consider output tracking and disturbance rejection for abstract infinite-dimensional systems with input saturation. we solve the control problem using a control law which consists of a stabilising error feedback term and a feedforward term based on the reference and disturbance signals. we use our results to design control laws for output tracking and disturbance rejection for a two-dimensional heat equation and a one-dimensional wave equation with boundary control and observation.",
+    "submitted": "2026-07-14",
+    "categories": [
+      "math.oc",
+      "math.ap",
+      "math.fa"
+    ],
+    "link": "https://arxiv.org/abs/2506.16365",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.13259",
+    "title": "ill-posedness in the critical sobolev space for the fokas-olver-rosenau-qiao equation",
+    "authors": [
+      "dan-andrei geba"
+    ],
+    "abstract": "this article proves norm inflation in the critical sobolev space $h^{5/2}(\\mathbb{r})$ for the fokas-olver-rosenau-qiao equation, which is a modified camassa-holm-type equation with cubic nonlinearity. this result complements the well-posedness theory for this equation, which was previously known to be locally well-posed in $h^{s}(\\mathbb{r})$ for $s>5/2$. the proof relies on the construction of explicit initial data satisfying the previously known blow-up criteria for the fokas-olver-rosenau-qiao equation, a step that appears to be of independent interest.",
+    "submitted": "2026-07-14",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.13259",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.13279",
+    "title": "optimal geometric barriers for weighted observability of heat semigroups on metric measure spaces",
+    "authors": [
+      "vincent boulard",
+      "amaury hayat",
+      "emmanuel trélat"
+    ],
+    "abstract": "weighted integrated observability inequalities for heat equations usually involve a small-time factor of the form $e^{-γ/t}$. we prove that this scale is not an artefact of carleman or spectral methods: it is forced by the geometry of the observation set.   let $a$ be a nonnegative self-adjoint operator on sections of a finite-rank euclidean vector bundle over a doubling metric measure space, satisfying ultracontractivity, davies-gaffney estimates (equivalently, finite speed of propagation for the wave equation) and a pointwise local weyl law. if a weighted integrated observability inequality holds on a measurable set $ω$, for a fixed horizon $t\\in(0,+\\infty]$ and an admissible weight $h$, then, for every $0<κ<\\frac{1}{2}$, $$ h(t)\\leq a_{t,κ}\\exp\\left(-κ\\frac{\\mathcal{l}(ω)^2}{t}\\right),\\qquad 0<t<t, $$ where $\\mathcal{l}(ω)$ is the essential maximal distance to $ω$, replaced by any finite radius when $\\mathcal{l}(ω)=+\\infty$. thus, for $h(t)=e^{-γ/t}$, necessarily $γ\\geq\\mathcal{l}(ω)^2/2$. this settles, with the optimal threshold, the maximal-distance lower bound for the infinite-time constant left open in earlier work. in the control-norm convention, the fast-control rate is at least $\\mathcal{l}(ω)^2/4$, recovering miller's bound.   the proof rests on the spectral packet $(\\cosh(r\\sqrt a)-1)e^{-ta}$. a pointwise weyl law gives its sharp lower growth, while finite propagation speed and a weak-kernel kannai transmutation formula make it exponentially small on $ω$. without kernel continuity or compact resolvent, we develop pointwise spectral measures and weak wave kernels. the framework covers laplace-type operators on compact riemannian manifolds, coupled heat systems, schrödinger operators on $\\mathbb{r}^d$, equiregular sub-laplacians and grushin models, and $δ'$-coupled laplacians on metric graphs.",
+    "submitted": "2026-07-14",
+    "categories": [
+      "math.ap",
+      "math.oc",
+      "math.sp"
+    ],
+    "link": "https://arxiv.org/abs/2607.13279",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.13299",
+    "title": "state constrained convex nash equilibrium problems coupled with linear hyperbolic pdes",
+    "authors": [
+      "marcelo bongarti",
+      "michael hintermüller"
+    ],
+    "abstract": "we study the existence of equilibria for state constrained, convex generalized nash equilibrium problems (gneps) coupled with hyperbolic partial differential equations (pdes). analogous problems have been addressed for state constrained gneps coupled with elliptic and parabolic pdes, respectively, but the problematic regularity of the set-valued constraint maps has been a barrier for development of an existence theory in the hyperbolic case. this is mainly due to compactness issues with the strategy-to-state maps. beyond existence, we also provide first-order optimality conditions for a class of fairly general linear hyperbolic pdes and show its relevance for applications such as the wave equation, advertising dynamics, and the linearized isothermal euler system on networks.",
+    "submitted": "2026-07-14",
+    "categories": [
+      "math.oc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.13299",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.13628",
+    "title": "existence and limiting profiles of normalized travelling wave solutions for the pseudo-relativistic schrödinger equation with logarithmic nonlinearity",
+    "authors": [
+      "pietro d'avenia",
+      "qihan he",
+      "alessio pomponio",
+      "lianfeng yang"
+    ],
+    "abstract": "we study the existence and asymptotic behaviour of normalized solutions to the following pseudo-relativistic schrödinger equation with logarithmic nonlinearity \\[ (\\sqrt{-δ+m^2 }-m )u+i(v\\cdot \\nabla )u+λu = u\\log|u|^2+|u|^{p-2}u, \\qquad \\text{in }\\mathbb{r}^n, \\] under the mass constraint \\[ \\|u\\|_2^2=a, \\] where $m,a>0$, $2<p\\le\\frac{2n}{n-1}$ with $n\\ge 2$, $v\\in \\mathbb{r}^n$ is the travelling velocity with $|v|<1$, and $λ\\in\\mathbb{r}$ appears as lagrange multiplier, as minima of the corresponding energy on the constraint. by applying variational method, we first provide a complete classification of the existence and nonexistence of such minima. in particular, for the mass-critical case $p=2+\\frac{2}{n}$, we show that there exists a constant $a^\\ast_v$ which is a threshold for the existence. based on this, we analyse the blow-up behaviour of such minimizers as $a$ approaches $a^\\ast_v$ from below. finally, we investigate the limiting profiles of minimizers to problem when $\\lim\\limits_{n\\to\\infty}a_n=a_0\\in(0,+\\infty)$ with $\\{a_n\\}\\subset(0,+\\infty)$ in the mass-subcritical case $2<p<2+\\frac{2}{n}$ and $\\lim\\limits_{n\\to\\infty}a_n= a_0\\in(0,a^\\ast_v)$ with $\\{a_n\\}\\subset(0,a^\\ast_v)$ in the mass-critical case $p=2+\\frac{2}{n}$, respectively.",
+    "submitted": "2026-07-15",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.13628",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.13706",
+    "title": "global well-posedness of strong solutions to a model for the morning glory cloud",
+    "authors": [
+      "jinkai li",
+      "yuan ma",
+      "dong wang"
+    ],
+    "abstract": "in this paper, we investigate the global well-posedness of strong solution to a model recently derived by constantin-johnson \\cite{cajo} which describes the nonlinear wave propagation in the troposphere, especially for the morning glory cloud. assuming that the initial velocity $v_0\\in h^1$ and the thermodynamic forcing term $k\\in l^2(0,t;l^2)$, we show that there exists a unique global strong solution to the initial boundary value problem of this system. similar result was only known before for sufficiently small initial data in the existing literature.",
+    "submitted": "2026-07-15",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.13706",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.13775",
+    "title": "a spinor-adapted geometric approach for nonlinear dirac systems and its application to a tensorial wave-dirac system near minkowski spacetime",
+    "authors": [
+      "seokchang hong"
+    ],
+    "abstract": "we study a nonlinear tensorial wave-dirac system on $(1+3)$-dimensional asymptotically flat spacetimes as a semilinear model motivated by the maxwell-dirac and einstein-dirac systems. the purpose of this model is to isolate the interaction between the null geometry of antisymmetric tensor fields and the intrinsic first-order geometry of the dirac equation while avoiding the derivative loss mechanism of the einstein equations and the gauge structure of the maxwell equations.   our analysis preserves the first-order nature of the dirac equation throughout the nonlinear argument. the dirac current provides the fundamental energy identity, while quantitative spacetime estimates are obtained from the wave equation arising from the squared dirac operator. combining these ingredients with integrated local energy decay estimates and $r^p$-weighted energy hierarchies, we establish a coupled energy method for the tensorial and spinorial components. a key observation is that the clifford algebra is compatible with the null decomposition of antisymmetric tensor fields and excludes the most singular nonlinear interactions.   as a consequence, we establish the global existence of small-data solutions together with quantitative weighted energy and decay estimates. remarkably, combining the null structure with dyadic argument, weak decay such as $t^{-\\frac12-δ}$ is sufficient to obtain nonlinear stability of the system, in the spirit of \\cite{dhrt}.   we expect that the geometric ideas developed in this paper provide a useful starting point for the study of more general nonlinear dirac systems, including the maxwell-dirac and einstein-dirac equations.",
+    "submitted": "2026-07-15",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2607.13775",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.13811",
+    "title": "strict lyapunov function for the one-dimensional linear wave equation with a locally distributed damping",
+    "authors": [
+      "jean-michel coron"
+    ],
+    "abstract": "we construct an explicit strict lyapunov function for the one-dimensional linear wave equation with a locally distributed damping and dirichlet boundary conditions.",
+    "submitted": "2026-07-15",
+    "categories": [
+      "math.ap",
+      "math.oc"
+    ],
+    "link": "https://arxiv.org/abs/2607.13811",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.13944",
+    "title": "propagation dynamics of an acid-mediated invasion model with degenerate tumor diffusion",
+    "authors": [
+      "xinyue cao",
+      "quentin griette",
+      "xiong li",
+      "yang wang"
+    ],
+    "abstract": "we investigate traveling wave fronts for an acid-mediated tumor invasion model with density-dependent degenerate diffusion. the model is a partially diffusive pde--ode system of gatenby--gawlinski type, in which the tumor diffusion coefficient $d(u)$ is allowed to be a general decreasing function satisfying $d(1)=0$. this degeneracy causes the traveling wave equation for the tumor component to lose uniform ellipticity near the healthy state, and hence standard arguments for nondegenerate reaction diffusion systems are not directly applicable. to overcome this difficulty, we introduce a nonlinear change of variables which removes the degeneracy from the highest-order term of the tumor equation. for each fixed admissible tumor profile, the acid profile is represented by a green kernel, while the healthy-tissue profile is obtained from an explicit integral formula. the transformed tumor profile is then constructed as the stationary limit of a uniformly parabolic auxiliary problem. by combining comparison principles, local schauder estimates, carefully chosen super- and sub-solutions, and schauder's fixed point theorem, we prove the existence of traveling wave fronts for every wave speed $θ\\ge 2\\sqrt{rd(0)}$. the resulting wave connects the tumor-dominant state $(0,1,1)$ at $z=-\\infty$ to the healthy state $(1,0,0)$ at $z=+\\infty$. we further establish strict pointwise bounds, monotonicity of all wave components, and one-sided exponential asymptotic estimates in both the transformed variable and the original traveling-wave variable.",
+    "submitted": "2026-07-15",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.13944",
+    "filter_reason": "keyword match"
   }
 ]
