@@ -108,5 +108,104 @@
     ],
     "link": "https://arxiv.org/abs/2607.15145",
     "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2502.10032",
+    "title": "intermittency and dissipation regularity in turbulence",
+    "authors": [
+      "luigi de rosa",
+      "theodore d. drivas",
+      "marco inversi",
+      "philip isett"
+    ],
+    "abstract": "we lay down a geometric-analytic framework to capture properties of energy dissipation within weak solutions to the incompressible euler equations. for solutions with spatial besov regularity, it is proved that the duchon-robert distribution has optimal improved regularity in a negative besov space and, in the case it is a radon measure, it is absolutely continuous with respect to a suitable hausdorff measure. this imposes quantitative constraints on the dimension of the, possibly fractal, dissipative set and the admissible structure functions exponents, relating to the phenomenon of ''intermittency'' in turbulence. as a by-product of the approach, we also recover many known ''onsager singularity'' type results.",
+    "submitted": "2026-07-17",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp",
+      "physics.flu-dyn"
+    ],
+    "link": "https://arxiv.org/abs/2502.10032",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2510.26755",
+    "title": "quantitative lorentzian isoperimetric inequalities in conical minkowski spacetimes",
+    "authors": [
+      "christian lange",
+      "jonas w. peteranderl"
+    ],
+    "abstract": "we establish optimal stability estimates in terms of the fraenkel asymmetry with universal dimensional constants for a lorentzian isoperimetric inequality due to bahn and ehrlich and, as a consequence, for a special version of a lorentzian isoperimetric inequality due to cavalletti and mondino. for the bahn--ehrlich inequality the fraenkel asymmetry enters the stability result quadratically like in the euclidean case while for the cavalletti--mondino inequality the fraenkel asymmetry enters linearly. as it turns out, refining the latter inequality through an additional geometric term allows us to recover the more common quadratic stability behavior. along the way, we provide simple, self-contained proofs for the above isoperimetric-type inequalities. moreover, in a fixed conical minkowski spacetime, we use a lipschitz bound, naturally provided by the causal structure, to upgrade our quantitative control to a hausdorff stability estimate. this estimate is formulated in terms of a distance defined by bahn and ehrlich, which restricts to a natural hausdorff-type metric on the space of cauchy hypersurfaces.",
+    "submitted": "2026-07-17",
+    "categories": [
+      "math.dg",
+      "math-ph",
+      "math.ap",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2510.26755",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.14752",
+    "title": "strong and weak rates of convergence in the smoluchowski--kramers approximation for stochastic partial differential equations",
+    "authors": [
+      "charles-edouard bréhier",
+      "ziyi lei"
+    ],
+    "abstract": "we consider a class of stochastic damped semilinear wave equations, in the small-mass limit. it has previously been established that the solution converges to the solution of a stochastic semilinear heat equation. in this work we exhibit strong and weak rates of convergence in this smoluchowski--kramers approximation result. the rates depend on the regularity of the driving wiener process. for instance, for trace-class noise the strong and weak rates of convergence are $1$, whereas for space-time white noise (in dimension $1$) the strong and weak rates of convergence are $1/2$ and $1$ respectively.",
+    "submitted": "2026-07-17",
+    "categories": [
+      "math.pr",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2604.14752",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.05740",
+    "title": "global solvability to a two-dimensional chemotaxis-euler system with robin boundary conditions on oxygen",
+    "authors": [
+      "qianqian hou"
+    ],
+    "abstract": "this paper is concerned with the global solvability of a chemotaxis-euler system in bounded domains of $\\mathbb{r}^2$. completing the system with physical boundary conditions, we firstly prove local well-posedness of the corresponding initial-boundary value problem and then present some blow-up criteria. we also show that the local solutions can be extended globally in time under suitable smallness assumptions on initial and boundary data.",
+    "submitted": "2026-07-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.05740",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.15956",
+    "title": "positive and nodal solutions for the minkowski mean curvature equation: multiplicity and asymptotics",
+    "authors": [
+      "alberto boscaggin",
+      "francesca colasuonno",
+      "ricardo ziegele"
+    ],
+    "abstract": "we consider the dirichlet problem for the mean curvature operator in minkowski space, \\[ -\\operatorname{div}\\left(\\frac{\\nabla u}{\\sqrt{1-|\\nabla u|^2}}\\right) = λu + μh(x,u) \\quad \\text{in } ω, \\qquad u = 0 \\quad \\text{on } \\partialω, \\] in a bounded domain $ω\\subset \\mathbb{r}^n$, where $λ, μ$ are real parameters, and the nonlinearity $h$ is superlinear at $u = 0$. in particular, we study the combined effect of the parameters $λ,\\,μ$ on the multiplicity of solutions. in the general setting, following szulkin's approach for nonsmooth functionals, we prove the existence, for $λ$ not belonging to the spectrum of the dirichlet laplacian and $μ$ sufficiently large, of a global minimizing solution (with negative action level) and of a min-max solution (with positive action level). moreover, we characterize the limiting profiles of these solutions as $μ\\to +\\infty$. more precisely, when the global minimizer is positive, its limit profile is $\\mathrm{dist}(\\cdot,\\partialω)$, thus saturating, in the limit, the geometric constraint $|\\nabla u|\\le1$, while min-max solutions collapse uniformly to zero as $μ\\to+\\infty$. a nonexistence criterion is also given for suitable values of $λ$ and $μ$. finally, when the domain $ω$ is a ball, using a shooting approach, we establish the existence of arbitrarily many nodal radial solutions for every $λ\\ge 0$ and for $μ$ sufficiently large.",
+    "submitted": "2026-07-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.15956",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.16063",
+    "title": "global existence for quasilinear wave equations on hyperbolic space",
+    "authors": [
+      "wei dai",
+      "chengbo wang"
+    ],
+    "abstract": "the main purpose of this paper is to study the global solvability for a general class of quasilinear shifted wave equations on hyperbolic spaces, for smooth initial data with small amplitude. in contrast to the case of euclidean spaces, when the space dimension is three, we do not need to assume structural conditions like the null conditions to ensure global existence. to achieve this, we establish the energy and local energy estimates for perturbed wave operators on $\\mathbb{r}\\times \\mathbb{h}^n$. these estimates allow time-dependent metric perturbations and require only suitable smallness together with polynomial decay in the radial variable $r$. as a byproduct, for semilinear problems with power-type nonlinearities and radial data, we also obtain global solutions with low-regularity. in particular, we prove an analog of the radial glassey conjecture on hyperbolic space.",
+    "submitted": "2026-07-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.16063",
+    "filter_reason": "keyword match"
   }
 ]
