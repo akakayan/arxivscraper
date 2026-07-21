@@ -1,1 +1,124 @@
-[]
+[
+  {
+    "id": "2507.10032",
+    "title": "classification of finite-time blow-up mechanisms for the incompressible free-boundary euler equations with surface tension",
+    "authors": [
+      "chengchun hao",
+      "tao luo",
+      "siqi yang"
+    ],
+    "abstract": "we establish a blow-up criterion for strong solutions of the three-dimensional incompressible euler equations with surface tension in a bounded domain with a closed moving free boundary. the criterion is formulated at the $h^3\\times h^4$ regularity level of the shatah--zeng local well-posedness theory and imposes \\textit{no} assumptions of symmetry, periodicity, graph structure, or simple connectedness. if the maximal existence time $t<\\infty$, then at least one of the following four mechanisms must occur: (i) first self-intersection of the free boundary; (ii) loss of mean curvature regularity in $h^{\\frac{3}{2}}$, or loss of boundary regularity in $h^{2+\\varepsilon}$ for any sufficiently small fixed $\\varepsilon>0$; (iii) loss of $h^{\\frac{5}{2}}$ regularity of the normal boundary velocity; or (iv) $l^1_tl^\\infty$ blow-up of the interior velocity gradient. for simply connected domains, the interior alternative admits a refinement involving only the $l^1_tl^\\infty$-norm of the vorticity, and this refinement recovers exactly the classical beale--kato--majda criterion in the fixed-boundary case. for irrotational flows in the simply connected free-boundary setting, the criterion reduces to the three boundary mechanisms.",
+    "submitted": "2026-07-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2507.10032",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2602.17570",
+    "title": "on putative self-similarity for incompressible 3d euler",
+    "authors": [
+      "peter constantin",
+      "mihaela ignatova",
+      "vlad vicol"
+    ],
+    "abstract": "we consider hypothetical solutions of 3d euler which blow up in finite time in a self-similar fashion. we prove that if the initial data has finite kinetic energy, then the similarity exponent $γ$ which governs the rate of zooming in must be at least $2/5$. if a smooth globally self-similar blowup profile exists, and this profile satisfies an outgoing property, we prove that $γ\\geq 1/2$. for axisymmetric solutions, we establish the bound $γ\\geq 1/2$ under the sole assumption that the velocity profile is $c^2$ smooth.",
+    "submitted": "2026-07-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2602.17570",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.16733",
+    "title": "collapsing-tube type ii blow-up for the energy-supercritical heat equation",
+    "authors": [
+      "manuel del pino",
+      "monica musso",
+      "juncheng wei",
+      "yifu zhou"
+    ],
+    "abstract": "we construct a new type ii finite-time blow-up mechanism for the energy-supercritical heat equation \\[ u_t=δu+u^3, \\qquad n\\geq 5. \\] the solution is positive and blows up only at the origin, but in a highly anisotropic fashion. as $t\\nearrow t$, the solution concentrates in a thin tubular region around an $(n-4)$-dimensional sphere whose radius shrinks to zero at the self-similar scale \\[ ξ_r(t)\\sim \\sqrt{2(n-4)(t-t)}. \\] at the same time, concentration takes place transversely to the sphere at the much smaller scale \\[ λ(t)\\sim κ_* \\frac{t-t}{|\\log(t-t)|^{\\frac n{n-2}}}, \\] for some $κ_*>0$. more precisely, in cylindrical coordinates $r=|x'|$, $z\\in\\mathbb r^3$, the leading profile is \\[ u(x,t) \\sim \\frac{1}{λ(t)} u\\left( \\frac{r-ξ_r(t)}{λ(t)}, \\frac{z}{λ(t)} \\right), \\] where $u$ is the aubin--talenti bubble in $\\mathbb r^4$.   the construction reveals a two-scale singularity mechanism in which a critical transverse bubble concentrates around a geometric set that itself collapses. the concentration tube evolves at the parabolic scale $\\sqrt{t-t}$, whereas its transverse thickness is governed by the much smaller type ii scale $λ(t)$. the logarithmic blow-up law is determined by a nonlocal modulation equation arising from the interaction between the four-dimensional critical bubble and the axisymmetric heat kernel. to our knowledge, this seems to be the first type ii blowup that quantifies the effect of a self-similar collapsing tube.   the exponent $p=3$ is energy-supercritical in dimensions $n\\geq5$, but lies below the joseph--lundgren exponent for $5\\leq n\\leq 12$, in a regime where positive radial type ii blow-up is ruled out. the present result provides the first example of a positive type ii, single-point blow-up through a collapsing thin-tube geometry.",
+    "submitted": "2026-07-18",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.16733",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.16832",
+    "title": "ideal gårding polynomials",
+    "authors": [
+      "hao fang",
+      "biao ma"
+    ],
+    "abstract": "we introduce ideal gårding polynomials, a convexity-enhanced subclass of gårding polynomials whose gårding components are recursively convex under partial differentiation. this class strictly contains real stable polynomials and, after translation and homogenization, lies in the lorentzian class.   our main result is that ideal gårding polynomials still admit a robust structure theory despite this additional convexity: they are preserved under polarization, satisfy natural closure properties, and support a linear preserver theory. a key contribution of this paper is a universal model for univariate gårding polynomials, described by monotone root sequences and equivalently by volume polynomials of pitman--stanley polytopes. we establish quotient concavity, and newton--maclaurin type inequalities, which leads to the polarization theorem, and suggests further connections with convex geometry and lorentzian polynomials.",
+    "submitted": "2026-07-18",
+    "categories": [
+      "math.co",
+      "math.ap",
+      "math.ca",
+      "math.oc",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2607.16832",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.17066",
+    "title": "reduced order modeling of one-dimensional conservative pdes via the cumulative distribution transform",
+    "authors": [
+      "harbir antil",
+      "rocío díaz martín",
+      "ivan v. medri",
+      "kristofor e. pas",
+      "gustavo k. rohde",
+      "aryan saxena",
+      "sarswati shah"
+    ],
+    "abstract": "we propose a reduced order modeling (rom) framework for 1d conservative pdes based on the cumulative distribution transform (cdt). the cdt maps nonnegative, equal-mass states into a hilbert space in which 1d wasserstein distances become weighted $l^2$ distances and translations become affine shifts. this makes the transform especially suited for transport-dominated dynamics, where eulerian linear-subspace roms often suffer from slow decay of kolmogorov widths.   we study this phenomenon for scalar conservative dynamics by analyzing the solution manifold in cdt coordinates. for linear transport, the transformed solution manifold is contained in the 2-dimensional space spanned by the transformed initial datum and the constant function, and has zero kolmogorov $2$-width. for nonlinear hyperbolic conservation laws, we prove two complementary types of estimates: robust $o(n^{-1})$ bounds that rely only on the conservative transport structure and remain meaningful after shock formation, and sharper $o(n^{-2})$ bounds in smooth pre-shock regimes. for conservative advection-diffusion, we show that the cdt trajectory remains within distance $o(\\sqrt{dt})$ of the pure-transport plane, and we also obtain sharper $o(d^2t^2)$ estimates under additional regularity or away from initial layers. in both cases, the zero 2-width behavior of linear transport is recovered as the diffusion coefficient tends to zero.   motivated by these estimates, we develop a cdt-pod numerical scheme: snapshots are mapped to cdt space, proper orthogonal decomposition (pod) is performed in transformed coordinates, and the inverse cdt is used to reconstruct physical states. numerical experiments for several transport-dominated dynamics show that cdt-pod can capture solution manifolds with substantially fewer modes than eulerian pod.",
+    "submitted": "2026-07-19",
+    "categories": [
+      "math.ap",
+      "cs.na",
+      "math.na"
+    ],
+    "link": "https://arxiv.org/abs/2607.17066",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.17501",
+    "title": "unique inversion of smooth nonlinearity in semilinear wave equations on lorentzian manifolds",
+    "authors": [
+      "xi chen",
+      "shuai lu",
+      "ruochong zhang"
+    ],
+    "abstract": "we study the recovery of a smooth nonlinearity in semilinear wave equations on globally hyperbolic lorentzian manifolds. our approach combines higher-order linearization with distorted plane waves and gaussian beams, using three-wave, four-wave, and m-wave interactions to recover different taylor coefficients.",
+    "submitted": "2026-07-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.17501",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2607.18035",
+    "title": "euler-poisson equations with velocity-dependent damping",
+    "authors": [
+      "olga s. rozanova"
+    ],
+    "abstract": "we consider repulsive euler-poisson equations in both one-dimensional space and in the multidimensional case with radial symmetry, assuming a power-law velocity-dependent damping coefficient. we show that under this assumption, in the one-dimensional case the set of initial data corresponding to a globally time-smooth solution expands, whereas in other dimensions (except for dimension 4) the damping does not influence on improving of smooth properties of the solution. namely, any arbitrary small perturbation of the steady state blow up, despite of its amplitude of oscillations decays.",
+    "submitted": "2026-07-20",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2607.18035",
+    "filter_reason": "keyword match"
+  }
+]
