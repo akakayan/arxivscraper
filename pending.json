@@ -120,5 +120,109 @@
     ],
     "link": "https://arxiv.org/abs/2607.18035",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2507.11965",
+    "title": "pseudodifferential weyl calculus on vector bundles",
+    "authors": [
+      "lars andersson",
+      "benjamin moser",
+      "marius a. oancea",
+      "claudio f. paganini",
+      "gabriel schmid"
+    ],
+    "abstract": "we develop a geometric framework for weyl quantization on pseudo-riemannian manifolds, in which pseudodifferential operators act on sections of vector bundles equipped with pseudo-hermitian metrics and compatible connections. we construct the associated star product and compute its semiclassical expansion up to third order in the semiclassical parameter. a central feature of our approach is a correspondence, modulo smoothing remainders, between formally self-adjoint symbols and formally self-adjoint operators, extending known results from flat space to curved geometries. in addition, we analyze the moyal equation satisfied by the wigner function in this setting and provide explicit computations of weyl symbols for several physically significant operators, including the dirac, maxwell, linearized yang-mills, and linearized einstein operators. our results lay the foundation for future developments in quantum field theory on curved spacetimes, semiclassical analysis, and chiral kinetic theory.",
+    "submitted": "2026-07-21",
+    "categories": [
+      "math-ph",
+      "gr-qc",
+      "math.ap",
+      "math.dg",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2507.11965",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2509.06083",
+    "title": "second-order multilane traffic flow models: from the microscopic to the macroscopic scale",
+    "authors": [
+      "matteo piu",
+      "giuseppe visconti",
+      "gabriella puppo"
+    ],
+    "abstract": "this study addresses multilane vehicular traffic modelling, focusing on the rigorous transition from microscopic (individual vehicle-based) to macroscopic (aggregate flow-based) descriptions. while previous research on multilane traffic has largely focused on first-order models, we derive two novel multilane second-order macroscopic models by applying a microscopic-to-macroscopic limit to the multilane bando-follow-the-leader model. these two models diverge fundamentally in their closure relations during the scaling limit: model 1 directly projects the velocity dynamics, whereas model 2 is built upon the heuristic conservation of the generalized momentum across lanes. both models incorporate lane-changing dynamics through source terms in a hyperbolic system of balance laws, yet their structural differences lead to distinct relaxation limits, with model 2 naturally relaxing to the first-order macroscopic multilane model recently derived by the authors, and model 1 yielding a novel, non-standard first-order system. we propose several numerical experiments showing that the models can reproduce complex traffic phenomena, including congestion propagation, non-equilibrium effects, capacity drops, and asymmetric lane usage. leveraging experimental datasets from real-world highways, we further construct lane-specific empirical fundamental diagrams and compare them with their simulated counterparts. the results demonstrate that the structural assumptions of model 2 provide a superior quantitative fit with empirical data, faithfully capturing critical density values, traffic scattering, and characteristic lane-dependent patterns, thus offering a robust and generalizable tool for realistic traffic flow analysis.",
+    "submitted": "2026-07-21",
+    "categories": [
+      "physics.soc-ph",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2509.06083",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.18792",
+    "title": "existence of semiglobal $w^{2,p}$-isometric immersions for negatively curved surface metrics with unbounded second fundamental form",
+    "authors": [
+      "siran li"
+    ],
+    "abstract": "this paper is concerned with the existence theory of isometric immersions of surfaces with negative gaussian curvature into the 3-dimensional euclidean space. we reformulate the gauss--codazzi equations, \\emph{i.e.}, the partial differential equations for isometric immersions, into hyperbolic conservation laws for the flows of chaplygin gas with nonzero source terms. then, by employing the theories of invariant regions and compensated compactness, we establish the existence of $w^{2,p}$-isometric immersions for several general families of metrics, with any finite index $p$ and over arbitrarily large rectangular domains. such metrics include various classical minimal surfaces: helicoid, catenoid, pseudosphere, and enneper surfaces, as well as metrics in isothermal coordinates or of the ``reciprocal-type''. in our fluid dynamical formulation of the isometric immersion problem, we specialise in the case that the two riemann invariants for the associated hyperbolic conservation law remain bounded and of distinctive signs, and obtain $l^p$-solutions to the initial-boundary value problem via entropy analysis. the isometric immersions constructed in this paper may have unbounded but $l^p$-integrable second fundamental forms.",
+    "submitted": "2026-07-21",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.18792",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.18952",
+    "title": "serrin problems with vertical boundary behavior",
+    "authors": [
+      "julián pozuelo",
+      "simone verzellesi"
+    ],
+    "abstract": "we study serrin-type overdetermined problems for a class of possibly degenerate elliptic operators under a vertical boundary condition forcing gradient blow-up. we identify the precise regime in which the problem admits a solution on a ball. in this regime, we prove rigidity: every solution domain is a ball, and the solution is uniquely determined by an explicit radial profile.",
+    "submitted": "2026-07-21",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.18952",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.19071",
+    "title": "stability for the boussinesq equations with horizontal dissipation near the hydrostatic balance on $\\mathbb{r}^2$",
+    "authors": [
+      "jiahong wu",
+      "mengxin yan",
+      "ning zhu"
+    ],
+    "abstract": "the hydrostatic balance is a fundamental equilibrium state in stratified fluids and plays a central role in geophysical fluid dynamics. understanding its stability under incomplete dissipation is a longstanding challenge, since anisotropic diffusion alone is generally insufficient to control the nonlinear evolution and no robust stabilizing mechanism is known for the corresponding anisotropically dissipative navier--stokes equations. in this paper, we investigate the two-dimensional boussinesq equations on $\\mathbb{r}^2$ with only horizontal dissipation near the hydrostatic equilibrium $(u,θ)=(0,x_2)$. we show that the velocity--temperature coupling generates internal gravity waves whose dispersive decay, together with the horizontal dissipation, provides an effective stabilizing mechanism that compensates for the complete absence of vertical dissipation. this identifies a mechanism by which dispersive wave propagation restores stability in an incompletely dissipative fluid system. for sufficiently small initial perturbations in $h^k(\\mathbb{r}^2)\\cap w^{3,1}(\\mathbb{r}^2)$ with $k\\ge14$, we establish the global existence and uniqueness of classical solutions together with explicit anisotropic, componentwise large-time decay rates for the velocity and temperature, including faster decay of the vertical velocity.",
+    "submitted": "2026-07-21",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.19071",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.19283",
+    "title": "resolution of the eno-tv conjecture: a parity dichotomy",
+    "authors": [
+      "zhuoyun li",
+      "kailiang wu"
+    ],
+    "abstract": "we resolve the eno--tv conjecture, a discrete coercivity problem in compactness theory for entropy-stable approximations of hyperbolic conservation laws. for order-$k$ essentially non-oscillatory (eno) reconstruction from compactly supported cell averages, it asks whether the nonnegative eno source times the $(k-1)$st power of the amplitude uniformly controls the $(k+1)$st absolute-jump moment. we prove a parity dichotomy: the estimate holds for odd $k\\ge3$ and fails for even $k\\ge4$; the known second-order case completes the classification. localization gives a selection-independent finite-difference functional uniformly comparable to the source and reduces the conjecture to discrete interpolation. for odd orders, summation by parts reveals a hidden square; a discrete gagliardo--nirenberg inequality yields coercivity. for even orders, euler-polynomial blocks from the functional's polynomial kernel yield counterexamples that persist under arbitrarily small perturbations making all affected eno comparisons strict. we also prove two coercive estimates for every $k\\ge2$: control of jumps larger than a fixed fraction of the amplitude and of local blocks modulo sampled polynomials of degree at most $k-2$. via the cayley--sylvester decomposition, we compute the dimensions of homogeneous first-cohomology spaces for the lattice shift on polynomial jump profiles. at fourth order, for a cubic flux and a globally strictly convex entropy, a total-degree-seven component of a reduced entropy-flux mismatch represents a nonzero class on profiles of degree at most two and hence has no translation-invariant finite-stencil $c^7$ local primitive at the zero constant state. odd-order coercivity persists on globally quasi-uniform meshes, whereas for each $k\\ge2$ it fails on a fixed irregular mesh even though every interface contribution remains nonnegative. this failure is due to the mesh geometry.",
+    "submitted": "2026-07-21",
+    "categories": [
+      "math.ap",
+      "cs.na",
+      "math.co",
+      "math.na",
+      "math.rt"
+    ],
+    "link": "https://arxiv.org/abs/2607.19283",
+    "filter_reason": "keyword match"
   }
 ]
