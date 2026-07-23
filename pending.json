@@ -224,5 +224,81 @@
     ],
     "link": "https://arxiv.org/abs/2607.19283",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2509.11933",
+    "title": "entire large solutions for competitive semilinear elliptic systems with general nonlinearities satisfying keller--osserman conditions",
+    "authors": [
+      "dragos-patru covei"
+    ],
+    "abstract": "we study positive radial solutions of the weighted cooperative system $δu=p(|x|)f(u,v)$, $δv=q(|x|)g(u,v)$ in $\\mathbb{r}^{n}$, $n\\geq3$, when the newtonian potentials of the nonnegative weights are finite and the nonlinear source possesses a keller--osserman lower envelope. a threshold set of central data is introduced and its order and compactness properties are used to construct an entire solution on its interior boundary. a decreasing nonlinear transform applied to $w=u+v$ yields an explicit lower estimate in terms of the tail newtonian potential and proves that $w(r)\\to\\infty$. consequently at least one component is large. we also identify the additional hypothesis genuinely needed for componentwise blow-up: diagonal keller--osserman integrability alone is insufficient, whereas a two-sided balance of the weighted reaction channels forces $u(r),v(r)\\to\\infty$. two independent proofs of this transfer principle are given, one based on radial fluxes and one on newtonian potentials. finally, the pde system is derived from an isothermal two-species diffusion--reaction balance in a heterogeneous porous catalyst, including nondimensional parameters and the interpretation of the whole-space idealization.",
+    "submitted": "2026-07-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2509.11933",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2511.23272",
+    "title": "logistic elliptic and parabolic problem for the fractional $p$-laplacian",
+    "authors": [
+      "loïc constantin",
+      "carlos alberto santos",
+      "guillaume warnault"
+    ],
+    "abstract": "in this paper we prove existence, uniqueness of weak solutions of the following nonlocal nonlinear logistic equation \\begin{equation*} \\begin{cases} (-δ)_p^s u_λ=λu_λ^q - b(x)u_λ^r \\quad \\text{in} \\;ω,\\\\ u_λ=0 \\quad \\text{in} \\; ( \\mathbb{r}^d \\backslash ω), \\\\ u_λ>0 \\text{ in} \\; ω. \\end{cases}\\ \\end{equation*} we also prove behavior of $u_λ$ with respect to $λ,$ underlining the effect of the nonlocal operator. we then study the associated parabolic problem, proving local and global existence, uniqueness and global behavior such as stabilization, finite time extinction and blow up.",
+    "submitted": "2026-07-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2511.23272",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.19799",
+    "title": "simultaneous recovery of the initial source and sound speed for the wave equation under a constitutive constraint",
+    "authors": [
+      "amir moradifam"
+    ],
+    "abstract": "we study the simultaneous recovery of the initial source and sound speed for the scalar wave equation from a single boundary measurement. although the recovery of either parameter separately is well understood under suitable geometric hypotheses, simultaneous recovery remains open in general, and stable recovery is further obstructed by the inherent instability of the linearized problem. we show that both uniqueness and stability can be obtained when the two unknowns are coupled through a prescribed constitutive relation arising from a common underlying material. under a quantitative nondegeneracy condition, motivated by calibrated material regimes, the coupled inverse problem reduces to a single inverse source problem. applying the microlocal and carleman framework of stefanov and uhlmann to this reduced problem, we establish global uniqueness and lipschitz stability under geometric conditions involving strictly convex foliations and geodesic visibility. we also obtain partial-data results, proving local uniqueness and lipschitz stability in compact visible regions where the constitutive nondegeneracy condition holds.",
+    "submitted": "2026-07-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.19799",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.20025",
+    "title": "equilibria and linear stability for the boltzmann equation with radial anharmonic confining potentials",
+    "authors": [
+      "ling-bing he",
+      "jie ji",
+      "wu-wei li"
+    ],
+    "abstract": "we study the boltzmann equation in the whole space under the radial anharmonic confining potentials $φ(x)=|x|^p/p$ for $p>2$ and $φ(x)=\\langle x\\rangle^p/p$ for $1<p<2$. we first classify all positive finite-mass-and-energy entropy-invariant, equivalently zero-entropy-production, solutions. for $p>2$, the nonlinear equilibrium manifold is parametrized by mass, temperature, and the three components of angular momentum; for $1<p<2$, integrability excludes rotating equilibria and only mass and energy remain as equilibrium parameters. we then identify the five-dimensional stationary space of the equation linearized about an arbitrary equilibrium and construct an explicit projection determined by the conserved moments. after normalization, the collision term takes the form $c_me^{-\\widetildeφ(x)}\\mathsf l$, so its microscopic coercivity degenerates at spatial infinity. a far-field weight-transfer estimate compensates for this degeneracy. after subtracting the stationary projection, the corresponding semigroup solution converges algebraically in exponentially weighted $l^2$ spaces. the rate is governed by the growth exponent $p$ and the gap between the two weights, up to an arbitrarily small loss. for $1<p<2$, the mismatch between the two-dimensional nonlinear equilibrium manifold and the five-dimensional linear stationary space yields a conditional obstruction to nonlinear asymptotic attraction for perturbations carrying nonzero angular momentum.",
+    "submitted": "2026-07-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.20025",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2607.20288",
+    "title": "principal spectral theory and variational characterizations for nonlocal coupled cooperative systems and applications",
+    "authors": [
+      "xiandong lin",
+      "jiazhuo cheng",
+      "qiru wang"
+    ],
+    "abstract": "this paper investigates the principal spectral theory of a nonlocal dispersal operator with coupled diffusion and aims to establish a variational characterization of the spectral bound for the case where the system is not strongly coupled. in this setting, a key difficulty arises since the principal eigenfunction may have components that are identically zero, rendering existing generalized eigenvalue methods inapplicable. to overcome this, we reorder the components of the operator using a permutation matrix, thereby decomposing it into suitable suboperators, and characterize the spectral bound of the original operator in terms of the spectral bounds of these suboperators. building on this principal spectral theory, we provide a variational characterization of the basic reproduction ratio for nonlocal dispersal systems and analyze the dynamical behavior of a class of multi-genotype stem cell regeneration models with epigenetic transitions, both in the presence and absence of gene mutations, without assuming the existence of a principal eigenvalue. furthermore, we investigate the threshold dynamics when the system is not strongly coupled.",
+    "submitted": "2026-07-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.20288",
+    "filter_reason": "known author"
   }
 ]
