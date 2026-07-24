@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "2307.14933",
+    "title": "asymptotic approach to singular solutions for the cr yamabe equation",
+    "authors": [
+      "giampiero palatucci",
+      "mirco piccinini"
+    ],
+    "abstract": "we study the loss of compactness for optimal functions of a subcritical approximations of the sharp folland-stein-sobolev embedding in the heisenberg group. when blow-up is prevent at the boundary we show that centered-symmetric maximizers in a korány ball concentrate at its center. moreover, we obtain the exact blow-up rate and the pointwise asymptotic profile away from the pole, in turn establishing a natural counterpart of the classical brezis and peletier asymptotics for nearly critical sobolev problems.",
+    "submitted": "2026-07-23",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2307.14933",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2507.23583",
+    "title": "on blow-up trees for the harmonic map heat flow from $b^2$ to $s^2$",
+    "authors": [
+      "dylan samuelian"
+    ],
+    "abstract": "we consider finite-time and $k$-equivariant solutions to the harmonic map heat flow from $b^2$ to $s^2$ under general time-dependent boundary data and prove that the bubble tree decomposition contains only one bubble. the method relies on the maximum and comparison principle. we also exhibit solutions blowing up in infinite time for any $k \\geq 1$.",
+    "submitted": "2026-07-23",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2507.23583",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2601.21284",
+    "title": "pild: physics-informed learning via diffusion",
+    "authors": [
+      "tianyi zeng",
+      "tianyi wang",
+      "jiaru zhang",
+      "zimo zeng",
+      "feiyang zhang",
+      "yiming xu",
+      "sikai chen",
+      "junfeng jiao",
+      "christian claudel",
+      "xinbo chen"
+    ],
+    "abstract": "diffusion models have emerged as powerful generative tools for modeling complex data distributions, yet their purely data-driven nature limits applicability in engineering and scientific problems where physical laws must be respected. this paper proposes physics-informed learning via diffusion (pild), a framework that unifies diffusion modeling and physical constraints through a probabilistic residual formulation with a virtual residual observation sampled from a laplace distribution. to make this formulation practical under noisy diffusion states, we introduce a jensen-gap-aware adaptive residual scale, which reduces the bias induced by residual likelihood marginalization. additionally, we develop a physics-conditional alignment mechanism for conditional tasks that encourages intermediate latent representations to remain consistent with the observation conditions during denoising. the proposed framework is concise, modular, and broadly applicable to problems governed by ordinary differential equations, partial differential equations, as well as algebraic equations or inequality constraints. extensive experiments across engineering and scientific tasks show that pild improves physical fidelity and predictive accuracy over representative physics-informed and diffusion-based baselines.",
+    "submitted": "2026-07-23",
+    "categories": [
+      "cs.lg",
+      "cs.ai",
+      "cs.et",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2601.21284",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2607.20949",
+    "title": "an inverse coefficient problem for a semilinear wave equation by the first order linearization",
+    "authors": [
+      "yuxiang he",
+      "shuai lu"
+    ],
+    "abstract": "this paper investigates recovery of an unknown coefficient in a semilinear wave equation defined on a bounded, open, and strictly convex domain in \\(\\mathbb{r}^{1+n}\\) with \\(n \\ge 2\\). we demonstrate that the unknown coefficient \\(q\\) appearing in the semilinear wave equation \\(\\square u + q u^m = 0\\) with neumann boundary conditions can be reconstructed with hölder stability from the linearized neumann-to-dirichlet (ntd) map. our approach combines first-order linearization with the principle of inclusion-exclusion (pie) identity, and employs geometric optics solutions for wave equations in two distinct regimes: the case \\(m=2\\) with \\(q = q(x)\\), and the case \\(m \\ge 3\\) with \\(q = q(t,x)\\). furthermore, numerical examples illustrate that the unknown coefficient can also be effectively reconstructed using a neural network-based inversion algorithm within the framework of the least squares method.",
+    "submitted": "2026-07-23",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.20949",
+    "filter_reason": "keyword match"
+  }
+]
