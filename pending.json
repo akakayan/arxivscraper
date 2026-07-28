@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "id": "2410.07649",
+    "title": "damping-diffusion-noise interactions in the stochastic camassa-holm equation",
+    "authors": [
+      "diego alonso-orán",
+      "peter h. c. pang",
+      "hao tang"
+    ],
+    "abstract": "in this paper we investigate the effects of the interaction between time-inhomogeneous damping, non-local diffusion, and noise on classical solutions to the camassa-holm equation incorporating these features. first, a local-in-time theory is established, covering the existence, uniqueness, and a blow-up criterion under relatively general conditions for these interacting mechanisms. subsequently, we identify different conditions on the interactions between damping, diffusion, and noise that guarantee the global regularity and long-time behaviour of classical solutions. notably, we demonstrate the existence of an evolution system of measures, which generalizes the concept of invariant measures to the time-inhomogeneous setting.",
+    "submitted": "2026-07-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2410.07649",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2506.22187",
+    "title": "boundary estimates for the monge-ampère equation in the polygons with guillemin boundary conditions",
+    "authors": [
+      "masoud bayrami-aminlouee",
+      "reza seyyedali",
+      "mohammad talebi"
+    ],
+    "abstract": "we establish a schauder-type boundary regularity result for a two-dimensional singular monge--ampère equation on convex polytopes subject to the guillemin boundary condition. our result extends the work of rubin and huang to the case where the right-hand side is merely hölder continuous. in particular, we obtain euclidean \\(c^{1,α/2}\\) regularity up to the boundary, including along edges and at the vertices of the polytope, and then refine this to the sharp euclidean \\(c^{1,α}\\) regularity. the analysis combines techniques introduced by donaldson in his study of the abreu equation with refined blow-up and localization arguments adapted to the degenerate boundary geometry.",
+    "submitted": "2026-07-25",
+    "categories": [
+      "math.ap",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2506.22187",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.02009",
+    "title": "the quintic wave equation with kelvin-voigt damping: strichartz estimates, well-posedness and global stabilization",
+    "authors": [
+      "marcelo moreira cavalcanti",
+      "valeria neves domingos cavalcanti"
+    ],
+    "abstract": "we study the three-dimensional energy-critical quintic wave equation with localized kelvin--voigt damping. while the viscoelastic dissipation provides a remarkably efficient mechanism for removing energy, it simultaneously introduces a loss of derivatives that places the problem outside the classical hyperbolic framework for critical wave equations.   we develop a frequency-space approach based on littlewood--paley theory that yields well-posedness for arbitrarily large initial data despite the derivative loss. we then establish uniform exponential stabilization by combining critical strichartz estimates, microlocal defect measures, and the unique continuation principle of duyckaerts, zhang and zuazua, obtaining observability under highly localized damping regions.   the paper also identifies a structural distinction between kelvin--voigt damping and all previously studied lower-order dissipations. under the critical rescaling associated with energy concentration, the kelvin--voigt operator becomes supercritical, revealing an obstruction absent from the classical theory. we isolate this obstruction explicitly and propose a new parabolic viewpoint suggesting that concentration inside the strictly damped region is governed by intrinsic local regularization rather than by the traditional hyperbolic concentration mechanism.",
+    "submitted": "2026-07-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2603.02009",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.23251",
+    "title": "the lifespan of positive solutions of heat equation with power-logarithmic nonlinearity on locally finite graph",
+    "authors": [
+      "pengxiu yu",
+      "yiping zhang"
+    ],
+    "abstract": "on a locally finite connected graph $g=(v,e)$, using the first eigenvalue method introduced by kaplan \\cite{mr160044} and the discrete phragmén-lindelöf principle developed by hu-wang \\cite{cvhuyuanyang}, we first establish the asymptotic behaviour of the lifespan of positive solutions to a semilinear heat equation with the power-logarithmic nonlinearity $u^p|\\log u|^q$, provided that the initial datum is bounded below by a positive constant. these results extend those of hu-wang \\cite{cvhuyuanyang} to equations with a power-logarithmic source term. moreover, by means of a more direct argument, we show that analogous lifespan estimates remain valid for nonnegative initial datum $u(x,0)$, provided that $u(x_i,0)$ is suitably large at some vertex $x_i\\in v$.",
+    "submitted": "2026-07-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.23251",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2607.23953",
+    "title": "localized frames on euclidean balls",
+    "authors": [
+      "kevin hughes",
+      "arie israel",
+      "azita mayeli"
+    ],
+    "abstract": "we construct explicit wave packet frames adapted to euclidean balls and use them to obtain quantitative eigenvalue estimates for spatio--spectral limiting operators. let \\(d\\geq 2\\), let \\(b_d(r)\\subset \\r^d\\) be the euclidean ball of radius \\(r\\), and let \\(s\\subset \\r^d\\) be a measurable set such that $\\partial s$ has finite $(d-η)$-upper minkowski content for $0 < η\\leq 1$. we construct a unit-norm frame for \\(l^2(b_d(r))\\), with frame bounds depending only on the dimension $d$, whose elements are adapted to the radial and angular geometry of the ball. we prove quantitative fourier localization estimates for this frame: relative to \\(s\\), the frame decomposes into packets concentrated in \\(s\\), packets concentrated in \\(\\r^d\\setminus s\\), and an exceptional family whose cardinality is bounded explicitly in terms of \\(r\\), and the minkowski content of \\(\\partial s\\). as an application, we derive an upper bound for the plunge region of the spatio-spectral limiting operator associated to the sets $b_d(r)$ and $s$.",
+    "submitted": "2026-07-27",
+    "categories": [
+      "math.fa",
+      "math.ap",
+      "math.sp"
+    ],
+    "link": "https://arxiv.org/abs/2607.23953",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.24204",
+    "title": "non-singular hotspots between closely spaced high-index nanoparticles",
+    "authors": [
+      "konstantinos alexopoulos",
+      "bryn davies",
+      "pierre millien"
+    ],
+    "abstract": "we study the concentration of the field between two nearly touching high-index dielectric resonators in three dimensions. the model is a scalar helmholtz transmission problem in the resonant regime, wherein the wavelength inside the resonators of the same order as their typical diameter. the material contrast enters only a lower-order term of the equation and not its principal part. as a consequence, the gradient of the field stays bounded independently of the distance separating the particles, and does not blow up. nevertheless, simulations and experiments show that the gradient still concentrates in the gap: as the particles approach, it grows like the inverse of their separation over an intermediate range of distances and then saturates once they are very close. we explain this pre-asymptotic effect through a weak-coupling regime, in which the resonant modes of the pair are perturbations of the modes of each isolated particle. when such a mode keeps a nonzero contrast between the two facing boundaries, a mean value argument across the gap accounts for the growth of the gradient; this requires strengthening the standard spectral perturbation estimates from an average to a pointwise control. the growth stops once the interaction between the particles is no longer weak and the perturbation theory fails. numerical experiments confirm the transition from amplification to saturation.",
+    "submitted": "2026-07-27",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp",
+      "math.sp",
+      "physics.optics"
+    ],
+    "link": "https://arxiv.org/abs/2607.24204",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.24346",
+    "title": "blow up and concentration without quantization: sharp harnack type inequalities",
+    "authors": [
+      "daniele bartolucci",
+      "paolo cosentino",
+      "lina wu"
+    ],
+    "abstract": "motivated by the onsager statistical mechanics description of turbulent euler flows with point singularities, we refine the blow up analysis for sequences of solutions of a class of perturbed singular liouville equations which share the phenomenon of \"blow up and concentration without quantization\". the problem is delicate because we are dealing with the exact threshold value above which one meets the well known \"concentration without quantization\" phenomenon, as recently pushed forward in [c.s. lin, g. tarantello, c. r. math. acad. sci. paris (2016)] and in [y. lee, c.s. lin, g. tarantello, w. yang, comm. pde. (2017)]. first of all we need a new sharp harnack type inequality for this particularly rich singular limit. however this is not enough, since the growth of the conformal factor inherited by the singularity prevents the use of classical quantization arguments. we solve also this issue with different strategies for \"fast\" and \"slow\" blow up, by a careful adaptation of arguments based on the pohozaev identity, elliptic estimates and \"sup+cinf\" inequalities in the same spirit of [c.c. chen, c.s. lin, comm. an. geom. (1998)].",
+    "submitted": "2026-07-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.24346",
+    "filter_reason": "keyword match"
+  }
+]
