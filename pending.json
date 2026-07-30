@@ -115,5 +115,182 @@
     ],
     "link": "https://arxiv.org/abs/2607.24346",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "1912.07066",
+    "title": "a result for nonexistence of global solutions to semi-linear structural damped wave model",
+    "authors": [
+      "tuan anh dao"
+    ],
+    "abstract": "main goal of this note is to give a result for nonexistence of global solutions and determine the critical exponent as well to a semi-linear structurally damped wave equation.",
+    "submitted": "2026-07-28",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/1912.07066",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.24949",
+    "title": "a hybrid physics-informed neural network framework for subcritical and supercritical dynamics in multi-species chemotaxis",
+    "authors": [
+      "hamid el bahja",
+      "jan c. riedel",
+      "peter jung"
+    ],
+    "abstract": "we study a two-species chemotaxis system that exhibits two qualitatively different regimes: subcritical dynamics, in which solutions remain smooth, and supercritical dynamics, in which strong aggregation may lead to finite-time blow-up. in the subcritical regime, we use a standard continuous-time physics-informed neural network (pinn) with alternating training for the coupled fields and show that it provides accurate and efficient approximations. in the supercritical regime, however, this formulation is not sufficiently robust to resolve the highly localized structures and steep gradients associated with blow-up. to address this limitation, we introduce a discrete-time pinn based on backward euler time stepping, combined with a logarithmic transformation to stabilize large solution values and a residual-adaptive collocation strategy that concentrates training points near regions of high activity. this hybrid framework allows us to use a simple and computationally inexpensive pinn when the solution is smooth, while switching to a more robust discrete formulation when singular dynamics emerge. numerical experiments confirm that the continuous-time formulation accurately resolves subcritical dynamics, while the discrete-time formulation reliably captures singular aggregation and finite-time blow-up in the supercritical regime.",
+    "submitted": "2026-07-27",
+    "categories": [
+      "math.na",
+      "cs.na",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.24949",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.25571",
+    "title": "semilinear damped wave equation on a compact lie group with a non-autonomous forcing term",
+    "authors": [
+      "wenhui chen",
+      "sandra lucente",
+      "alessandro palmieri"
+    ],
+    "abstract": "in the present note, we consider a semilinear damped wave equation on a compact lie group with a non-autonomous nonlinearity $φ(t)|u|^p$. we are interested in describing how the nonnegative time-dependent factor $φ$ affects the global in time prolongability of a local solution. in particular, the summability of the function $φ$ provides a criterion to distinguish between the blow-up in finite time and global existence of small data. finally, we derive sharp lifespan estimates for local in time solutions when $φ\\not\\in l^1([0,+\\infty)))$ and satisfies a certain scaling condition, that we named uniform upper scaling condition.",
+    "submitted": "2026-07-28",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.25571",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.25759",
+    "title": "blow-up asymptotics for a critical hartree-type brézis--nirenberg problem in dimension three",
+    "authors": [
+      "yue wu",
+      "minbo yang"
+    ],
+    "abstract": "in this paper, we study the following critical hartree problem \\begin{equation}\\label{equationabstract}   \\begin{cases} \\displaystyle-δu+(q+\\varepsilon v)u= a_{3,μ} \\left(\\int_ω\\frac{u^{6-μ}(y)}{|x-y|^μ}dy\\right) u^{5-μ}   &\\mathrm{~in~}ω,\\\\ \\displaystyle u>0&\\mathrm{~in~}ω,\\\\u=0&\\mathrm{~on~}\\partialω,\\end{cases} \\end{equation} where $ω\\subset\\mathbb{r}^3$ is a bounded open set, $0<μ<2$, the exponent $6-μ$ is the upper critical exponent in the sense of the hardy--littlewood--sobolev inequality and $a_{3,μ}>0$ is a normalization constant. the function $q$ is assumed to be critical in the sense of hebey and vaugon, and the solutions $u_{\\varepsilon}$ of \\eqref{equationabstract} are assumed to be an optimizing sequence for the hardy--littlewood--sobolev inequality. under a natural nondegeneracy assumption, we derive a precise asymptotic expansion of \\(u_{\\varepsilon}\\), determine the exact blow-up rate, and identify the concentration point. we also obtain the pointwise blow-up behavior both near and away from the concentration point.",
+    "submitted": "2026-07-28",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.25759",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.25876",
+    "title": "sharp anisotropic $l^2$-caffarelli-kohn-nirenberg inequalities associated with the minkowski functional",
+    "authors": [
+      "zhenzhen wei"
+    ],
+    "abstract": "let $k\\subset \\rn$ be a convex body containing the origin in its interior, and let $\\hk{\\cdot}$ be its minkowski functional. in this paper, we develop an identity-based framework for sharp anisotropic $l^2$-caffarelli-kohn-nirenberg inequalities associated with the anisotropic radial derivative $$ \\mathcal r_k(u)(x)=\\frac{x\\cdot\\nabla u(x)}{\\hk{x}}, \\quad x\\in\\rn\\setminus\\{o\\}. $$ a key point of the present work is that $k$ is not assumed to be origin-symmetric. consequently, the minkowski functional $\\hk{\\cdot}$ need not be even, and the usual norm-based anisotropic arguments do not apply directly. the main tools are anisotropic $l^2$-hardy and $l^2$-caffarelli-kohn-nirenberg identities with explicit nonnegative remainders. these identities yield sharp anisotropic $l^2$-caffarelli-kohn-nirenberg inequalities whose best constants depend on the parameter region of $(a,b)\\in\\mathbb r^2$. we also study the attainability of the sharp constants in a natural completion space and obtain the corresponding extremal functions. as further consequences, we derive sharp anisotropic heisenberg-type uncertainty principles and max-type anisotropic gradient inequalities. when $k$ is the euclidean unit ball, our results recover the classical euclidean $l^2$ theory; when $k$ is origin-symmetric, they are consistent with the usual norm-based anisotropic framework. in particular, the present results extend the sharp $l^2$-caffarelli-kohn-nirenberg theory to general convex bodies containing the origin in their interiors, for which the minkowski functional may be non-even.",
+    "submitted": "2026-07-28",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.25876",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.25906",
+    "title": "large solutions for fractional laplacian on infinite cylindrical domains",
+    "authors": [
+      "indranil chowdhury",
+      "n n dattatreya"
+    ],
+    "abstract": "we investigate large solutions of linear and semi-linear equations involving the fractional laplacian on domains that are becoming unbounded in some, but not all, directions. solutions that blow up on the boundary of a domain are commonly called large solutions. for local operators, such behaviour arises only in the presence of lower-order nonlinear terms. however, for nonlocal operators, the existence of such solutions is more subtle. in contrast to the local case, the nonlocal nature of the operator gives rise to different boundary blow-up phenomena even in the case of linear equations. in this article, we study the existence and qualitative behaviour of boundary blow-up solutions to fractional linear and semi-linear equations on finite cylindrical domains and employ these properties to construct large solutions on infinite cylinders.",
+    "submitted": "2026-07-28",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.25906",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.03282",
+    "title": "global bifurcation of doubly periodic gravity-capillary waves on beltrami flows",
+    "authors": [
+      "bastian hilder",
+      "giang to",
+      "erik wahlén"
+    ],
+    "abstract": "we prove the existence of a global family of steady, doubly periodic gravity-capillary waves on beltrami flows. this is the first rigorous existence result for genuinely three-dimensional inviscid surface waves, with or without vorticity, beyond the perturbative regime close to simple explicit solutions. the proof is based on reformulating the steady water wave problem as a bifurcation problem of the form `identity plus compact' and applying a global bifurcation argument in hölder spaces. the main challenge is that the kernel of the linearisation at the bifurcation point is two-dimensional, and that both kernel elements are necessary to obtain genuinely three-dimensional solutions. since this prevents the use of classical global bifurcation theory, we introduce a novel reformulation of the bifurcation problem using the parameterisation of a local family of solutions bifurcating from laminar flow. in this new parameter space, we apply a variation of analytic global bifurcation theory. along the branch, we then prove a sharper blow-up alternative, namely blow-up of the surface gradient in $c^{0,γ}$.",
+    "submitted": "2026-07-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.03282",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.26459",
+    "title": "a hamilton-jacobi approach to time-delayed nonlocal diffusion models in shifting habitats",
+    "authors": [
+      "bing-er jiang",
+      "king-yeung lam",
+      "wan-tong li",
+      "wen tao"
+    ],
+    "abstract": "this paper is concerned with the spatial propagation dynamics of time-delayed nonlocal diffusion equations in shifting habitats. we employ the theory of viscosity solutions for hamilton-jacobi equations to provide a complete classification of the spreading speeds. in particular, we derive variational formulas that explicitly characterize how these speeds depend on the decay rate of the initial data, the habitat shifting speed, and the maturation delay across three regimes: locally determined, nonlocally selected, and locked. we reveal a distinct directional asymmetry in the nonlocal selection mechanism and a novel delay-insensitivity phenomenon. we also establish the threshold conditions under which the habitat locking effect eliminates the classical decelerating role of time delay.",
+    "submitted": "2026-07-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.26459",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2607.26782",
+    "title": "nonlinear stability and instability of finite-energy solutions of the compressible euler-riesz equations with general pressure laws",
+    "authors": [
+      "jose a. carrillo",
+      "samuel r. charles",
+      "gui-qiang g. chen",
+      "difan yuan"
+    ],
+    "abstract": "the compressible euler-riesz equations arise in the modeling of a wide range of physical phenomena, including stellar dynamics, plasma physics, and mathematical biology. in this paper, we investigate the nonlinear stability and instability of steady states for the multidimensional compressible euler-riesz equations under general pressure laws. in the polytropic case, we establish the nonlinear instability of steady states in the mass-supercritical regime for attractive potentials; this is achieved by analyzing the concavity of the free energy along mass-preserving dilations. at the mass-critical exponent, we show that, for any steady state, there exist solutions that start arbitrarily close to it, but develop growing support. for general pressure laws, we employ a concentration-compactness approach to prove the existence of energy minimizers and establish the nonlinear stability of steady states. moreover, we quantify the finite-time stability by deriving a relative entropy bound for finite-energy solutions, without requiring uniform pointwise upper and lower bounds on the density. we further exploit the convexity of the second moment to obtain quantitative growth estimates for solutions with positive energy, thereby proving the local nature of the stability result. finally, we prove the global existence of finite-energy weak solutions to the compressible euler-riesz equations with spherical symmetry for general pressure laws via the compensated compactness method, thereby yielding unconditional stability around steady states within the class of weak solutions. the approach developed in this paper should be useful for solving other nonlinear partial differential equations involving similar difficulties.",
+    "submitted": "2026-07-29",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.fa",
+      "math.mp",
+      "physics.bio-ph"
+    ],
+    "link": "https://arxiv.org/abs/2607.26782",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2607.26904",
+    "title": "fractal remez inequality on the sphere and observability of the heat equation",
+    "authors": [
+      "xinyi chen",
+      "shanlin huang"
+    ],
+    "abstract": "this paper is concerned with remez-type inequalities and their applications in observability inequality. our aim is twofold. first, we establish the following fractal remez's inequality on the unit sphere $\\mathbb{s}^{n-1}$ \\begin{align*} \\sup_{\\mathbb{s}^{n-1}} |p|\\le c(m,n,n,δ)\\sup_{m} |p|, \\end{align*} where $m \\subset \\mathbb{s}^{n-1}$ ($n \\ge 2$) is a fractal set of positive $(n-2+δ)$-hausdorff content for arbitrary $δ\\in (0,1)$, and $p$ is a spherical polynomial of degree at most $n\\in \\mathbb{z}^+$. second, building upon this fractal framework, we establish sharp observability inequalities for the heat equation on the sphere, again valid for all $δ\\in (0, 1)$, which improve the result of burq and moyano [j. eur. math. soc. (jems), 25 (4) (2023)] in the spherical setting. furthermore, as an additional application, we prove a lower-dimensional observability inequality for the heat equation with super-quadratic potentials $v(x) = |x|^{2m}$ ($m \\in \\mathbb{z}^+, m\\ge 2$) on the whole space $\\mathbb{r}^n$.",
+    "submitted": "2026-07-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.26904",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2607.27118",
+    "title": "the $l^2$ contraction of solutions with large perturbation in multiple space dimensions from the oscillatory dispersive planar shock",
+    "authors": [
+      "geng chen",
+      "harish ravichandar",
+      "yannan shen"
+    ],
+    "abstract": "in this paper, we show the $l^2$ contraction property of the planar oscillatory or monotone dispersive shock profiles of the dissipative kadomtsev-petviashvili (kp) equation modelling water waves and the multi-dimensional korteweg-de vries (kdv) burgers equation under arbitrarily large perturbations in two space dimensions, up to lipschitz time-dependent shifts. this stability result extends the results of two recent papers by chen, eun, kang, and shen on $l^2$ contraction for the kdv-burgers equation.",
+    "submitted": "2026-07-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.27118",
+    "filter_reason": "known author"
   }
 ]
