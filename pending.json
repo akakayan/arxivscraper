@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "id": "2607.27583",
+    "title": "incompressible navier-stokes-fourier limit from a nonlinear quantum fokker-planck equation",
+    "authors": [
+      "young-pil choi",
+      "byung-hoon hwang",
+      "ju-hwan hyun"
+    ],
+    "abstract": "we derive the incompressible navier-stokes-fourier limit from a nonlinear quantum fokker-planck equation with bose-einstein or fermi-dirac statistics. the model has a self-consistent collision structure, with the local density acting as the collision frequency and the bulk velocity and temperature determined by nonlinear quantum-weighted moments of the distribution. we work near a global quantum equilibrium under the diffusive scaling and keep the quantum parameter fixed. uniform estimates with respect to the knudsen number yield strong microscopic relaxation and identify the limiting infinitesimal quantum equilibrium. using the local conservation laws, we prove the incompressibility condition, the boussinesq relation, and strong compactness of the divergence-free velocity component and a quantum-adapted thermal mode, while the acoustic modes vanish locally by a dispersive estimate. the limiting viscous stress tensor and heat flux are identified by solving auxiliary equations for the linearized quantum fokker-planck operator and by expanding the local quantum equilibrium manifold. the resulting incompressible navier-stokes-fourier system retains the effect of quantum statistics through its normalization constants and transport coefficients.",
+    "submitted": "2026-07-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.27583",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.27618",
+    "title": "on the minkowski problem with respect to a mixed euclidean-gaussian density",
+    "authors": [
+      "stephanie mui",
+      "lei qin",
+      "sinan wang"
+    ],
+    "abstract": "in this paper, we pose a new class of minkowski problems corresponding to the mixed euclidean-gaussian volume. using the flow method, we prove the existence of smooth normalized solutions for the corresponding monge-ampère-type equation in the symmetric case. then, by approximation, we obtain the existence of origin-symmetric solutions to the mixed euclidean-gaussian minkowski problem.",
+    "submitted": "2026-07-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.27618",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.27666",
+    "title": "volume stability for hyperbolic manifolds and applications to general relativity",
+    "authors": [
+      "puskar mondal",
+      "shing-tung yau"
+    ],
+    "abstract": "we prove a sharp volume-stability theorem for closed hyperbolic three-manifolds. let \\((m,h)\\) be closed hyperbolic with \\(\\operatorname{ric}_h=-2h\\), and let \\(g_i\\) be smooth metrics on \\(m\\) satisfying $r(g_i)\\geq -6, \\operatorname{vol}_{g_i}(m)\\longrightarrow \\operatorname{vol}_h(m)$. after passing to a subsequence, there exist \\(z_i\\subset m\\), smooth domains \\(k_i\\subset m\\), and diffeomorphisms $ψ_i:k_i\\longrightarrow m\\setminus z_i $ such that $\\operatorname{vol}_{g_i}(z_i)\\longrightarrow0, \\operatorname{vol}_h(m\\setminus k_i)\\longrightarrow0, $ and $ \\|ψ_i^*g_i-h\\|_{c^0(k_i,h)}\\longrightarrow0. $ thus near-equality in the sharp hyperbolic volume bound forces tensorial \\(c^0\\)-convergence to the hyperbolic metric outside regions of vanishing volume. as an application, we establish stability of the fischer--moncrief reduced hamiltonian at the lorentz-cone ground state: after cmc normalization, near-minimizing compact vacuum data in the hyperbolic topological class converge, modulo sets of vanishing volume, to the hyperbolic lorentz-cone geometry in tensorial \\(c^0\\). this provides a rigorous volume-dominance formulation of the fischer--moncrief asymptotic picture.",
+    "submitted": "2026-07-30",
+    "categories": [
+      "math.dg",
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.27666",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2607.28112",
+    "title": "on convolved weight matrices and local solvability with controlled loss of regularity",
+    "authors": [
+      "gerhard schindl"
+    ],
+    "abstract": "we introduce the convolution between abstractly given anisotropic weight matrices and investigate properties of this new construction. further, we apply the knowledge to the particular but interesting case when the (isotropic) matrices are associated with weight functions in the sense of braun-meise-taylor and show how the convolution of associated weight matrices modifies the underlying weight functions. finally, we give a concrete application of the convolution when studying the concept of local solvability for a certain hyperbolic pde. indeed, the convolution allows to treat in a natural way a mixed setting; i.e. having a controlled loss of regularity expressed in terms of two, in general different, weight sequences.",
+    "submitted": "2026-07-30",
+    "categories": [
+      "math.fa",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.28112",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.28192",
+    "title": "a log-log upper bound on blow-up rates for the mass-critical half-wave equation",
+    "authors": [
+      "taegyu kim",
+      "soonsik kwon",
+      "jeongheon park"
+    ],
+    "abstract": "we study finite-time blow-up for the one-dimensional focusing mass-critical half-wave equation   \\begin{equation*}   i\\partial_tu=|d|u-|u|^2u.   \\end{equation*}   for even initial data with negative energy and mass slightly above the ground-state mass, we prove the log-log upper bound   \\begin{equation*}   \\|u(t)\\|_{\\dot h^{1/2}}\\lesssim \\left(\\frac{\\log|\\log(t-t)|}{t-t}\\right)^{1/2}   \\quad \\text{as}\\quad t\\uparrow t.   \\end{equation*}   this gives, for the half-wave equation, the same log-log law upper bound as in the mass-critical nonlinear schrödinger equation.   the proof follows a similar strategy developed by merle and raphaël, but requires a new construction of the blow-up profile. main difficulty arises from the nonlocal operator $|d|$ and the absence of pseudo-conformal symmetry. we construct an almost self-similar profile with exponentially small error by combining tail computations carried out to arbitrary order, depending on a dynamical parameter, with borel integral summation in $λ$-analytic spaces. then, in the modulation analysis, we use a local-virial spectral property proved in the companion paper \\cite{park2026arxiv}.",
+    "submitted": "2026-07-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.28192",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.28194",
+    "title": "finite-time blow-up for the mass-critical half-wave equation with negative energy",
+    "authors": [
+      "jeongheon park"
+    ],
+    "abstract": "we study the one-dimensional focusing mass-critical half-wave equation   \\[   i\\partial_tu=|d|u-|u|^2u.   \\]   for even initial data with negative energy and mass slightly above the ground-state mass, we prove finite-time blow-up and obtain the upper bound \\[   \\|u(t)\\|_{\\dot h^{1/2}}   \\lesssim   \\frac{|\\log(t-t)|^{1/4}}{\\sqrt{t-t}}   \\qquad\\text{as }t\\uparrow t. \\]   this is the first finite-time blow-up result for negative-energy solutions to the mass-critical half-wave equation in the near-ground-state regime.   the proof uses the modulation analysis developed by merle--raphaël \\cite{merleraphael2005annmath}. for the half-wave equation, the key missing ingredient is a coercivity estimate for a nonlocal quadratic form generated by the scaling direction. unlike the local nls, the half-wave equation does not admit the ode methods used to establish the corresponding coercivity estimate. instead, we prove the coercivity estimate by an analytic reduction followed by a rigorous computer-assisted proof.   the spectral analysis part reduces the coercivity problem to a finite collection of spectral inequalities by combining constrained morse index arguments with the birman--schwinger principle. the computer-assisted part certifies these inequalities by interval arithmetic using a validated approximation of the ground state obtained by compactifying the real line. together with the modulation analysis, this coercivity theorem gives the finite-time blow-up result.",
+    "submitted": "2026-07-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.28194",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.28599",
+    "title": "harmonic, radial, and shell stability of the weighted einstein constraints on the sphere at infinity",
+    "authors": [
+      "bruno le floch",
+      "philippe g. lefloch"
+    ],
+    "abstract": "we consider fourth-order and second-order partial differential operators localized on domains of the sphere in arbitrary dimension. these operators arise as weighted compositions of the linearized einstein constraint operators and their adjoints, and played a key role in our resolution of the optimal localization problem in general relativity, also referred to as the gravitational shielding problem. to control the asymptotic behavior of solutions to einstein's constraints in our companion paper (preprint arxiv:2312.17706), we introduced the notions of harmonic, radial, and shell stability. harmonic stability controls the borderline harmonic modes, radial stability governs the radial evolution of spherical averages, and shell stability controls the coupled radial-angular evolution of solutions. in the present paper, we establish that these stability properties follow from weighted poincaré, korn, and hardy inequalities. furthermore, in arbitrary dimension, we investigate the behavior of the associated geometric constants, and conclude that the stability conditions hold for a broad class of localization functions; the theory applies to arbitrarily small localization domains, corresponding to gluing cones with arbitrarily small aperture. at the opposite extreme, our conditions also hold on the entire sphere, corresponding to the absence of localization. this completes, for gluing cones of arbitrarily small aperture in every dimension, the program initiated by a. carlotto and r. schoen on gravitational shielding and the construction of solutions enjoying super-harmonic decay estimates. in our proofs, we introduce hamiltonian and momentum functionals, which we call shell functionals, and show that they enjoy monotonicity and semi-coercivity properties; their structure also suggests possible analogies with functionals arising in other curvature-related geometric problems.",
+    "submitted": "2026-07-30",
+    "categories": [
+      "math.ap",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2607.28599",
+    "filter_reason": "gr-qc cross-listing"
+  }
+]
