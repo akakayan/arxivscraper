@@ -108,5 +108,146 @@
     ],
     "link": "https://arxiv.org/abs/2607.28599",
     "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2510.09829",
+    "title": "spectrum of the wave equation with dirac damping on a compact star graph",
+    "authors": [
+      "mikuláš kučera"
+    ],
+    "abstract": "we consider the wave equation with a distributional dirac damping and dirichlet boundary conditions on a compact interval. it is shown that the spectrum of the corresponding wave operator is fully determined by zeroes of an entire function. consequently, a considerable change of spectral properties is shown for certain critical values of the damping parameter. we also derive a definitive criterion for the riesz basis property of the root vectors for an arbitrary placement of a complex-valued dirac damping. finally, we consider a generalisation of the problem for compact star graphs and provide insight into the essence of the critical damping constant.",
+    "submitted": "2026-07-31",
+    "categories": [
+      "math.sp",
+      "math-ph",
+      "math.ap",
+      "math.fa",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2510.09829",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.28917",
+    "title": "recovery of a null form in the wave equation from scattering data",
+    "authors": [
+      "joel nathe"
+    ],
+    "abstract": "we use highly oscillatory geometric optics solutions to solve the inverse problem for the system \\begin{equation} \\square \\begin{bmatrix} u^{(1)}\\\\ u^{(2)}\\\\ \\vdots\\\\ u^{(n)}\\end{bmatrix} = \\sum_{\\substack{k,l=1\\\\k\\geq l}}^n \\left(q_0(u^{(k)},u^{(l)}) \\begin{bmatrix} q_{1kl}\\\\q_{2kl}\\\\\\vdots\\\\q_{nkl} \\end{bmatrix} + \\sum_{\\substack{i,j=1\\ı>j}}^d q_{ij}(u^{(k)},u^{(l)})\\begin{bmatrix} p_{1ijkl} \\\\ p_{2ijkl} \\\\ \\vdots \\\\ p_{nijkl} \\end{bmatrix}\\right), \\end{equation} where $q_0$ and $q_{ij}$ are the symmetric and anti-symmetric null forms. we present solutions in both the linear and weakly nonlinear regimes. in the linear regime, we show that the coefficients of order $h^3$ determine an injective light-ray transform of a vector field which depends on the coefficients $q_{rkl}, p_{rijkl}$. in the weakly nonlinear regime, we see that the coefficients of order $h$ determine the non-abelian light ray transform for matrices associated with the coefficients. while we do not have an injectivity result for this case, we do have one if we assume the coefficients do not depend on the time variable $x_0$, as our coefficients instead determine an injective non-abelian x-ray transform.",
+    "submitted": "2026-07-31",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2607.28917",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.28963",
+    "title": "optimal convergence rates of the klein-gordon-schrödinger system in the nonrelativistic limit",
+    "authors": [
+      "weizhu bao",
+      "yong lu",
+      "zhiwei zheng"
+    ],
+    "abstract": "in this paper, we study the klein-gordon-schrödinger system in the nonrelativistic regime $ε\\to 0$, where $ε$ is proportional to the inverse of the speed of light. we show that the klein-gordon-schrödinger system converges to a system of decoupled linear schrödinger equations over a long time interval of order $ε^{-1}$ with error estimates of the form $(1+t)ε^2$; in particular, the error estimate for the schrödinger component is uniform in time of the form $ε^{2}$ the specific forms of the error estimates coincide with the numerical results shown by bao et a.l., and the $o(ε^{2})$ convergence rates coincide with the order of initial error, and thus are optimal.",
+    "submitted": "2026-07-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.28963",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.29029",
+    "title": "wave interactions and stability of riemann solutions for a nonautonomous chromatography-type system of langmuir isotherm",
+    "authors": [
+      "richard de la cruz",
+      "rakib mondal",
+      "wladimir neves"
+    ],
+    "abstract": "we investigate the wave interactions and stability of riemann solutions for a nonautonomous chromatography-type system of langmuir isotherm with time-dependent damping and flux. the system models two-component chromatographic separation with a time-dependent saturation capacity $n(t)$, leading to a nonautonomous hyperbolic system of balance laws. we consider a perturbed riemann problem with piecewise constant initial data having two jump discontinuities at $x = \\pmε$, and construct the global weak solution by analyzing all possible wave interactions, both classical (shock waves, rarefaction waves, contact discontinuities) and nonclassical (delta shock waves). we prove that as $ε\\to 0$, the solution of the perturbed riemann problem converges to the solution of the corresponding riemann problem in the space of radon measures, establishing the stability of riemann solutions under small perturbations of the initial data. to the best of our knowledge, this is the first instance of wave interaction and stability analysis for a nonautonomous chromatography-type system with time-dependent coefficients. numerical experiments using a lax-friedrichs type scheme illustrate the wave interaction structure, the profiles at selected times, and the asymptotic convergence as $ε\\to 0$.",
+    "submitted": "2026-07-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.29029",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.29318",
+    "title": "sharp lifespan dichotomies and threshold phenomena for semilinear heat equations driven by the logarithmic laplacian",
+    "authors": [
+      "huyuan chen",
+      "rui chen",
+      "daniel hauer",
+      "jun wang"
+    ],
+    "abstract": "we study nonnegative mild solutions of \\[ \\partial_tu+(-δ)^{\\ln}u=f(u) \\qquad \\text{in }(0,t)\\times\\mathbb r^n, \\] with initial datum \\(u(0,\\cdot)=μu_0\\), \\(μ>0\\). unlike the classical and fractional heat kernels, the positive logarithmic heat kernel exists only for \\(0<t<n/2\\). the associated linear evolution may become singular at its terminal time, and both its maximal lifespan and terminal growth depend on the spatial decay of \\(u_0\\).   the behavior of \\(f\\) near zero determines local solvability: if $\\int_{0^+}\\frac{dσ}{f(σ)}<\\infty,$ then no finite nonnegative solution exists on any positive time interval. under \\((\\mathcal u_α)\\) and \\((\\mathcal f)\\), we develop a well-posedness theory adapted to the nonintegrable logarithmic heat kernel. we also prove two complementary lifespan criteria: globally at most linear growth of \\(f\\) yields the full linear lifespan, whereas $\\int_{s_*}^{\\infty}\\frac{dσ}{f(σ)}<\\infty$ implies that the maximal existence time tends to zero as \\(μ\\to\\infty\\).   we then establish lifespan dichotomies in the slow-decay, fast-decay, and critical-tail regimes. in the noncritical regimes, the weighted osgood tail condition forces premature blow-up, while its failure, under \\((\\mathcal f_\\infty)\\), yields an amplitude threshold. for critical-tail data, an analogous dichotomy holds with the square-root weighted osgood condition, and the dividing power becomes \\(3/2\\). finally, we derive terminal-time estimates and sharp blow-up rates for power nonlinearities.",
+    "submitted": "2026-07-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.29318",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.29323",
+    "title": "observability inequality for the wave equation",
+    "authors": [
+      "suliang si"
+    ],
+    "abstract": "in this paper, only carleman estimates are used, without energy estimates, we derive observability inequality. the main tool consists in the use of a new carleman estimate.",
+    "submitted": "2026-07-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.29323",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.29332",
+    "title": "normalized solutions of $l^2$-supercritical nls equations on noncompact metric graph with vanishing potential and localized nonlinearities",
+    "authors": [
+      "archana prajapati",
+      "divya goel"
+    ],
+    "abstract": "we study the existence of normalized solutions to the $l^2$-supercritical nonlinear schrödinger equation on a noncompact metric graph $g$, \\[ \\begin{cases}   -u''+w(x)u+λu=χ(x)|u|^{p-2}u, & \\text{on every edge } e \\text{ of } g,\\\\[2mm]   \\displaystyle\\sum_{e\\succ v}u'_e(v)=0, & \\text{at every vertex } v\\in v,   \\end{cases}   \\]   under the mass constraint $\\int_g |u|^2\\,dx=μ>0$, where $λ$ arises as a lagrange multiplier. here $p>6$, the potential $w$ belongs to $l^\\infty(g)$, is nonnegative and vanishes at infinity along every unbounded edge of $g$, and $χ$ is the characteristic function of the compact core $\\mathcal{k}$, so that the nonlinearity is localized. in this regime, the energy functional is unbounded from below on the mass constraint, and, since metric graphs are not scale invariant, the scaling arguments and the pohozaev identity available in the euclidean setting cannot be used. we prove that, for every $μ>0$, the problem admits a positive solution with $λ>0$, arising as a constrained critical point at a strictly positive energy level. the proof combines a uniform mountain-pass geometry for a family of approximating functionals, the monotonicity trick together with morse-type information on the associated palais-smale sequences, and a blow-up analysis which rules out the divergence of the lagrange multipliers. to the best of our knowledge, this is the first existence result for normalized solutions of the $l^2$-supercritical nls equation on a noncompact metric graph in the presence of an external potential.",
+    "submitted": "2026-07-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.29332",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.29379",
+    "title": "two-sided estimates of the blow-up time for a semilinear wave equation with fractional structural damping",
+    "authors": [
+      "firas kaabi"
+    ],
+    "abstract": "we consider the initial--boundary value problem for the semilinear wave equation with fractional structural damping $$ u_{tt}+(-δ)^θu_{t}-δu=|u|^{p-1}u $$ in a bounded domain, where the exponent $θ\\in[0,1]$ interpolates between external frictional damping ($θ=0$) and internal kelvin--voigt viscoelastic damping ($θ=1$), and therefore parametrises the frequency dependence of the dissipation mechanism. for initial data with energy below the depth of the potential well and negative nehari functional we prove finite-time blow-up together with an explicit upper bound for the blow-up time. the bound comes from a single concavity functional in which the fractional dissipation cancels identically; it therefore has the same form for every $θ\\in[0,1]$, and it admits a variant that is uniform in $θ$. conversely, for $1<p\\le\\frac{n+2θ}{n-2}$ when $n\\ge3$, we establish an explicit lower bound for the blow-up time. mechanically, the two bounds delimit a guaranteed interval of existence and a guaranteed failure time for the model. the admissible range of exponents in the lower bound widens linearly with $θ$, which quantifies how the strength of the internal damping enlarges the class of nonlinear loads for which such a guarantee can be computed; we do not claim monotonicity in $θ$ of the numerical value of the bound. both theorems are proved for a class of energy solutions specified by a short list of requirements, so that they are independent of any particular local existence theorem, and they carry over unchanged to the elasticity and plate operators used in structural models. the two endpoint cases recover known results for frictional and strong damping.",
+    "submitted": "2026-07-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.29379",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.29605",
+    "title": "dimension reduction and asymptotic approximation of reactive transport in a bulk domain with a branched thin fracture",
+    "authors": [
+      "taras mel'nyk",
+      "christian rohde"
+    ],
+    "abstract": "we study nonlinear reactive transport in a two-dimensional bulk domain containing a thin branched fracture composed of three narrow branches of thickness epsilon connected through a junction node of diameter o(epsilon). the microscopic model couples nonlinear parabolic reaction-diffusion equations in the bulk with an advection-diffusion equation in the fracture, where the longitudinal peclet number is of order epsilon^{-1}, leading to advection-dominated transport along the branches. nonlinear side-dependent flux conditions describe the coupling between the bulk and the fracture. as epsilon tends to zero, the fracture collapses to a one-dimensional graph, and we derive a recurrent structure of effective limit problems: a first-order hyperbolic problem on the graph satisfying the classical kirchhoff transmission condition at the node, and reaction-diffusion equations in the bulk with nonlinear robin conditions on the graph edges involving the graph solution. the node boundary conditions of the microscopic model do not affect these leading-order limits. to capture the influence of the node geometry, we construct node-layer and corner-layer correctors and determine subsequent terms of the asymptotic expansion. their coefficients solve auxiliary boundary-value problems in unbounded domains with outlets at infinity and in corner-type geometries. we assemble a complete multiscale approximation combining bulk, branch, node-layer, and corner-layer contributions, and establish quantitative error estimates in appropriate energy norms. these estimates demonstrate the accuracy of the approximation relative to epsilon and depend explicitly on the corner angles of the limiting graph, reflecting the geometric complexity of the fracture network.",
+    "submitted": "2026-07-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2607.29605",
+    "filter_reason": "keyword match"
   }
 ]
