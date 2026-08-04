@@ -1,1 +1,188 @@
-[]
+[
+  {
+    "id": "2502.07521",
+    "title": "the null condition in elastodynamics leads to non-uniqueness",
+    "authors": [
+      "shunkai mao",
+      "peng qu"
+    ],
+    "abstract": "we consider the cauchy problem for the system of elastodynamic equations in two dimensions. specifically, we focus on materials characterized by a null condition imposed on the quadratic part of the nonlinearity. we can construct non-zero weak solutions $u \\in c^1([0, t] \\times \\mathbb{t}^2)$ that emanate from zero initial data. the proof relies on the convex integration scheme. by exploiting the characteristic double wave speeds of the equations, we construct a new class of building blocks. this work extends the application of convex integration techniques to hyperbolic systems with a null condition and reveals the rich solution structure in nonlinear elastodynamics.",
+    "submitted": "2026-08-03",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2502.07521",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.00477",
+    "title": "spinorial div-curl structure and bilinear null-form estimates for dirac equations",
+    "authors": [
+      "jiong-yue li"
+    ],
+    "abstract": "we identify a physical-space balance-law mechanism underlying bilinear null forms for the free dirac equation in three space dimensions. for each spatial direction, we decompose a spinor into the two eigenspaces of the directional dirac symbol. the principal parts of the corresponding modes propagate in opposite directions, while the transverse derivatives and the mass term couple them. after integration over the transverse variables, their charge densities satisfy a pair of one-dimensional balance laws, and a div--curl interaction estimate controls the mixed product of these densities. the algebraic anticommutation condition defining the spinorial null form exchanges exactly the same two eigenspaces. this identifies the algebraic cancellation with the interaction selected by the balance laws. combined with angular localization, the argument yields frequency-localized $l^2$ spacetime estimates while preserving the natural first-order formulation of the dirac equation. in the massless case, the estimate has the same lower-frequency scaling as the three-dimensional wave null-form estimate and gains half a derivative over the direct product bound. in the massive case, we obtain a channel-dependent refinement. for the pseudoscalar interaction, anticommutation with the full massive dirac hamiltonian gives an additional frequency-to-mass factor $k/m$ for low-frequency interactions within the same energy branch, where $k$ is the frequency scale and $m$ is the mass. this gain is absent in the scalar channel. the bilinear estimates also yield factorized bounds for cubic spinorial null forms arising in nonlinear dirac models.",
+    "submitted": "2026-08-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.00477",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.00887",
+    "title": "free boundary space-like graphs with prescribed mean curvature",
+    "authors": [
+      "lorenzo maniscalco"
+    ],
+    "abstract": "we address the prescribed lorentzian mean curvature problem over a convex bounded domain $ω$ of $\\mathbb r^m$ with bounded right-hand side and homogeneous capillary boundary condition. we prove that the problem has a unique $w^{2,2}$-regular weak solution $u$ with zero mean and that $|du| \\leq 1 - θ$ for some $θ\\in(0,1)$ only depending on the data. such $u$ is also the unique maximizer of an associated functional. a key step in proving that the maximizer is a weak solution consists in showing that it has no light segments, i.e. segments along which $|du| = 1$. this holds for arbitrary bounded capillary boundary data and can thus be an interesting result on its own.",
+    "submitted": "2026-08-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.00887",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.00953",
+    "title": "nonexistence for effectively damped waves with time-dependent mass",
+    "authors": [
+      "duc an phan",
+      "the anh cung",
+      "trung loc tang"
+    ],
+    "abstract": "in this paper, we study the semilinear wave equations $$ u_{tt}-δu+b(t)u_t+m^2(t)u=|u|^p, \\quad t \\geq 0, \\quad x\\in\\mathbb{r}^n $$ with effective time-dependent damping and a time-dependent mass dominated by the damping. d'abbicco, girardi and reissig established global small-data existence in supercritical ranges and identified the scale $$   p_{β,η}(n)=1+\\frac{2η}{n+2ηβ} $$ for initial data in $(l^η(\\mathbb r^n)\\cap h^1(\\mathbb r^n))\\times(l^η(\\mathbb r^n)\\cap l^2(\\mathbb r^n))$ with $1\\leqη<2$, where $β$ is the lower mass index associated with the damping-mass pair. to support the expected sharpness of this scale, they also established an analogous subcritical nonexistence result for the corresponding diffusion equation with nonnegative initial data in $l^η(\\mathbb{r}^n)$, leaving the wave-equation counterpart with effective damping and time-dependent mass open. we address this problem for $η=1$ under an intrinsic accumulated-mass balance and a liouville nonoscillation condition. by constructing a positive slow adjoint mode, we prove nonexistence of global weak solutions for $$   1<p<p_{β,1}(n)=1+\\frac{2}{n+2β}, $$ and also treat the critical case $p=p_{β,1}(n)$ under an osgood divergence condition. conditional lifespan upper bounds and explicit admissible coefficient families are also given.",
+    "submitted": "2026-08-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.00953",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.01132",
+    "title": "new definitions of decay indicators and critical exponent for fractional semi-linear structurally damped evolution equations on the heisenberg group",
+    "authors": [
+      "duc an phan",
+      "the anh cung"
+    ],
+    "abstract": "in this paper, we introduce the lower and upper decay indicators and the associated decay character on the heisenberg group. these notions are used to derive decay estimates for the linear fractional diffusion equation and to characterize the decay of initial data in several function spaces. we then study the cauchy problem $$ \\partial_t^2u+\\left(-δ{\\mathrm h}\\right)^{δ_1}u+\\left(-δ_{\\mathrm h}\\right)^{δ_2}\\partial_tu=0, \\quad δ_1\\in\\left[0,\\frac{δ_2}{2}\\right], $$ and establish decay estimates for solutions and their derivatives in homogeneous fractional sobolev spaces in terms of the decay characters of the initial data. these results recover known estimates and extend them to new classes of data. we also investigate the corresponding semilinear problem with nonlinearity $|u|^p$. global existence and decay are proved for $$ p>1+\\frac{2ωδ_1}{q-2ωδ_2}, \\quad ω=\\frac{q}{q+\\min{r_{\\mathrm h}(u_0),r_{\\mathrm h}(u_1)-2δ_2}+2δ_2}, $$ together with the corresponding critical case. finally, by constructing test functions adapted to the nonlocal fractional sub-laplacians, we establish blow-up results and identify the critical exponent $$ p=1+\\frac{2mδ_1}{q+mγ-2mδ_2} $$ for initial data in $\\dot h_m^{-γ}(\\mathbf h_n)$, where $m\\in(1,2]$ and $γ\\in\\left[0,q-\\frac{q}{m}\\right)$.",
+    "submitted": "2026-08-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.01132",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.01229",
+    "title": "the continuity properties of the solutions of the wave equation at different boundary conditions across the characteristic line",
+    "authors": [
+      "alemdar hasanov",
+      "vladimir g. romanov"
+    ],
+    "abstract": "it is well-known the continuity properties of solutions to the wave equation depend strongly on both the initial data and the boundary conditions, particularly across the characteristic lines, where information propagates. moreover, the continuity properties of solutions to the wave equation depend strongly on the type of boundary condition imposed and on the interaction of the characteristics with the boundary. across the characteristic lines, singularities and discontinuities propagate according to the geometry of the problem, while the boundary conditions determine how these singularities are re?ected or transmitted. in this study, we will examine the behavior of solutions of the wave equation, corresponding to different boundary conditions, on its characteristic line, using the formulas obtained as a result of d'alembert's formula, for all the three, dirichlet, neumann and robin, types of boundary conditions.",
+    "submitted": "2026-08-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.01229",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.01580",
+    "title": "the riemann problem for a 3x3 generalized chaplygin gas system with variable pressure",
+    "authors": [
+      "thomas allen",
+      "ella kim",
+      "jonathan nunes",
+      "rita xing",
+      "charis tsikkou"
+    ],
+    "abstract": "we consider the riemann problem for a 3x3 system of conservation laws with generalized chaplygin pressure $p(ρ,v)=-\\frac{a(v)}{ρ^α}$, $0<α\\leq 1$, where the pressure depends on an additional transported variable. we analyze the system's wave structure and classify the riemann solutions. whenever classical solutions consisting of shocks, rarefaction waves, and contact discontinuities fail to exist, singular solutions arise. we verify that these satisfy the conservation laws in the distributional sense within the classical dirac delta framework, and compare them with nedeljkov's shadow-wave construction, giving two complementary descriptions of the same singular solution. we further study admissibility via the dafermos maximum entropy dissipation principle, with several examples showing how it selects the physically relevant solution. lax-friedrichs simulations illustrate the riemann wave patterns and provide a comparison with the analytical results.   to construct viscous profiles for the isolated overcompressive $δ$-shock, we assume $α\\in\\mathbb{q}\\cap(0,1]$ and apply the dafermos regularization together with a spherical blow-up. working in three directional charts, we construct the reduced singular concatenation consisting of the left outer orbit, the middle orbit on the blown-up boundary, and the right outer orbit. we then prove that, for sufficiently small positive viscosity, this singular concatenation perturbs to a heteroclinic orbit. consequently, the isolated overcompressive $δ$-shock is realized as the zero-viscosity limit of a family of self-similar dafermos viscous profiles.",
+    "submitted": "2026-08-03",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.ds",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.01580",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.01912",
+    "title": "the uniqueness and non-uniqueness of solutions to the even dual minkowski problem",
+    "authors": [
+      "xiong ge",
+      "yang kaiwen"
+    ],
+    "abstract": "for solutions to the minkowski problem of the even dual curvature measures $\\widetilde{c}_q$ in $\\mathbb{r}^n$, $n\\ge 2$, we prove the non-uniqueness for $q>n$ and $n\\ge 2$, and the uniqueness for $0<q<n$ and $n=2$. these results are governed by our established logarithmic brunn-minkowski inequality for dual quermassintegrals $\\widetilde v_q$.",
+    "submitted": "2026-08-03",
+    "categories": [
+      "math.ap",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2608.01912",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.02198",
+    "title": "balance between degenerate elliptic operators and coercive hamiltonians",
+    "authors": [
+      "isabeau birindelli",
+      "giulio galise",
+      "hitoshi ishii"
+    ],
+    "abstract": "for $p>1$, we consider the boundary value problem for fully nonlinear degenerate elliptic equations $-λ_i(d^2u)+|du|^p+γu=f(x)$ in bounded domains with dirichlet or boundary blow-up conditions; here $λ_i(d^2u)$ denotes the $i$-th eigenvalue of the hessian. we study existence and nonexistence of solutions together with the asymptotic behaviour of the solutions when $γ$ goes to zero. a priori lipschitz estimates play an important role. the interplay between the operator's degeneracy and the superlinear growth of the hamiltonian gives rise to phenomena that are very different depending on which of the two terms dominates, e.g. the ergodic dichotomy takes place only when $i=n$, while new phenomena arise for $i<n$ in which case, under mild conditions, solutions that blow up even in just one point do not exist, and conditions on the size of $f$ must be imposed for the existence of solutions to the dirichlet problem with homogeneous boundary condition.",
+    "submitted": "2026-08-03",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.02198",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.02278",
+    "title": "the critical exponent for the three-dimensional semilinear wave equation with strong damping",
+    "authors": [
+      "wenhui chen"
+    ],
+    "abstract": "in this manuscript, we determine the critical exponent for the three-dimensional semilinear wave equation with strong damping and thereby resolve an open problem posed in 2014. the threshold for the power nonlinearity $|u|^p$ is   \\begin{align*}   p=p_{\\mathrm{crit}}=\\frac{7}{3}.   \\end{align*}   sufficiently small data generate global in-time solutions for $p>\\frac{7}{3}$, whereas there exist arbitrarily small smooth compactly supported data whose solutions blow up in finite time for $1<p\\leqslant\\frac{7}{3}$. positivity of the full velocity fundamental solution, combined with a dimension-descent formula, yields a positive half-line kernel and replaces the finite propagation property unavailable for strongly damped waves. this leads to a nonlinear lower-bound parabolic iteration without radial symmetry or pointwise sign assumptions on the initial data. at the critical power, a refined slicing argument on moving shells converts the borderline logarithmic gain into the growth required for blow-up.",
+    "submitted": "2026-08-03",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.02278",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.02534",
+    "title": "failure of fixed-profile modified scattering at the pure $l^2$ endpoint for the 1d defocusing cubic nls",
+    "authors": [
+      "xi chen"
+    ],
+    "abstract": "we prove that the standard fixed-profile modified-scattering ansatz fails at the unweighted $l^2$ endpoint for the one-dimensional defocusing cubic nonlinear schrödinger equation. more precisely, there exists a real-valued datum $$q_* \\in l^1(\\mathbb{r}) \\cap \\bigcap_{k \\geq 0} h^k(\\mathbb{r}), \\quad x q_* \\notin l^2(\\mathbb{r})$$ for which the corrected fourier profile has no strong $l^2$ limit. the $l^2$ norm of the datum may be prescribed arbitrarily. the construction is an inductively chosen sum of disjoint smooth bumps. exact composition of the zakharov--shabat transfer matrices inserts a high-frequency oscillation into the logarithm of the transmission coefficient, while the one-sided logarithmic operator in the deift--zhou phase amplifies an insertion of size $ε_n$ by a factor of order $\\log x_n$. choosing $ε_n\\log x_n=κ$ produces a uniform separation between consecutive smooth asymptotic profiles even though the partial data converge in $l^1\\cap l^2$. the obstruction is specific to a single time-independent profile and leaves open adaptive or scale-dependent renormalizations.",
+    "submitted": "2026-08-03",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.02534",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2608.02567",
+    "title": "talbot effect for the periodic benjamin--ono equation",
+    "authors": [
+      "xi chen"
+    ],
+    "abstract": "we study the talbot effect for the periodic benjamin--ono equation with rough initial data. using the smoothing theorem of gérard--kappeler--topalov for tao's gauge transform, we reduce the singularity analysis to an explicit quadratic gauge profile. for general bounded-variation data we obtain a rational-time gauge-hardy representation. for a natural subclass of talbot-admissible data, whose initial gauge profile has only finitely many edge singularities, this representation becomes a finite sum of logarithmic kernels and one-jump kernels, up to a continuous remainder. we show that finite-jump, piecewise smooth bv data are talbot-admissible; in particular, this applies to the square wave. at irrational times, we prove continuity under a finite diophantine type condition, and we also exhibit a liouville obstruction showing that the corresponding one-sided gauge profile need not be continuous at all irrational times. the results give a rigorous structural result that is qualitatively consistent with the numerical profiles of alama bronsard--laurens.",
+    "submitted": "2026-08-03",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.02567",
+    "filter_reason": "known author"
+  }
+]
