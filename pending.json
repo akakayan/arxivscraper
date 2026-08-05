@@ -184,5 +184,84 @@
     ],
     "link": "https://arxiv.org/abs/2608.02567",
     "filter_reason": "known author"
+  },
+  {
+    "id": "2509.05262",
+    "title": "existence and non-existence for continuous generalized exchange-driven growth model",
+    "authors": [
+      "chun yin lam",
+      "andré schlichting"
+    ],
+    "abstract": "the continuous generalized exchange-driven growth model (cgedg) is a coagulation-fragmentation equation that describes the evolution of the macroscopic cluster size distribution induced by a microscopic dynamic of binary exchanges of masses between clusters. it models droplet formation, migration dynamics, and asset exchanges in various scientific and socio-economic contexts. it can also be viewed as a generalization of the continuous smoluchowski equations. in this work, we show the existence and uniqueness of solutions for kernels with superlinear growth at infinity and singularity at the origin and show the non-existence of solutions for kernels with sufficiently rapid growth. the latter result is shown via the finite-time gelation and instantaneous gelation in the sense of moment blow-up.",
+    "submitted": "2026-08-04",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2509.05262",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.03126",
+    "title": "a note on relativistic kinetic schauder estimates",
+    "authors": [
+      "weinan wang"
+    ],
+    "abstract": "in this note, motivated by \\cite{dw26}, we construct counterexamples to momentum-only schauder estimates for linear kinetic equations with relativistic transport. the construction exploits a structural compatibility between the nonlinear momentum-to-velocity map and a single fixed pair of smooth diffusion and drift coefficients: after conjugation, the diffusion becomes the laplacian and all induced first-order terms cancel. thus the obstruction is realized for one fixed operator, uniformly elliptic on every bounded momentum set, rather than through a frequency-dependent family of coefficients. we further show that the failure persists with zero external forcing by constructing uniformly positive stationary solutions for which the hidden spatial oscillation is encoded in a bounded zeroth-order coefficient whose momentum hölder seminorm tends to zero. consequently, the full lorentzian hölder control used in \\cite{hstt} cannot in general be replaced by momentum-only hölder control.",
+    "submitted": "2026-08-04",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.03126",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.03332",
+    "title": "stable blowup for the harmonic map heat flow into perturbed spheres",
+    "authors": [
+      "alexander wittenstein"
+    ],
+    "abstract": "we prove stable self-similar blowup for the harmonic map heat flow in dimensions 3 to 6 for target manifolds which are slightly perturbed versions of the round sphere. starting from the known blowup solution for the sphere, we construct self-similar blowup solutions for this class of target manifolds and prove that these solutions are asymptotically nonlinear stable.   although the blowup solution for the sphere is not explicitly known in this case, we can still use perturbative methods similar to those developed by donninger, schörkhuber, and the author in \\cite{donschwit26} who consider a related problem for the wave maps equation.",
+    "submitted": "2026-08-04",
+    "categories": [
+      "math.ap",
+      "math.fa"
+    ],
+    "link": "https://arxiv.org/abs/2608.03332",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.03713",
+    "title": "blow-up criteria and lifespan estimates for semilinear wave equations with time-dependent damping and mass",
+    "authors": [
+      "wenhui chen",
+      "mohamed ali hamza"
+    ],
+    "abstract": "we consider semilinear wave equations with time-dependent damping and mass and a derivative-type nonlinearity. by applying a liouville transformation and solving a volterra integral equation posed from infinity, we construct a positive exact solution to the adjoint equation without using an explicit representation of the linear propagator. this solution is used to derive a blow-up criterion for energy solutions with finite propagation, together with an upper bound for the lifespan. if the primitive of the damping coefficient grows at most logarithmically, we obtain the full shifted glassey range, including the critical exponent, and the corresponding polynomial and exponential lifespan estimates. the result applies independently of the sign of the scale-invariant discriminant and therefore includes the mass-dominant regime. it also covers non-integrable oscillatory perturbations of the damping coefficient when their contributions are canceled by the corresponding mass terms.",
+    "submitted": "2026-08-04",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.03713",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.03949",
+    "title": "on the brunn-minkowski inequality for $q$-th dual quermassintegrals with $q>n$",
+    "authors": [
+      "haizhong li",
+      "yao wan",
+      "yijia zhang"
+    ],
+    "abstract": "in this paper, we study the brunn-minkowski inequality for $q$-th dual quermassintegrals with $q>n$. this problem was recently posed by sadovsky and zhang. first, by a second variation argument and a dimension reduction construction, we show that the inequality fails for arbitrary convex bodies when $q>n$, and fails even in the origin-symmetric class when $q>n+2$. secondly, we prove the endpoint case $q=n+2$ for origin-symmetric convex bodies via hadwiger's inequality for the polar moment of inertia. finally, for unconditional convex bodies, we establish the inequality in the full range $0<q\\le n+1$ by using a singular weighted reilly formula and a coordinate-slice hardy inequality. as applications, we derive several uniqueness results for the corresponding dual curvature measures.",
+    "submitted": "2026-08-04",
+    "categories": [
+      "math.dg",
+      "math.ap",
+      "math.mg"
+    ],
+    "link": "https://arxiv.org/abs/2608.03949",
+    "filter_reason": "keyword match"
   }
 ]
