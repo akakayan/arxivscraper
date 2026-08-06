@@ -263,5 +263,72 @@
     ],
     "link": "https://arxiv.org/abs/2608.03949",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.22879",
+    "title": "dispersive estimates for dirac operators with general domain walls: one and two dimensions",
+    "authors": [
+      "m. burak erdogan",
+      "joseph kraisler",
+      "amir sagiv"
+    ],
+    "abstract": "we establish dispersive decay estimates for two-dimensional dirac equations with bounded and unbounded domain walls, together with estimates for the analogous one-dimensional problem. these are paradigmatic models of bulk-edge correspondence in topological insulators, yet their dispersive dynamics have not been previously studied. we show that topologically equivalent models may exhibit qualitatively different dynamics. our new approach allows us to analyze models which are beyond the usual framework of localized perturbations of constant-coefficient dirac operators.",
+    "submitted": "2026-08-04",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2607.22879",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.04357",
+    "title": "controllable subspaces and real-part observability for schrödinger equations on $\\mathbb t^d$",
+    "authors": [
+      "gengsheng wang",
+      "ming wang"
+    ],
+    "abstract": "we study internal controllability of schrödinger equations on tori with controls acting only through their real parts. this real-part constraint leads to a real-linear control problem for which full null controllability may fail. we characterize the maximal null-controllable subspace and show that the uncontrollable directions are precisely given by the purely imaginary stationary modes. these results provide an explicit description of controllable and uncontrollable directions for schrödinger equations with real-part controls.   the characterization is obtained through observability inequalities with sharp stationary correction terms. for cylindrical open control regions, we prove such an estimate by a real-part compactness--uniqueness argument. for admissible measurable product control regions in the shifted free case, we establish the corresponding estimate for rough spacetime control sets. the proof combines complex-valued observability inputs with a double-spectrum analysis arising from the coupling of the forward and backward schrödinger evolutions in the real-part observation.",
+    "submitted": "2026-08-05",
+    "categories": [
+      "math.ap",
+      "math.oc"
+    ],
+    "link": "https://arxiv.org/abs/2608.04357",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.04671",
+    "title": "global existence of solutions for nonlinear damped wave equations in an exterior domain with nonlinearities of derivative type",
+    "authors": [
+      "tuan anh dao",
+      "dinh van duong",
+      "masahiro ikeda"
+    ],
+    "abstract": "in this paper, we are interested in considering the semi-linear damped wave equation with the power nonlinearity of derivative type in $2$d exterior domains to indicate the global (in time) existence of small data solutions, which has never appeared in previous studies. our proof is based on constructing a judicious time-weighted function space and demonstrating nonlinear estimates compatible with fractional powers of the dirichlet laplacian linked to the semigroup decay structure. moreover, the large time behavior of the time derivative of the obtained global solutions and its sharp estimate are also discussed in this paper.",
+    "submitted": "2026-08-05",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.04671",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.04675",
+    "title": "inverse geometric diffraction by a cone",
+    "authors": [
+      "gang bao",
+      "xi chen",
+      "shuai lu",
+      "kuangmiao xiong"
+    ],
+    "abstract": "consider the inverse problem of recovering a strictly convex conical obstacle in $\\mathbb{r}^3$ from the diffraction coefficients along with arrival directions (lens data) or arrival times of diffracted waves. the incident wave is a spherical pulse emanating from a point, and the measurements of diffracted waves are taken at an arbitrarily sized receiver placed within the reflection shadow. specifically, the lens data or arrival times determine the location of the tip, whereas the diffraction coefficients reconstruct the shape of the cone. since diffraction coefficients are described by half waves over the complement of the cone base in $\\mathbb{s}^2$, we reduce inverse diffraction by a cone in $\\mathbb{r}^3$ to identifying the reflected wavefront in $\\mathbb{s}^2$ and recovering the obstacle using reflected rays on the sphere. the former is accomplished by constructing the hadamard parametrix for half waves near the wavefront, whereas the latter relies on the topological properties of broken geodesics on $\\mathbb{s}^2$. the framework developed in this paper exploits the analytic and geometric structures of diffracted wave fields characterized in the geometrical theory of diffraction, and establishes, for the first time, a rigorous inverse theory corresponding to gtd.",
+    "submitted": "2026-08-05",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.04675",
+    "filter_reason": "known author"
   }
 ]
