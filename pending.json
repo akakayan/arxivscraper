@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "id": "2603.19868",
+    "title": "existence, non-degeneracy and local uniqueness of multi-peak solutions to the fractional schrödinger equation with nearly critical exponent in $\\mathbb{r}^n$",
+    "authors": [
+      "yanyan guo",
+      "ying li",
+      "zhongyuan liu",
+      "pingping yang"
+    ],
+    "abstract": "in this paper, we consider the following fractional schrödinger equation \\begin{equation*} \\left\\{ \\begin{array}{lcl} (-δ)^{s}u+v(x)u=u^{{p_s}-ε}\\ \\ \\ &\\hbox{in}\\ \\mathbb{r}^n,\\\\ u>0\\ \\ \\ &\\hbox{in}\\ \\mathbb{r}^n, \\end{array} \\right. \\end{equation*} where $0<s<1$, $ε>0$, $p_s=(n+2s)/(n-2s)$, $n>4s$ and $v(x)\\in c^1(\\mathbb{r}^n)\\cap l^\\infty (\\mathbb{r}^n)$ is non-negative. we first use the lyapunov-schmidt reduction method to construct multi-peak solutions to the above equation provided that $v(x)$ possesses $k$ stable critical points. then we prove the non-degeneracy and local uniqueness of the multi-peak solutions, for $\\frac{1}{2}<s<1$, $n\\geq 6s$, via the blow-up argument based on various local pohozaev identities. due to the nonlocal property of the fractional laplacian, we need to make delicate analysis of the approximate solutions and establish the local pohozaev identities for the corresponding harmonic extension instead of $u$. this approach not only requires to develop refined estimates for several integrals in the local pohozaev identities, but also to apply pohozaev identities through a markedly different way.",
+    "submitted": "2026-08-06",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2603.19868",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.05334",
+    "title": "on a two-dimensional camassa-holm-zakharov-kuznetsov equation",
+    "authors": [
+      "xixuan li",
+      "kai yan",
+      "tiantian zhao"
+    ],
+    "abstract": "this paper is devoted to a new two-dimensional nonlinear dispersive wave model named as the camassa-holm-zakharov-kuznetsov (ch-zk) equation which combines the nonlinear structure of the camassa-holm equation with the transverse laplacian dispersion of the zakharov-kuznetsov equation. we first establish the local well-posedness of its cauchy problem in a suitable sobolev space and derive a blow-up criterion for strong solutions. then the finite-time blow-up strong solutions for the ch-zk equation have been constructed. moreover, we prove a unique continuation property for the solutions to the ch-zk equation. finally, we investigate the existence of both peaked and smooth solitary waves, and obtain a rigidity theorem for the traveling wave solutions according to the magnitude of wave speed.",
+    "submitted": "2026-08-05",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.05334",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.05711",
+    "title": "positive solutions for a one-dimensional minkowski-curvature equation with a sign-changing nonlinearity under mixed boundary conditions",
+    "authors": [
+      "ao xiao"
+    ],
+    "abstract": "we establish the existence of a positive solution for a one-dimensional minkowski-curvature equation with mixed boundary conditions and a sign-changing nonlinearity. a nonnegative linear shift and the green kernel of the associated linear problem produce an invariant cone. principal-eigenvalue comparisons and the fixed point index give cone expansion near zero and compression at infinity. a globally defined auxiliary equation and a first-contact argument show that the resulting solution has slope below one and hence solves the original equation. we also derive a directly verifiable asymptotic criterion.",
+    "submitted": "2026-08-06",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.05711",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.06237",
+    "title": "well-posedness of stochastic time-nonlocal telegraph equations with hölder diffusion coefficient: hereditary phase-space lifting and novel generalized coupling method",
+    "authors": [
+      "xi huang",
+      "li peng",
+      "juan carlos pozo",
+      "yong zhou"
+    ],
+    "abstract": "we consider the initial-boundary value problem for the stochastic time-nonlocal telegraph equation with $(\\mathcal{pc}_\\varepsilon)$-type kernel $a$:   \\begin{align*}   γ\\partial_t \\left( a \\ast \\partial_t (a \\ast v)\\right) =δv-\\partial_t (a \\ast v)+ ψ(v)+ φ(v) \\frac{\\mathrm{d}w(t)}{\\mathrm{d}t},   \\end{align*}   where $w$ is a space-time gaussian white noise, $ψ$ satisfies a linear growth condition, and $φ$ is hölder continuous and uniformly nondegenerate. this model characterizes high-frequency signal propagation in small-scale systems under stochastic fluctuations. we develop a new hereditary phase-space lifting framework for time-nonlocal telegraph equations. in addition, we propose a novel generalized coupling framework, which features a new construction of the damping control term for the velocity. based on these analytic tools, we prove the first results on weak existence and uniqueness in law for mild solutions, valued in $l_{loc}^2(\\mathbb r_+; h^δ)$, to the stochastic nonlocal telegraph equation. the regularity index $δ$ can be arbitrarily close to $\\min\\{\\frac{1}{2},\\frac{\\varepsilon}{2+\\varepsilon} \\}$ from below, and the admissible lower bound of the hölder exponent $κ$ is quantitatively determined by the integrability exponent $\\varepsilon$. for the corresponding ibvp of the stochastic damped wave equation, obtained by replacing $a$ with the dirac measure $δ_0$, $κ$ can be improved to any value in $(\\frac{3}{5}, 1]$. more significantly, the generalized coupling framework also handles low-regularity nonlinearities depending on both displacement and velocity.",
+    "submitted": "2026-08-06",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.06237",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.06355",
+    "title": "on generalised d'alembert-type integral representations for damped wave equations on the quarter-plane",
+    "authors": [
+      "andreas chatziafratis",
+      "claudio giorgi",
+      "alain miranville",
+      "federico zullo"
+    ],
+    "abstract": "we rigorously construct and verify a posteriori new closed-form solutions for the forced maxwell-cattaneo-vernotte equation (also broadly known as the damped wave equation, hyperbolic heat, and telegrapher's equation on lossy transmission lines) posed on the spatiotemporal quarter-plane with general initial and boundary data in classical function spaces. for this purpose, the modern complex-analytic unified transform method of fokas (originally developed for elliptic pde and evolution equations with polynomial dispersion relations) is here, for the first time, extended for analysis of hyperbolic-parabolic problems on the semi-infinite interval. importantly, we then establish theorems which pertain to regularity, boundary and asymptotic properties of the new analytical formulae as well as to well-posedness of the addressed boundary-value problems. notably, the nature and generality of problems considered, combined with the semi-unboundedness of the domain, induce substantial analytic challenges which demand delicate treatment, both in appropriately interpreting oscillatory integral terms of the solution formulae and in proving the proposed results. in this process, crucially, certain compatibility conditions, between initial, boundary and forcing data at the origin, are revealed, which guarantee the existence of a smooth solution across the whole domain of interest. our explicit integral representations are of direct utility for numercal benchmarking purposes, for exploring connections with modelling in continuum mechanics, mathematical physics, biology and the natural sciences, and for the investigation of well-posedness for nonlinear counterparts too.",
+    "submitted": "2026-08-06",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.cv",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.06355",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.06367",
+    "title": "quasiconvexity for the dacorogna--marcellini energy",
+    "authors": [
+      "giuseppe bruno",
+      "federico pasqualotto"
+    ],
+    "abstract": "we prove that the planar dacorogna--marcellini energy $f_γ(a)=|a|^4-2γ|a|^2\\det a$ is quasiconvex exactly when it is rank-one convex, i.e. if and only if $|γ|\\leq\\frac{2}{\\sqrt3}$. the proof uses a monotonicity property of the energy functional along the componentwise heat flow. as a corollary of our method, we show that for homogeneous quartic polynomials on $2 \\times 2$ matrices invariant by left and right rotation, quasiconvexity is equivalent to rank one convexity.",
+    "submitted": "2026-08-06",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.06367",
+    "filter_reason": "known author"
+  }
+]
