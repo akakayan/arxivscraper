@@ -97,5 +97,70 @@
     ],
     "link": "https://arxiv.org/abs/2608.06367",
     "filter_reason": "known author"
+  },
+  {
+    "id": "2312.17706",
+    "title": "optimal localization for the einstein constraints",
+    "authors": [
+      "bruno le floch",
+      "philippe g. lefloch"
+    ],
+    "abstract": "we establish the existence of asymptotically euclidean solutions, or initial data sets, to einstein's vacuum constraints exhibiting both gravitational shielding and arbitrarily low decay. we resolve a conjecture of carlotto and schoen on gluing two solutions across an asymptotically conical domain: in the interpolation region we establish optimal estimates at and beyond harmonic decay, together with adm invariant estimates. starting from a seed data set that asymptotically solves the constraints, we project it to an exact solution, whose difference from the seed inherits the natural optimal radial decay rate. the seed-to-solution projection operator composes the linearized constraint operator with its formal adjoint. its harmonic kernel at infinity generates energy-momentum modulators, which define relative invariants equal to the differences of the usual adm invariants whenever those exist. we introduce harmonic, radial, and shell stability conditions on the angular gluing function; they ensure the positivity and radial monotonicity of the functionals governing optimal decay. a follow-up paper proves these conditions from weighted poincaré, korn, and hardy inequalities, leading to verifiable conditions on the localization function. as particular cases, our theory applies to solutions without localization and for solutions in the small aperture limit. our analysis of the linearized scalar curvature operator relies crucially on a new fourth-order curvature functional, and also applies to gluing scalar-flat metrics.",
+    "submitted": "2026-08-07",
+    "categories": [
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2312.17706",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2410.00636",
+    "title": "radial blow-up standing solutions for the semilinear wave equation",
+    "authors": [
+      "maissâ boughrara",
+      "hatem zaag"
+    ],
+    "abstract": "we consider the semilinear wave equation with a power nonlinearity in the radial case. given $r_0>0$, we construct a blow-up solution such that the solution near $(r_0,t(r_0))$ converges exponentially to a soliton. moreover, we show that $r_0$ is a non-characteristic point. for that, we translate the question in self-similar variables and use a modulation technique. we will also use energy estimates from the one dimensional case treated by merle and zaag in 2007. of course because of the radial setting, we have an additional gradient term which is delicate to handle. that's precisely the purpose of our paper.",
+    "submitted": "2026-08-07",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2410.00636",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2506.07058",
+    "title": "exponential local energy decay of solutions to the wave equation with $l^\\infty$ electric and magnetic potentials",
+    "authors": [
+      "andrés larraín-hubach",
+      "jacob shapiro",
+      "georgi vodev"
+    ],
+    "abstract": "in this paper we prove sharp resolvent estimates for the magnetic schrödinger operator in $\\mathbb{r}^d$, $d\\ge 3$, with $l^\\infty$ short-range electric and magnetic potentials. we also show that these resolvent estimates still hold for the dirichlet self-adjoint realization of the schrödinger operator in the exterior of a non-trapping obstacle in $\\mathbb{r}^d$, $d\\ge 2$, provided the magnetic potential is supposed identically zero. as an application of the resolvent estimates, we obtain an exponential decay of the local energy of solutions to the wave equation with $l^\\infty$ electric and magnetic potentials which decay exponentially at infinity, in all odd and even dimensions, provided the low frequencies are cut off in a suitable way. we also show that in odd dimensions there is no need to cut off the low frequencies in order to get an exponential local energy decay, provided we assume that zero is neither an eigenvalue nor a resonance.",
+    "submitted": "2026-08-07",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2506.07058",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.07231",
+    "title": "liouville rigidity for entire strictly spacelike solutions of a lorentzian prescribed mean curvature equation",
+    "authors": [
+      "xi-nan ma",
+      "tian wu",
+      "wangzhe wu",
+      "bao yu"
+    ],
+    "abstract": "we prove a liouville theorem for nonnegative entire strictly spacelike solutions of \\[ \\operatorname{div}\\left(\\frac{\\nabla u}{\\sqrt{1-|\\nabla u|^2}}\\right)+u^p=0 \\qquad\\text{in }\\mathbb r^n. \\] if $n\\in\\{1,2\\}$ and $p>1$, or if $n\\ge3$ and \\[ 1<p<\\frac{n+2}{n-2}, \\] every nonnegative $c^2$ solution satisfying $|\\nabla u|<1$ is zero. no symmetry, decay, integrability, or uniform spacelike gap is assumed. independently, for every $n\\ge2$ and $p\\ge1$ we establish global height and lorentz-factor bounds that remain valid in the critical and supercritical regimes. in dimension two, a logarithmic-capacity argument completes the proof. for $n\\ge3$, we combine two weighted trace-free tensor identities whose quadratic form is coercive exactly in the subcritical range and degenerates at the sobolev exponent. this extends radial nonexistence to arbitrary entire solutions and yields a geometric half-space rigidity theorem for complete spacelike hypersurfaces.",
+    "submitted": "2026-08-07",
+    "categories": [
+      "math.ap",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2608.07231",
+    "filter_reason": "keyword match"
   }
 ]
