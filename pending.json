@@ -1,1 +1,193 @@
-[]
+[
+  {
+    "id": "2411.14719",
+    "title": "two-channel global compactness and existence for critical gjms equations on hyperbolic space",
+    "authors": [
+      "jungang li",
+      "zhiwei wang"
+    ],
+    "abstract": "on hyperbolic space, concentration at the conformal boundary of the ball model is not an exceptional phenomenon to be excluded: it is escape to infinity along hyperbolic isometries. we make this precise for critical equations driven by the gjms operator $p_m$ of order $2m$, \\[   p_m u+a(x)u=|u|^{\\frac{4m}{n-2m}}u,   \\qquad u\\in\\mathcal d^{m,2}(\\mathbb h^n),   \\qquad n>2m, \\] with a nonnegative potential $a$ in the critical class $l^{n/(2m)}(\\mathbb h^n)$, and prove a two-channel global compactness theorem for palais--smale sequences: interior profiles are the usual euclidean concentrating bubbles, while boundary half-space profiles are identified, through an explicit conformal lift, with solutions of the limiting hyperbolic equation transported by diverging isometries. for $m\\geq2$ this avoids relying on the second-order pohozaev exclusion of boundary profiles.   since truncation into positive and negative parts is unavailable in $w^{m,2}$, we also prove an abstract nodal-energy principle: in every hilbert space continuously embedded in $l^q$ whose inverse riesz map is positivity preserving, equivalently whose positive cone has polar cone contained in the negative cone, every sign-changing critical point carries at least twice the one-bubble energy. applied to $p_m$ through the positivity of its green kernel, and combined with a ball-model nonexistence argument, this yields a palais--smale window below the two-bubble threshold. finally we isolate an abstract two-level barycenter--concentration criterion and apply it to passaseo-type concentrated potentials, obtaining a nontrivial solution for all sufficiently large concentration parameters and a second one, at a strictly higher normalized level, under a critical $l^{n/(2m)}$-smallness condition.",
+    "submitted": "2026-08-08",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2411.14719",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2501.00109",
+    "title": "second order spectral estimates and symmetry breaking for rotating wave solutions",
+    "authors": [
+      "joel kübler"
+    ],
+    "abstract": "we consider rotating wave solutions of the nonlinear wave equation \\[ \\left\\{ \\begin{aligned} \\partial_{t}^2 v - δv + m v & = |v|^{p-2} v \\quad && \\text{in $\\mathbb{r} \\times \\textbf{b}$} \\\\ v & = 0 && \\text{on $\\mathbb{r} \\times \\partial \\textbf{b}$} \\end{aligned} \\right. \\] for $2<p<\\infty$, $m \\in \\mathbb{r}$ on the unit disk $\\textbf{b} \\subset \\mathbb{r}^2$. this leads to the study of a reduced equation involving the elliptic-hyperbolic operator $l_α= -δ+ α^2 \\partial_θ^2$ with $α>1$. we find that the structure of the spectrum of $l_α$ strongly depends on the quantity \\[ σ= \\fracπ{\\sqrt{α^2- 1} - \\arccos \\frac{1}α} > 0 . \\] by giving precise estimates for certain sequences of bessel function zeros, we can classify the spectrum for all $α>1$ such that $σ$ is rational and further find that the existence of accumulation points explicitly depends on arithmetic properties of $σ$. using these characterizations, we deduce existence and symmetry breaking results for ground state solutions of the reduced equation, extending known results.",
+    "submitted": "2026-08-10",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2501.00109",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.08134",
+    "title": "rational neural networks for tracking complex singularities of nonlinear pdes",
+    "authors": [
+      "nadiia derevianko",
+      "hans-joachim bungartz",
+      "felix dietrich"
+    ],
+    "abstract": "we present a neural network-based method for numerical analytic continuation of solutions of nonlinear partial differential equations (pdes) and detection of their complex singularities. the proposed framework employs \"unsafe\" padé activation units (paus) as activation functions, together with a novel backpropagation-free method for computing the weights and biases of the hidden layers. the training procedure is designed specifically for learning meromorphic functions with pole-type singularities. unlike existing methods with fixed hidden-layer parameters, the proposed approach treats the weights and biases as time-dependent functions, allowing the network to adapt to the evolution of the complex singularities. using this method, we can efficiently locate the complex singularities of the extended solution, track their trajectories over time, and, based on this dynamics, infer the formation of characteristic phenomena in the solutions of nonlinear pdes. to demonstrate the performance of our method, we analyze three well-known cases: (1) the nonlinear heat equation, which exhibits finite-time blow up; (2) the nonlinear burgers equation, which develops a shock; and (3) the nonlinear schrödinger equation, in which rogue waves form.",
+    "submitted": "2026-08-08",
+    "categories": [
+      "math.na",
+      "cs.na",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.08134",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.08533",
+    "title": "open full-metric formation and local marked first-order asymptotic moduli of fik blowdown singularities",
+    "authors": [
+      "henry shin"
+    ],
+    "abstract": "we prove that the feldman--ilmanen--knopf (fik) blowdown singularity has a nonempty open nonlinear formation basin in the full space of smooth riemannian metrics and, on a smaller neighborhood, local marked first-order asymptotic moduli. given a closed connected oriented riemannian four-manifold, an implantation point, and a positive time bound, its oriented blow-up admits a relatively $c^{2,α}$-open set of smooth metrics whose ricci flows form, before that time, a localized fik singularity with global type-i curvature control. no symmetry, kähler condition, or finite-dimensional tuning is imposed. curvature stays uniformly bounded outside the implantation region; fixed-convention marked rescalings converge along the full singular-time sequence to the ancient fik flow; and the exceptional sphere has sharp fik asymptotics for area, intrinsic diameter, and curvature. to our knowledge, this is the first open full-metric formation theorem for a finite-time singularity modeled on a noncompact, noncylindrical shrinker.   a self-contained spectral certification identifies the weighted fik operator's nine-dimensional nonnegative space with the scaling and diffeomorphism directions, and exact modulation removes this block. on a smaller little-hölder $h^{2,α}$ neighborhood, a fixed positive-time restart yields the marked first-profile coordinate $\\mathfrak{a}_1=λ_\\infty^{-γ_1}v_\\infty\\in e_1$. this amplitude is a split $c^1$ submersion and locally the projection onto $e_1$. equality of amplitudes characterizes marked first-order agreement; a transverse disk uniquely realizes each sufficiently small amplitude; normalized two-flow differences converge to the corresponding jacobi field; and the amplitude determines the first quadratic scale and phase response. this gives a complete local marked first-order profile coordinate for fik blowdown.",
+    "submitted": "2026-08-09",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.08533",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.08573",
+    "title": "on the structure of isolated singularities for semilinear elliptic equations",
+    "authors": [
+      "meiqing xu",
+      "hui yang"
+    ],
+    "abstract": "in this paper, we study isolated singularities of the following semilinear elliptic equation $-δu+\\frac12 x\\cdot \\nabla u+\\frac{1}{q-1}u-u^q=0$ in $ω\\setminus \\{0\\}$, where $n\\ge 3$, $ω\\subset \\mathbb{r}^n$ is a domain, $0 \\in ω$ and $q>1$. this equation arises in the study of blow-up profiles of semilinear heat equations. for $\\frac{n}{n-2}< q < \\frac{n+2}{n-2}$, we establish a complete classification of isolated singularities for nonnegative solutions and characterize the precise asymptotic behavior of singular solutions. our results improve those of guedda and kirane (trans. amer. math. soc., 1995: 3595-3603), where analogous results were obtained only for radially symmetric positive solutions. in addition, we also derive the asymptotic behavior of solutions in the serrin critical case $q=\\frac{n}{n-2}$ and the supercritical case $q>\\frac{n+2}{n-2}$.",
+    "submitted": "2026-08-09",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.08573",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.08719",
+    "title": "global future existence for a nonlinear wave equation in a 1 + n-dimensional cosmological supersymmetric spacetime",
+    "authors": [
+      "haiping chen",
+      "jinhua wang"
+    ],
+    "abstract": "this paper is concerned with the cauchy problem for a semilinear wave equation with arbitrary quadratic nonlinearities, posed on a cosmological supersymmetric spacetime of the product form (open milne) $\\times k$, where $k$ is a compact, ricci-flat $n$-dimensional riemannian manifold. we establish global future existence of solutions for small initial data. our proof, based on a novel modified energy, avoids spectral decompositions of the laplace operator on the internal manifold and does not require any special nonlinear coupling structure. this robust framework is expected to be readily extendable to tensorial wave equations, including the einstein equations.",
+    "submitted": "2026-08-09",
+    "categories": [
+      "math.ap",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2608.08719",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.08863",
+    "title": "semilinear wave equations in homothetic hyperboloidal coordinates and tail decay",
+    "authors": [
+      "anıl zenginoğlu",
+      "sebastiano bernuzzi",
+      "andrea nützi"
+    ],
+    "abstract": "late-time wave tails decay at different rates along future null infinity and along timelike worldlines at finite radius. a compactified numerical evolution must represent both the slower decay at null infinity and the faster interior decay, producing an increasingly sharp transition between the two regimes. we address this difficulty for semilinear wave equations in minkowski spacetime using homothetic hyperboloidal coordinates adapted to the scaling structure of the tail. in these coordinates, the tail approaches a smooth radial profile with the same decay rate at every compactified radius. the formulation therefore avoids the steepening of the radial profile seen in stationary hyperboloidal evolutions, and it reaches late times in a number of steps that grows only logarithmically with retarded time. we demonstrate this approach using pseudospectral simulations in 3+1 dimensions and reproduce the generic decay rates conjectured by rinne. we also provide numerical evidence consistent with a nongeneric codimension-one cancellation of the leading tail coefficient at null infinity, resulting in a faster decay rate.",
+    "submitted": "2026-08-09",
+    "categories": [
+      "gr-qc",
+      "cs.na",
+      "math.ap",
+      "math.na"
+    ],
+    "link": "https://arxiv.org/abs/2608.08863",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2608.09648",
+    "title": "exact boundary controllability of a singular/degenerate wave equation via singular sturm-liouville theory",
+    "authors": [
+      "marcos lopez-garcia"
+    ],
+    "abstract": "we prove exact boundary controllability for a class of one-dimensional singular/degenerate wave equations of sturm--liouville type, \\[ u_{tt}-(x^αu_x)_x-βx^{α-1}u_x-μx^{α-2}u=0, \\qquad x\\in(0,1), \\] with a dirichlet condition at the regular endpoint and a boundary control acting at the singular endpoint \\(x=0\\). the analysis is carried out in the fractional energy space % \\[ x=\\mathcal h^{ν+1/2}\\times \\mathcal h^{ν-1/2}, \\] associated with the corresponding singular sturm--liouville operator. using the spectral decomposition induced by bessel functions, we establish admissibility of the boundary observation operator and derive precise lower estimates for the observation coefficients.   exact observability is obtained through ingham-type inequalities together with an abstract observability result for unitary groups. the proof treats simultaneously the subcritical, critical logarithmic, and limit-point regimes by means of singular sturm--liouville theory and boundary traces identified through the lagrange bracket of the singular sturm--liouville expression.",
+    "submitted": "2026-08-10",
+    "categories": [
+      "math.ap",
+      "math.oc"
+    ],
+    "link": "https://arxiv.org/abs/2608.09648",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.09746",
+    "title": "formation of trapped surfaces for the spherically symmetric einstein-yang-mills system with non-trivial incoming data",
+    "authors": [
+      "nikolaos athanasiou",
+      "puskar mondal",
+      "shing-tung yau"
+    ],
+    "abstract": "we establish a trapped surface formation theorem for the spherically symmetric einstein yang mills equations in a double-null gauge. the theorem concerns characteristic initial data posed on a pair of transversely intersecting null hypersurfaces and allows nontrivial incoming data. the proof extends the singular characteristic method of an and lim for the einstein maxwell charged scalar field system to the non-abelian yang mills setting, where the curvature coupling and gauge field nonlinearities introduce new structural difficulties. this paper constitutes the first part of a program toward weak cosmic censorship for the einstein yang mills system.",
+    "submitted": "2026-08-10",
+    "categories": [
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.09746",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2608.09760",
+    "title": "curvature estimate for the heteroclinical solution to a bose-einstein condensation system",
+    "authors": [
+      "leyun wu",
+      "chilin zhang"
+    ],
+    "abstract": "we investigate heteroclinical solutions of a vector-valued bose-einstein condensation system involving the $p$-laplacian. the main difficulty comes from the degeneracy of the $p$-laplacian and the possible nonsmooth behavior of the potential wells.   under suitable assumptions on the double-well potential, we establish the existence and detailed asymptotic behavior of heteroclinical solutions. in particular, we prove the strict monotonicity of every component, classify the blow-up profiles near the potential wells through weiss-type monotonicity formulas, and obtain an almost homogeneity property of the solution.   furthermore, after re-parametrizing the heteroclinical solution by its $l_p$-arc length, we derive a curvature estimate for the trajectory near the potential wells. these results provide the geometric control needed for the construction of radial barrier functions for the corresponding bose-einstein condensation system.",
+    "submitted": "2026-08-10",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.09760",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.09817",
+    "title": "nonlinear stability of large amplitude viscous shock wave for compressible magnetohydrodynamics flows",
+    "authors": [
+      "lilu sahu",
+      "t raja sekhar"
+    ],
+    "abstract": "in this article, we establish the nonlinear time-asymptotic stability of viscous shock wave with arbitrary large amplitude to the cauchy problem for the compressible magnetohydrodynamics system. in contrast to prior related work, which relied on various smallness assumptions on both the amplitude and the speed of the viscous shock wave, here we show that any viscous shock profile is time-asymptotically stable under small initial disturbance with zero mass condition without making any assumptions on the amplitude and speed of the viscous shock wave. moreover, while most of the stability results are obtained for constant viscosity in the momentum equation, the present results hold even for the general bulk viscosity as a smooth function of specific volume. the key part of the proof is introducing a new variable which provides an effective diffusion in the specific volume.",
+    "submitted": "2026-08-10",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.09817",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.09843",
+    "title": "inevitable shock formation for 3-d compressible euler flows",
+    "authors": [
+      "sergiu klainerman",
+      "qian wang",
+      "shiwu yang",
+      "pin yu"
+    ],
+    "abstract": "we prove that solutions arising from smooth, sufficiently small, compactly supported perturbations of non-vacuum constant states in three-dimensional irrotational compressible flow must blow up in finite time, without any symmetry assumptions or other restrictions on the initial data. moreover, we prove that shock inevitably forms at the boundary of the maximal cauchy development, and that its formation time agrees, in the small-data asymptotic regime, with the lifespan predicted by the radiation-field analysis.",
+    "submitted": "2026-08-10",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.09843",
+    "filter_reason": "known author"
+  }
+]
