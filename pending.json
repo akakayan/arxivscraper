@@ -189,5 +189,144 @@
     ],
     "link": "https://arxiv.org/abs/2608.09843",
     "filter_reason": "known author"
+  },
+  {
+    "id": "2408.05818",
+    "title": "global existence of strong solutions to the inhomogeneous kinetic wave equation",
+    "authors": [
+      "ioakeim ampatzoglou",
+      "tristan léger"
+    ],
+    "abstract": "in this paper we construct global dispersive solutions to the space inhomogeneous kinetic wave equation (kwe) which propagate $l^1_{xv}$ moments and conserve mass, momentum and energy. we prove that they scatter, and that the wave operators mapping the initial data to the scattering states are 1-1, onto and continuous in a suitable topology. this is the first global existence result for strong solutions for kwe. this contrasts with prior global existence results for mild solutions, which satisfy a transported version of the equation but do not solve the equation itself. our proof is carried out entirely in physical space and combines dispersive estimates for the free transport with new trilinear bounds for the gain and loss operators of the kwe on weighted lebesgue spaces. the main difficulty is the fast growth of the hard-sphere kernel. our fundamental tool to handle it is a novel collisional averaging estimate. we also show that the nonlinear evolution preserves positivity forward in time. for this, we use the kaniel-shinbrot iteration scheme \\cite{ks}, properly initialized to ensure successive approximations are dispersive.",
+    "submitted": "2026-08-11",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2408.05818",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2506.11348",
+    "title": "asymptotics and scattering for critically weakly hyperbolic and singular systems",
+    "authors": [
+      "bolys sabitbek",
+      "arick shao"
+    ],
+    "abstract": "we study a very general class of first-order linear hyperbolic systems that both become weakly hyperbolic and contain lower-order coefficients that blow up at a single time $t = 0$. in \"critical\" weakly hyperbolic settings, it is well-known that solutions lose a finite amount of regularity at the degenerate time $t = 0$. in this paper, we both improve upon the results in the weakly hyperbolic setting, and we extend this analysis to systems containing critically singular coefficients, which may also exhibit significantly modified asymptotics at $t = 0$.   in particular, we give precise quantifications for (1) the asymptotics of solutions as $t$ approaches $0$; (2) the scattering problem of solving the system with asymptotic data at $t = 0$; and (3) the loss of regularity due to the degeneracies at $t = 0$. finally, we discuss a variety of applications for these results, including to weakly hyperbolic and singular wave equations, equations of higher order, and equations arising from relativity and cosmology, e.g. at big bang singularities.",
+    "submitted": "2026-08-11",
+    "categories": [
+      "math.ap",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2506.11348",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2510.20757",
+    "title": "quantitative classification of potential navier-stokes singularities beyond the blow-up time",
+    "authors": [
+      "tobias barker"
+    ],
+    "abstract": "in \\cite{hou}, hou gave a compelling numerical candidate for a singular solution of the 3d navier-stokes equations. we pioneer classifications of potentially singular solutions, motivated by the issue of investigating the viability of numerical candidates.for approximately axisymmetric initial data, we give the first quantitative classification of potentially singular solutions at \\textit{any} given time in the region of potential blow-up times. moreover, the quantitative bounds in the vicinity of any potential blow-up time are in principle amenable to numerical testing. to achieve this, we establish improved quantitative regions of regularity for approximately axisymmetric initial data, which may be of independent interest. together with improved quantitative energy estimates from \\cite{tb24}, this allows us to get a quantitative lower bound in the vicinity of a blow-up time by implementing the strategy of \\cite{bp21}, which is a physical space analogue of tao's strategy \\cite{ta21} for producing quantitative estimates for critically bounded solutions. to obtain a quantitative lower bound on the solution at any time in the region of potential blow-up times, we recursively apply quantitative carleman inequality arguments from \\cite{ta21}. this necessitates careful bookkeeping to avoid exponential losses and to ensure that all forward-in-time iterations of (localized) vorticity concentration remain within the region of quantitative regularity of the solution. finally, as an application of these methods we show that blow-up at $t^*$ at certain rates from the left imply blow-up from the right of $t^*$. to the best of our knowledge this is the first such result establishing sufficient conditions for blow-up from the right in terms of blow-up from the left.",
+    "submitted": "2026-08-11",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2510.20757",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.18663",
+    "title": "qualitative analysis of multi-peak solutions for nonlinear schrödinger equations with nearly critical sobolev exponents",
+    "authors": [
+      "zhongyuan liu",
+      "shuying tian",
+      "huafei xie",
+      "pingping yang"
+    ],
+    "abstract": "in this paper, we are concerned with qualitative properties of multi-peak solutions of the following nonlinear schrödinger equations \\begin{equation*} -δu+v(x)u= u^{p-\\varepsilon},\\,\\,\\,u>0,\\,\\,\\,\\text{in}\\,\\,\\,\\mathbb{r}^n, \\end{equation*} where $v(x)$ is a nonnegative continuous function, $\\varepsilon>0$, $p=\\frac{n+2}{n-2}$, $n\\geq6$. the existence of multi-peak solutions has been obtained by cao et al. (calc. var. partial differential equations, 64: 139, 2025). the main objective in this paper is to establish the local uniqueness and morse index of the multi-peak solutions in \\cite{cll1} provided that $v(x)$ possesses $k$ non-degenerate critical points by using the blow-up analysis based on pohozaev identities.",
+    "submitted": "2026-08-10",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.18663",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.10554",
+    "title": "formation of implosion singularities in 3d compressible navier-stokes-korteweg equation",
+    "authors": [
+      "xiangdi huang",
+      "yongteng gu"
+    ],
+    "abstract": "previous works of gu-huang-meng-zhou~\\cite{gu-huang-meng-zhou} and huang-lei-zhou~\\cite{huang-lei-zhou} established global strong solutions away from vacuum for arbitrarily large initial data when $α$ lies in a suitable range. in contrast, we show that, for a class of small positive exponents $α$ $(α<\\frac{1}{2}$), there exist smooth initial data with density uniformly separated from vacuum whose corresponding solutions develop finite-time implosion singularities.   our construction is based on smooth self-similar imploding profiles of the compressible euler equations. after reformulating the system in self-similar coordinates, the viscous and capillary effects appear as exponentially decaying perturbations. we control the resulting non-autonomous system through weighted high-order energy estimates, a stable-unstable decomposition of the linearized operator, and a finite-dimensional selection of the unstable components. the constructed solutions remain smooth before the singular time and converge, after rescaling, to the prescribed imploding profile. in particular, at the blowup time $t$, the density becomes infinite at the origin, while the effective velocity $u + d αρ^{α-2} \\nabla ρ$ is unbounded in every neighborhood of the origin. these results complement the aforementioned global existence theory and exhibit a distinct finite-time blowup mechanism for the small-$α$ regime, where the effective bulk-viscosity structure may no longer be positive.",
+    "submitted": "2026-08-11",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.10554",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.10608",
+    "title": "asymptotic stability of the degree-one vortex in the abelian yang-mills-higgs model: spectral theory and numerics",
+    "authors": [
+      "jonas luhrmann",
+      "josé m. palacios",
+      "fabio pusateri",
+      "wilhelm schlag",
+      "sohrab shahshahani"
+    ],
+    "abstract": "this is the first of three papers proving asymptotic stability of the degree-one vortex under equivariant perturbations in the $(1+2)$-dimensional abelian yang-mills-higgs model at self-dual coupling. in the orthogonal gauge, the linearized dynamics are governed by a selfadjoint matrix schrödinger operator $\\mathbf{m}$. the super-symmetric partner operator is a diagonal matrix whose diagonal entries are strongly singular radial schrödinger operators on $\\mathbb{r}^2$. after a conjugation, this reduces the spectral problem to the analysis of two strongly singular scalar half-line operators. combining analysis with rigorous interval arithmetic, we prove absence of threshold resonances and show that the discrete spectrum of $\\mathbf{m}$ consists of exactly one positive gap eigenvalue (internal mode) with a two-dimensional eigenspace. we also certify that the relevant nonlinear fermi golden rule coefficients form a definite quadratic form, yielding effective nonlinear damping of the internal mode. these spectral inputs form the basis of the stability analysis in the subsequent papers.",
+    "submitted": "2026-08-11",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.10608",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2608.10609",
+    "title": "asymptotic stability of the degree-one vortex in the abelian yang-mills-higgs model: linear theory",
+    "authors": [
+      "jonas luhrmann",
+      "josé m. palacios",
+      "fabio pusateri",
+      "wilhelm schlag",
+      "sohrab shahshahani"
+    ],
+    "abstract": "we study the linearized dynamics near the degree-one vortex of the $(1+2)$-dimensional abelian yang-mills-higgs model at the self-dual coupling, restricted to equivariant perturbations in the orthogonal gauge. the linearized operator is a selfadjoint matrix schrödinger operator $\\mathbf{m}$ on radial $l^2_{\\mathrm{rad}}(\\mathbb{r}^2;\\mathbb{r}^4)$ with continuous spectrum $[1,\\infty)$ and a two-dimensional internal mode at a unique gap eigenvalue $λ^2 \\in (0,1)$, as established in part i of our three-paper series on asymptotic stability of the ground state vortex. in this second part of the series, we prove linear estimates for $\\mathbf{m}$ for applications in part iii. specifically, we prove dispersive and local-energy decay estimates, as well as a transference relation which allows us to implement the space-time resonance method with respect to the flat klein-gordon operator in the nonlinear analysis in part iii.   the engine for proving linear estimates for $\\mathbf{m}$ in our approach is the distorted fourier transform associated with $\\mathbf{m}$. the construction of the distorted fourier transform together with a detailed analysis of the underlying generalized eigenfunctions occupy the first half of this paper. for this we exploit the super-symmetric factorization of $\\mathbf{m}$, and the diagonal structure of the super-symmetric partner operator, to relate the problem to the weyl-titchmarsh theory of two strongly singular scalar half-line schrödinger operators.",
+    "submitted": "2026-08-11",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.10609",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2608.10610",
+    "title": "asymptotic stability of the degree-one vortex in the abelian yang-mills-higgs model",
+    "authors": [
+      "jonas luhrmann",
+      "josé m. palacios",
+      "fabio pusateri",
+      "wilhelm schlag",
+      "sohrab shahshahani"
+    ],
+    "abstract": "we prove asymptotic stability of the degree-one vortex in the $(1+2)$-dimensional abelian yang-mills-higgs model at the self-dual coupling, for small equivariant perturbations in weighted sobolev spaces. the abelian yang-mills-higgs model is a classical relativistic field theory on $(1+2)$-dimensional minkowski space, describing a complex-valued field coupled to an electromagnetic potential and admitting topological solitons known as vortices.   this paper is the final and main part of a three-paper series. under the orthogonal gauge condition used here, perturbations of the vortex are governed by a system of nonlinear klein-gordon equations for the dynamical variables, coupled to an elliptic equation for the temporal component of the electromagnetic potential. the linearized operator has continuous spectrum $[1,\\infty)$ and a single positive gap eigenvalue (internal mode) of multiplicity two, whose spectral properties, associated distorted fourier theory, and linear decay estimates are developed in the two companion papers.   the main difficulty is the long-time analysis of the coupled radiation--internal-mode dynamics. in two space dimensions the dispersive decay of the klein-gordon radiation is relatively weak, while the internal mode decays only on the long time scale dictated by nonlinear radiation damping. at the same time, the klein-gordon equations for the radiation contain non-spatially localized variable coefficient quadratic interactions, which cannot be treated perturbatively and require a normal form analysis. we prove decay of the radiation by combining a good-bad decomposition, a flat-sharp decomposition, and a space-time resonance analysis carried out relative to the flat klein-gordon flow. the passage between the flat analysis and the klein-gordon flow with potential is achieved through iled and transference estimates derived from the distorted fourier theory.",
+    "submitted": "2026-08-11",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.10610",
+    "filter_reason": "known author"
   }
 ]
