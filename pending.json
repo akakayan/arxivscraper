@@ -328,5 +328,52 @@
     ],
     "link": "https://arxiv.org/abs/2608.10610",
     "filter_reason": "known author"
+  },
+  {
+    "id": "2601.08771",
+    "title": "failure of uniqueness for scalar conservation laws",
+    "authors": [
+      "shyam sundar ghoshal",
+      "abraham sylla",
+      "parasuram venkatesh"
+    ],
+    "abstract": "in this article, we develop the first negative results for scalar conservation laws with finite speed of propagation. while the work of gargyants, goritsky, and panov establishes non-uniqueness of unbounded solutions for scalar conservation laws with spatially homogeneous flux, heterogeneity allows entropy solutions to exhibit more pathological behaviours. in particular, even for smooth and bounded initial data, the entropy solution may not be unique in the full half plane. furthermore, the multiple entropy solutions all satisfy a finite speed of propagation property. we begin with explicit examples where bounded initial data leads to $l^{\\infty}$ blow-up despite flux regularity. more strikingly, we demonstrate that kružkov's entropy inequalities alone fail to ensure uniqueness in this regime by constructing infinitely many entropy solutions to a single cauchy problem with bounded initial datum, each continuous in time with respect to the $l^{1}$ norm. thus, we demonstrate that the $l^{\\infty}$ assumption is essential for the doubling of variables argument, and hence for the uniqueness of entropy solutions to scalar conservation laws. on the positive side, we develop a novel theory for scalar conservation laws with spatial heterogeneity by adapting the front tracking method. we recover uniqueness by imposing a lax-type condition in addition to the entropy inequality, motivated by the properties of our front tracking approximations. unbounded kružkov solutions do not necessarily satisfy the weak formulation; we show that global weak solutions may not even exist in a natural class for some cauchy problems of this form, even when kružkov entropy solutions exist. finally, we detail examples demonstrating the sharpness of our assumptions and construct an explicit example of global ill-posedness with bounded initial datum.",
+    "submitted": "2026-08-11",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2601.08771",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.11722",
+    "title": "the critical exponent for semilinear wave equations with damped oscillations",
+    "authors": [
+      "marcello d'abbicco"
+    ],
+    "abstract": "we determine the existence exponent for the global small data solutions for a class of evolution equations with power nonlinearity under the effect of a dissipation that dampen the oscillations at low frequencies and produce overdamping at high frequencies. in the case of the wave equation with viscoelastic dissipation, the counterpart of blow-up in space dimension $n=3$ has been very recently proved by wenhui chen, showing that the existence exponent is optimal.",
+    "submitted": "2026-08-12",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.11722",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.12298",
+    "title": "morrey's problem in $\\mathbb{r}^{2 \\times 4}$ and $\\mathbb{r}^{3 \\times 3}_\\mathrm{sym}$",
+    "authors": [
+      "andrea agazzi",
+      "giuseppe bruno",
+      "andré guerra",
+      "federico pasqualotto"
+    ],
+    "abstract": "we find an explicit rank-one convex non-quasiconvex integrand in $\\mathbb{r}^{2\\times 4}$: to falsify the quasiconvexity inequality, we exhibit a map $\\mathbb{t}^4\\to \\mathbb{r}^2$ with $12$ non-zero fourier modes. in fact, this map is obtained from a scalar potential, so we also find a rank one convex integrand in $\\mathbb{r}^{4\\times 4}_\\text{sym}$ which is not quasiconvex. these examples are obtained by transpositions and restrictions of grabovsky's example of a rank-one convex, non-quasiconvex integrand in $\\mathbb{r}^{8 \\times 2}.$ we also modify šverák's example to construct a rank-one convex non-quasiconvex integrand in $\\mathbb{r}^{3\\times 3}_\\text{sym}$.",
+    "submitted": "2026-08-12",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.12298",
+    "filter_reason": "known author"
   }
 ]
