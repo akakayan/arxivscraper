@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "2412.13230",
+    "title": "polynomial mixing for the white-forced wave equation on the whole line",
+    "authors": [
+      "peng gao"
+    ],
+    "abstract": "our goal in this paper is to investigate the ergodicity of the white-forced wave equation on the whole line. assuming that sufficiently many directions of the phase space are stochastically forced, we prove the uniqueness of the stationary measure and polynomial mixing in the dual-lipschitz metric. the difficulties in our proof are twofold. on the one hand, in contrast to stochastic parabolic equations, the stochastic wave equation lacks both a smoothing effect and a strongly dissipative mechanism. on the other hand, the unboundedness of the whole line leads to a loss of compactness compared with the bounded domain case. to overcome these obstacles, our proof relies on four key ingredients: a new criterion for polynomial mixing established in [21], a novel weighted foiaş-prodi estimate for the wave equation on the whole line, weighted energy estimates for the stochastic wave equation, and the irreducibility of the stochastic wave equation.",
+    "submitted": "2026-08-13",
+    "categories": [
+      "math.ds",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2412.13230",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.12952",
+    "title": "anisotropic caffarelli-kohn-nirenberg inequalities for the minkowski functional: $l^p$-remainder identities and extremals",
+    "authors": [
+      "zhenzhen wei"
+    ],
+    "abstract": "we establish exact anisotropic $l^p$-hardy and caffarelli-kohn-nirenberg identities associated with the minkowski functional $\\|\\cdot\\|_k$ and the anisotropic radial derivative $\\mathcal r_k$, where $1<p<\\infty$ and $k\\subset\\rn$ is a smooth and strictly convex body containing the origin in its interior, not necessarily origin-symmetric. these identities contain explicit nonnegative $r_p$-remainders and yield sharp anisotropic radial $l^p$-hardy and $l^p$-caffarelli-kohn-nirenberg inequalities. in the noncritical parameter regions, we characterize the full family of extremal functions in the natural weighted completion space, while in the critical case the sharp constant is not attained by any nonzero function in that space. as applications, we establish sharp anisotropic $l^p$-heisenberg uncertainty principles and obtain explicit anisotropic gaussian-type optimizers. finally, letting $k^*$ denote the polar body of $k$, we derive norm-based anisotropic gradient inequalities associated with the origin-symmetric body $k^*\\cap(-k^*)$. when $k$ is origin-symmetric, the corresponding gradient constants are sharp, including those in the critical case.",
+    "submitted": "2026-08-13",
+    "categories": [
+      "math.ap",
+      "math.fa"
+    ],
+    "link": "https://arxiv.org/abs/2608.12952",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.13116",
+    "title": "semiglobal uniqueness for the lorentzian calderón problem",
+    "authors": [
+      "lauri oksanen",
+      "n/a rakesh",
+      "mikko salo"
+    ],
+    "abstract": "we prove uniqueness in the lorentzian calderón problem in a semiglobal setting, comparing a potentially large perturbation of the minkowski metric against a small one. our proof uses a reduced amount of data, solving a formally determined version of the problem. in contrast to traditional approaches, it employs neither control-theoretic arguments nor a reduction to a geometric inverse problem via microlocal methods or high-frequency solutions. instead, it relies on distorted plane waves and weighted $l^2$-estimates.",
+    "submitted": "2026-08-13",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.dg",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.13116",
+    "filter_reason": "keyword match"
+  }
+]
