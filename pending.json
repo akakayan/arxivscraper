@@ -1,1 +1,96 @@
-[]
+[
+  {
+    "id": "2210.07191",
+    "title": "stable nearly self-similar blowup of the 2d boussinesq and 3d euler equations with smooth data i: analysis",
+    "authors": [
+      "jiajie chen",
+      "thomas y. hou"
+    ],
+    "abstract": "inspired by numerical evidence of a potential 3d euler singularity \\cite{luo2014potentially,luo2013potentially-2}, we prove finite-time, nearly self-similar blowup of the 2d boussinesq and 3d axisymmetric euler equations with smooth initial data of finite energy and boundary. the proof encounters several essential difficulties. one of the essential difficulties is to control a number of nonlocal terms that do not seem to offer any damping effect. another essential difficulty is that the strong advection normal to the boundary introduces a large growth factor for the perturbation when using weighted $l^2$ or $h^k$ estimates. we overcome these difficulties by combining weighted $l^\\infty$ estimates and weighted $c^{1/2}$ estimates, and by developing sharp functional inequalities using the symmetry properties of the kernels and some techniques from optimal transport. moreover, we decompose the linearized operator into a leading order operator and a finite-rank operator. we design the leading order operator to obtain sharp stability estimates. the contribution from the finite-rank operator to linear stability is estimated by constructing approximate space-time solutions. these ingredients enable us to establish the nonlinear stability of the approximate self-similar profile and to prove stable nearly self-similar blowup.",
+    "submitted": "2026-08-16",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2210.07191",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2305.05660",
+    "title": "stable nearly self-similar blowup of the 2d boussinesq and 3d euler equations with smooth data ii: rigorous numerics",
+    "authors": [
+      "jiajie chen",
+      "thomas y. hou"
+    ],
+    "abstract": "this is part ii of our paper in which we prove finite time blowup of the 2d boussinesq and 3d axisymmetric euler equations with smooth initial data of finite energy and boundary. in part i of our paper \\cite{chenhou2023a}, we establish an analytic framework to prove nonlinear stability of an approximate self-similar blowup profile using a combination of weighted $l^\\infty$ and weighted $c^{1/2}$ energy estimates. we reduce proving nonlinear stability to verifying several inequalities for the constants in the energy estimate which depend on the approximate steady state and the weights in the energy functional only. in part ii of our paper, we construct approximate space-time solutions with rigorous error control, which are used to obtain sharp stability estimates of the linearized operator in part i. we also obtain sharp estimates of the regular part of the velocity using numerical integration with computer assistance. these results enable us to verify that the constants in the energy estimate obtained in part i \\cite{chenhou2023a} indeed satisfy the inequalities for nonlinear stability. the nonlinear stability further implies the finite time singularity of the axisymmetric 3d euler equations with smooth initial data and boundary.",
+    "submitted": "2026-08-16",
+    "categories": [
+      "math.ap",
+      "cs.na",
+      "math.na"
+    ],
+    "link": "https://arxiv.org/abs/2305.05660",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.14993",
+    "title": "global dynamics above the ground state energy for the 3d zakharov system",
+    "authors": [
+      "zihua guo",
+      "kenji nakanishi"
+    ],
+    "abstract": "we study the global dynamics for the 3d zakharov system with radial initial data of energy slightly above the ground state energy, proving that the initial data set splits into nine nonempty, pairwise disjoint regions in which the solutions have distinct behaviors: growup, scattering, or trapped by the ground state, as time goes in the forward or backward directions. it is a classification similar to those for the nonlinear klein-gordon equation and for the nonlinear schrödinger equation, extending the previous results on the zakharov system below the ground state energy. the proof relies on the normal form technique to handle the quadratic frequency interactions and careful modulational analysis around the ground state. one novelty is a new family of localized virial estimates with monotonicity. these virial estimates are crucial for us to study the dynamics away from the ground state and may be of independent interest for other purposes.",
+    "submitted": "2026-08-15",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.14993",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.15086",
+    "title": "the 3d critical zakharov--kuznetsov equation: blow-up and soliton dynamics",
+    "authors": [
+      "christian klein",
+      "svetlana roudenko",
+      "nikola stoilov"
+    ],
+    "abstract": "we study the full three-dimensional dynamics of the $l^2$-critical zakharov-kuznetsov equation with the fractional nonlinearity $|u|^{4/3}u$, equivalently $u^{7/3}$ for real-valued functions. this equation is a higher-dimensional extension of the generalized korteweg-de vries equation. in the critical setting solutions to this 3d zk equation may blow up in finite time or exhibit global time dynamics. the novelties of this work is to treat a non-integer power and to study the dynamics of solutions in a higher dimension.   we first review the finite time blow-up in 2d critical zk, then do a formal analysis of the slightly mass-supercritical blow-up dynamics, deriving the corrections to the blow-up rate and profile for the critical zk equation in any dimension. we then perform a computational study of solutions, utilizing full 3d numerical simulations. in particular, we use a fourier pseudospectral discretization and an integrating factor fourth-order runge-kutta method on a full three-dimensional grid. a multi-gpu implementation makes it possible to follow blow-up solutions in a full 3d setting. we examine perturbations of the ground state, gaussian data, and nonsymmetric two-bump configurations. the computations show dispersive and concentrating regimes, in both cases with radiation emitted in a conic-type region opposite to the direction of propagation and convergence of the concentrating core toward a rescaled ground-state profile. the two-bump experiments also demonstrate that total mass alone does not determine the blow-up dynamics. we discuss the numerical evidence for the predicted blow-up rate and identify the pre-asymptotic and resolution limitations that remain near the blow-up time.",
+    "submitted": "2026-08-15",
+    "categories": [
+      "math.ap",
+      "cs.na",
+      "math.na"
+    ],
+    "link": "https://arxiv.org/abs/2608.15086",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.16106",
+    "title": "the critical semilinear elliptic equation with isolated boundary singularities ii",
+    "authors": [
+      "hua-yang wang",
+      "jingang xiong"
+    ],
+    "abstract": "continuing the work of the second author (2017), we study the sobolev critical semilinear elliptic equation in the half-space with an isolated boundary singularity and zero dirichlet boundary condition. this paper addresses two open questions in this setting: the existence of delaunay-type log-periodic solutions posed by del~pino--musso--pacard (2007), and the asymptotic classification of singular solutions posed by bidaut-véron--ponce--véron (2007). we establish a global branch of positive log-periodic solutions along which blow-up occurs at a uniquely determined period. we also construct the corresponding concentrating family and prove its local uniqueness. consequently, the expected stationary asymptotic classification fails, and no universal critical scale-invariant upper bound can hold throughout the half-space. this behavior contrasts sharply with the classical interior singularity theory of caffarelli--gidas--spruck (1989).",
+    "submitted": "2026-08-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.16106",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.16243",
+    "title": "towards gradient hölder regularity for singular fractional $p$-laplace equations",
+    "authors": [
+      "chao zhang"
+    ],
+    "abstract": "let $n\\ge2$, $1<p<2$, and let $α_{\\rm loc}(n,p)$ be an admissible interior hölder exponent for gradients of local $p$-harmonic functions. we prove that, for every $0<α<α_{\\rm loc}(n,p)$, there exists $s_*=s_*(n,p,α)<1$ such that every bounded weak solution of $(-δ_p)^s u=0$ in $b_2$ belongs to $c^{1,α}(b_{1/2})$ whenever $s\\in(s_*,1)$. the proof relies on an intrinsic excess-decay argument. we introduce a slope-normalized bregman energy and establish compactness simultaneously in the bounded- and large-slope regimes. the corresponding blow-up limits are, respectively, minimizers of shifted local $p$-energies and solutions of uniformly elliptic constant-coefficient equations. a uniform improvement-of-flatness estimate for these two local families is then transferred to the fractional equation. the iteration is closed by separating the averaged exterior flux from the one-sided tails entering the upper and lower de giorgi truncations, and by combining scale-invariant annular $l^p$ bounds with interpolation. this tail argument applies throughout the structural range $sp>p-1$, while the assumption that $s$ be close to one is used only in the compactness step. the result gives a partial answer to the open $c^{1,α}$ problem in the singular range.",
+    "submitted": "2026-08-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.16243",
+    "filter_reason": "keyword match"
+  }
+]
