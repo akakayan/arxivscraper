@@ -92,5 +92,85 @@
     ],
     "link": "https://arxiv.org/abs/2608.16243",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.17156",
+    "title": "global solutions for 1d cubic defocusing dispersive equations, part v: low regularity nls",
+    "authors": [
+      "mihaela ifrim",
+      "ryan martinez",
+      "daniel tataru"
+    ],
+    "abstract": "this article is motivated by a broad conjecture, formulated by the first and last authors in earlier work, asserting that one-dimensional cubic defocusing dispersive flows with small initial data have global, dispersive solutions. the conjecture was first established for a class of semilinear schrödinger-type models at $l^2$ regularity, the classical cubic nls among them. in a complementary direction, harrop-griffiths, killip and vişan have recently shown, using the completely integrable structure, that the cubic nls is globally well-posed in $h^s$ for every $-\\tfrac12 < s < 0$.   our aim here is to extend the reach of the global well-posedness conjecture for one dimensional cubic nls problems to data which is small in negative sobolev spaces, and to show that global dispersive bounds persist there. we do so for a broad class of nonlinearities which includes the cubic nls but which in general generates flows that are not completely integrable. our method is correspondingly robust, resting on density-flux identities, interaction morawetz estimates and an implicit normal form transformation rather than on integrability, and it reaches all the way to the scaling-critical threshold, namely $s > -\\tfrac12$. as in the earlier work, the global bounds we obtain include both $l^6_{t,x}$ strichartz estimates and bilinear $l^2_{t,x}$ estimates; these are new even for the classical defocusing cubic nls at negative sobolev regularity. there, by scaling, our dispersive bounds also extend to the large data case.",
+    "submitted": "2026-08-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.17156",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2608.17186",
+    "title": "boundary blow-up solutions: gradient asymptotics and uniqueness",
+    "authors": [
+      "seick kim"
+    ],
+    "abstract": "let $ω\\subset\\mathbb r^n$ be a bounded domain, and let $f$ be a nonnegative, nondecreasing function satisfying the keller-osserman condition. we study boundary blow-up solutions of $δu=f(u)$ in $ω$. although existence is classical, uniqueness under these assumptions is known in balls but remains open even for smooth convex domains. we identify the normalized gradient $q_u=|\\nabla u|^2/(2f(u))$, $f'=f$, as a quantity governing uniqueness. under a structural condition on $f$, a boundary blow-up solution $u$ is unique if $\\limsup_{x\\to\\partialω}q_u(x)\\le 1$, without any regularity assumption on $\\partial ω$. for $c^{1,1}$ domains, assuming a growth condition on $f$, we prove $q_u(x)\\to 1$ for every boundary blow-up solution and hence obtain uniqueness under the structural condition. for convex domains, we prove $q_u\\le 1$ for the minimal boundary blow-up solution and obtain uniqueness when $\\sqrt f$ is eventually convex, without imposing any additional boundary regularity.",
+    "submitted": "2026-08-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.17186",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.17192",
+    "title": "blow-up at finite time for the generalized sqg equations in the sobolev well-posedness regime",
+    "authors": [
+      "diego córdoba",
+      "óscar domínguez",
+      "josé lucas-manchón",
+      "luis martínez-zoroa"
+    ],
+    "abstract": "we prove finite-time singularity formation for the forced generalized surface quasi-geostrophic equation in the singular velocity regime $γ\\in(0,1)$, where $γ=0$ corresponds to sqg. for every such $γ$, we construct a smooth, compactly supported initial datum and a time-dependent force $f$ for which the corresponding solution $θ$ is classical on $[0,1)$ with finite energy for all times, but loses sobolev regularity at $t=1$. more precisely, there exists \\[ κ_0>2+γ+\\frac{γ^2(1-γ)}{25(4+γ)}, \\] such that the force satisfies $f\\in l^1([0,1];h^κ(\\mathbb{r}^2))$ for every $κ\\in[2+γ,κ_0]$, whereas \\[ \\lim_{t\\nearrow1}\\int_0^t\\|θ(\\cdot,t)\\|_{h^κ}\\,dt=\\infty \\] for every exponent in the same interval. at the same time, the solution remains uniformly bounded in $h^{κ_1}$ throughout its lifespan for any \\[κ_1\\in\\left[0,2+γ-\\frac{γ(1-γ)}{2(4+γ)}\\right].\\] then, the singularity occurs within the sobolev well-posedness regime and cannot be attributed to insufficient regularity of the force or the initial conditions. to the best of our knowledge, this is the first finite-time blow-up result for classical finite-energy solutions of the generalized sqg equations in a well-posedness regime.",
+    "submitted": "2026-08-17",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.17192",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.17339",
+    "title": "scattering and nonlinear recovery for the 1$d$ nlw with localized nonlinearity",
+    "authors": [
+      "luccas campos",
+      "jason murphy",
+      "renzo scarpelli"
+    ],
+    "abstract": "we consider the wave equation in 1$d$ with a spatially-localized cubic nonlinearity. we establish scattering in a weighted space and demonstrate the injectivity of the scattering map, with a corresponding stability estimate for nonlinear recovery.",
+    "submitted": "2026-08-18",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.17339",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.17661",
+    "title": "global solutions of compressible navier-stokes equations with small viscosity",
+    "authors": [
+      "lv cai",
+      "ning-an lai",
+      "zexian zhang",
+      "yi zhou"
+    ],
+    "abstract": "in this paper, we study the cauchy problem for the compressible navier-stokes system in $\\mathbb{r}^3$. suppose that the viscosity coefficients satisfy $0<\\max\\{μ, ν=λ+2μ\\}<1$, and set $\\varepsilon=\\min\\{μ, ν=λ+2μ\\}$. we establish the global existence of classical solutions when the initial perturbations of the density and the curl-free part of the velocity are smaller than $\\varepsilon^{\\frac12+}$ (up to a logarithmic loss), while the divergence part of the initial velocity is smaller than $\\varepsilon$. this improves the classical global existence result of matsumura-nishida \\cite{man80}, which requires all the initial data to be smaller than $\\varepsilon (<1)$. we expect that this result is representative of general shizuta-kawashima systems arising in physical applications. the improvement of the index from $1$ to $\\frac12+$ relies on exploiting the hidden kawashima-type dissipation for the density and controlling the spacetime trace norm of the solution at the scale $\\sqrt{\\varepsilon}$. these two ingredients are obtained through a weighted trace inequality and a morawetz-type inequality for the perturbed sound speed and the divergence of the velocity.",
+    "submitted": "2026-08-18",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.17661",
+    "filter_reason": "keyword match"
   }
 ]
