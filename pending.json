@@ -172,5 +172,134 @@
     ],
     "link": "https://arxiv.org/abs/2608.17661",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2212.14826",
+    "title": "asymptotic analysis of harmonic maps with prescribed singularities",
+    "authors": [
+      "qing han",
+      "marcus khuri",
+      "gilbert weinstein",
+      "jingang xiong"
+    ],
+    "abstract": "this is the first in a series of two papers to establish the mass-angular momentum inequality for multiple black holes. we study singular harmonic maps from domains of 3-dimensional euclidean space to the hyperbolic plane having bounded hyperbolic distance to extreme kerr harmonic maps. we prove that every such harmonic map admits a unique tangent harmonic map at the extreme black hole horizon. the possible tangent maps are classified and shown to be shifted `extreme kerr' geodesics in the hyperbolic plane that depend on two parameters, one determined by angular momentum and another by conical singularities. in addition, rates of convergence to the tangent map are established. similarly, expansions in the asymptotically flat end are presented. these results, together with those of li-tian [24,25] and weinstein [35,36], provide a complete regularity theory for harmonic maps from $\\mathbb r^3\\setminus z\\text{-axis}$ to $\\mathbb h^2$ with these prescribed singularities. the analysis is additionally utilized to prove existence of the so called near horizon limit, and to compute the associated near horizon geometries of extreme black holes.",
+    "submitted": "2026-08-18",
+    "categories": [
+      "math.dg",
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2212.14826",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2501.15093",
+    "title": "the mass-angular momentum inequality for multiple black holes",
+    "authors": [
+      "qing han",
+      "marcus khuri",
+      "gilbert weinstein",
+      "jingang xiong"
+    ],
+    "abstract": "this is the second in a series of two papers to address the conjectured mass-angular momentum inequality for multiple black holes. our main result has two parts. in the first part, it is shown that either there is a counterexample to black hole uniqueness, in the form of a regular axisymmetric stationary vacuum spacetime with an asymptotically flat end and multiple degenerate horizons which is `adm minimizing', or the following statement holds. complete, simply connected, maximal initial data sets for the einstein equations with multiple ends that are either asymptotically flat or asymptotically cylindrical, admit an adm mass lower bound given by the square root of total angular momentum, under the assumption of nonnegative energy density and axisymmetry. moreover, equality is achieved in this mass lower bound only for a constant time slice of an extreme kerr spacetime. consequently, due to the nonexistence of stationary vacuum two-black hole configurations, the mass-angular momentum conjecture is verified for two black holes. in the second part, the mass-angular momentum inequality is established unconditionally, but with a suboptimal constant of $\\frac{1}{2}$. the proof is based on a novel flow of singular harmonic maps with hyperbolic plane target, under which the renormalized harmonic map energy is monotonically nonincreasing. relevant properties of the flow are achieved through a refined asymptotic analysis of solutions to the harmonic map equations and their linearization. additionally, we establish and utilize the penrose inequality for manifolds with asymptotically cylindrical ends.",
+    "submitted": "2026-08-18",
+    "categories": [
+      "math.dg",
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2501.15093",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2605.24392",
+    "title": "hydrodynamic limit of the boltzmann equation toward generic riemann solutions with shocks",
+    "authors": [
+      "mingi choe",
+      "moon-jin kang",
+      "chanwoo kim"
+    ],
+    "abstract": "we establish the hydrodynamic limit of the one-dimensional boltzmann equation with hard-sphere collisions toward riemann solutions of the compressible euler system. the riemann solutions covered by our result include generic superpositions of elementary waves: either two shock waves and a contact discontinuity, or a rarefaction wave, a contact discontinuity, and a shock wave. for suitably well-prepared initial data and sufficiently small wave strength, we prove that the corresponding boltzmann solution exists globally in time and converges, as the knudsen number vanishes, to the local maxwellian associated with the riemann solution in $l^2([0,t]\\times\\mathbb r_x\\times\\mathbb r^3_ξ)$ for any $t>0$. the proof combines the macro--micro decomposition with a kinetic adaptation of the $a$-contraction method, in which the propagation speeds of boltzmann shocks are determined by rakine-hugoniot speed with dynamical modulation parameters. the resulting coercive control of the shock translation modes, together with layer analysis and the uniform bound of the shifts, allows us to pass to the knudsen limit in the full space-time domain. to the best of our knowledge, this is the first rigorous result on the hydrodynamic limit towards generic riemann solutions containing shocks: either the shock--contact--shock case or the rarefaction--contact--shock case, in a global space-time energy norm without removing neighborhoods of either the initial time or the shock layers. in the special case of a single shock, the argument further yields a sharp quantitative description of the kinetic shock layer, up to the dynamically selected shift.",
+    "submitted": "2026-08-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.24392",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.18266",
+    "title": "attractors and singular limits for a quintic wave equation with nonlocal kelvin--voigt damping",
+    "authors": [
+      "yue sun",
+      "marcelo m. cavalcanti",
+      "vando narciso"
+    ],
+    "abstract": "in this article, we consider an energy-critical quintic wave equation on a bounded domain $ω\\subset\\mathbb{r}^3$ with nonlinear and nonlocal kelvin--voigt damping of the form $-\\|\\nabla u_t\\|_{l^2(ω)}^αδu_t$, where $α\\in\\mathbb{r}_+=[0,\\infty)$. under suitable hypotheses on the quintic source term, we establish the well-posedness of the problem and investigate its long-time dynamics in the natural energy space $\\mathcal h=h_0^1(ω)\\times l^2(ω)$. for every $α\\in\\mathbb{r}_+$, we show that the associated dynamical system $(\\mathcal h,s^α(t))$ is gradient and dissipative, and we prove a stabilization estimate that yields asymptotic smoothness and, consequently, the existence of a compact global attractor $\\mathcal a_α$. the same estimate provides an upper bound for the kolmogorov $\\varepsilon$-entropy of $\\mathcal a_α$ and, in the limiting case $α=0$, reduces to a quasi-stability inequality, which implies that $\\mathcal a_0$ has finite fractal dimension. furthermore, we prove that the family $\\{\\mathcal a_α\\}_{α\\in\\mathbb{r}_+}$ is uniformly bounded in the higher-regularity space $\\mathcal h_1=(h^2(ω)\\cap h_0^1(ω))\\times h_0^1(ω)$. finally, we establish the upper semicontinuity of $\\{\\mathcal a_α\\}_{α\\in\\mathbb{r}_+}$ at $α=0$, showing that the attractors associated with the nonlinear and nonlocal kelvin--voigt damping converge to the global attractor of the limiting problem with classical linear kelvin--voigt damping.",
+    "submitted": "2026-08-18",
+    "categories": [
+      "math.ap",
+      "math.ds"
+    ],
+    "link": "https://arxiv.org/abs/2608.18266",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.18407",
+    "title": "linear stability of traveling maxwellians for landau equation with very soft potentials",
+    "authors": [
+      "sanchit chaturvedi",
+      "jonathan luk"
+    ],
+    "abstract": "consider the landau equation with a coulomb potential linearized around traveling maxwellians. we prove that the microscopic part of the linear solution decays with an inverse polynomial rate, while the macroscopic part remains bounded but in general does not decay. in particular, the long-time dynamics are different from the linearization around either (1) traveling maxwellians for moderately soft or hard potentials or (2) global (non-traveling) maxwellians (for any potentials).",
+    "submitted": "2026-08-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.18407",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2608.18453",
+    "title": "finite-time blow-up for the four-dimensional mass-critical quadratic nonlinear schrödinger system without mass resonance",
+    "authors": [
+      "ngoc uyen cong nguyen",
+      "van duong dinh"
+    ],
+    "abstract": "we study the focusing quadratic nonlinear schrödinger system \\[ \\begin{cases} i\\partial_t u+δu=-2v\\overline{u}, \\\\ i\\partial_t v+κδv=-u^2, \\end{cases} \\qquad (t,x)\\in i\\times\\mathbb r^4, \\] where $κ>0$. in the non-mass-resonant case $κ\\neq \\frac12$, previous works of inui--kishimoto--nishimura and dinh--forcella showed that radial solutions with negative energy must either blow up in finite time or exist globally while their $h^1$-norm grows without bound.   in this paper, we prove that every radial $h^1\\times h^1$ solution with negative energy blows up in finite time, both forward and backward in time. no finite-variance assumption is required.   the main ingredient is a localized virial argument based on the bounded exponential weight \\[ \\nablaϕ_r(x)=2x e^{-|x|^2/r^2}. \\] a radial weighted interpolation estimate allows us to control the nonlinear error terms by the corresponding weighted kinetic term, up to an $o(r^{-2})$ error depending only on the conserved mass. moreover, the localized virial quantity itself can be bounded directly in terms of the same weighted kinetic defect. combining these estimates yields a superlinear riccati-type differential inequality, which cannot persist for all time and therefore forces finite-time blow-up.",
+    "submitted": "2026-08-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.18453",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.18802",
+    "title": "finite-time blow-up for the forced 2d navier-stokes equations",
+    "authors": [
+      "filippo gazzola"
+    ],
+    "abstract": "we provide explicit examples showing that the existing assumptions in literature on the force are sharp for the stated properties of strong solutions to the 2d navier-stokes equations. if they fail to be satisfied, finite time blow-up may occur in different forms.",
+    "submitted": "2026-08-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.18802",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.18838",
+    "title": "overdetermined singular problems and fractional torsion",
+    "authors": [
+      "daniel baratta"
+    ],
+    "abstract": "we study a serrin-type overdetermined problem for the fractional laplacian in a bounded open set with an isolated non-removable interior singularity. for positive weak solutions of (-delta)^s u=f(u) in omega\\{0}, u=0 in r^nω, and (partial_eta)^s u=c on partial omega, with 0<s<1, n>2s and c<0, we isolate a first-order tangential cancellation of the boundary quotient u/delta^s that matches the first-order cancellation needed to close the fractional corner argument and is weaker than requiring u/delta^s in c^1 in a full boundary neighborhood. under this condition, omega is a ball centered at the singular point and u is radial and strictly decreasing in the radial variable. no pointwise blow-up rate at the pole is assumed. if omega is of class c^{2,alpha}, the cancellation is automatic when s>1/2, and for every s in (0,1) when f is constant near zero. in particular, in the torsion case f=1, u(x)=tau_r(x)+kg_r(x,0), where tau_r and g_r are respectively the fractional torsion function and the green function of the ball.",
+    "submitted": "2026-08-19",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.18838",
+    "filter_reason": "keyword match"
   }
 ]
