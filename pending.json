@@ -61,5 +61,70 @@
     ],
     "link": "https://arxiv.org/abs/2608.20072",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2508.00487",
+    "title": "an analytic approach to the stress energy tensor in quantum field theory",
+    "authors": [
+      "alexander strohmaier"
+    ],
+    "abstract": "we discuss a framework for quantum fields in curved spacetimes that possess a stress energy tensor as a connection one form on a suitable moduli space of metrics. in generic spacetimes the existence of such a tensor is thought to be a replacement for the existence of symmetries that the minkowski theory relies on. it is shown that the local time-slice property and the implementability of local isometries are consequences of the existence of a stress energy tensor that is a local field. we prove that the klein-gordon field, in an irreducible fock representation determined by a quasifree hadamard state, is an example. in this example we show that the scattering matrix for compactly supported metric perturbations exists in the fock space and is smooth on a dense set with respect to the perturbation parameter. this generalises results by dimock and wald. as a tool we also establish the precise microlocal properties of parameter dependent fundamental solutions.",
+    "submitted": "2026-08-21",
+    "categories": [
+      "math-ph",
+      "hep-th",
+      "math.ap",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2508.00487",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.13305",
+    "title": "generic regularity and lipschitz metric for a two-component novikov system",
+    "authors": [
+      "kenneth h. karlsen",
+      "yan rybalko"
+    ],
+    "abstract": "we investigate the cauchy problem for a two-component generalization of the novikov equation with cubic nonlinearity -- an integrable system whose solutions may develop strong nonlinear phenomena such as gradient blow-up and interactions between peakon-like structures. our study has two main objectives: first, to analyze the generic regularity of global conservative solutions; and second, to construct a new metric that guarantees the lipschitz continuity of the flow. building on the geometric framework developed by bressan and chen for quasilinear second-order wave equations, we prove that the solution retains $c^k$ regularity away from a finite number of piecewise $c^{k-1}$ characteristic curves. furthermore, we provide a description of the solution behavior in the vicinity of these curves. by introducing a finsler norm on tangent vectors in the space of solutions, expressed in the transformed bressan-constantin variables, we introduce a lipschitz metric representing the minimal energy transportation cost between two solutions.",
+    "submitted": "2026-08-21",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.13305",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.20730",
+    "title": "logarithmic brunn--minkowski inequality under $n-2$ reflection symmetries",
+    "authors": [
+      "xiaorui lu"
+    ],
+    "abstract": "we prove the log-brunn-minkowski inequality for origin-symmetric convex bodies with symmetries to n-2 orthogonal hyperplanes, and discuss the equality case and the uniqueness of the related logarithmic minkowski problem. we also generalize the inequality from the lebesgue measure to certain log-concave measure.",
+    "submitted": "2026-08-21",
+    "categories": [
+      "math.mg",
+      "math.ap",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2608.20730",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.20950",
+    "title": "concentration-compactness for the geometric polyharmonic heat flow",
+    "authors": [
+      "james mccoy",
+      "scott parkins",
+      "glen wheeler",
+      "valentina wheeler"
+    ],
+    "abstract": "we develop a concentration-compactness theory for geometric evolution equations of arbitrarily high order, using the geometric polyharmonic heat flow of closed immersed surfaces in \\(\\r^3\\) as the model case. the flow is the \\((2p+2)\\)-order normal evolution \\[   \\partial_t f=(-1)^{p+1}δ^p h\\,ν,\\qquad p\\geq1, \\] which includes the surface diffusion flow when \\(p=1\\). we prove localised energy estimates with sharp cut-off bookkeeping, interior estimates, a lifespan/concentration alternative, tracefree-curvature \\(\\varepsilon\\)-regularity estimates, and a gap theorem for stationary solutions. these tools are then combined with a blowup argument, the preservation of signed enclosed volume, and the monotonicity of area to rule out singularities below a small tracefree-curvature threshold. consequently, for connected initial immersions satisfying \\(\\|a^o\\|_2^2<\\varepsilon\\), where \\(\\varepsilon>0\\) depends only on the order of the flow, the solution exists for all time and converges exponentially in \\(c^\\infty\\) to a round sphere with the preserved enclosed volume.",
+    "submitted": "2026-08-21",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.20950",
+    "filter_reason": "keyword match"
   }
 ]
