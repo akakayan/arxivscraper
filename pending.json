@@ -1,1 +1,180 @@
-[]
+[
+  {
+    "id": "2505.06526",
+    "title": "the existence of full-dimensional kam tori for one-dimensional nonlinear klein-gordon equation",
+    "authors": [
+      "hongzi cong",
+      "siming li",
+      "xiaoqing wu"
+    ],
+    "abstract": "in this paper, we investigate the almost-periodic solutions for the one-dimensional nonlinear klein-gordon equation within the non-relativistic limit under periodic boundary conditions. specifically, by employing the method introduced in \\cite{bourgain2005jfa}, we establish the existence and linear stability of full-dimensional tori with subexponential decay for the equation.",
+    "submitted": "2026-08-22",
+    "categories": [
+      "math.ds",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2505.06526",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2508.13871",
+    "title": "generic formulation and small-angle limit for kinetic wave equations",
+    "authors": [
+      "manh hong duong",
+      "zihui he"
+    ],
+    "abstract": "in this paper, we formulate the three-wave and four-wave kinetic equations into the generic framework and formally derive a small-angle limit for the four-wave equation. this limit is akin to the well-known grazing limit from the kinetic boltzmann equation to the kinetic landau equation. we also show the generic structure of the limiting system.",
+    "submitted": "2026-08-24",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2508.13871",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.28715",
+    "title": "slow dispersion in floquet-dirac hamiltonians",
+    "authors": [
+      "anthony bloch",
+      "amir sagiv",
+      "stefan steinerberger"
+    ],
+    "abstract": "we study dispersive decay for non-autonomous hamiltonian systems. while the general theory for dispersion in such non-autonomous systems is largely open, it was shown \\cite{kraisler2025time} that there exists a time-periodically forced one-dimensional dirac equation with unusually slow dispersive decay rate of $t^{-1/5}$. it is to be expected that such behavior is not generic and requires a very particular forcing term; we provide a more general ansatz and systematic procedure to construct such an equation with a dispersive decay rate no faster than $t^{-1/10}$. our limitations are purely algebraic and it stands to reason that arbitrarily slow decay, $t^{-\\varepsilon}$ for every $\\varepsilon > 0$, should be achievable.",
+    "submitted": "2026-08-23",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2603.28715",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.07251",
+    "title": "compactness of solutions to sub-elliptic equations with potential on the heisenberg group",
+    "authors": [
+      "jiechen qiang",
+      "zhongwei tang",
+      "yichen zhang",
+      "ning zhou"
+    ],
+    "abstract": "in this paper, we investigate the compactness of nonnegative solutions to a critical sub-elliptic equation with a nonnegative potential on the heisenberg group. we establish compactness in all dimensions. moreover, we show that if a sequence of solutions blows up, both the potential and its sub-laplacian must vanish at the blow-up point. our analysis overcomes the inherent geometric and analytical challenges posed by the heisenberg group, including the degeneracy of the sub-laplacian, its non-commutative structure, and the anisotropic dilation symmetry.",
+    "submitted": "2026-08-24",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2604.07251",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.23764",
+    "title": "a fujita-type threshold for the semilinear damped wave equation with hartree-type nonlinearity and initial data from homogeneous besov spaces",
+    "authors": [
+      "duc an phan"
+    ],
+    "abstract": "in this paper, we consider the semilinear damped wave equation with hartree-type nonlinearity $\\mathcal{i}_γ\\left(|u|^{p_1}\\right)|u|^{p_2}$, where $0<γ<n$, with initial data possessing additional negative regularity in $\\dot{b}_{2, \\infty}^{-β}$, $β\\in [0,n/2)$. we first establish decay estimates for the corresponding linear equation in homogeneous besov spaces $\\dot{b}_{q,r}^{s}$. a key point is that the low-frequency part of the data is measured only in $\\dot{b}_{m,\\infty}^{-β}$, while the heat-like behavior yields the required $\\ell^r$ summability under the condition $s+β+n(1/m-1/q)>0$. this formulation is particularly suited to the nonlinear analysis. we then establish the existence of a unique global mild solution for sufficiently small initial data whenever $$ p_1+p_2\\geq 1+\\frac{4+2γ}{n+2β}, $$ under the remaining admissibility conditions stated in the existence theorem. in particular, the critical case is covered whenever the critical line satisfies these conditions. conversely, for initial data satisfying an explicit positive lower bound, the test-function method rules out global weak solutions when $$ 2<p_1+p_2<1+\\frac{4+2γ}{n+2β}. $$ thus, whenever the critical line is admissible and the subcritical interval is nonempty, $1+(4+2γ)/(n+2β)$ gives a fujita-type threshold for the sum $p_1+p_2$.",
+    "submitted": "2026-08-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2604.23764",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.21907",
+    "title": "threshold dynamics of a time-periodic nonlocal dispersal sis epidemic model with saturated incidence function and neumann boundary conditions",
+    "authors": [
+      "ziwei liang",
+      "xiandong lin",
+      "qiru wang"
+    ],
+    "abstract": "in this paper, we consider a time-periodic nonlocal dispersal susceptible-infected-susceptible (sis) epidemic model with saturated incidence and neumann boundary conditions in a spatiotemporally heterogeneous environment. first, we define the basic reproduction number for the model, which depends on dispersal rates, total population size and saturation parameters, and is quite different from those of models incorporating standard or bilinear incidence. then, we establish its variational characterization and investigate the impacts of those parameters on it. next, we explore the existence, uniqueness and global attractivity of the equilibria. we also analyze the asymptotic behaviors of endemic steady states for small saturation parameters, and for both small and large diffusion rates. our results show that the saturation effect enables the total population size to have a significant impact on the disease dynamics. furthermore, as the saturation parameter tends to zero, the basic reproduction number and the endemic equilibrium reduce to those of the standard-incidence model, respectively. finally, we support our findings by numerical simulations.",
+    "submitted": "2026-08-22",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.21907",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2608.22447",
+    "title": "no bubble trees for the $1$-equivariant harmonic map heat flow and the radial energy-critical nonlinear heat equation in low dimensions",
+    "authors": [
+      "taegyu kim"
+    ],
+    "abstract": "we consider the $1$-equivariant harmonic map heat flow (hmhf) from $\\mathbb r^2$ to $\\mathbb s^2$ and the radial energy-critical nonlinear heat equation (nlh) in dimensions $d=3,4,5$. we prove that every finite-energy solution of (hmhf) and every $\\dot h^1$-bounded solution of (nlh) has at most one bubble: every finite-time blow-up has exactly one bubble, whereas every global solution has either no bubble or one bubble at infinite time. starting from the soliton resolution, we exclude bubble trees by modulation analysis, deriving a contradiction from the relative dynamics of the two innermost scales. this energy method does not rely on maximum principle and, in particular, applies without restriction on the bubble signs.",
+    "submitted": "2026-08-23",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.22447",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.22574",
+    "title": "singularity formation and self-shrinkers for the parabolic bernoulli problem",
+    "authors": [
+      "hunter liu",
+      "sebastian munoz",
+      "zihui zhao"
+    ],
+    "abstract": "we study singularity formation for classical solutions of the parabolic bernoulli free boundary problem and the associated self-similar profiles. inspired by ricci and mean curvature flows, we introduce a type i assumption on the blow-up rate at a singular free boundary point, under which the parabolic rescalings are compact and every tangent flow is a non-trivial self-shrinking solution of the elliptic profile equation. the proof establishes convergence of the positivity sets and recovers the bernoulli condition in the limit, despite the absence of a minimizing structure. in the subcritical regime, every tangent flow is a double plane. we next classify all radial self-shrinkers. besides the known ball and exterior profiles, there is a unique annular profile. we obtain dimension-uniform bounds and sharp asymptotics for its inner and outer radii, including a quantitative outward bias of its midpoint. these delicate estimates yield a complete classification of the signs of the linear spectrum for the annular solution in every dimension. as a consequence, the ball is dynamically stable modulo ambient symmetries, whereas the annulus is dynamically unstable, with genuine unstable modes of angular degrees $0,1,2,3$. we finally prove, from the spectral nondegeneracy of the compact radial profiles, that whenever one tangent flow is a ball or an annular solution, the tangent flow is unique. one borderline spectral sign in dimensions $2\\leq n \\leq 4000$ is verified by a rigorous computer-assisted argument using interval arithmetic.",
+    "submitted": "2026-08-23",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.22574",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.23184",
+    "title": "semilinear overdetermined problems, a divergence formula, and geometric inequalities",
+    "authors": [
+      "benedito leandro",
+      "ilton menezes",
+      "rafael novais"
+    ],
+    "abstract": "considering an $n$-dimensional compact riemannian manifold with a boundary that satisfies a serrin-type problem, we prove sharp upper and lower bounds for the area of such a boundary. then, we present the main result of this paper: a divergence formula for a special vector field on a given riemannian manifold. this divergence formula is closely related to sub-static manifolds and related metrics, e.g., $v$-static, static, and electrostatic manifolds. we show minkowski-type inequalities for $v$-sub-static manifolds under different neumann boundary conditions. moreover, we prove an area-charge inequality for compact (and noncompact) electrostatic manifolds. the main application of the divergence formula presented in this work generalizes the classical result of boucher--gibbons--horowitz: we prove that an asymptotically hyperbolic space of a static spacetime satisfying the null convergence condition must be the hyperbolic space.",
+    "submitted": "2026-08-24",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.23184",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.23355",
+    "title": "scalar charge bounds for extremal black hole formation",
+    "authors": [
+      "berend schneider"
+    ],
+    "abstract": "i prove that a collapsing charged scalar field with scalar charge $\\mathfrak{e}$ that forms an exactly extremal reissner--nordström black hole à la kehle--unger with radius $r_+$ must satisfy $|\\mathfrak{e}|r_+ > \\frac{1}{3}$. in contrast, i also show that no such bound exists for subextremal collapse: a scalar field with an arbitrary $\\mathfrak{e} \\ne 0$ can form a subextremal black hole with an arbitrary (subextremal) charge-to-mass ratio.   complementing the extremal bound, i prove that a schwarzschild black hole can become extremal if $|\\mathfrak{e}|r_+ > \\sqrt{\\frac{3 + \\sqrt{33}}{3}}$. the fact that $|\\mathfrak{e}|r_+$ can be taken to be of order unity could be considered evidence that the third law of black hole mechanics in vacuum is false.",
+    "submitted": "2026-08-24",
+    "categories": [
+      "gr-qc",
+      "math-ph",
+      "math.ap",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.23355",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2608.23489",
+    "title": "geometric desingularisation of the sharp-to-smooth travelling wave transition",
+    "authors": [
+      "zak sattar"
+    ],
+    "abstract": "we study travelling front solutions of a family of degenerate fisher-kpp equations $u_t=(u^n u_x)_x+u(1-u^n)$, where $n$ is a positive integer. at the minimal wave speed $c_{\\rm min}=\\tfrac{1}{\\sqrt{1+n}}$, these equations admit sharp front solutions, corresponding to an explicit heteroclinic orbit in the travelling wave phase-space. we show how this sharp front is perturbed when the wave speed is increased to $c=\\tfrac{1}{\\sqrt{1+n}}+\\varepsilon$, with $\\varepsilon$ sufficiently small. we use a well-motivated geometric desingularisation (also known as blow-up) near the degenerate equilibrium at the leading edge. by analysing the resulting directional and rescaling charts, we construct a singular heteroclinic orbit connecting the relevant asymptotic states, providing a simple geometric proof of the transition from sharp to smooth travelling fronts.",
+    "submitted": "2026-08-24",
+    "categories": [
+      "math.ap",
+      "math.ds"
+    ],
+    "link": "https://arxiv.org/abs/2608.23489",
+    "filter_reason": "keyword match"
+  }
+]
