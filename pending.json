@@ -176,5 +176,86 @@
     ],
     "link": "https://arxiv.org/abs/2608.23489",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2508.07787",
+    "title": "blow-up construction and instability for mass-critical half-wave equation with slightly superthreshold mass",
+    "authors": [
+      "taegyu kim",
+      "soonsik kwon",
+      "jeongheon park"
+    ],
+    "abstract": "we study the blow-up dynamics for the $l^2$-critical focusing half-wave equation on the real line, a nonlocal dispersive pde arising in various physical models. as in other mass-critical models, the ground state solution becomes a threshold between the global well-posedness and the existence of a blow-up. the first blow-up construction is due to krieger, lenzmann and raphaël, in which they constructed the minimal mass blow-up solution at the threshold mass. in this paper, we construct finite-time blow-up solutions with mass slightly exceeding the threshold. this is inspired by similar results in the mass-critical nls by bourgain and wang, and their instability by merle, raphaël and szeftel. we exhibit a blow-up profile driven by the rescaled ground state, with a decoupled dispersive radiation component. we rigorously describe the asymptotic behavior of such solutions near the blow-up time, including sharp modulation dynamics. furthermore, we demonstrate the instability of these solutions by constructing non-blow-up solutions that are arbitrarily close to the blow-up solutions. the main contribution of this work is to overcome the nonlocal setting of half-wave and to extend insights from the mass-critical nls to a setting lacking pseudo-conformal symmetry.",
+    "submitted": "2026-08-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2508.07787",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2606.21546",
+    "title": "stable semilinear elliptic equations: $\\varepsilon$-regularity à la brezis and dimensional bounds for the singular set",
+    "authors": [
+      "alessio figalli",
+      "federico franceschini"
+    ],
+    "abstract": "we develop a quantitative partial regularity theory for stable solutions of \\[ -δu=f(u), \\] where $f:\\mathbb r \\to [0,+\\infty]$ is increasing and convex. the theory is uniform in the nonlinearity and allows for a finite or infinite blow-up level $t_f\\in(-\\infty,+\\infty].$   our first result is a universal $\\varepsilon$-regularity criterion that answers a celebrated question of brezis: smallness of the scale-invariant mass of the stability potential $f'(u)$ forces hölder regularity. moreover, if $t_f<+\\infty$, the same smallness condition forces almost quadratic contact between the solution and the blow-up level $t_f$. this result is optimal and, in particular, covers the case of mems-type nonlinearities.   our second result identifies a critical exponent $q_f\\ge1$, given explicitly in terms of the asymptotic behavior of $f$, $f'$, and $f''$, such that \\[ f'(u)\\in l^q_{\\text{loc}}\\text{ for every }q<q_f . \\] combined with our $\\varepsilon$-regularity theorem, this yields quantitative bounds for the singular set, in particular \\[ \\dim_{\\mathcal h}σ(u)\\le n-2q_f. \\] remarkably, our exponent $q_f$ recovers the sharp thresholds for all standard model nonlinearities, including $f(t)=(1+t)^p$, $e^t$, and $(1-t)^{-p}$. also, this result provides the first general quantitative singular-set estimates for stable semilinear equations beyond the model nonlinearities.   finally, in the two-dimensional case, we provide a complete picture by proving the universal hessian estimate \\[ \\|d^2u\\|_{l^\\infty(b_{1/2})}\\le c\\|u\\|_{l^1(b_1)}, \\] where $c$ depends neither on $u$ nor on $f$. this $c^{1,1}$ regularity is essentially optimal: one cannot expect $c^{2,α}$ estimates for any $α>0$, and in general even $c^2$ regularity should fail.",
+    "submitted": "2026-08-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2606.21546",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.24088",
+    "title": "global regularity and general-coefficient singular limits for energy-critical complex ginzburg--landau equations",
+    "authors": [
+      "lingbang gao",
+      "jie xin",
+      "yunrui zheng"
+    ],
+    "abstract": "we study energy-critical complex ginzburg--landau equations with a linear damping term $ru$, $r\\geq 0$. for the undamped aligned equation in dimensions $d=3,4$, we treat the focusing and defocusing cases in a unified way and prove persistence of $h^1\\cap c_0$ regularity and smoothness for positive times. in particular, this resolves the energy-critical cases of cazenave's open problem. in dimensions $3\\le d\\le6$, we develop a coefficient-uniform critical stability framework for the zero-dispersion and inviscid limits. it applies to independent normalized complex coefficient paths in both the focusing and defocusing cases. from limiting data in the natural energy space $h^1$, we obtain convergence on every compact subinterval of the maximal lifespan of the limiting solution. higher regularity is required only for explicit linear coefficient-error estimates, and the limits do not use global well-posedness, scattering, or global spacetime bounds for the limiting solution. at the inviscid limit, we establish coefficient-uniform homogeneous and retarded strichartz estimates; a key technical ingredient is the retarded double-endpoint estimate required by the critical forcing space.",
+    "submitted": "2026-08-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.24088",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.24290",
+    "title": "nonlinear modal reduction for subwavelength dielectric scattering",
+    "authors": [
+      "habib ammari",
+      "ioan gorea",
+      "bowen li"
+    ],
+    "abstract": "we study three-dimensional wave scattering by high-index dielectric resonators with kerr-type nonlinearity under plane-wave incidence, together with the associated nonlinear dielectric scattering resonances, through a nonlinear lippmann-schwinger equation. using a lyapunov-schmidt reduction near a simple eigenmode of the newtonian potential, we obtain a local decomposition of the scattered wave into a resonant contribution and a controlled remainder and derive an explicit nonlinear equation for the resonant modal coefficient for sufficiently small contrast parameter and locally small resonant amplitude and incident field. a second reduction covers the regime of incident fields of order one and weak nonlinearity. our results extend for the first time the linear modal decomposition to nonlinear wave-scattering problems. we complement them by developing a numerical framework based on nyström discretization, real newton iteration, and pseudo-arclength continuation. for single resonators of several geometries, our computations confirm the predicted high-contrast resonance scaling and the nonlinear modal approximation, and exhibit the multivalued incident-wave response. for a mirror-symmetric resonator dimer, we track symmetric, antisymmetric, and symmetry-broken resonance branches over a broad range of separations. our computations show that the symmetry-breaking threshold increases as the gap between the resonators decreases, in agreement with the leading-order bifurcation theory.",
+    "submitted": "2026-08-25",
+    "categories": [
+      "math.ap",
+      "cs.na",
+      "math.na"
+    ],
+    "link": "https://arxiv.org/abs/2608.24290",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.24599",
+    "title": "shock formation for 3d steady supersonic flows with general short pulse data",
+    "authors": [
+      "bingbing ding",
+      "zhouping xin",
+      "huicheng yin"
+    ],
+    "abstract": "this paper concerns the shock formation problem for the 3d steady supersonic potential equation of polytropic gases. the potential equation is described by a second order quasilinear wave equation $\\displaystyle\\sum_{i=1}^{3}\\big[(\\partial_iφ)^2 - c^2(ρ)\\big]\\partial_i^2φ+ 2\\displaystyle\\sum_{1\\le i<j\\le 3}\\partial_iφ\\partial_jφ\\partial_{ij}^2φ= 0$, where $x = (x^1,x^2,x^3)$, $(\\partial_1,\\partial_2,\\partial_3)=(\\partial_{x^1},\\partial_{x^2},\\partial_{x^3})$, $c(ρ) = \\sqrt{p'(ρ)}$ is the sonic speed with $p(ρ)=aρ^γ$ ($γ>1$), and $\\partial_3φ> c(ρ)$. for the short pulse boundary data $φ|_{x^3=0} = δ^νφ_0\\big(\\frac{r-1}δ,ω\\big)$ and $\\partial_3φ|_{x^3=0}=q_0+δ^{ν-1}φ_1\\big(\\frac{r-1}δ,ω\\big)$ with $r=\\sqrt{(x^1)^2+(x^2)^2}$, $ω=\\big(\\frac{x^1}{r},\\frac{x^2}{r}\\big)\\in\\mathbb{s}$, $1<ν<2$ and small $δ>0$, it is shown that a shock will be formed in a finite $x^3$-distance as long as the boundary data are supersonic and satisfy $(φ_0,φ_1)\\not\\equiv 0$. this coincides with physical phenomenon that strong compression of supersonic polytropic gases yields shocks. one of our main ingredients is to find a good unknown so that the previously imposed compatibility conditions on the short pulse initial data are removed as well as the required weighted energy estimates in the existing literatures are derived. it is expected that the method here will be applied to study the shock formation problem with general short pulse initial data for the 3d steady supersonic euler equations of polytropic gases.",
+    "submitted": "2026-08-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.24599",
+    "filter_reason": "keyword match"
   }
 ]
