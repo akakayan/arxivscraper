@@ -257,5 +257,117 @@
     ],
     "link": "https://arxiv.org/abs/2608.24599",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.28789",
+    "title": "finite-time blow-up for the calogero--sutherland derivative nls on $\\mathbb{t}$",
+    "authors": [
+      "xi chen",
+      "enno lenzmann"
+    ],
+    "abstract": "we study finite-time blow-up for the focusing calogero--sutherland derivative nls on the torus with smooth initial data in the hardy space $l^2_+(\\mathbb{t})$. for finite-gap potentials as initial data, the explicit solution formula reduces the dynamics to a finite-dimensional analytic family of contractions. this yields a complete description of every finite-time blow-up solution in this class: near blow-up time $t >0$, the solution decomposes into finitely many concentrating universal blow-up profiles and a smooth remainder, each bubble carries one unit of $l^2$-mass, the concentration points are distinct, and the blow-up rates are quantized according to $$ \\|u(t) \\|_{h^s(\\mathbb{t})} \\sim_{s,u_0} \\frac{1}{(t-t)^{2sν}} \\quad \\mbox{as} \\quad t \\nearrow t \\quad \\mbox{for any $s > 0$} $$ with some integer $ν\\geq1$.   within an explicit subclass of finite-gap potentials, we identify an exact resonance condition that yields the existence of finite-time blow-up solutions. by a non-perturbative method, we construct single- and multi-bubble blow-up solutions with rate $ν=1$ for every prescribed $l^2$-mass in $(1,\\infty)\\setminus \\{ 2 \\}$. in the complementary non-resonant regime, we prove global existence with uniform sobolev bounds. the construction also shows instability of the blow-up solutions and non-chiral finite-time blow-up examples.   to the best of our knowledge, these results provide the first explicit, non-perturbative construction of finite-time blow-up for an integrable nls-type equation on the torus, together with a complete classification of the singular dynamics within a natural finite-gap class.",
+    "submitted": "2026-08-24",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.28789",
+    "filter_reason": "known author"
+  },
+  {
+    "id": "2608.25047",
+    "title": "existence and equicontinuity of solutions to the kirchhoff--pohozaev wave equation",
+    "authors": [
+      "luccas campos",
+      "rowan killip",
+      "monica visan"
+    ],
+    "abstract": "it was recently discovered by boiti--manfrin that a variant of the kirchhoff wave equation introduced by pohozaev admits infinitely many conserved quantities. in this paper, we obtain explicit formulae for such conserved quantities, as well as introduce a generating function for them that is coercive. these tools are then employed to establish a priori bounds, the propagation of equicontinuity, global well-posedness in $\\mathcal h^s$ for $s\\geq \\frac32$, and the existence of global $c_t \\mathcal h^1$ solutions.",
+    "submitted": "2026-08-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.25047",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.25066",
+    "title": "maximal regularity of superquadratic hamilton-jacobi equations: the endpoint case in lions' conjecture",
+    "authors": [
+      "fanze kong"
+    ],
+    "abstract": "a celebrated conjecture of p.-l. lions concerns maximal regularity for viscous hamilton-jacobi equations. in this paper, we study the endpoint case. we consider normalized strong solutions of $-δu+|du|^γ=f$ on $\\mathbb t^d$, where $d\\geq 2$, $γ>2$, and $f\\in l^{q_c}(\\mathbb t^d)$ with $q_c=d(γ-1)/γ$. at this critical exponent, the main difficulty is possible concentration under the critical scaling. assuming that the source terms form a uniformly equi-integrable subset of $l^{q_c}$, we rule out this concentration and prove maximal $l^{q_c}$ regularity for strong solutions. the proof combines a two-stage blow-up argument with a liouville rigidity theorem. a critical local energy estimate excludes concentration of the gradient energy in $l^{γq_c}$ at the first blow-up scale, while small-drift regularity upgrades weak compactness of the blow-up sequence to strong local compactness.",
+    "submitted": "2026-08-25",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.25066",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.25283",
+    "title": "almost periodic solutions of the defocusing mkdv equation",
+    "authors": [
+      "long li",
+      "milivoje lukić"
+    ],
+    "abstract": "we study the cauchy problem for the defocusing mkdv equation with almost periodic initial data. if the initial data corresponds to a reflectionless dirac operator which satisfies certain craig-type conditions on the spectrum, we prove that the cauchy problem has solution that is almost periodic in spacetime, and that this is the only solution which is locally bounded in a suitable sense. in particular, the result applies to small analytic quasiperiodic initial data with diophantine frequencies.",
+    "submitted": "2026-08-26",
+    "categories": [
+      "math.ap",
+      "math.sp"
+    ],
+    "link": "https://arxiv.org/abs/2608.25283",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.25363",
+    "title": "a 3d summation-by-parts scheme on a hyperboloidal foliation of minkowski",
+    "authors": [
+      "shalabh gautam"
+    ],
+    "abstract": "this paper summarises our previous work on a fully $3$d summation-by-parts scheme, derived for a class of linear wave equations on hyperboloidal slices on a fixed minkowski background. the scheme is derived in spherical polar coordinates, and allows having grid points at the origin and on the $z$-axis, despite coordinate singularities, and at infinity, by introducing compactification followed by rescaling, and is proved to be stable. reducing it to the standard cauchy problem, or to finite spacelike slices with an outer boundary, will follow a similarly. second-order accurate finite-difference methods are used to implement this scheme numerically, but higher-order finite-difference or spectral methods could also be used. kreiss-oliger dissipation operators are generalized to curvilinear coordinates and are defined everywhere in the domain, including at the boundary points, such that they satisfy the dissipative property in the energy norms. we also propose new norm convergence tests that include all the grid points at all resolutions and produce more accurate results. promising results are obtained, giving hope for application to fully nonlinear systems, like the einstein field equations, and extracting the resulting gravitational waves free of systematic errors or gauge ambiguities.",
+    "submitted": "2026-08-26",
+    "categories": [
+      "gr-qc",
+      "cs.na",
+      "math-ph",
+      "math.ap",
+      "math.mp",
+      "math.na"
+    ],
+    "link": "https://arxiv.org/abs/2608.25363",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2608.25868",
+    "title": "mode stability for the scalar wave equation on subextremal kerr-de sitter spacetimes",
+    "authors": [
+      "peter hintz"
+    ],
+    "abstract": "we prove mode stability for the massless scalar wave equation on kerr-de sitter black hole spacetimes in the full subextremal range. in combination with recent work by petersen-vasy, this proves, unconditionally, that sufficiently regular solutions of the scalar wave equation decay exponentially fast to constants.",
+    "submitted": "2026-08-26",
+    "categories": [
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.25868",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2608.26034",
+    "title": "dual modes in kerr spacetimes and the whiting transform: mode stability revisited",
+    "authors": [
+      "oliver petersen",
+      "andrás vasy"
+    ],
+    "abstract": "the purpose of the paper is to place whiting's classical growing mode stability argument, extended to real frequencies by shlapentokh-rothman for the scalar wave equation and by andersson, ma, paganini and whiting in general, in the framework of classical pde theory. the key steps are: a description of the dual or adjoint modes, a singular phase space pairing argument which is technically executed via the fourier transform, followed by a standard unique continuation result.   one part of our description of the dual modes connects them directly to the standard mode solutions which are smooth over the event horizon. in the zero spin case, there is a geometric interpretation of this: quasinormal modes (for non-zero real frequencies) which are smooth across the future event horizon can be extended as distributional qnm solutions by 0 through the past event horizon. we also describe the behavior of mode solutions at the bifurcate sphere.",
+    "submitted": "2026-08-26",
+    "categories": [
+      "math.ap",
+      "gr-qc",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2608.26034",
+    "filter_reason": "gr-qc cross-listing"
   }
 ]
