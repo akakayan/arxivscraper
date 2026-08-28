@@ -1,1 +1,78 @@
-[]
+[
+  {
+    "id": "2604.17334",
+    "title": "stability of inflow problem for hyperbolic systems",
+    "authors": [
+      "yan guo",
+      "yanjin wang"
+    ],
+    "abstract": "inflow bc plays a critical role in the study of hyperbolic pde in a bounded domain. we establish $w^{1,\\infty}$ stability for 1d hyperbolic conservation laws with inflow data in a bounded interval, and $w^{2,3+}$ stability of a large class of shear flows for the 3d incompressible euler system with inflow bc in finite square or circular pipes.",
+    "submitted": "2026-08-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2604.17334",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.27053",
+    "title": "global dynamics of vlasov--wave systems without the null condition under exponential momentum decay",
+    "authors": [
+      "léo bigorgne"
+    ],
+    "abstract": "we prove global existence and modified scattering for solutions to relativistic vlasov--wave systems without null structure, arising from small distribution functions. when the homogeneity of the force field in the momentum variable is the same as in the vlasov-maxwell system, the scalar fields are allowed to be large and our method requires stretched exponential velocity decay. when it matches that of the einstein-vlasov system, the scalar fields are required to be small and the distribution function to have slightly super-exponential velocity decay, which in particular includes maxwellian decay. moreover, we show that the smallness assumption on the scalar fields cannot in general be removed, even for compactly supported initial data.",
+    "submitted": "2026-08-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.27053",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.27061",
+    "title": "interface conditions for wave propagation through a time-varying metasurface",
+    "authors": [
+      "vishnu raveendran",
+      "barbara verfürth"
+    ],
+    "abstract": "we study wave propagation through a time-modulated thin heterogeneous layer. the layer is assumed to have a thickness of order $\\es\\ll 1$ and its material properties exhibit rapid oscillations on multiple spatial and temporal scales. we aim to rigorously derive the effective model and the corresponding interface conditions for wave propagation through the limiting interface.   to perform the homogenization together with dimension reduction, we generalize the notion of two-scale convergence for thin layer introduced by neuss-radu and jäger (2007) to a multiple space-time scale framework. one of the main analytical difficulties arising in the homogenization analysis is that, in general, a uniform energy estimate cannot be obtained for a wave equation with time-varying coefficients. therefore, we identify two physically relevant classes of coefficients for which we can derive a uniform energy bound. these include coefficients with traveling wave-type modulations of their properties.   using the energy estimates and the multiscale convergence for thin layer concept, we derive the effective model, which consists of linear wave equations in the bulk domains coupled through a nonstandard jump condition at the interface. this jump condition is governed by a wave-type dynamical equation with effective macroscopic coefficients determined by suitable cell problems of elliptic and hyperbolic type. finally, we discuss the uniqueness of the effective model.",
+    "submitted": "2026-08-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.27061",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.27103",
+    "title": "an isoperimetric characterization of a new adm-like mass for $c^0$-asymptotically flat manifolds",
+    "authors": [
+      "luca benatti",
+      "mattia fogagnolo"
+    ],
+    "abstract": "we prove that the notion of mass recently introduced by mazurowski and yao for continuous metrics coincides with huisken's isoperimetric mass on smooth riemannian $3$-manifolds with nonnegative scalar curvature whose metric has sharp $c^0$-asymptotically flat behavior. as a consequence, we deduce a riemannian penrose inequality for the mass parameter of asymptotically schwarzschildian $3$-manifolds.",
+    "submitted": "2026-08-27",
+    "categories": [
+      "math.dg",
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.27103",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2608.27342",
+    "title": "sign-preserving solutions to the tzitzéica equation on lattice graphs",
+    "authors": [
+      "pengxiu yu",
+      "yiping zhang"
+    ],
+    "abstract": "on the lattice graph $\\mathbb{z}^n$, we establish the existence of sign-preserving solutions to the tzitzéica equation. we prove the existence of positive solutions and two classes of negative solutions under different assumptions, and derive their decay estimates. the proof is based on a suitable approximation scheme, the monotone convergence theorem, and an exhaustion argument. these results extend those of hua, huang, and wang (anal. pde, 2026) by establishing the existence of both positive and negative sign-preserving solutions together with their decay estimates.",
+    "submitted": "2026-08-27",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.27342",
+    "filter_reason": "known author"
+  }
+]
