@@ -1,1 +1,288 @@
-[]
+[
+  {
+    "id": "1804.04297",
+    "title": "decay of weakly charged solutions for the spherically symmetric maxwell-charged-scalar-field equations on a reissner-nordström exterior space-time",
+    "authors": [
+      "maxime van de moortel"
+    ],
+    "abstract": "we consider the cauchy problem for the (non-linear) maxwell-charged-scalar-field equations with spherically symmetric initial data, on a sub-extremal reissner--nordström or schwarzschild exterior space-time. we prove that the solutions are bounded and decay at an inverse polynomial rate towards time-like infinity and along the black hole event horizon, provided the charge of the maxwell equation is sufficiently small. this condition is in particular satisfied for small data in energy space that enjoy a sufficient decay towards the asymptotically flat end. some of the decay estimates we prove are arbitrarily close to the conjectured optimal rate in the limit where the charge tends to zero, according the heuristics present in the physics literature. our result can also be interpreted as a first step towards the stability of reissner--nordström black holes for the gravity coupled einstein--maxwell-charged-scalar-field model. this problem is closely connected to the understanding of strong cosmic censorship and charged gravitational collapse in this setting.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/1804.04297",
+    "filter_reason": "gr-qc cross-listing"
+  },
+  {
+    "id": "2511.18995",
+    "title": "growth estimates for solutions to the wave equation on damek--ricci spaces",
+    "authors": [
+      "yunxiang wang",
+      "lixin yan",
+      "hong-wei zhang"
+    ],
+    "abstract": "let $\\mathcal{l}$ be the positive definite left-invariant distinguished laplacian, and let $\\mathrm{d}ρ$ denote the right haar measure on a damek--ricci space $s$. let $u(t,x)$ denote the solution to the wave equation $\\partial_t^2 u + \\mathcal{l} u=0$ with initial data $(u,\\partial_t u)|_{t=0}=(f,g)$. in this paper, we establish the sharp-in-regularity $l^p$-bounds \\begin{align*} \\|u(t,\\cdot)\\|_{l^p(s ,\\mathrm{d}ρ)} \\lesssim_p(1+|t|)^{2|\\frac{1}{p}-\\frac{1}{2}|}\\|(\\mathrm{id}+\\mathcal{l})^{\\frac{α_0}{2}}\\!f\\|_{l^p(s ,\\mathrm{d}ρ)}+(1+|t|)\\,\\|(\\mathrm{id}+\\mathcal{l})^{\\frac{α_1}{2}}\\!g\\|_{l^p(s,\\mathrm{d}ρ)} \\end{align*} for all $t\\in\\mathbb{r}^*$ and $1<p<\\infty$, where the exponents $α_0 = (n-1)\\left|1/p-1/2\\right|$ and $α_1 = (n-1)\\left|1/p-1/2\\right| -1$ attain their critical values. this result settles, in full generality, the conjecture raised by müller, thiele, and vallarino.",
+    "submitted": "2026-08-29",
+    "categories": [
+      "math.ca",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2511.18995",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.05077",
+    "title": "mean curvature flow near a peanut solution",
+    "authors": [
+      "sigurd angenent",
+      "panagiota daskalopoulos",
+      "natasa sesum"
+    ],
+    "abstract": "it was shown by angenent, altschuler and giga, and by angenent and velazquez that there exist closed mean curvature flow solutions that extinct to a point in finite time, without ever becoming convex prior to their extinction. these solutions develop a degenerate neckpinch singularity, meaning that the tangent flow at a singularity is a round cylinder, but at the same time for each of these solutions there exists a sequence of points in space and time, so that the pointed blow up limit around this sequence is the bowl soliton. these solutions are called peanut solutions and they were first conjectured to exist by richard hamilton, while the existence of those solutions was shown by angenent, altschuler and giga. in this paper we show that this type of solutions are highly unstable, in the sense that in every small neighborhood of any such peanut solution we can find a perturbation so that the mean curvature flow starting at that perturbation develops spherical singularity, and at the same time we can find a perturbation so that the mean curvature flow starting at that perturbation develops a nondegenerate neckpinch singularity. we also show that appropriately rescaled subsequence of any sequence of solutions whose initial data converge to the peanut solution, and all of which develop spherical singularities, converges to the ancient oval solution.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2512.05077",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29236",
+    "title": "stable $c^{7/9}$ cusp formation for the novikov equation",
+    "authors": [
+      "yunjoo kim",
+      "dowan koo",
+      "bongsuk kwon",
+      "wanyong shim"
+    ],
+    "abstract": "we establish stable cusp formation for the novikov equation, a cubically nonlinear camassa--holm-type equation. we identify an open set of smooth initial data for which the first gradient blow-up produces a cusp with sharp hölder regularity $c^{7/9}$. this result shows that, in nonlocal wave-breaking problems, the sharp regularity of the cusp is not determined by the nonlocal or nonlinear structure alone. while the conserved $h^1$-type quantity excludes the $c^{1/3}$ cusp associated with burgers-type gradient blow-up, the precise hölder exponent is selected by the coupling between the nonlocal term and the algebraic structure of the nonlinearity. in the novikov equation, this coupling yields the exponent $7/9$, rather than the $3/5$ exponent known for the camassa--holm and hunter--saxton equations. the main difficulty is that the naive high-frequency limit retains the cubic character of the equation and therefore does not exhibit a self-similar leading flow. we overcome this by introducing a galilean-type change of variables around a nonzero background, which reveals a quadratic hunter--saxton-type leading equation. its self-similar profiles determine the $c^{7/9}$ cusp, while the nonlocal and cubic remainders are controlled perturbatively in modulated similarity variables.",
+    "submitted": "2026-08-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29236",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29250",
+    "title": "global existence of classical solutions to 3d nonlinear klein-gordon equations with low-regularity initial data",
+    "authors": [
+      "wei xu",
+      "yi zhou"
+    ],
+    "abstract": "this paper studies global existence for the cauchy problem of nonlinear klein-gordon equations in three space dimensions, strictly within the regularity regime of classical local existence. we prove it via higher-order and lower-order energy estimates. the proof relies on two key ingredients. the first is due to the work of georgiev and popivanov, which reduces quadratic nonlinearities to cubic terms plus ghost-energy-controllable terms, securing lower-order estimates. the second is a sharp klainerman-sobolev-type inequality without the scaling operator, established herein, which yields enough time decay for derivatives up to second order; integration by parts then controls derivative loss terms in the higher-order estimates.",
+    "submitted": "2026-08-29",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.29250",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29258",
+    "title": "global small data radial symmetric solutions of 3d semilinear euler-poisson-darboux equations",
+    "authors": [
+      "qianqian li",
+      "qiao xin",
+      "huicheng yin"
+    ],
+    "abstract": "for the 3d semilinear euler-poisson-darboux equation $\\square u+\\fracμ{t}\\partial_tu=|u|^p$, where $t\\geq1$, $μ>0$ and $p>1$, it is conjectured that there is a critical exponent $p_{crit}(3,μ)=\\max\\{p_s(3+μ), p_f(3)\\}$ with the strauss exponent $p_s(3+μ)=\\frac{μ+4+\\sqrt{μ^2+16μ+32}}{2(μ+2)}$ and the fujita exponent $p_f(3)=\\frac{5}{3}$ such that when $p>p_{crit}(3,μ)$, the small data solution $u$ exists globally, otherwise, when $1<p\\le p_{crit}(3,μ)$, the solution $u$ can blow up in finite time. it is pointed out that for $1<p\\le p_{crit}(3,μ)$, the blowup of solution $u$ has been shown. however, it is still open for the global existence of small solution $u$ when $p>p_{crit}(3,μ)$. note that $p_{crit}(3,μ)=p_s(3+μ)$ for $0<μ<\\frac{14}{5}$ and $p_{crit}(3,μ)=p_f(3)$ for $μ\\geq\\frac{14}{5}$. in the recent paper [16], the authors have obtained the global small solution $u$ for $p>\\max\\{\\frac{5}{3},1+\\frac{2}μ\\}$ and $μ\\geq\\frac{14}{5}$. in this paper, by utilizing the hypergeometric riemann representation and establishing some delicate pointwise spacetime weighted estimates, we prove the global existence of small data radial solution $u$ in the remaining range of $\\frac{5}{3}<p\\leq1+\\frac{2}μ$ and $\\frac{14}{5}\\leqμ<3$. therefore, for the radially symmetric case and $μ\\geq\\frac{14}{5}$, the global existence problem of small data solution $u$ is solved when $p>p_{crit}(3,μ)=\\frac{5}{3}$.",
+    "submitted": "2026-08-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29258",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29332",
+    "title": "global recovery of lorentzian principal geometry from the hyperbolic dirichlet-to-neumann map",
+    "authors": [
+      "lu chen",
+      "yan jiang",
+      "hongyu liu",
+      "longyue tao"
+    ],
+    "abstract": "we prove that the full dirichlet-to-neumann map on a finite time interval globally determines the lorentzian metric \\(\\mathbf g_{g,c}=-c(x,t)^2\\mathrm{d}t^2+g(x)\\) encoded by the principal symbol of the wave operator. the result holds in spatial dimensions \\(n\\geq3\\) for multiplicatively separable wave speeds \\(c(x,t)=a(x)b(t)\\), provided the accumulated effective time during the experiment exceeds the maximal travel time from the boundary to the interior and back. the data determine both the unknown riemannian metric \\(g(x)\\) and the wave speed \\(c(x,t)\\) throughout the observation cylinder, up to a spatial change of coordinates that fixes the boundary and leaves the measured time unchanged. in particular, the temporal factor \\(b\\) is not prescribed but is recovered from the same measurements. we also construct several examples demonstrating that the dimensional and visibility conditions for uniqueness are sharp.",
+    "submitted": "2026-08-29",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29332",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29500",
+    "title": "non-time-decaying global classical solutions to nonlinear wave equations in 3d under the null condition",
+    "authors": [
+      "zexian zhang",
+      "yi zhou"
+    ],
+    "abstract": "we present an alternative proof of the global well-posedness of nonlinear wave equations in three spatial dimensions under the null condition, in the regularity regime of the classical local existence theory, assuming smallness of the angular derivatives. unlike previous methods, which rely on decay in time, our approach is based solely on spatial decay. this provides a new perspective on the problem and offers potential applications to the study of einstein's equations, which we intend to explore in future work.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29500",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29522",
+    "title": "infinite time blow-up of solutions to the classical keller-segel model of chemotaxis in higher dimensions",
+    "authors": [
+      "yūki naito",
+      "takasi senba"
+    ],
+    "abstract": "we study the simplest parabolic-elliptic model of chemotaxis in ${\\bf r^n}$, and show the optimal criteria for the existence of infinite time blow-up of solutions with the initial data below the chandrasekhar singular solution when $n \\geq 10$. in particular, we exhibit the differences of the criteria between the cases $n \\geq 11$ and $n = 10$. our argument is based on the study of the cauchy problem for the transformed equation involving the averaged mass of the solution and the asymptotic expansions of solutions to the liouville equation.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29522",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29664",
+    "title": "critical morrey rigidity and removable singularities for five-dimensional stationary navier-stokes flows",
+    "authors": [
+      "yubo chen",
+      "wendong wang",
+      "xiao wang",
+      "guoxu yang",
+      "jianbo yu"
+    ],
+    "abstract": "we prove a critical morrey rigidity theorem for the five-dimensional stationary navier--stokes equations. more precisely, every smooth solution on $\\mathbb r^5\\setminus\\{0\\}$ satisfying \\[ \\sup_{r>0}r^{-2}\\int_{b_r}|u|^3\\,dx<\\infty \\] is identically zero, up to an additive constant in the pressure. this replaces the pointwise type-i control in the known higher-dimensional rigidity theory by a velocity-only, scale-invariant averaged condition that allows spatial concentration. the proof develops a weak head-pressure mechanism that does not rely on pointwise pressure estimates or classical normal traces. we reconstruct a canonical pressure from the velocity, derive a renormalized inequality for the positive head pressure, and introduce two monotone radial fluxes. annular energy estimates, suitable-weak compactness, and blow-up and blow-down limits are then used to identify the endpoint fluxes and force rigidity.   as an application, we obtain a removable-singularity criterion in dimension five: if a suitable weak solution is smooth away from one point and either its scale-invariant dirichlet energy or its cubic velocity morrey quantity remains bounded near that point, then the singularity is removable. thus, within the isolated-singularity class, the smallness assumption in the classical stationary regularity criterion is replaced by boundedness. we also prove the corresponding velocity-only cubic morrey rigidity theorem in dimension four by a different finite-energy argument.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29664",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29671",
+    "title": "plasmon poles for the linearized coulomb--hartree--fock equation",
+    "authors": [
+      "yuya dan"
+    ],
+    "abstract": "we study the time-dependent hartree--fock equation in $\\r^3$ with physical coulomb interactions in both direct and exchange channels, with exchange coupling $η$, linearized about homogeneous equilibria $γ_f=g(-i\\nabla)$ having compact momentum support. nguyen and you showed that, without exchange, two purely imaginary plasmon poles $\\pm iτ_0(|k|)$ exist below a survival threshold $κ_0>0$. existing nonlinear hartree--fock theory requires a short-range direct interaction and a smooth small exchange kernel, excluding the present coulomb setting. on every compact band $0<k_-\\le|k|\\le k_+<κ_0$, we prove unconditionally for coulomb exchange that, for small $|η|$, the poles persist, remain simple and purely imaginary, and depend real-analytically on $η$. their first-order shift $τ_x$ splits into explicit static self-energy and dynamic vertex corrections. each pole yields an exact undamped mode with a closed-form unit-density eigenfunction, embedded in the fiber generator's essential spectrum. the causal density green function splits into an explicit undamped sine wave and a remainder whose laplace transform is holomorphic near the poles, while the plasmon channel satisfies uniform $t^{-3/2}$ dispersive decay and endpoint strichartz estimates. a first-order ward-type cancellation gives $|τ_x(r)|\\le cr^2$ down to $r=0$; hence exchange leaves the plasma gap unchanged to first order, and we obtain a closed formula for the stiffness correction. numerics for a $c^9$ smoothed fermi ball support the analysis: self-energy and vertex terms cancel within $1.2\\%$ on the computed range, and exchange softens the dispersion most strongly near $0.7\\,κ_0$.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29671",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29813",
+    "title": "boundary harnack inequalities for kolmogorov equations in asymptotically cylindrical lipschitz domains",
+    "authors": [
+      "kaj nyström"
+    ],
+    "abstract": "we establish boundary harnack inequalities for non-negative solutions of the kolmogorov equation \\[   \\mathcal ku=δ_xu+x\\cdot\\nabla_yu-\\partial_tu=0 \\] in non-characteristic intrinsic lipschitz graph domains whose defining functions may depend on the higher-order variable \\(y_m\\). earlier theory required independence of \\(y_m\\). we replace this symmetry by quantitative asymptotic cylindricality, measured by a scale-invariant \\(c^{0,1/3}_{y_m}\\) defect. the perturbative comparison theorem applies whenever this defect is sufficiently small, and hence at all sufficiently small scales for \\(c^{0,α}_{y_m}\\) graphs with \\(α>1/3\\), as well as under a vanishing critical cylindrical modulus. we obtain local comparability and intrinsic hölder continuity of quotients of positive solutions, together with a hölder estimate for their logarithmic quotient.   the proof combines local boundary estimates, valid without \\(y_m\\)-independence, with a global rigidity argument for cylindrical blow-up limits. the central issue is uniform balance of forward and backward reference values. if this balance fails at collapsing scales, maximal-scale selection and a second rescaling produce a non-negative polynomial-growth dirichlet solution in an unbounded cylindrical domain that vanishes at the backward reference point but not at the forward one. we exclude this configuration using boundary-energy and mean-value estimates, finite-dimensionality of spaces of polynomial-growth solutions, and translation invariance in \\(y_m\\). the resulting finite-dimensional translation representation yields real-analytic dependence on \\(y_m\\). propagation of zeros, analytic continuation along invariant fibres, and a tikhonov uniqueness argument then force the limiting solution to vanish identically. the exponent \\(1/3\\) is critical because \\(y_m\\) has homogeneous degree three.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29813",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29853",
+    "title": "sharp monotonicity for closed three-manifolds with positive scalar curvature",
+    "authors": [
+      "cosmin manea"
+    ],
+    "abstract": "we prove two sharp monotonicity formulae for the natural green's function of a closed three-manifold with positive scalar curvature, analogous to the munteanu-wang theorem for non-negative scalar curvature. we also show that both results may be interpreted as the monotonicity of a suitably defined \"enclosed mass\" of the sublevel sets of green's function in the corresponding \"conformal\" blow-up of the manifold.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "math.dg",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29853",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29941",
+    "title": "failure of a bm-type inequality for the gaussian torsional rigidity",
+    "authors": [
+      "xuan hien nguyen",
+      "alina stancu"
+    ],
+    "abstract": "let $u$ be the torsion function for the ornstein--uhlenbeck operator on a bounded domain $ω\\subset \\r^n$, i.e., the solution of $δu - x \\cdot \\nabla u=-1$ in $ω$ with $u=0$ on $\\partialω$. let $\\tg(ω)=\\int_ωu\\,dγ$ be the gaussian torsional rigidity. we prove that the brunn--minkowski-type inequality $\\tg((1-t)ω_0+tω_1)^α\\le (1-t)\\tg(ω_0)^α+t\\tg(ω_1)^α$ fails for every exponent $α>0$ and in every dimension $n\\ge2$, for a pair of convex bodies centrally symmetric with respect to the origin, which may be taken smooth with positive curvature. this answers conjecture~1.4 and question~(q) of marín sola and salerno in the negative. the mechanism is a first-order lower bound for $\\tg$ at a ball $ω_0$ under minkowski perturbations. when the perturbing body $ω_1$ has small torsion and large mean width, $\\tg((1-t) ω_0 + t ω_1)$ increases to first order. since the minkowski combination has larger torsion than both endpoints, no exponent can repair the inequality.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.29941",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30138",
+    "title": "high frequency wave propagation for the viscoelastic wave equation with singular memory",
+    "authors": [
+      "haim grebnev",
+      "plamen stefanov"
+    ],
+    "abstract": "we study high-frequency propagation for a viscoelastic wave equation with spatially dependent hereditary memory in relative-history form. the kernel may have the integrable singularity $\\mathfrak m(s,x)=s^{p-1}m(s,x)$, $0<p<1$; the regular case $p=1$ is included. using the half-amplitude propagation distance and corresponding travel time as units, the wavelength $h\\ll1$ yields the memory factor $\\varepsilon=h^{1-p}$. we construct exact solutions with full two-scale geometric-optics expansions in powers $h^{k+(1-p)\\ell}$. memory modifies the propagation geometry through the instantaneous modulus $σ+\\varepsilon\\int_0^\\infty\\mathfrak m(s,\\cdot)\\,d s$, while the kernel singularity contributes $c_p=γ(p)e^{iπp/2}$ to the leading transport equation. for $0<p<1$, this produces fractional scales, frequency-dependent attenuation, and a dispersive phase correction; for $p=1$, the fractional hierarchy disappears, attenuation is frequency independent, and the transport phase correction vanishes.   we also derive a local damped wave equation whose incoming high-frequency solutions approximate the hereditary solutions with $o(h)$ error in semiclassical $c^k$ norms. exterior observations for all incident directions and $0<h\\ll1$ uniquely recover $σ_{\\mathfrak m}$ and the full temporal jet of $m$ at $s=0$, which determine the expansion modulo $o(h^\\infty)$.   finally, a contraction-semigroup argument gives well-posedness and arbitrary finite-order sobolev regularity for spatially dependent weakly singular kernels and prescribed full prehistory, with explicit compatibility conditions and estimates uniform in $\\varepsilon$. these estimates justify the geometric-optics construction.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.30138",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30167",
+    "title": "the symmetric maximal surface equation",
+    "authors": [
+      "rongli huang",
+      "peihe wang",
+      "hengyu zhou"
+    ],
+    "abstract": "we establish the existence of smooth solutions to the symmetric maximal surface equation with degenerate boundary conditions. moreover, we prove that these solutions maximize the associated area functionals. this result serves as the lorentzian analogue of minimal graphs in hyperbolic spaces together with their associated area minimizing problem.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.dg",
+      "math-ph",
+      "math.ap",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.30167",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30208",
+    "title": "sharp dispersive and strichartz estimates for the neumann cylindrical wave model",
+    "authors": [
+      "len meas"
+    ],
+    "abstract": "we establish local-in-time dispersive and sharp strichartz estimates for the linear wave equation with neumann boundary conditions inside a cylindrical convex domain $ω\\subset \\mathbb{r}^3$ featuring a non-empty smooth boundary $\\partialω$. the cylindrical geometry dictates that the nonnegative radius of curvature vanishes along the axial direction. by utilizing an explicit spectral analysis based on the zeros of the airy function derivative, alongside a tailored airy--poisson summation formula, we capture the microlocal behavior of multi-reflected waves and caustics. finally, we apply these sharp strichartz estimates without loss of derivatives to prove local well-posedness and small-data global well-posedness for the energy-critical quintic nonlinear wave equation (nlw) subject to neumann boundary conditions.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2608.30208",
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.31098",
+    "title": "higher-order approximate symmetries",
+    "authors": [
+      "alexey shevyakov"
+    ],
+    "abstract": "fushchych and shtelen defined approximate symmetry by expanding the solution of a perturbed differential equation in the small parameter, replacing the original equation by a triangular system for the expansion coefficients. we extend this construction to arbitrary order. a coefficient-map formulation yields the order-$p$ fushchych--shtelen (fs) system and establishes, under explicit hypotheses, a correspondence with the baikov--gazizov--ibragimov (bgi) method.   the two frameworks are compared for a perturbed cubic wave equation. up to equivalences, we classify the nonlinearities admitting an fs dilation through second order. the classification consists of a generic power family and logarithmic branches at exceptional exponents. among perturbations nontrivial at first order, vertical bgi continuations select a proper subfamily of one fs branch, and a second common branch arises when the perturbation first enters at second order; the two methods are related but not interchangeable. joint reduction by the lorentz algebra and the inherited fs dilation integrates all resulting fs normal forms; the explicit solutions of the 1989 fushchych--shtelen letter are recovered as the first-order members of this reduction. in the part common to both frameworks, the logarithmic corrections arise from the expansion of a power law with a perturbation-dependent exponent.   finally, periodic travelling waves are used to examine the long-scale validity of the fs expansion. the first correction is obtained by quadrature, the second-order secular structure is isolated, and phase renormalization produces bounded order-consistent approximations. for integer-power members of the generic family, the amplitude dependence of the corrected wavenumber agrees with the scaling weights obtained from the symmetry classification.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp",
+      "nlin.si"
+    ],
+    "link": "https://arxiv.org/abs/2608.31098",
+    "filter_reason": "keyword match"
+  }
+]
