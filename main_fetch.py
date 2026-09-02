@@ -2,18 +2,17 @@
 Daily fetch job entry point.
 
   1. Load seen_ids.json, pending.json, authors.json
-  2. Fetch new math.AP papers from arxiv
-  3. Run four-tier relevance filter
+  2. Fetch and deduplicate new math.AP and gr-qc papers from arxiv
+  3. Run the relevance filter
   4. Append relevant papers to pending.json
   5. Update seen_ids.json (trimmed to last 90 days)
 """
 import json
-import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from filter import filter_papers, load_authors
-from scraper import fetch_new_papers
+from scraper import SOURCE_CATEGORIES, fetch_new_papers
 
 SEEN_IDS_FILE = "seen_ids.json"
 PENDING_FILE = "pending.json"
@@ -42,14 +41,17 @@ def main() -> None:
     seen_raw = _trim_seen(_load(SEEN_IDS_FILE, []))
     seen_ids = {e["id"] for e in seen_raw}
     pending = _load(PENDING_FILE, [])
-    authors_set = load_authors(AUTHORS_FILE)
+    authors_lookup = load_authors(AUTHORS_FILE)
 
-    print(f"State: {len(seen_ids)} seen IDs, {len(pending)} pending, {len(authors_set)} authors")
+    print(
+        f"State: {len(seen_ids)} seen IDs, {len(pending)} pending, "
+        f"{len(authors_lookup)} authors"
+    )
 
     papers = fetch_new_papers(seen_ids, lookback_days=LOOKBACK_DAYS)
-    print(f"Fetched {len(papers)} new papers from arxiv math.AP")
+    print(f"Fetched {len(papers)} new papers from arxiv {', '.join(SOURCE_CATEGORIES)}")
 
-    relevant = filter_papers(papers, authors_set)
+    relevant = filter_papers(papers, authors_lookup)
     print(f"Relevant after filtering: {len(relevant)}")
     for p in relevant:
         print(f"  [{p['filter_reason']}] {p['title'][:80]}")

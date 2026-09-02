@@ -8,62 +8,51 @@ Build an automated arxiv paper scraper that:
 
 ## Arxiv Fetch Strategy
 
-**Source category:** `math.AP` (Analysis of PDEs) — this is the only source, always fetched.
+**Source categories:** `math.AP` (Analysis of PDEs) and `gr-qc` (General Relativity and Quantum Cosmology). Fetch both feeds and deduplicate by arxiv ID.
 
-**Relevance filtering logic (applied to math.AP papers) — in priority order:**
-1. If the paper is cross-listed in `gr-qc` (General Relativity & Quantum Cosmology) → **auto-include**
-2. If the paper matches any keyword pattern (stemmed, word-boundary regex) → **include**
-3. If semantic similarity score vs. topic description exceeds threshold → **include**
-   - Default threshold: **0.35**
-   - If any author is in `authors.json`: lower threshold **0.20** (extra attention, but still needs relevance signal — prevents including papers from authors who have moved to unrelated subfields)
-4. Otherwise → **skip**
-
-**Do NOT include** pure `gr-qc` papers that are not in `math.AP`.
+**Relevance filtering logic:**
+1. Papers carrying both `math.AP` and `gr-qc` are auto-included with relevance score 3.
+2. Every other paper must match an approved topic pattern.
+3. A topical `gr-qc` paper also cross-listed in `math.DG` or `math-ph` receives relevance score 2.
+4. Other topical papers receive relevance score 1.
+5. Quantum-only papers are skipped when their only positive signal is a broad black-hole or relativity term. A strong approved PDE, field-equation, Einstein-equation, or numerical-black-hole signal can still include them.
+6. Known authors change newsletter placement only after the paper passes the relevance rules; author identity alone never includes a paper.
 
 **Keyword matching strategy:**
-- Use stemmed word-boundary regex (`\b`) so root forms match inflections (e.g. `scatter` catches "scattering", "scattered")
+- Use case-insensitive word-boundary regex patterns.
 - Group synonyms into single patterns (e.g. `blow.?up|blowup`)
 - Match against title + abstract, case-insensitive
 
 **Keyword list:**
 - `nonlinear wave|semilinear wave|quasilinear wave|wave equation`
-- `hyperbolic`
+- `hyperbolic (equation|PDE|system|conservation|problem|flow)`
 - `shock wave`
-- `dispersive`
+- `dispersive (equation|PDE|estimate|decay|wave)`
 - `Klein.?Gordon`
-- `Maxwell equation`
-- `Dirac equation`
-- `Cauchy problem`
+- `Maxwell`
+- `Yang.?Mills`
+- `Schrödinger|Schrodinger`
 - `null condition`
 - `blow.?up|blowup`
-- `global existence`
-- `scatter`
-- `energy estimate`
-- `black hole|Schwarzschild|Kerr`
-- `general relativity|Einstein equation`
+- `black hole|black-hole|Schwarzschild|Kerr`
+- `general relativity|Einstein equation|Einstein equations`
 - `spacetime|Minkowski|Lorentzian`
 - `gravitational wave`
-
-**Semantic scoring:**
-- Model: `sentence-transformers` with `all-MiniLM-L6-v2` (local, offline, no API cost)
-- Topic description: `"nonlinear wave equations, hyperbolic PDEs, mathematical general relativity, dispersive equations"`
-- Threshold: 0.35 cosine similarity — papers above this are included even without a keyword hit
-- The model (~90MB) must be cached in GitHub Actions using `actions/cache` keyed on the model name, otherwise every daily run re-downloads it
 
 **Author matching strategy:**
 - Maintained in `authors.json` — a curated list of key researchers in the field
 - Seeded via a one-time Math Genealogy crawl (`genealogy_seed.py`) starting from key figures
 - Genealogy candidates are filtered: only kept if they have at least one `math.AP` or `gr-qc` paper on arxiv within the last 3 years
-- Name normalization: compare last name + first initial to handle "D. Tataru" vs "Daniel Tataru"
+- Name normalization: compare complete names after case, spacing, punctuation, and accent normalization. Initial-only forms match only when explicitly listed in `authors.json`.
+- Store the matched curated name on the paper and show it in the newsletter reason.
 - Authors can also be added manually at any time
 - If `authors.json` is missing or empty, the filter degrades gracefully (author tier is skipped, other tiers still apply)
 
 **Arxiv API pagination:**
-- Fetch in pages of 100 results using the `start` offset parameter; keep fetching until a page returns fewer than 100 results
-- This handles busy days where `math.AP` has more than 100 new submissions
+- The `arxivscraper` OAI-PMH client follows each feed's resumption tokens until complete.
 
 ## Scheduling
-- **Daily (8am UTC):** fetch new `math.AP` papers, filter, store in `pending.json`
+- **Daily (8am UTC):** fetch new `math.AP` and `gr-qc` papers, filter, store in `pending.json`
 - **Mon & Thu (9am UTC):** if `pending.json` is non-empty, send newsletter email, then clear it
 
 Both workflows must use a shared `concurrency` group (e.g. `group: state-files`) to prevent simultaneous runs from conflicting on the committed JSON state files.
@@ -82,8 +71,8 @@ arxivscraper/
 ├── .github/workflows/
 │   ├── daily_fetch.yml       # cron: 0 8 * * *
 │   └── send_newsletter.yml   # cron: 0 9 * * 1,4
-├── scraper.py                # queries arxiv API for math.AP papers
-├── filter.py                 # four-tier relevance filter (gr-qc, authors, keywords, semantic)
+├── scraper.py                # queries and deduplicates math.AP and gr-qc papers
+├── filter.py                 # cross-listing, keyword, quantum-focus, and author filter
 ├── newsletter.py             # formats papers into HTML email
 ├── emailer.py                # sends via Gmail SMTP
 ├── main_fetch.py             # entry point for daily job
@@ -92,8 +81,10 @@ arxivscraper/
 ├── seen_ids.json             # persisted state (committed to repo)
 ├── pending.json              # persisted state (committed to repo)
 ├── authors.json              # curated author allowlist (committed to repo)
-└── requirements.txt          # sentence-transformers, requests, torch (cpu)
+└── requirements.txt          # Python runtime dependencies
 ```
+
+Install `requirements-dev.txt` to run the pytest regression suite locally.
 
 ## GitHub Secrets Required
 | Secret | Description |

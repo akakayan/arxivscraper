@@ -1,9 +1,10 @@
 """Format a list of papers into a sectioned HTML email."""
 from datetime import date
+from html import escape
 
 SECTIONS = [
     ("Mathematical General Relativity",   lambda p: "gr-qc" in p.get("categories", [])),
-    ("Known Authors",                     lambda p: p.get("filter_reason") == "known author"),
+    ("Known Authors",                     lambda p: bool(p.get("matched_author"))),
     ("Nonlinear Waves & Dispersive PDEs", lambda p: p.get("filter_reason", "").startswith("keyword")),
 ]
 
@@ -22,7 +23,18 @@ def _bucket(papers: list[dict]) -> list[tuple[str, list[dict]]]:
             if predicate(paper):
                 buckets[title].append(paper)
                 break
-    return [(title, buckets[title]) for title, _ in SECTIONS if buckets[title]]
+    return [
+        (
+            title,
+            sorted(
+                buckets[title],
+                key=lambda paper: paper.get("relevance_score", 0),
+                reverse=True,
+            ),
+        )
+        for title, _ in SECTIONS
+        if buckets[title]
+    ]
 
 
 def render_html(papers: list[dict]) -> str:
@@ -42,7 +54,8 @@ def render_html(papers: list[dict]) -> str:
   </h1>
   {sections_html}
   <p style="margin-top: 3em; color: #aaa; font-size: 0.8em; border-top: 1px solid #eee; padding-top: 1em;">
-    Source: <a href="https://arxiv.org/list/math.AP/recent" style="color: #aaa;">math.AP recent listings</a>
+    Sources: <a href="https://arxiv.org/list/math.AP/recent" style="color: #aaa;">math.AP</a>
+    and <a href="https://arxiv.org/list/gr-qc/recent" style="color: #aaa;">gr-qc</a> recent listings
   </p>
 </body>
 </html>"""
@@ -58,16 +71,25 @@ def _render_section(title: str, papers: list[dict]) -> str:
 
 
 def _paper_block(p: dict) -> str:
-    authors_str = ", ".join(p["authors"])
+    authors_str = ", ".join(escape(str(author)) for author in p["authors"])
     reason = p.get("filter_reason", "")
-    cats = " &middot; ".join(p.get("categories", []))
+    if p.get("matched_author"):
+        reason = f"{reason}; known author: {p['matched_author']}"
+    reason = escape(str(reason))
+    cats = " &middot; ".join(
+        escape(str(category)) for category in p.get("categories", [])
+    )
+    link = escape(str(p["link"]), quote=True)
+    title = escape(str(p["title"]))
+    submitted = escape(str(p["submitted"]))
+    abstract = escape(str(p["abstract"]))
     return f"""  <div style="margin-bottom: 2em; padding-bottom: 1.6em; border-bottom: 1px solid #e8e8e8;">
     <h3 style="margin: 0 0 0.3em; font-size: 1.0em; font-weight: bold;">
-      <a href="{p['link']}" style="color: #1a56db; text-decoration: none;">{p['title']}</a>
+      <a href="{link}" style="color: #1a56db; text-decoration: none;">{title}</a>
     </h3>
     <p style="margin: 0.15em 0; color: #444; font-size: 0.9em;">{authors_str}</p>
-    <p style="margin: 0.15em 0; color: #888; font-size: 0.82em;">{p['submitted']} &middot; {cats} &middot; <em>{reason}</em></p>
-    <p style="margin: 0.9em 0 0; font-size: 0.95em; line-height: 1.65;">{p['abstract']}</p>
+    <p style="margin: 0.15em 0; color: #888; font-size: 0.82em;">{submitted} &middot; {cats} &middot; <em>{reason}</em></p>
+    <p style="margin: 0.9em 0 0; font-size: 0.95em; line-height: 1.65;">{abstract}</p>
   </div>"""
 
 

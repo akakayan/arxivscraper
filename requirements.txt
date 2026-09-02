@@ -1,2 +1,1 @@
 arxivscraper
-# sentence-transformers>=2.7.0  # disabled for testing
