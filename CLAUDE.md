@@ -13,10 +13,10 @@ Build an automated arxiv paper scraper that:
 **Relevance filtering logic:**
 1. Papers carrying both `math.AP` and `gr-qc` are auto-included with relevance score 3.
 2. Every other paper must match an approved topic pattern.
-3. A topical `gr-qc` paper also cross-listed in `math.DG` or `math-ph` receives relevance score 2.
+3. A topical `gr-qc` paper also carrying any `math.*` tag or `math-ph` receives relevance score 2.
 4. Other topical papers receive relevance score 1.
 5. Quantum-only papers are skipped when their only positive signal is a broad black-hole or relativity term. A strong approved PDE, field-equation, Einstein-equation, or numerical-black-hole signal can still include them.
-6. Known authors change newsletter placement only after the paper passes the relevance rules; author identity alone never includes a paper.
+6. For selected non-`gr-qc` papers, known authors change newsletter placement; author identity alone never includes a paper. Selected `gr-qc` papers remain in the appropriate GR section and display any known-author match there.
 
 **Keyword matching strategy:**
 - Use case-insensitive word-boundary regex patterns.
@@ -99,6 +99,11 @@ GitHub Actions will send an email to the repo owner on workflow failure — this
 ## Email Details
 - **From/To:** abakakayan@gmail.com
 - **Format:** HTML email, one section per paper: title, authors, date, abstract, arxiv link
+- **Section order:**
+  1. Mathematical General Relativity: selected `gr-qc` papers with any `math.*` or `math-ph` tag
+  2. Known Authors: selected non-`gr-qc` papers with an exact curated-author match
+  3. Nonlinear Waves & Dispersive PDEs: other selected non-`gr-qc` papers
+  4. General Relativity & Physics: selected `gr-qc` papers without a mathematical tag
 - **Subject:** `Arxiv Newsletter — N new papers — <date>`
 - **Only sent** if there is at least one pending paper
 

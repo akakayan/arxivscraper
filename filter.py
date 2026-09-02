@@ -59,15 +59,26 @@ _STRONG_NONQUANTUM_PATTERNS = [
     ]
 ]
 
-MATHEMATICAL_CROSSLISTS = {"math.DG", "math-ph"}
-
-
 def normalize_author(name: str) -> str:
     """Normalize a full name while preserving every name component."""
     decomposed = unicodedata.normalize("NFKD", name.casefold())
     without_marks = "".join(char for char in decomposed if not unicodedata.combining(char))
     words = re.sub(r"[^\w]+", " ", without_marks, flags=re.UNICODE)
     return " ".join(words.split())
+
+
+def normalize_categories(categories: list[str]) -> set[str]:
+    """Return arXiv category tags in a consistent comparison form."""
+    return {str(category).strip().casefold() for category in categories}
+
+
+def has_mathematical_tag(categories: list[str] | set[str]) -> bool:
+    """Return whether categories contain any math subject or math-ph."""
+    normalized = normalize_categories(list(categories))
+    return any(
+        category.startswith("math.") or category == "math-ph"
+        for category in normalized
+    )
 
 
 def load_authors(path: str = "authors.json") -> dict[str, str]:
@@ -109,12 +120,12 @@ def filter_papers(papers: list[dict], authors_lookup: dict[str, str]) -> list[di
     relevant = []
 
     for paper in papers:
-        categories = set(paper.get("categories", []))
+        categories = normalize_categories(paper.get("categories", []))
         matched_author = _match_known_author(
             paper.get("authors", []), authors_lookup
         )
 
-        if {"math.AP", "gr-qc"} <= categories:
+        if {"math.ap", "gr-qc"} <= categories:
             paper["filter_reason"] = "math.AP + gr-qc cross-listing"
             paper["relevance_score"] = 3
             if matched_author:
@@ -128,7 +139,7 @@ def filter_papers(papers: list[dict], authors_lookup: dict[str, str]) -> list[di
             continue
 
         has_mathematical_crosslist = (
-            "gr-qc" in categories and bool(categories & MATHEMATICAL_CROSSLISTS)
+            "gr-qc" in categories and has_mathematical_tag(categories)
         )
         paper["relevance_score"] = 2 if has_mathematical_crosslist else 1
 

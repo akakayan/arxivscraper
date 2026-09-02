@@ -1,4 +1,4 @@
-from newsletter import render_html
+from newsletter import _bucket, render_html
 
 
 def _paper(**overrides) -> dict:
@@ -37,11 +37,11 @@ def test_newsletter_links_both_source_feeds():
 def test_newsletter_orders_each_section_by_relevance_score():
     """Accumulation order must not bury a stronger cross-listed paper."""
     ordinary = _paper(
-        title="Ordinary black hole paper",
+        title="Ordinary mathematical GR paper",
         authors=["A. Researcher"],
-        categories=["gr-qc"],
-        filter_reason="keyword match",
-        relevance_score=1,
+        categories=["gr-qc", "math.dg"],
+        filter_reason="mathematical cross-listing + keyword match",
+        relevance_score=2,
     )
     overlap = _paper(
         id="2609.00002",
@@ -54,7 +54,9 @@ def test_newsletter_orders_each_section_by_relevance_score():
 
     html = render_html([ordinary, overlap])
 
-    assert html.index("High-priority overlap paper") < html.index("Ordinary black hole paper")
+    assert html.index("High-priority overlap paper") < html.index(
+        "Ordinary mathematical GR paper"
+    )
 
 
 def test_newsletter_escapes_arxiv_metadata_before_rendering_html():
@@ -75,3 +77,45 @@ def test_newsletter_escapes_arxiv_metadata_before_rendering_html():
     assert "Wave &lt;script&gt;alert(1)&lt;/script&gt;" in html
     assert "A &amp; B &lt; C" in html
     assert 'x=&quot;quoted&quot;' in html
+
+
+def test_nonmathematical_gr_qc_papers_are_in_the_final_physics_section():
+    """Treating every gr-qc tag as mathematical must fail this taxonomy test."""
+    physics = _paper(
+        id="physics",
+        title="A numerical relativity simulation",
+        authors=["A. Physicist"],
+        categories=["gr-qc", "astro-ph.he"],
+        filter_reason="keyword match",
+        matched_author=None,
+        relevance_score=1,
+    )
+    pde = _paper(
+        id="pde",
+        title="A nonlinear wave estimate",
+        categories=["math.ap"],
+        filter_reason="keyword match",
+        matched_author=None,
+        relevance_score=1,
+    )
+    mathematical_gr = _paper(
+        id="mathematical-gr",
+        title="Lorentzian geometry for Einstein equations",
+        categories=["gr-qc", "math.dg"],
+        filter_reason="mathematical cross-listing + keyword match",
+        matched_author=None,
+        relevance_score=2,
+    )
+
+    buckets = _bucket([physics, pde, mathematical_gr])
+
+    assert [title for title, _papers in buckets] == [
+        "Mathematical General Relativity",
+        "Nonlinear Waves & Dispersive PDEs",
+        "General Relativity & Physics",
+    ]
+    assert [[paper["id"] for paper in papers] for _title, papers in buckets] == [
+        ["mathematical-gr"],
+        ["pde"],
+        ["physics"],
+    ]

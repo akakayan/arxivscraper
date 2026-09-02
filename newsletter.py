@@ -2,16 +2,37 @@
 from datetime import date
 from html import escape
 
+from filter import has_mathematical_tag, normalize_categories
+
+
+def _is_gr_qc(paper: dict) -> bool:
+    return "gr-qc" in normalize_categories(paper.get("categories", []))
+
+
+def _is_mathematical_gr(paper: dict) -> bool:
+    categories = normalize_categories(paper.get("categories", []))
+    return "gr-qc" in categories and has_mathematical_tag(categories)
+
+
 SECTIONS = [
-    ("Mathematical General Relativity",   lambda p: "gr-qc" in p.get("categories", [])),
-    ("Known Authors",                     lambda p: bool(p.get("matched_author"))),
-    ("Nonlinear Waves & Dispersive PDEs", lambda p: p.get("filter_reason", "").startswith("keyword")),
+    ("Mathematical General Relativity", _is_mathematical_gr),
+    ("Known Authors", lambda p: bool(p.get("matched_author")) and not _is_gr_qc(p)),
+    (
+        "Nonlinear Waves & Dispersive PDEs",
+        lambda p: not _is_gr_qc(p)
+        and p.get("filter_reason", "").startswith("keyword"),
+    ),
+    (
+        "General Relativity & Physics",
+        lambda p: _is_gr_qc(p) and not _is_mathematical_gr(p),
+    ),
 ]
 
 SECTION_COLORS = {
     "Mathematical General Relativity":    "#1a56db",
     "Known Authors":                      "#6b21a8",
     "Nonlinear Waves & Dispersive PDEs":  "#1a7a3c",
+    "General Relativity & Physics":        "#9a5b13",
 }
 
 

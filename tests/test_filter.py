@@ -55,7 +55,7 @@ def test_math_ap_gr_qc_overlap_is_automatically_relevant():
         "title": "A specialized geometric construction",
         "abstract": "This abstract deliberately has no topical keyword.",
         "authors": ["A. Researcher"],
-        "categories": ["math.AP", "gr-qc"],
+        "categories": ["math.ap", "gr-qc"],
     }
 
     result = filter_papers([paper], {})
@@ -166,6 +166,18 @@ def test_mathematical_cross_listing_receives_a_relevance_boost():
 
     assert result["relevance_score"] == 2
     assert result["filter_reason"] == "mathematical cross-listing + keyword match"
+
+
+def test_any_math_subject_cross_listing_receives_a_relevance_boost():
+    """Restricting the boost to a hard-coded math shortlist must fail this test."""
+    paper = {
+        "title": "Einstein equations and geometric topology",
+        "abstract": "We study Lorentzian spacetime geometry.",
+        "authors": ["A. Researcher"],
+        "categories": ["gr-qc", "math.gt"],
+    }
+
+    assert filter_papers([paper], {})[0]["relevance_score"] == 2
 
 
 def test_higher_relevance_scores_are_returned_first():
