@@ -284,5 +284,1388 @@
     ],
     "link": "https://arxiv.org/abs/2608.31098",
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30448",
+    "title": "structure of the riemann tensor in higher-dimensional kerr-nut-(a)ds spaces",
+    "authors": [
+      "igor khavkine",
+      "david matejov"
+    ],
+    "abstract": "we study the algebraic and differential structure of the riemann curvature tensor of the higher-dimensional kerr-nut-(a)ds spaces, motivated by the eventual goal of finding an ideal (intrinsic, deductive, explicit and algorithmic) characterization of this family of metrics. the special geometry of these spaces is governed by the principal tensor $h_{ab}$, a non-degenerate closed conformal killing-yano $2$-form, whose existence singles out the kerr-nut-(a)ds family; we therefore focus on the algebraic relationship between the riemann curvature $r_{abcd}$ and $h_{ab}$. in our investigations we encountered an obstruction, which results in a no-go theorem: no non-trivial $2$-form, including $h_{ab}$ itself, can be constructed covariantly from the undifferentiated riemann tensor alone. despite that, we do characterize the family of riemann-symmetric tensors that could be the curvature of a kerr-nut-(a)ds metric by an algebraic and a differential condition, stemming from the integrability of the defining equation of $h_{ab}$ and the second bianchi identity. our calculations apply in all higher dimensions, which becomes feasible by a judicious application of representation theoretic techniques related to a semi-direct product group $u(1)^n\\rtimes s_n$ that stabilizes $h_{ab}$.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.dg",
+      "gr-qc",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2608.30448",
+    "relevance_score": 2,
+    "filter_reason": "mathematical cross-listing + keyword match"
+  },
+  {
+    "id": "2609.00229",
+    "title": "dimensional reduction associated with unchanged direction trajectories in flat fiber robertson walker spacetimes",
+    "authors": [
+      "d. de la fuente",
+      "r. m. rubio",
+      "j. torrente"
+    ],
+    "abstract": "in this article, we establish a new dimensional reduction result in (galilean or lorentzian) robertson walker spacetimes with euclidean fiber. in this context, we prove that every unchanged direction observer can be embedded into a three dimensional totally geodesic timelike submanifold.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.dg",
+      "gr-qc",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2609.00229",
+    "relevance_score": 2,
+    "filter_reason": "mathematical cross-listing + keyword match"
+  },
+  {
+    "id": "2609.00942",
+    "title": "fuchsian resonance and a horizon-to-boundary dictionary for pole-skipping",
+    "authors": [
+      "yoon-seok choun"
+    ],
+    "abstract": "pole-skipping occurs at special complex frequencies and momenta where the retarded green function of a black-hole or black-brane background is not uniquely defined. the local near-horizon mechanism is well known: at resonance, a frobenius recurrence matrix loses rank and the space of smooth horizon solutions enlarges. we address the global question of how two boundary-normalized solutions enter this resonant horizon solution space.   for a general second-order scalar radial equation on a nonextremal background analytic near the horizon, the frobenius recurrence at the resonant order yields a solvability condition. we prove that its vanishing is equivalent to singularity of the horizon recurrence matrix, absence of the logarithmic frobenius term, and existence of two independent smooth horizon solutions. away from resonance, the source zero is equivalent to horizon smoothness of the response-normalized solution, while the response zero is equivalent to horizon smoothness of the source-normalized solution.   we then analyze the parameter-dependent simple pole of the nonresonant ingoing solution as resonance is approached. after removing this singularity, its resonant limit is proportional to the larger-root frobenius solution, with proportionality factor given by the same solvability function. continuing to the boundary shows that the same condition is equivalent to simultaneous vanishing of the two regularized boundary connection coefficients. this establishes a horizon-to-boundary dictionary between local fuchsian resonance and the boundary source-response 0/0 structure of pole-skipping.   finally, different directions of approach can select different resonant solutions, with the selection governed by the first parameter variation of the same solvability function.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "hep-th",
+      "gr-qc",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2609.00942",
+    "relevance_score": 2,
+    "filter_reason": "mathematical cross-listing + keyword match"
+  },
+  {
+    "id": "2508.08647",
+    "title": "global solution and asymptotic behavior for the kinetic derivative nls on $\\mathbb r$",
+    "authors": [
+      "nobu kishimoto",
+      "kiyeon lee"
+    ],
+    "abstract": "in this paper we investigate the global well-posedness and long-term behavior of solutions to the kinetic derivative nonlinear schrödinger equation (kdnls) on the real line. the equation incorporates both local cubic nonlinearities with derivative terms and a non-local term arising from the hilbert transform, modeling interactions in plasma physics. we establish global existence for small initial data in the weighted sobolev space $h^2 \\cap h^{1,1}$ and optimal time decay effect. using energy methods and a frequency-localized gauge transformation, we overcome the difficulties posed by the non-local nonlinearities and provide a rigorous analysis of the asymptotic behavior. our results also describe modified scattering phenomena with a suitable phase modification, showing that the solutions exhibit a precise asymptotic profile as $t \\to \\infty$.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2508.08647",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2509.10806",
+    "title": "navier-stokes equations with fractional dissipation and associated doubly stochastic yule cascades",
+    "authors": [
+      "radu dascaliuc",
+      "tuan n. pham",
+      "enrique thomann",
+      "edward c. waymire"
+    ],
+    "abstract": "we introduce a self-similar doubly stochastic yule (dsy) cascade associated with the deterministic navier-stokes equations (nse) in $\\mathbb{r}^d$ with fractional dissipation $(-δ)^γ$. interestingly, such a structure is well-defined only in the scaling-supercritical regime $γ\\in(\\frac{1}{2},\\frac{d+2}{4})$. we then characterize parametric regions of $(d,γ)$ that correspond to the stochastically explosive, non-explosive, hyperexplosive, non-hyperexplosive behaviors of the dsy cascade. stochastic solution processes are constructed recursively to randomly transform (deterministic) initial data, such that their expectations yield solutions to the fractional nse whenever these expectations exist. explosion and geometric properties of the dsy cascade are then exploited to establish non-uniqueness and finite-time blowup results for a scalar partial differential equation associated with the fractional nse using a majorization principle for stochastic solution processes. in the special case $d=2$, we derive a closed form for the solution process and prove the finite-time loss of integrability of the solution process for sufficiently large initial data. this lack of integrability does not necessarily imply finite-time blowup of solutions to the fractional nse. indeed, for vortex-flow initial data, we show that the solution can be continued beyond the time of integrability breakdown by averaging the stochastic solution processes in a way that creates symmetry cancellations.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "math.pr",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2509.10806",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2511.00137",
+    "title": "identities and inequalities for integral transforms involving squares of the bessel functions",
+    "authors": [
+      "soichiro suzuki"
+    ],
+    "abstract": "we consider an integral transform given by $t_ν f(s) := π\\int_0^\\infty rs j_ν(r s)^2 f(r) \\, dr$, where $j_ν$ denotes the bessel function of the first kind of order $ν$. as shown by walther (2002, doi:10.1006/jfan.2001.3863), this transform plays an essential role in the study of optimal constants of smoothing estimates for the free schrödinger equation on $\\mathbb{r}^d$. on the other hand, bez et al. (2015, doi:10.1016/j.aim.2015.08.025) studied these optimal constants using a different method, and obtained a certain alternative expression for $t_ν f$ involving the $d$-dimensional fourier transform of $x \\mapsto f(\\lvert x \\rvert)$ when $ν= k + d/2 - 1$ for $k \\in \\mathbb{n}$. in this paper, we extend their identity to non-integer indices and derive several inequalities from it. in particular, we give a dimension-comparison result for the smoothing estimates on $\\mathbb{r}^d$ and $\\mathbb{r}^{d+1}$.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "math.ca",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2511.00137",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2602.00599",
+    "title": "decay of solutions of nonlinear dirac equations: the 2d case",
+    "authors": [
+      "sebastian herr",
+      "christopher maulén",
+      "claudio muñoz"
+    ],
+    "abstract": "we study the long-time behavior of small solutions for a broad class of 2d dirac-type equations with suitable nonlinearities. first, we prove that for nonlinearities with power $p\\geq 5$ (massless case) and $p\\geq7$ (massive case), any small globally bounded radial solution with vorticity $s\\ne -1,0$ decays to zero locally in $l^2_{loc}$, as time tends to infinity. for solutions uniformly bounded in time in a weighted $h^1$ space, this decay result extends to lower powers $p\\geq 3$ (massless) and $p\\geq5$ (massive). our main results apply to several physical models of current interest, such as the 2d dirac equation with a honeycomb potential described by fefferman and weinstein. finally, we rule out the existence of small, localized structures such as standing breathers or solitary waves in the 2d regimes considered. to prove these results, we introduce new virial identities with a particular algebra that are applied directly to the dirac model, and without resorting to the nonlinear klein-gordon equation.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2602.00599",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.19389",
+    "title": "stable blowup profile for a semilinear heat equation with spatially inhomogeneous nonlinearity",
+    "authors": [
+      "irfan glogić",
+      "sarah kistner",
+      "birgit schörkhuber"
+    ],
+    "abstract": "we study the focusing semilinear heat equation with an additional defocusing hénon-type nonlinearity, the coupling of which is measured by a constant $c >0$. for $c \\in (0,c^*)$, the model admits a closed-form self-similar blowup solution in every space dimension $d \\geq 1$. restricting ourselves to the three-dimensional case, we study the stability of this solution under small non-radial perturbations. by working in intersection sobolev spaces with additional angular regularity, we prove finite co-dimension stability for all admissible values of $c$. furthermore, we analyze the spectrum of the underlying linearized operator and we prove stable blowup for the cubic-quintic case and $c$ sufficiently close to $c^*$. finally, we discuss the situation for small values of $c$ and use a modified version of the classical ggmt criterion to give an upper bound on the number of unstable eigenvalues.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2604.19389",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00257",
+    "title": "stability estimates for the initial-to-final-state inverse problem",
+    "authors": [
+      "manuel cañizares",
+      "thanasis zacharopoulos"
+    ],
+    "abstract": "the initial-to-final-state inverse problem for the schrödinger equation consists in determining uniquely the hamiltonian that generates the evolution, assuming the knowledge of the initial-to-final-state map. this functional maps each initial state $f\\in l^2(\\mathbb{r}^n)$ to the corresponding final state at a fixed time $t$. the problem was formulated by caro and ruiz in the case of hamiltonians arising from time-dependent bounded electric potentials that exhibit super-exponential decay at infinity. caro, parissis and the authors of this article established that uniqueness also holds for time-independent bounded potentials with super-linear decay at infinity.   in this paper, we quantify the above uniqueness results establishing that the potentials are stable under small changes of the initial-to-final-state maps. in the case of time-dependent potentials we get a stability of logarithmic type. a notable improvement is achieved when the potentials are time-independent, where under this assumption we prove hölder stability estimates.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2609.00257",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00415",
+    "title": "separation for schrödinger operators. a counterexample to simon's conjecture",
+    "authors": [
+      "m. a. perelmuter"
+    ],
+    "abstract": "we construct, for every $d\\ge 5$, a nonnegative radial potential $v\\in l^\\infty_{\\mathrm{loc}}(\\mathbb{r}^d\\setminus\\{0\\})\\cap l^1(\\mathbb{r}^d)$ for which $v(-δ\\dotplus v)^{-1}$ is not bounded on $l^2(\\mathbb{r}^d)$.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2609.00415",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00466",
+    "title": "shape holomorphy and sparse approximation of the maxwell electric field integral operator",
+    "authors": [
+      "paul escapil-inchauspé",
+      "carlos jerez-hanckes"
+    ],
+    "abstract": "uncertainty quantification for time-harmonic maxwell scattering by obstacles of uncertain shape needs more than holomorphic dependence of the scattered field: for a boundary element method it is the boundary integral operator family itself that must depend holomorphically on the shape parameters. two obstructions stand in the way. the natural energy space of the electric field integral equation, $\\boldsymbol h^{-1/2}_{\\mathrm{div}_γ}(γ)$, depends on the geometry, and the available operator-valued shape-holomorphy theory for weakly singular kernels is set in $l^2$, which does not reach it.   we remove both. a surface contravariant piola transformation identifies the geometry-dependent maxwell trace spaces with a fixed reference space, and in the pulled-back variational formulation the surface jacobians cancel exactly. the principal analytical ingredient is then a uniform fractional mapping theorem $h^{-1/2}\\to h^{1/2}$ for the complex-deformed scalar single-layer family on uniformly $c^{1,1}$ surfaces, obtained by realizing the laplace principal part as the trace of a complex-coefficient newton problem on a fixed ambient space. the pulled-back operators are consequently $(\\bm b,p,\\eps)$-holomorphic for $\\bm b\\in\\ell^p(\\n)$, $0<p<1$, and pointwise exclusion of interior electric resonances over the compact real parameter set yields uniform invertibility.   legendre coefficients are therefore $\\ell^p$ summable, so the operator family, the surface current and the far field all admit sparse polynomial approximations at dimension-independent best $n$-term rates. these statements are for the operator family itself in its energy-space operator norm, not only for individual solutions.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "math.na",
+      "cs.na",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2609.00466",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00743",
+    "title": "lp brunn-minkowski inequality for the eigenvalue of generalized monge-ampère equation",
+    "authors": [
+      "yuxiao yan",
+      "feida jiang"
+    ],
+    "abstract": "we investigate the eigenvalue of a generalized monge-ampère equation. we proved that the eigenvalue of the equation on the lp minkowksi addition of two convex bodies satisfies the lp brunn-minkowski inequality.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2609.00743",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00973",
+    "title": "the vlasov-maxwell point charge system : study of the spherically symmetric case",
+    "authors": [
+      "emile breton"
+    ],
+    "abstract": "we consider the vlasov-maxwell system with a repulsive point charge. under a spherical symmetry condition, this reduces to the relativistic vlasov-poisson system with a point charge. for this system, the linear characteristics solve the equations of motion for the relativistic kepler problem. we define action-angle variables for the linearized equation, and then study the nonlinear system in these coordinates. within this framework, we prove global existence of classical solutions for small initial data and establish their modified scattering behavior. the proof makes use of the ideas developed in the non-relativistic case.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2609.00973",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01589",
+    "title": "uniform stability of expanding simple waves for euler--poisson--boltzmann: a singular compensation approach",
+    "authors": [
+      "louis shuo wang",
+      "jiguang yu"
+    ],
+    "abstract": "we rigorously justify the quasineutral limit for the warm-ion euler--poisson system with maxwell--boltzmann electrons on the cylinder $\\r\\times\\t$. the reference dynamics are governed by a globally smooth expanding planar simple wave of the effective euler system, connecting distinct neutral far-field states. for every finite order $m$, we construct an even debye expansion with residual $o(\\eps^{2m+2})$ and establish uniform nonlinear stability on any fixed time interval $[t_0,t]$, with a lifespan and energy estimates entirely independent of the debye length $0<\\eps\\le\\eps_0$. the central analytical contribution is a singular compensation mechanism: by integrating the fluid transport by parts and coupling the warm-ion symmetrizer directly to the time-differentiated nonlinear poisson constraint, we extract an $\\eps$-uniform relative energy topology. this bounds the potential in $h^s$ and its gradient in the scaled norm $\\eps h^s$, bypassing the fatal $\\eps^{-1}$ penalty in the momentum equation. consequently, the framework accommodates genuinely two-dimensional transverse perturbations, including the transport of specific vorticity. this yields a quantitative, arbitrary-order quasineutral expansion for well-prepared data, strictly isolating the stability of the smooth expansion wave from the geometric singularities of the centered riemann fan.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2609.01589",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "1704.07246",
+    "title": "canonical transformation path to gauge theories of gravity",
+    "authors": [
+      "j. struckmeier",
+      "j. muench",
+      "d. vasak",
+      "j. kirsch",
+      "m. hanauske",
+      "h. stoecker"
+    ],
+    "abstract": "in this paper, the generic part of the gauge theory of gravity is derived, based on the action principle and on the general principle of relativity. we apply the canonical transformation framework to formulate geometrodynamics as a gauge theory. the starting point of our paper is constituted by the general de donder-weyl hamiltonian of a system of scalar and vector fields, which is supposed to be form-invariant under (global) lorentz transformations. following the reasoning of gauge theories, the corresponding locally form-invariant system is worked out by means of canonical transformations. the canonical transformation approach ensures by construction that the form of the action functional is maintained. we thus encounter amended hamiltonian systems which are form-invariant under arbitrary spacetime transformations. this amended system complies with the general principle of relativity and describes both, the dynamics of the given physical system's fields and their coupling to those quantities which describe the dynamics of the spacetime geometry. in this way, it is unambiguously determined how spin-0 and spin-1 fields couple to the dynamics of spacetime.   a term that describes the dynamics of the free gauge fields must finally be added to the amended hamiltonian, as common to all gauge theories, to allow for a dynamic spacetime geometry. the choice of this \"dynamics hamiltonian\" is outside of the scope of gauge theory as presented in this paper. it accounts for the remaining indefiniteness of any gauge theory of gravity and must be chosen \"by hand\" on the basis of physical reasoning. the final hamiltonian of the gauge theory of gravity is shown to be at least quadratic in the conjugate momenta of the gauge fields -- this is beyond the einstein-hilbert theory of general relativity.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/1704.07246",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2412.19169",
+    "title": "accelerating stochastic gravitational wave backgrounds parameter estimation in pulsar timing arrays with flow matching",
+    "authors": [
+      "bo liang",
+      "chang liu",
+      "tianyu zhao",
+      "minghui du",
+      "manjia liang",
+      "ruijun shi",
+      "hong guo",
+      "yuxiang xu",
+      "li-e qiang",
+      "peng xu",
+      "wei-liang qian",
+      "ziren luo"
+    ],
+    "abstract": "\\acp{pta} are essential tools for detecting the \\ac{sgwb}, but their analysis faces significant computational challenges. traditional methods like \\ac{mcmc} struggle with high-dimensional parameter spaces where noise parameters often dominate, % while existing deep learning approaches fail to model the \\ac{hd} correlation or are validated only on synthetic datasets. while existing deep learning approaches have so far been validated on synthetic datasets or require training on the full pulsar set, incurring substantial computational and memory costs. we propose a flow-matching-based \\ac{cnf} for efficient \\ac{pta} parameter estimation. using ten pulsars selected according to published nanograv 12.5-year dropout factors and applied to the nanograv 15-year residuals, our method produces \\ac{sgwb} posteriors consistent with a reference \\ac{mcmc} analysis, with jensen-shannon divergences below \\(10^{-2}\\) nat. after amortized training, posterior generation is reduced from approximately 50 hours for the reference \\ac{mcmc} pipeline to approximately 4 minutes for \\ac{cnf} sampling. the present study demonstrates that flow-matching-based \\acp{cnf} can serve as an efficient posterior-sampling accelerator for reduced \\ac{pta} datasets. rather than providing new astrophysical constraints, the method is intended to complement conventional \\ac{mcmc} analyses and to provide a scalable route toward faster inference in future \\ac{pta} applications.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "astro-ph.im",
+      "gr-qc",
+      "physics.comp-ph"
+    ],
+    "link": "https://arxiv.org/abs/2412.19169",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2503.01997",
+    "title": "the stochastic siren: astrophysical gravitational-wave background measurements of the hubble constant",
+    "authors": [
+      "bryce cousins",
+      "kristen schumacher",
+      "adrian ka-wai chung",
+      "colm talbot",
+      "thomas callister",
+      "daniel e. holz",
+      "nicolás yunes"
+    ],
+    "abstract": "we report the first measurement of the hubble constant $h_0$ using the stochastic gravitational-wave background arising from binary black hole mergers. this astrophysical background is sensitive to the expansion history of the universe and thus can be used for cosmological parameter inference independently of not only electromagnetic methods, but also gravitational-wave standard siren approaches. we describe the background's cosmological dependence and show how it can be used as a ``stochastic siren'' to measure $h_0$. by analyzing existing resolved binary black hole mergers and the current non-detection of the background, we find that $h_0$ can be measured more accurately relative to using resolved mergers alone. we also note that the stochastic siren may serve a unique role in the hubble tension in that the lower bound of the $h_0$ measurement would progressively increase with continued non-detection of the background.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "astro-ph.co",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2503.01997",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2504.02462",
+    "title": "gravitational wave with domain wall dominance",
+    "authors": [
+      "sungwoo hong",
+      "sung mook lee",
+      "qiuyue liang"
+    ],
+    "abstract": "domain walls (dws) can be produced when a discrete symmetry is spontaneously broken, and long-lived dws can dominate the energy density of the universe. in this work, we explore the possibility that a \"domain wall dominant (dwd)\" phase existed in the early universe and ended with dw decay. during the dwd phase, the universe undergoes a power-law accelerated expansion of the scale factor and exhibits temporal superhorizon evolution of the relevant frequency modes. we show that this can lead to distinct features imprinted on the stochastic gravitational wave (gw) background including the independence of its amplitude from the wall tension. our findings provide a comprehensive framework for evaluating gw emission associated with dwd, leading to distinguishable long-lived dw-induced gws from other cosmological sources, with significant implications for future gw observatories.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "astro-ph.co",
+      "gr-qc",
+      "hep-ph",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2504.02462",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.10557",
+    "title": "neutrino oscillations in a kalb-ramond black hole background",
+    "authors": [
+      "yuxuan shi",
+      "a. a. araújo filho",
+      "k. e. l. de farias",
+      "v. b. bezerra",
+      "amilcar r. queiroz"
+    ],
+    "abstract": "the analysis examines how neutrinos behave when their trajectories unfold around a black hole sourced by a kalb-ramond field, where spontaneous lorentz symmetry breaking reshapes the surrounding geometry. instead of following the conventional order, the study focuses first on the observable consequences: alterations in the neutrino-antineutrino annihilation energy output, shifts in the oscillation phase accumulated along the path, and distortions in flavor conversion probabilities induced by gravitational lensing. these features are then tied to the lorentz-violating spacetime structure, which governs the propagation of the neutrinos. numerical simulations are carried out for both two- and three-flavor descriptions, with normal and inverted mass orderings.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2512.10557",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.20320",
+    "title": "nonsingular hairy black holes by gravitational decoupling",
+    "authors": [
+      "yaobin hua",
+      "rong-jia yang"
+    ],
+    "abstract": "using gravitational decoupling under the requirements of a well-defined event horizon and the source matter satisfying the weak energy condition, we construct nonsingular hairy black holes with spherical or axial symmetry. these solutions emerge from a deformation of the minkowski vacuum, bridging the novel hairy geometries and the classical schwarzschild and kerr solutions at the maximum deformation in their respective sectors.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2512.20320",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2601.02014",
+    "title": "consistent truncation of linearized gravitational waves in de sitter space-time",
+    "authors": [
+      "ghanashyam date",
+      "n/a harsh"
+    ],
+    "abstract": "an important step in using observations of gravitational waves from bounded sources is to relate the observed waveforms far away from a source to the local dynamics and environment of the source. to isolate and identify different features of the source, multipole expansion of radiation field as well as that of the source distribution is crucial. at a practical level, this requires truncation to some multipole order to be employed and a consistency issue arises. this was flagged in \\cite{chk} as emergence of disallowed $\\log(r)$ terms in certain asymptotic forms and a particular quadrupolar truncation was proposed which was consistent with the source conservation.   in \\cite{nkd80}, it was noticed that a truncated solution while satisfying the wave equation, may fail to satisfy the gauge condition. in this work, we clarify the consistency issue and also correct a couple of erroneous statements in \\cite{nkd80}. the consistency is analyzed by explicitly integrating the gauge conditions and the source conservation equations over the conformal time. this gives a general procedure for a consistent truncation. the procedure is verified in generalized harmonic gauge in conformal chart and also in the bondi gauge in bondi chart.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2601.02014",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.06995",
+    "title": "constraint analysis and quantization of anomalous 2-d thomas-whitehead gravity",
+    "authors": [
+      "eric biedke",
+      "salvatore quaid",
+      "vincent rodgers"
+    ],
+    "abstract": "the two-dimensional effective polyakov action is often realized as the anomalous contributions of string theories and fermions coupled to gravity in two dimensions. however, as a result of the reparametrization invariance, one finds that the effective action produces vanishing hamiltonians as constraints even in disparate gauges such as the dynamical light-cone and the arnowitt-deser-misner (adm) formalism of the metric. on the other hand, two-dimensional gravitational theories naturally arise as geometric actions on the coadjoint orbits of the virasoro algebra. the thomas-whitehead gravity formalism extends the effective polyakov action in such a way that the defining coadjoint element for the orbit becomes a dynamical field, viz. the diffeomorphism field. in this work, we examine the role the diffeomorphism field plays through the well-understood quantization of the two-dimensional anomalous contributions to gravity. this is first done in the dynamical light-cone and then with the adm formalism of the metric. to examine a dynamical diffeomorphism field, the constraint analysis is then repeated in a minkowski background, where the dynamics of the diffeomorphism field arise from the thomas-whitehead action. adding dynamics to the diffeomorphism field appears to remove the vanishing hamiltonians; however, expressing the diffeomorphism in terms of the p-tensor recovers the hamiltonian constraint. one can compare this investigation to that of a gauge wess-zumino-witten action where the gauge field has become dynamical through the inclusion of a yang-mills term.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2603.06995",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.13080",
+    "title": "three-band dark-siren cosmology with intermediate mass black hole binaries: synergy of taiji, lgwa, and the einstein telescope",
+    "authors": [
+      "ji-yu song",
+      "yue-yan dong",
+      "shang-jie jin",
+      "si-ren xiao",
+      "jing-fei zhang",
+      "xin zhang"
+    ],
+    "abstract": "gravitational-wave (gw) dark sirens provide an independent probe of the cosmic expansion history. their cosmological constraining power, however, depends critically on precise luminosity-distance measurements and sky localizations for cross-matching with galaxy catalogs. multiband gw observations can track gw events across different frequency bands and thus improve both. motivated by this, we forecast the cosmological potential of intermediate-mass black hole binaries (imbhbs) observed by a three-band gw detector network composed of taiji (tj), the lunar gravitational-wave antenna (lgwa), and the einstein telescope (et). we simulate detectable imbhb populations and analyze them with a hierarchical bayesian dark-siren framework that includes galaxy-catalog completeness and redshift uncertainties. we find that the tj-lgwa-et network outperforms all two-detector configurations considered here. in the $λ$cdm model, it constrains the hubble constant and matter density to $\\sim 0.12\\%$ and $\\sim 0.6\\%$, respectively. in the $w$cdm model, a 4-year dark-siren sample alone constrains the dark-energy equation-of-state parameter $w$ to $\\sim 2.7\\%$. adding baryon acoustic oscillation (bao) and type ia supernova (sne ia) data improves the $w$ constraint to $\\sim 2.1\\%$, slightly better than that from the current cmb+bao+sne ia combination. we also show that the final constraints remain sensitive to imbhb population assumptions and galaxy-catalog limitations, which highlights the need for deep galaxy surveys with precise redshift measurements.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "astro-ph.co",
+      "gr-qc",
+      "hep-ph"
+    ],
+    "link": "https://arxiv.org/abs/2603.13080",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.00570",
+    "title": "probing lorentz-violating effects via precession and accretion disk images in a rotating bumblebee spacetime",
+    "authors": [
+      "qing ou",
+      "zhen-bo wu",
+      "qian wan",
+      "peng-cheng li"
+    ],
+    "abstract": "we investigate kinematic and optical signatures of lorentz violation in the strong-field region of a rotating bumblebee spacetime generated by a scalar-gradient bumblebee field. for generic nonextremal rotating configurations with $al\\neq0$, the surface $r=r_+$ is curvature singular and is therefore modeled phenomenologically as a perfectly absorbing inner boundary in the ray-tracing calculation. by analyzing the spin precession of test gyroscopes and equatorial timelike geodesics, we find that lorentz violation suppresses the lense--thirring precession of static observers, enhances geodetic precession in the static, spherically symmetric limit, and increases the periastron-precession frequency of bound circular orbits. images of a geometrically thin accretion disk further show that the lorentz violation has a negligible impact on the critical curve, while shrinking the inner-shadow-like feature associated with the absorbing boundary and enhancing the lensed ring. these results suggest that selected precession observables and exterior imaging features may provide complementary diagnostics of lorentz-violating effects in strong-field gravity, whereas the central dark feature remains dependent on the adopted inner-boundary prescription.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2604.00570",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.08053",
+    "title": "constraining ultralight scalar dark matter in the galactic center with the s2 orbit",
+    "authors": [
+      "jiang-chuan yu",
+      "yan cao",
+      "lijing shao"
+    ],
+    "abstract": "the dense environment of our galactic center (gc) offers a unique laboratory for probing ultralight dark matter (uldm). we explore the prospect of detecting a scalar uldm field through its effects on the orbital dynamics of s-stars around the supermassive black hole in the gc, sgr a$^*$. we consider both linear and quadratic couplings between the real scalar field $ϕ$ and standard model particles, and analyze two representative uldm structures: the scalar gravitational atom and the spherical soliton. we first find that quadratic coupling induces a non-oscillatory perturbation, leading to a long-term secular orbital evolution. we use the observed periastron precession rate of s2 star to put stringent constraints on the total uldm mass in the gc and the quadratic coupling constant. for the gravitational atom $|211\\rangle$ state, assuming an equatorial s2 orbit, we constrain the mass ratio of uldm to sgr a$^*$ to $β\\lesssim 10^{-3}$ at $m \\sim 10^{-18}$ ev, and for the spherical soliton which extends to $\\sim 0.2\\,$pc, the mass ratio is limited to $β\\lesssim 1$ at $m \\sim 3\\times10^{-20}$ ev. notably, over part of the mass range $10^{-20}\\,\\mathrm{ev}\\lesssim m\\lesssim10^{-18}\\,\\mathrm{ev}$, the s2 constraints are stronger than the corresponding bounds from cassini and microscope.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "hep-ph",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2604.08053",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.21047",
+    "title": "thermodynamics of homogeneous universes: de sitter, bonnor-melvin and static einstein",
+    "authors": [
+      "g. e. volovik"
+    ],
+    "abstract": "in the theories, in which dynamic gravitational field emerges from the underlying matter fields, the gravitational field can be considered as a part of matter. using this approach, we construct the thermodynamics of the homogeneous universes -- the de sitter universe, the bonnor-melvin-$λ$ universe and the static einstein universe. it is demonstrated that although these three universes have different types of matter fields (ordinary matter, magnetic field, gravitational field and vacuum energy), they have the same thermodynamic properties. their energy densities obey the same equation, which contains the corresponding matter densities and the pairs of the thermodynamically conjugate variables. in minkowski vacuum, where the ordinary matter and magnetic and gravitational fields are absent, this thermodynamic approach automatically leads to zero cosmological constant.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "gr-qc",
+      "cond-mat.stat-mech"
+    ],
+    "link": "https://arxiv.org/abs/2605.21047",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.24905",
+    "title": "qpes from warped disk collisions with emris: brightness-recurrence diagram and gravitational-wave follow-up",
+    "authors": [
+      "bo-an chen",
+      "bei you",
+      "giovanni miniutti",
+      "ning jiang",
+      "zhen pan",
+      "tao yang",
+      "xi-long fan",
+      "kai liao",
+      "xu-heng ding",
+      "zong-hong zhu",
+      "shuai-kang yang",
+      "sai-en xu",
+      "han he",
+      "xiao fan"
+    ],
+    "abstract": "quasi-periodic eruptions (qpes) display correlated long/short and strong/weak patterns that remain unexplained by existing flat-disk collision models. we propose that these features arise from an extreme-mass-ratio inspiral (emri) colliding with a warped accretion disk, likely formed after a tidal disruption event. the warp modulates both recurrence time and burst energy, encoding the disk geometry -- and thus the spin of the central supermassive black hole (smbh) -- into the x-ray light curve. we introduce the brightness-recurrence diagram (brd) to visualize this correlation, where qpe bursts trace an elliptical trajectory driven by the emri's apsidal precession; the tilt of this ellipse encodes whether the emri is prograde or retrograde relative to the smbh spin. applying this model to the prototypical qpe source gsn 069 successfully reproduces the observed patterns. the data are consistent with either a prograde stellar secondary or a retrograde stellar-mass black hole. in the stellar-mass black hole scenario, ongoing orbital decay could render the emri detectable by lisa within a few decades, facilitating gravitational-wave follow-up and independent multimessenger constraints on the system.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "astro-ph.he",
+      "astro-ph.co",
+      "astro-ph.ga",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2605.24905",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.25532",
+    "title": "a new self-dual gravitational instanton solution on a local conformal kählerian manifold in a brane world model",
+    "authors": [
+      "reinoud jan slagter"
+    ],
+    "abstract": "an exact gravitational instanton solution on a vacuum kerr-like warped spacetime in conformal dilaton gravity is found. remarkably, the metric solution results from a first-order pde, allowing the connection with self-duality. the singular points are determined by a quintic polynomial. this suggests that this is the highest possible polynomial in describing the singularities of black holes of petrov type d axially symmetric manifolds and don't fits the plebanski-demianski classification of black holes which is determined by a fourth order polynomial. the solution can be described by a locally conformal kählerian manifold with euclidean signature and a kähler potential. this is possible for the effective 4d manifold, despite the fact that a kähler manifold in 5d cannot be modelled. we are dealing with an effective 4d self-dual kähler manifold with a recurrent conformal structure. this happened by the projected weyl tensor of 5d on the brane. the topology of the gravitational instanton would be $s^3\\times \\mathbb{r}/\\mathbb{z}_2$. the antipodal boundary condition on the hyper-surface of a klein bottle $\\sim \\mathbb{c}^1\\times\\mathbb{c}^1$ is applied to describe the hawking particles during the evaporation process. we used the hopf fibration to get $s^2$ as the black hole horizon, where the centrix is not in a torus but in the klein bottle. the twist fits very well with the antipodal identification of the points on the horizon. no 'cut and past' is necessary, so the hawing particles remain pure without instantaneous information transport. finally, we reveal a connection between the description of the interior of our new black hole solution and the similar model proposed by janis, newman and winicour some time ago of the schwarzschild solution in complex coordinates with a zero rest mass scalar field, which develops an anomalous asymmetry.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2605.25532",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.21066",
+    "title": "the leading-soft cubic graviton self-interaction on the black-hole horizon",
+    "authors": [
+      "ayanendu dutta"
+    ],
+    "abstract": "we expand the einstein--hilbert action to cubic order about the schwarzschild horizon, in the even regge--wheeler gauge of the gaddam--groenenboom--'t~hooft near-horizon framework, and derive the cubic graviton self-interaction. our central result is a vanishing theorem: at leading soft order the self-coupling of the purely traceless longitudinal polarizations is identically zero. this is a framework-specific statement: even rw gauge, ggv sector, leading soft order. the surviving interaction lives in the trace sector; its on-shell equal-$\\ell$ weight $w(λ,λ,λ)=-3λ(2λ^2+λ+3)/(λ+1)^2$, follows from two independent derivations agreeing to machine precision. we simulate the resulting hamiltonian at two complementary scales. on ibm qiskit/aer, with exact cross-checks, the hardware-format circuits confirm quantitatively what two structural facts already predict, a conserved charge that only the cubic vertex violates (opening $ϕϕ\\to hh\\to4ϕ$) and a resonance-free boost spectrum (gap $\\to1/2$): the longitudinal channel is perturbatively rigid, and the simulation measures the residual dressing ($d_{\\rm eff}=1.06$; multiplicity far from thermal, poisson, and haar). a symmetry-graded matrix-product-state evolution then climbs the multipole ladder to sixty modes, the $120$-qubit register, and settles the one question the multiplet cannot: on a late-time measure common to both engines the inelasticity converges to $\\barη_\\infty\\simeq0.16$ (understated by the single multiplet), the dressing stays area-law with peak entanglement $\\simeq0.45$ nats far below the page value, and the result is cutoff-converged and robust to $96$ qubits at larger occupation. the rigidity therefore persists rather than scrambling as the register grows.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "gr-qc",
+      "hep-th",
+      "quant-ph"
+    ],
+    "link": "https://arxiv.org/abs/2607.21066",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.22787",
+    "title": "probing dark matter substructure with wave-optics distortions of strongly lensed lisa gravitational waves",
+    "authors": [
+      "tonghua liu",
+      "kai liao",
+      "marek biesiada",
+      "jieci wang"
+    ],
+    "abstract": "strong lensing changes the phase of a gravitational-wave signal as well as its amplitude and arrival time. we study whether this phase information can distinguish between three dark-matter structures in the lens: a navarro--frenk--white halo (nfw), a self-interacting dark matter (sidm) halo, and a fuzzy-dark-matter field (fdm). we generate waveforms for the detectable lensed massive-black-hole-binary population of a four-year lisa mission and fit every signal with the same smooth singular-isothermal-ellipsoid lens with external shear. in 132 lens systems, 311 images are resolved as separate signals in time. nfw and sidm produce real waveform changes, but their slowly varying part is largely degenerate with the constant, gradient, and hessian of the smooth fermat potential at the image. the coherent density fluctuations of fdm leave a larger frequency-dependent residual after this fit. the nfw--fdm and sidm--fdm populations become distinguishable with about 60 and 110 resolved image waveforms, respectively. these results show that repeated lensed lisa signals can probe the spatial form of dark matter in lens galaxies, rather than only the total lensing mass.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "astro-ph.co",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2607.22787",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.17158",
+    "title": "rational regular black holes in non-polynomial gravity",
+    "authors": [
+      "aimeric colléaux"
+    ],
+    "abstract": "we consider the $d\\geq 4$ non-polynomial pure gravity theories defined so that their 2d reduction to spherical symmetry minimally modifies that of general relativity at small distances. they satisfy birkhoff theorem and admit exact black hole solutions for an arbitrary number of couplings. these solutions have a logarithmic leading correction to the entropy and a quantum-like correction to the newtonian potential, both arising from the regularised critical order $d=2p$ theory, which is related in even dimensions to the euler characteristic of the 2d orbit space. these black holes can be made regular, without the need for infinite towers of corrections, using invariants of any order $p>d/2$. in even dimensions, their smoothness is linear in the number of corrections and does not require fine-tuning. we construct a class of theories admitting as unique (massless) vacuum an extremal black hole deformation of (a)ds$_4$ or m$_4$ with vanishing entropy, so that nernst's third law of thermodynamics is satisfied without discontinuity in the entropy. we show that a maxwell field does not disrupt the regularity of the metric, and that simple non-minimal couplings in the action enable to regularise the electric field. considering infinite towers of corrections, we construct quasi-regular black holes with one horizon as well as regular (a)ds-core ones with a near-extremal inner horizon for any mass. when charged, these two types of black holes prevent or tame the mass inflation provided the mass and charge satisfy an inequality of the form $m > α\\ell + βq^2 / \\ell$, where $α$ and $β$ are numerical factors depending on the specific model, while $\\ell$ is the length scale controlling the high-energy corrections. the quasi-regular black holes are sufficient to resolve the coulomb singularity without the need for non-minimal couplings.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2608.17158",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.26785",
+    "title": "gravitational lensing of hayward black holes with eft-corrected photon propagation",
+    "authors": [
+      "takamasa kanai"
+    ],
+    "abstract": "we investigate whether a hayward regular black hole can be observationally distinguished from a schwarzschild black hole through strong gravitational lensing when effective field theory (eft) corrections to photon propagation are taken into account. we derive the modified photon propagation law induced by non-minimal couplings between the electromagnetic field and spacetime curvature, and analyze the resulting photon trajectories in the hayward spacetime. using the strong deflection limit, we derive the corrections to the photon sphere and the logarithmically divergent part of the deflection angle. although the eft corrections are parametrically small, their effects can be enhanced near the critical propagation region, where the deflection angle exhibits a logarithmic divergence. we evaluate the strong-deflection observables for representative values of the hayward parameter and compare them with the schwarzschild case. we find that eft corrections to photon propagation can leave characteristic imprints on strong-lensing observables. furthermore, the contribution of the eft corrections becomes more pronounced as the hayward parameter $g^3$ approaches its critical value, indicating that curvature-dependent corrections to photon propagation can become particularly relevant in the near-critical regime. these results suggest that strong gravitational lensing may provide a means of distinguishing hayward regular black holes from schwarzschild black holes.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2608.26785",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29556",
+    "title": "cutoff-stable null convergence and directional rigidity in bianchi i spacetimes",
+    "authors": [
+      "ye zhou",
+      "alan zhang"
+    ],
+    "abstract": "we derive an endpoint-free optical rigidity theorem and use it to separate two rigidity regimes in bianchi i spacetimes, without assuming that the spatial metric is diagonal in a fixed basis. for a smooth, regular, twist-free null congruence, the affine raychaudhuri equation expresses a finite null-ricci integral as an expansion boundary term minus a nonnegative optical bulk. if the past and future cutoffs are removed independently and their two-end liminf is nonnegative, two-sided completeness forces the optical tensor and the null ricci contraction to vanish pointwise. in bianchi i this freezes the spatial metric on the fixed kernel of the conserved covector. we classify the resulting saturation geometry: a non-static metric has zero, one, or two unoriented saturated lines, equivalently zero, two, or four oriented rays, and a third line forces staticity. under the stronger pointwise null convergence condition, the existence of a single two-sided complete null geodesic already forces the spatial metric to be constant and the cosmic-time interval to be all of $\\mathbb r$; on the cartesian universal cover the spacetime is minkowski. periodic models attain the four-ray saturation bound in the weaker cutoff-stable regime, with $i_p^{\\mathrm{ind}}=-\\infty$ in every nonsaturated direction, while pointwise null convergence fails on open time intervals. matter and achronal averaged-null-energy consequences are stated under an explicit matching assumption on field equations and cutoff prescriptions.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2608.29556",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.29727",
+    "title": "primordial black hole seeds for little red dots in $f(r)$ gravity",
+    "authors": [
+      "saeed fakhry"
+    ],
+    "abstract": "the discovery by the james webb space telescope (jwst) of an abundant population of compact little red dots (lrds) and supermassive black holes at high redshifts poses a severe timing challenge for standard eddington-limited growth from stellar remnants. in this work, we present a unified hybrid assembly framework in which intermediate-mass seed black holes are formed via hierarchical primordial black hole (pbh) mergers within dense clusters in hu-sawicki $f(r)$ gravity, followed by galactic gas accretion. we demonstrate that the screened $f(r)$ fifth force nonlinearly accelerates early seed formation through a quadratic enhancement of the gravitational-wave radiation-capture kernel, while environmental chameleon screening dynamically self-regulates the growth. because subsequent gas accretion scales multiplicatively with seed mass, the $f(r)$ seed enhancement is preserved throughout the accretion history, drastically reducing the time-averaged eddington ratios required to assemble $10^{6}\\text{-}10^{9}\\,m_{\\odot}$ lrds by cosmic dawn. confronting our active mass functions with jwst data reveals that a small clustered pbh fraction ($f_{\\rm pbh} \\lesssim 10^{-3}$) under a realistic active galactic nucleus duty cycle ($δ\\approx 10^{-2}$) naturally matches observed lrd space densities at $z \\sim 5.5\\text{-}6.5$ while remaining fully compliant with ligo-virgo-kagra limits, with modified gravity naturally driving the high-mass tail. finally, we show that parameter degeneracies between modified gravity and cluster density can be cleanly broken by combining three multi-messenger diagnostics: remnant spin state signatures, a stochastic gw background cutoff, and a scale-dependent inversion in the pbh spatial correlation function.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "astro-ph.ga",
+      "astro-ph.co",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2608.29727",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30024",
+    "title": "exotic spinor deformation of a schwarzschild black hole: perturbations and stability",
+    "authors": [
+      "luís rodolfo dos santos filho",
+      "bertha cuadros-melgar"
+    ],
+    "abstract": "in this work we investigate how exotic spinorial topology modifies the propagation of fermionic modes in the schwarzschild geometry. by incorporating a topological gradient, $\\partial_μφ$, into the dirac operator through a tetrad deformation, we show that the exotic spinorial sector naturally induces an effective geometric deformation of the schwarzschild background. the central consequence of this construction is the emergence of a topological impedance surface at $\\rtopo=1/q$, which suppresses the radial group velocity of the exotic spinorial modes, yielding a birefringent propagation pattern. using a spinorial perturbation we discuss the greybody factor and the quasinormal response. the quasinormal spectrum shows the stability of the background metric and the absence of isospectrality for the superpartner potentials.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2608.30024",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30049",
+    "title": "periodic orbits around a magnetically charged black hole in $f(r,t)$ gravity coupled with euler-heisenberg electrodynamics",
+    "authors": [
+      "jun-long huang",
+      "chen-kai qiao",
+      "jun tao"
+    ],
+    "abstract": "we systematically investigate the zoom-whirl periodic orbits of a small compact object orbiting a magnetically charged black hole in $f(r, t)$ gravity coupled with euler-heisenberg nonlinear electrodynamics. we evaluate the impact of the magnetic charge $q_m$ and the euler-heisenberg parameter $a$ on the characteristics of the innermost stable circular orbit (isco) and the marginally bound orbit (mbo). particularly, we focus on the precession parameter q and systematically examine how the magnetic charge and other parameters affect the trajectories of periodic orbits. using the numerical kludge method, we generate gravitational waveforms for these periodic orbits. the results presented in our work demonstrate that the magnetic charge can significantly modify not only the precession parameter but also the orbital trajectories of the periodic orbits. moreover, changing the magnetic charge $q_m$ could cause a significant phase shift in the gravitational waveforms, while other parameters exert a relatively weaker influence on the gravitational waves.",
+    "submitted": "2026-08-30",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2608.30049",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30154",
+    "title": "spacelike reduction of the gravitational topological terms and associated helicity densities",
+    "authors": [
+      "hongxi huang",
+      "jiang long",
+      "gan zhao",
+      "xin-hao zhou"
+    ],
+    "abstract": "helicity in gravity is a multifaceted concept, and several inequivalent definitions exist in the literature. in this work, we reduce the topological pontryagin and nieh-yan terms to a constant time spacelike hypersurface. remarkably, upon applying the svt decomposition at the linearized level, we obtain four distinct helicity densities. the helicity density arising from the nieh-yan term is termed the spin-1 and spin-2 gravitomagnetic helicity density, depending on whether it originates from vector or tensor modes. meanwhile, the helicity density arising from the pontryagin term is termed the spin-1 and spin-2 gravito-current helicity density, according to the corresponding mode contributions. we study the mode and multipole expansions of these helicity functionals and apply them to leading order newtonian two-body systems, weak field boosted kerr, a locally defined slowly varying gyratonic pp-wave model, and a linearized gravitational hopfion.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2608.30154",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30599",
+    "title": "not all those missing are lost: leveraging galaxy clustering in incomplete catalogs to unleash dark sirens cosmology",
+    "authors": [
+      "riccardo barbieri",
+      "marios kalomenopoulos",
+      "matteo tagliazucchi",
+      "jonathan gair",
+      "sadegh khochfar"
+    ],
+    "abstract": "gravitational waves offer a unique opportunity to solve the hubble tension. in order to do so, we have to extract as much information as possible from cross correlating gravitational wave events (used as \"dark sirens\") with incomplete galaxy catalogs. traditional methods assume a uniform in comoving volume distribution for galaxies missing from the catalogs, which neglects the fact that galaxies tend to cluster, leading to less precise and possibly biased posteriors. in this paper, we introduce a new method for accounting for galaxy clustering when dealing with an incomplete galaxy catalog, by adding back galaxies to the incomplete catalog and distributing them in pixels according to the correlation function $ξ(r)$. we find that our method drastically improves on traditional ones when the galaxy catalog is only $1\\%-10\\%$ complete, leading to posteriors that are between 2 and 4 times as precise, depending on the completeness fraction, without introducing any biases. our method produces results comparable to traditional methods at extremely low catalog completeness fractions (<0.5\\%) or for very high uncertainties in the recovered luminosity distance and sky localization of the gravitational wave events.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "astro-ph.co",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2608.30599",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30755",
+    "title": "external magnetic-field effects on dipolar-particle orbits and critical collisions in kerr--bertotti--robinson spacetime",
+    "authors": [
+      "haowei chen",
+      "hengyu xu",
+      "shao-jun zhang"
+    ],
+    "abstract": "strong magnetic fields affect particle dynamics through two distinct channels: gravitational backreaction deforms the spacetime, while direct coupling to an intrinsic magnetic moment depends on the relative orientation of the field and the dipole. we disentangle these effects by studying equatorial orbits and near-horizon collisions of electrically neutral magnetized particles in the exact kerr--bertotti--robinson spacetime. the field-induced geometric deformation shifts turning points and circular-orbit domains and can eliminate a finite effective-potential well together with its bound orbits. even without direct dipole coupling, it can also offset the kerr periapsis advance and produce a finite-radius zero-precession orbit. direct dipole coupling breaks the symmetry under magnetic-field reversal and shifts the radius, energy, and angular momentum of the innermost stable circular orbit in an orientation-dependent manner. the formal ultrarelativistic endpoints of these orbit branches, however, remain fixed by the background geometry and approach circular null orbits. in the bañados--silk--west mechanism, both magnetic effects modify finite-radius potential barriers and hence the ability of a critical particle to reach the near-horizon collision region. in the representative nonzero-field cases examined here, an exactly critical particle released from infinity is blocked before reaching an extremal horizon, although a locally admissible collision between critical and usual particles can still produce unbounded center-of-mass energy. finite dipole coupling shifts the barriers but does not change the leading near-horizon divergence. near a nonextremal horizon, an exactly critical particle is excluded and the collision energy remains finite.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2608.30755",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30759",
+    "title": "geometric origin of intrinsic rigidity for extremal horizons",
+    "authors": [
+      "wojciech kamiński",
+      "adam szereszewski"
+    ],
+    "abstract": "our work clarifies the origin of enhanced symmetry of near horizon geometries. we relate this property to an existence of specific foliation by non-expanding horizons. the existence of this foliation can be shown in any spacetime satisfying null convergence condition. our proof is geometric and based on analyzing null hypersurfaces in near horizon geometry spacetimes.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2608.30759",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30950",
+    "title": "saha's ionization in the schwarzschild spacetime",
+    "authors": [
+      "lázaro l. sales",
+      "jonatas a. silva",
+      "amilcar r. queiroz"
+    ],
+    "abstract": "we investigate the saha ionization equilibrium in the exterior schwarzschild spacetime. starting from the mass-shell condition for a massive particle, we derive the conserved energy associated with the timelike killing symmetry and obtain its nonrelativistic limit in terms of the schwarzschild lapse function. this energy is then incorporated into the maxwell--boltzmann distribution to construct the ionization balance as seen by an asymptotic observer. we show that the gravitational field modifies the saha relation through the redshift of both the particle energies and the thermodynamic variables. by imposing the tolman--ehrenfest and klein equilibrium conditions, the formulation expressed entirely in terms of locally measured quantities reduces to the standard flat-spacetime saha equation. we further analyze the gravitational redshift of the ionization energy, the relative departure from the flat-spacetime ionization ratio, and the corresponding shift of the ionization fraction as a function of the asymptotic temperature. we also present the relativistic classical counterpart based on the maxwell--jüttner distribution and show explicitly that its leading correction is negligible in the temperature range where neutral hydrogen is appreciably abundant. these results provide a consistent description of ionization equilibrium in a static gravitational field and clarify the distinction between gravitational redshift effects and intrinsic modifications of local atomic physics.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "physics.plasm-ph"
+    ],
+    "link": "https://arxiv.org/abs/2608.30950",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30985",
+    "title": "resonant dynamics of gravitational wave and chiral alfvén wave in the early universe",
+    "authors": [
+      "arun kumar pandey",
+      "subalakshmi a",
+      "sampurn anand"
+    ],
+    "abstract": "in this work, we investigate the resonant interaction between stochastic gravitational waves (gws) and chiral alfvén waves in a magnetized chiral plasma in the early universe. starting from covariant chiral magnetohydrodynamics coupled to linearized gravity, we derive a closed system of equations for the coupled chiral-alfvén velocity and magnetic-field perturbations. both analytics and numerics show a parametric resonance at the sum frequency of the two cve-split branches, with an instability band that widens as the gw strain grows. this cve-to-alfvén ratio is not a free parameter. in the early universe, it is fixed by the standard model's relativistic degrees of freedom. including the plasma's backreaction on the gw makes the energy exchange nonlinear, breaking the usual single-frequency manley-rowe picture. for a self-consistent choice of parameters, where backreaction is only a small correction, the unsuppressed resonance still drives the system to a finite-time blow-up within a few hubble times. we then work out the resonant frequencies and growth rates involved, mapping out what current and future gravitational-wave detectors could observe.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "astro-ph.co",
+      "gr-qc",
+      "hep-ph"
+    ],
+    "link": "https://arxiv.org/abs/2608.30985",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.30995",
+    "title": "constraining equation of state of neutron star using neutron star-black hole mergers",
+    "authors": [
+      "vasudev dubey",
+      "rahul kashyap",
+      "yugesh bhoge"
+    ],
+    "abstract": "in this work, we study tidal effects that can be observed in gravitational wave transient from neutron star-black hole (nsbh) mergers. it has been well known that neutron star's tidal deformation has imprint of equation of state and hence composition of neutron star matter. compared to binary neutron star mergers, where we observe a combined effect of two neutron stars by measuring the parameter known as lambda tilde. in neutron star black hole mergers, we measure the tidal deformability of the neutron star component clearly. in this work, we study the feasibility of measuring the bare tidal deformability of a neutron star with planned gravitational detectors in the near and far future. we use the parameter estimation computation framework, bilby is used to perform bayesian inference for hundreds of nsbh mergers in current and future gw detector networks and obtain the posterior probability distribution functions of binary parameters. we find that we need at least 20 events to clearly distinguish the equation state of neutron stars in future detectors, including the einstein telescope and cosmic explorer.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "astro-ph.he"
+    ],
+    "link": "https://arxiv.org/abs/2608.30995",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.31039",
+    "title": "bekenstein--hod bound: a $3.3σ$ confirmation from gw250114",
+    "authors": [
+      "hai-tian wang",
+      "shao-peng tang",
+      "yi-zhong fan"
+    ],
+    "abstract": "black holes link gravity, thermodynamics and information via limits on the relaxation rate of a perturbed system. the bekenstein-hod bound imposes a minimum relaxation time at fixed temperature, but its observational test demands both black hole thermodynamic characterization and decay time measurement. here we test this bound with gw250114, the loudest gravitational-wave signal yet observed from a binary black-hole merger. we infer the remnant temperature from pre-merger data truncated at least $10\\,m$ before the peak and its longest-lived decay time from post-merger data, thereby avoiding direct reuse of the same strain samples. the ringdown frequencies and damping times are allowed to vary independently rather than being fixed to the kerr spectrum. for the primary $t_{<}=-10\\,m$ analysis, the bound is verified at $3.3-3.6σ$ across the focal ringdown start times, representing a substantial improvement over the $91\\%$ confidence level set by gw150914. the conclusion remains robust under varied pre-merger cutoffs and explicit inclusion of the short-lived first overtone in waveform modelling. this separated-data measurement converts an information-theoretic relaxation bound into a precision test of a single astrophysical black hole.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "astro-ph.he"
+    ],
+    "link": "https://arxiv.org/abs/2608.31039",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.31163",
+    "title": "evolution of cosmic string loops under gravitational backreaction",
+    "authors": [
+      "lasse gerblich",
+      "richard a. battye",
+      "e. p. s. shellard"
+    ],
+    "abstract": "nambu-goto cosmic string loops generically develop cusps, points where the string momentarily reaches the speed of light. these cusps produce strong gravitational wave bursts with a characteristic strain spectrum $\\tilde{h}(ω)\\propto (gμ)\\,ω^{-4/3}$, making them prime targets for gravitational wave searches, where $μ$ is the string mass per unit length. however, this picture is modified when one accounts for gravitational backreaction. using a convenient gauge, we reformulate the nambu-goto equations of motion for a loop moving in its own dynamically sourced gravitational field, enabling the first continuous numerical evolution of loops under this backreaction. a key finding is that locally cusps survive backreaction. nevertheless, the gravitational waveform calculated in this formalism is significantly modified, weakening the cusp burst and introducing a high-frequency cutoff at $f_c\\propto(gμ)^{-3/2}$. this suppression above $f_c$ reduces the expected signal-to-noise ratio in current and near-future detectors relative to unperturbed waveform predictions.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "astro-ph.co",
+      "hep-ph"
+    ],
+    "link": "https://arxiv.org/abs/2608.31163",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2202.13897",
+    "title": "timing of echoes in electromagnetic radiation from hot spots orbiting a kerr black hole impostor",
+    "authors": [
+      "sudipta hensh",
+      "jan schee",
+      "zdeněk stuchlík"
+    ],
+    "abstract": "we investigate the light curve of an isolated bright spot in a keplerian orbit around a kerr black hole candidate to probe possible deviations from the standard event-horizon picture. in particular, we explore the presence of a reflective surface, namely a \"mirror\" near the horizon, and its observable consequences. we present estimates on the time delays of the echoes of electromagnetic radiation from the mirror or some other reflecting area related to black hole mimickers. our results show that photon reflections from such a surface imprint distinct late-time features in the light curve, producing an electromagnetic analogue of gravitational wave echoes. for lower values of the spin, the reflected signal appears within the same orbital period and leads to a noticeable enhancement of the flux. in contrast, for higher spins, the effect emerges only after several orbits, giving rise to a characteristic echo-wave train. these features provide a potential observational signature of horizon-scale modifications in compact objects.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2202.13897",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2308.15682",
+    "title": "effect of dark matter on galactic black hole ringdown waveforms and shadows",
+    "authors": [
+      "ramin g. daghigh",
+      "gabor kunstatter"
+    ],
+    "abstract": "we calculate the effect of dark matter on the ringdown waveform and shadow of supermassive black holes at the core of galaxies. our main focus is on the supermassive black hole at the core of m87, which is large enough to allow for viable observational data. we compare the effects of a dark matter spike to those expected from a galactic halo of the same mass. our calculation for the halo starts from the hernquist density function and assumes anisotropic pressure that is zero in the radial direction. the resulting tolman-oppenheimer-volkoff equations allow the corresponding metric to be obtained analytically in closed form. the geometry of the anisotropic dark matter spike is the same as that obtained in [{\\it apj} {\\bf 940} 33 (2022)] under the assumption of isotropy. the effect of the spike is orders of magnitude more significant than the halo as long as the distribution scale of the latter is within a few orders of magnitude of the value expected from observations. our results indicate that the impact of the spike surrounding m87* on the ringdown waveform may in principle be detectable. finally, we point out the somewhat surprising fact that existing event horizon telescope observations of black hole shadows are within an order of magnitude from being able to detect, or rule out, the presence of a spike.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "astro-ph.ga"
+    ],
+    "link": "https://arxiv.org/abs/2308.15682",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2409.20017",
+    "title": "finite velocity effect of ultralight vector dark matter in pulsar timing arrays",
+    "authors": [
+      "qing-hua zhu"
+    ],
+    "abstract": "pulsar timing array (pta) collaborations have recently reported evidence of the stochastic gravitational waves. in addition to gravitational wave signals from cosmological or astrophysical origins, ptas are also capable of detecting coherently oscillating ultralight dark matter. this study investigates the pta response to ultralight vector dark matter, incorporating the realistic finite velocity effects ($v\\sim 10^{-3}$) in our galaxy. using a rigorous calculation framework, we demonstrate that both the timing residual amplitude (for deterministic signals) and the angular correlations (for stochastic backgrounds) depend sensitively on individual pulsar distances. significantly, we find that the timing residuals are dominated by the newtonian potential, contradicting prior studies which identified the curvature perturbation and tensor part of metric perturbation as the leading contributions. as expected, the pta response to vector dark matter exhibits a characteristic anisotropic signature, making it distinguishable from the isotropic signal of scalar dark matter.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "astro-ph.co"
+    ],
+    "link": "https://arxiv.org/abs/2409.20017",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2507.20073",
+    "title": "the tension of space as dark energy: dynamics and phenomenology",
+    "authors": [
+      "muhammad ghulam khuwajah khan"
+    ],
+    "abstract": "we develop a phenomenological model in which the observed late-time dark-energy sector is interpreted as an effective residual tension of space. motivated by recent observational hints that the dark-energy equation of state may exhibit mild low-redshift evolution, we begin with an intrinsic membrane description of spacetime and show that a uniform space tension contributes to the gravitational field equations with precisely the tensor structure of vacuum energy. we then consider a dirac--born--infeld completion, which naturally introduces a hidden abelian gauge sector. a late-time hidden transition, \\(u(1)_h \\, \\to \\, \\mathbb{z}_n\\), can reorganize hidden magnetic energy into a coarse-grained flux-tube reservoir. if this reservoir exchanges energy with the dynamical part of the space-tension sector, the effective dark-energy density becomes time dependent and acquires a nontrivial equation of state. at the background level, the model gives a simple proof-of-concept realization of running dark energy and admits a transient crossing of the phantom divide. a restricted numerical scan shows that the best representative solution corresponds to a string-like hidden flux reservoir, with an effective low-redshift evolution that projects approximately to $(w_0^{\\rm mod},w_a^{\\rm mod})\\simeq(-0.915,-0.457)$ in the chevallier--polarski--linder plane. this does not exactly reproduce the compressed observational benchmark, but it generates a phenomenologically relevant departure from \\(λ\\)cdm and illustrates how a late hidden-sector defect population can induce mild running of the residual vacuum-like tension of space. the construction is therefore best viewed as a physically transparent proof of concept rather than a complete theory of dark energy.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "hep-ph"
+    ],
+    "link": "https://arxiv.org/abs/2507.20073",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.05557",
+    "title": "black hole analogues in two-dimensional flows with constant shear",
+    "authors": [
+      "alessia biondi",
+      "scott robertson",
+      "germain rousseaux"
+    ],
+    "abstract": "we investigate the gravitational analogy for shallow water waves propagating on a unidirectional background flow with constant shear. generalizing the standard irrotational treatment, we demonstrate that a transverse background vorticity is perfectly compatible with the existence of an effective curved spacetime for longitudinal surface waves. we extract the modified acoustic metric and show that the conformal factor, which governs wave scattering, becomes strongly dependent on the vorticity. consequently, we find that the presence of background shear significantly suppresses the scattering of modes over an inhomogeneous bathymetry, while mildly modifying the analogue surface gravity at the transcritical horizon. these results highlight the nontrivial role of rotational dynamics in analogue gravity experiments.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "physics.flu-dyn"
+    ],
+    "link": "https://arxiv.org/abs/2603.05557",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.17072",
+    "title": "quantifying the scientific potential of intermediate and extreme mass ratio inspirals with the laser interferometer space antenna",
+    "authors": [
+      "lorenzo speri",
+      "francisco duque",
+      "susanna barsanti",
+      "alessandro santini",
+      "shubham kejriwal",
+      "ollie burke",
+      "christian e. a. chapman-bird"
+    ],
+    "abstract": "the laser interferometer space antenna (lisa) will enable precision studies of extreme and intermediate mass ratio inspirals (emris/imris), providing unique probes of astrophysical environments of galactic nuclei and strong-field gravity. using a fully relativistic pipeline across primary masses $m_1 \\in [5\\times10^4, 10^7]\\,m_\\odot$ and secondary masses $m_2 \\in [1, 10^4]\\,m_\\odot$, we map instrumental performance directly to detection horizons and parameter measurement precision. emris with $m_1 = 10^7\\,m_\\odot$ and $m_2 \\sim 1\\,m_\\odot$ are the most sensitive to instrument degradation, with redshift horizons at $z \\sim 0.01$, while imris are the least sensitive to degradation and reach redshifts $z \\sim 1-3$. all prograde systems considered achieve sub-percent spin precision within three months of observation. the full 4.5-year mission increases the horizon of systems with $m_1 = 10^7\\,m_\\odot$ and $m_2 \\sim 1\\,m_\\odot$ by a factor of $\\sim 4$ and improves sky localization by one to two orders of magnitude reaching $ < 10\\,\\mathrm{deg}^2$. imri detection is robust against degradation, but their parameter estimation is more vulnerable due to fewer cycles in band. with the full baseline, emri observations constrain scalar dipole emission and kerr quadrupole deviations below ground-based bounds by one to two orders of magnitude. we release the accompanying software and an interactive website to enable the community to rapidly quantify the scientific potential of emris and imris.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "astro-ph.im",
+      "astro-ph.ga",
+      "astro-ph.he",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2603.17072",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.03003",
+    "title": "black hole interior operators and dilatation symmetry in planar black branes",
+    "authors": [
+      "nirmalya kajuri"
+    ],
+    "abstract": "planar ads black branes have a scaling symmetry that maps a brane solution at one temperature to a solution at another. it is natural to expect that boundary representations of bulk field modes should inherit this symmetry i.e. their correlators should transform covariantly under boundary dilatations. we derive a covariance condition that any boundary representation of interior modes in a planar ads black brane should satisfy. we then show that papadodimas-raju mirror operators satisfy this condition. thus the papadodimas-raju reconstruction of the bulk interior, although state-dependent, inherits the scaling symmetry of planar ads black holes.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "hep-th",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2604.03003",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.09046",
+    "title": "flux enhancement of corotating hot spots in accretion disks from the slow-light effect",
+    "authors": [
+      "qing-hua zhu"
+    ],
+    "abstract": "with the event horizon telescope and future very long baseline interferometry arrays poised to image supermassive black holes, there is a strong motivation to understand the dynamic aspects of the accretion flow near the black hole. interestingly, in such highly relativistic regime, the finite light-travel time should be taken into account to correctly simulate the images, known as the slow-light effect. this paper investigates the impact of the slow-light effect on the observational signatures of hotspots corotating with the keplerian disks. it is found that the magnification can be modulated by the hotspot's orbital velociy. specifically, the corotating hotspots at the maxima of magnification are located at the image positions shifted relative to the positions behind the black hole. this subsequently causes the peak of the magnification profile to shift towards alignment with the peak of the redshift factor profile, ultimately leading to flux enhancement relative to the results of previous studies. this enhancement becomes particularly pronounced for corotating hotspots in the strong-field regime at large inclination angle, indicating that the slow-light effect is essential for accurately modeling high-energy emission in the vicinity of the black hole.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "astro-ph.he"
+    ],
+    "link": "https://arxiv.org/abs/2604.09046",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.24926",
+    "title": "sensitivity of black hole spectral instability to ultraviolet perturbations",
+    "authors": [
+      "ramin g. daghigh",
+      "michael d. green",
+      "guan-ru li",
+      "jodin c. morey",
+      "wei-liang qian",
+      "stefan j. randow"
+    ],
+    "abstract": "black hole quasinormal modes are known to exhibit spectral instability under ultraviolet perturbations of the effective potential. in the present work, we investigate the sensitivity of the fundamental mode to different types of localized perturbations through a combination of analytic and numerical analyzes. we show that the instability is governed primarily by the effective size of the perturbation rather than by its specific shape. in particular, the instability may persist even in the limit where the width of the perturbation vanishes, provided that the integrated strength of the perturbation is not zero. while a delta-function perturbation destabilizes the fundamental mode through an outward spiral, its interplay with a jump-discontinuity-type perturbation gives rise to competing inward and outward spiral motions. we further show that the stability of the fundamental mode depends sensitively on how the magnitude of the perturbation decreases as it moves away from the compact object, leading to qualitatively distinct outward spirals, inward spirals, and rotational trajectories. finally, we investigate the motion of the fundamental mode in perturbed regge-wheeler potentials containing a jump discontinuity associated with a thin matter shell surrounding the black hole. the resulting behavior qualitatively resembles the spiral structure observed in double-sided pöschl-teller potentials, suggesting that the mechanisms identified in analytically tractable models persist in more realistic black hole effective potentials. the present results indicate that the spectral instability of low-lying black hole modes is considerably richer than previously anticipated and may have important implications for black hole spectroscopy in realistic astrophysical environments.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2604.24926",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.26296",
+    "title": "superdilations at schwarzschild null infinity",
+    "authors": [
+      "marco refuto"
+    ],
+    "abstract": "relying on the definition of asymptotic conformal killing horizons, the generators of asymptotic conformal symmetries at future null infinity in schwarzschild space-time are considered. the algebra they close is an extended version of the bms one due to the emergence of superdilations. several features are then studied, such as the related non-trivial charge, ruling out the hypothesis that superdilations are pure gauge transformations. their effect on a pair of celestial observers can be understood as an angle-dependent redshift, connected to the local non-vanishing flux of the charge.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2605.26296",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.27493",
+    "title": "a no-go study on gravitational helicity in connection variables",
+    "authors": [
+      "xiao-kan guo",
+      "shupeng song"
+    ],
+    "abstract": "we study the gravitational helicity using the covariant phase space method. starting from the covariant phase space of general relativity expressed in terms of connection variables, we construct the symplectic form and identify a duality transformation based on the internal hodge dual. in the complex self-dual ashtekar variables the duality becomes a simple $u(1)$ phase rotation. we show, however, that this rotation is not a symmetry.we also show that the expression $\\int_σς^{+ab}\\wedge a^+_{ab}$ inspired by the electromagnetic helicity is neither a noether charge nor a moment map.the duality of general relativity under a rotation of the curvature two-form is a symmetry of the equations of motion but not of the lagrangian, and carries no noether charge. an explicit computation shows that the mass and the nut charge are not symplectically conjugate, so even in the reduced phase space of stationary solutions this duality has no moment map. this study therefore provides counter examples to the existence of a full-theory gravitational helicity in the covariant phase space approach.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2605.27493",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.11995",
+    "title": "thin-shell wormholes in cosmic voids",
+    "authors": [
+      "jonathan a. rebouças",
+      "edson otoniel",
+      "francisco s. n. lobo"
+    ],
+    "abstract": "cosmic voids are underdense regions that can provide an effective large-scale environment with a de sitter-like gravitational behavior. motivated by recent black-hole solutions embedded in void density profiles, we construct a symmetric thin-shell wormhole by gluing two copies of the positive-lapse region of a black hole inside a cosmic void. the surface stresses are obtained from the darmois--israel junction conditions, and the corresponding null, weak, dominant, and strong energy-condition combinations are written directly in terms of the void mass function and density profile. we further develop the thermodynamics of the static shell, deriving a first law that relates the shell entropy to the black-hole and cosmological-like horizon entropies. we then formulate the radial dynamics of the throat through an effective potential and study the local stability of static configurations when the exotic matter on the shell obeys either a generalized cosmic chaplygin gas or a modified cosmic chaplygin gas equation of state. in both models the chaplygin parameter $b$ is fixed by the static junction condition, so that the remaining stability test is governed by the void geometry and by the equation-of-state parameters. numerical results reveal that gccg-supported configurations are generically unstable, whereas mccg-supported wormholes can be stable for a sufficiently large linear term in the equation of state. the resulting framework connects the de sitter-like structure of cosmic voids with the standard thin-shell wormhole formalism and provides a starting point for identifying stable or unstable wormhole configurations located between the black-hole and cosmological-like horizons of the void spacetime.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2607.11995",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2608.18983",
+    "title": "duru-kleinert path integral in unimodular quantum cosmology",
+    "authors": [
+      "xiao-kan guo"
+    ],
+    "abstract": "the wheeler-dewitt equation of a flat friedmann-lemaitre-robertson-walker universe filled with pressureless dust and a cosmological constant in the unimodular gravity is recently shown to be equivalent to the radial schrödinger equation of a hydrogen atom. in this paper, we revisit this correspondence between the unimodular quantum cosmology and the hydrogen atom by using the duru-kleinert path integration technique. the duru-kleinert time reparametrization transforms the euclidean path integral of the universe into that of a one-dimensional coulomb system. through a mellin-barnes integral representation, we extract the bound state poles of the green's function, which give the quantized negative cosmological constant. we compute the quantum tunneling rate from ``nothing'' to a universe directly within the coulomb model. furthermore, for a positive cosmological constant, we compute the spectral density and the krylov complexity for the unbounded state.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2608.18983",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00153",
+    "title": "subleading collinear limits of yang-mills amplitudes from gravity",
+    "authors": [
+      "jin dong",
+      "stephan stieberger"
+    ],
+    "abstract": "we show that the subleading collinear sector of yang-mills (ym) amplitudes is controlled by ordinary einstein-yang-mills (eym) amplitudes and their higher-derivative corrections. the complete set of strict subleading collinear limits associated with an equal-helicity collinear pair can be extracted from open-closed string disk amplitudes. the latter generate $\\frac12 (n-3)!$ bcj-like relations with non-linear kinematic coefficients, reducing the $(n-3)!$ collinear data to a basis of dimension $\\frac12 (n-3)!$. this reduced basis can be represented by gravitational amplitudes in eym theories and by their higher-derivative open-string corrections. at multiplicity $n$ this gravitational basis consists of the $(n-4)!$ independent eym subamplitudes together with $\\frac12 (n-5)(n-4)!$ higher-order corrections involving one graviton and $n-2$ gluons. the resulting decomposition is governed by unsigned stirling numbers of the first kind: the ordinary eym amplitudes correspond to the sector $\\left[{n-3\\atop 1}\\right]$, the higher-order bcj-like relations to even sectors $\\left[{n-3\\atop 2j}\\right]$, and the higher-derivative eym corrections to odd sectors $\\left[{n-3\\atop 2j+1}\\right]$ with $j\\geq 1$.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "hep-th",
+      "gr-qc",
+      "hep-ph",
+      "math.ag",
+      "math.co"
+    ],
+    "link": "https://arxiv.org/abs/2609.00153",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00200",
+    "title": "gravitational waves from core collapse of rotating very-massive stars: 3d numerical relativity computation",
+    "authors": [
+      "alan tsz-lok lam",
+      "masaru shibata",
+      "sho fujibayashi"
+    ],
+    "abstract": "we numerically study the collapse of rotating, very-massive stellar cores with masses of $\\approx 200$, $300$, $500$, and $1100m_\\odot$ into black holes using both axisymmetric and three-dimensional (3d) numerical relativity. our results indicate that when the dimensionless spin of the resulting black hole exceeds 0.8, a massive disk consistently forms around it. these massive, compact disks, carrying more than about 10\\% of the black hole's mass, are prone to non-axisymmetric deformations that trigger gravitational-wave bursts with frequencies around 10-50 hz. such waves could be detected by the einstein telescope and cosmic explorer, even from sources a few gpc away. we also summarize the gravitational-wave signals from axisymmetric collapse, which tend to have lower amplitudes and higher frequencies than those caused by non-axisymmetric instabilities.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "astro-ph.he"
+    ],
+    "link": "https://arxiv.org/abs/2609.00200",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00339",
+    "title": "a fast and scalable transformer pipeline for binary black hole detection",
+    "authors": [
+      "chayan chatterjee",
+      "abigail petulante",
+      "haowei fu",
+      "yang hu",
+      "roy lau",
+      "karan jani"
+    ],
+    "abstract": "with the projected increase in the detection rate of compact-binary coalescences in the coming decade, there is critical need to develop fast, robust, and scalable alternatives to matched filtering for gravitational-wave searches. transformer models have revolutionized natural language and audio processing but their application to gravitational-wave astronomy is still largely unexplored. in this work, we introduce \\castor, a transformer-based coincident search pipeline for detecting binary black hole gravitational-wave signals from advanced ligo detectors. one of the major features of our model is that it allows the false-alarm rate to be estimated via time slides cheaply without requiring repeated evaluations of the neural network. we evaluate \\castor\\ on datasets from the machine-learning gravitational-wave search challenge (mlgwsc-1) and on approximately five months of real o3b observing strain. when tested on benchmark datasets, \\castor\\ ranks among the most sensitive machine-learning pipelines and successfully recovers the majority of confident events from the gwtc-3 catalog that lie within its training range. we also benchmark \\castor\\ against another transformer architecture, gw-whisper, a domain-adaptation of openai's audio foundation model. we find that \\castor\\ substantially outperforms the repurposed audio model in sensitivity and also reduces the computational cost of background estimation by a factor of 20. our results demonstrate a highly practical, scalable approach for deep-learning gravitational wave searches and empirical background estimation for future observing runs.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "astro-ph.ga"
+    ],
+    "link": "https://arxiv.org/abs/2609.00339",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00423",
+    "title": "positive energy from timelike singularities",
+    "authors": [
+      "fernando ruiz ruiz"
+    ],
+    "abstract": "the energy of various asymptotically ads and asymptotically flat solutions to the einstein equations with time-translational invariance and a timelike singularity is computed, spaces with kasner timelike singularities and black holes with negative masses among them. the definition used for gravitational energy is the on-shell hamiltonian of the physical classical action proposed by hawking and horowitz thirty years ago and which agrees with the abbott-deser and adm expressions. to deal with the singularity, a timelike regulating cut-off boundary surrounding the singularity compatible with a well-defined foliation in constant-time slices is introduced, so calculations are performed at a finite value of the regulating parameter, which is set to zero in the final expression for the energy. in all instances considered, the energy contribution from the singularity is finite and positive, its value depends on the geometry around the singularity and is such that the total gravitational energy is positive. of the solutions reviewed, only the ads soliton (which has no singularity) has negative gravitational energy relative to ads space. the ads and the schwarzschild black holes with negative masses have respectively the same energies as ads and minkowski spaces.",
+    "submitted": "2026-08-31",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2609.00423",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00589",
+    "title": "directional response optimization through linear recombination of time-delay interferometry channels in space-based gravitational wave detection",
+    "authors": [
+      "heng-sen jiao",
+      "jing-rui zhang",
+      "hong-bo jin",
+      "yun-long zhang"
+    ],
+    "abstract": "space-based gravitational-wave detectors such as lisa, taiji, and tianqin employ time-delay interferometry (tdi) to cancel laser-frequency noise for unequal-arm constellations. since different tdi observables exhibit distinct sky responses, a linear combination of candidate channels can enhance the average response over one sky region while suppressing that of another. we construct a frequency-domain response matrix for tdi combinations, average it across target and suppressed sky regions, and derive the optimal weights via a generalized eigenvalue problem that maximizes the ratio between these two regional responses. at millihertz frequencies, examples with the $a$, $e$, and $t$ channels, the sagnac combinations $α$, $β$, and $γ$, and 16-links tdi show that a sky-region null and a large regional contrast are possible near the chosen frequency, with eigenvalues $ρ$ ranging from $\\mathcal{o}(10)$ for small bases to $\\mathcal{o}(10^2)$ for the larger set. the method is therefore expected to be well suited to nearly monochromatic sources such as the resolved galactic double white dwarf binaries in the millihertz band. the target-to-suppression ratio (tsr) peaks near the design frequency and falls quickly away from it, so the optimized weight vector is inherently narrowband and suited to targeted searches around a chosen frequency and sky direction.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2609.00589",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00664",
+    "title": "perturbations and stability of black holes with static scalar hair in general glpv theories",
+    "authors": [
+      "petarpa boonserm",
+      "antonio de felice",
+      "ratchaphat nakarachinda",
+      "shinji tsujikawa",
+      "pitayuth wongjun"
+    ],
+    "abstract": "we derive the background equations and complete odd- and even-parity quadratic actions for static, spherically symmetric black holes with radial scalar hair in general quartic-quintic gleyzes-langlois-piazza-vernizzi (glpv) theories, including horndeski. on regular, nondegenerate branches, the formulation applies across killing horizons and yields local no-ghost conditions and radial and angular eikonal characteristics. tensor modes in both parity sectors share the same squared radial speed. when the radial coordinate is timelike, generic antisymmetric mixing induces nonstandard large-multipole scaling for both even-parity angular branches. requiring both branches to have finite, nonzero eikonal phase speeds selects the horndeski-related compatibility condition between the quartic and quintic beyond-horndeski functions. this condition aligns the covariant degeneracy directions and permits a local disformal map to horndeski when regular and invertible. for a finite, nonzero scalar kinetic term at the horizon, every nontrivial branch of the exact quadratic glpv black hole is locally unstable or has a degenerate tensor cone near a simple outer horizon. apart from identified exceptions, this obstruction extends to general shift- and reflection-symmetric quadratic glpv theories and the regular horndeski-related branch of the quartic-quintic class. finally, for scalar-gauss-bonnet black holes with a vanishing horizon scalar kinetic term, we construct analytic power-law quartic beyond-horndeski deformations whose associated quintic function is fixed by the same condition. at sufficiently small coupling, all local no-ghost and high-frequency gradient-stability conditions hold throughout the exterior. for a linear gauss-bonnet coupling, we estimate an interior scale below which the background and stability expansions lose perturbative control; this does not imply a physical instability.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "hep-ph",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2609.00664",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00882",
+    "title": "reissner-nordstrom in the bertotti-robinson-bonnor-melvin electromagnetic field",
+    "authors": [
+      "marco astorino"
+    ],
+    "abstract": "the magnetic reissner-nordstrom black hole embedded into the bertotti-robinson magnetic field is presented. then it is used, as a seed, to generate, through the harrison transformation of the ersnt's equations, the reissner-nordstrom metric in the bertotti-robinson-bonnor-melvin magnetic field. special cases generalising, the vacuum hairy type i schwarzschild solution is discussed. the local equivalence between various forms of the schwarzschild-bertotti-robinson is shown by exhibiting the explicit diffeomorphism.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2609.00882",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00934",
+    "title": "polarization images of neutron stars illuminated by a thin accretion disk: a comparison with black holes",
+    "authors": [
+      "dan-dan feng",
+      "guo-ping li",
+      "chen-yu yang",
+      "hong lei"
+    ],
+    "abstract": "we investigate linear polarization images of static, spherically symmetric neutron stars illuminated by a geometrically and optically thin accretion disk. neutron star equilibrium configurations are constructed with a polytropic equation of state, and the null geodesic equations and the parallel transport equation for the linear polarization vector are solved in the geometric optics approximation. the numerical results show that the total polarized intensity is generally positively correlated with the total intensity and reaches its maximum near the neutron star surface. as the observer inclination increases, the symmetry of the polarization images is progressively broken. in addition, the magnetic field configuration mainly affects the direction of the polarization vectors, while its influence on the overall polarized intensity distribution is comparatively limited. to further characterize the spatial structure of the polarization direction, we introduce the net electric vector position angle $χ_{\\mathrm{net}}$ and the second azimuthal fourier mode $\\angleβ_2$. a comparison with polarization images of a schwarzschild black hole reveals clear differences between the two types of compact objects in the locations of strongly polarized regions and the size of the central region without a polarization signal. these results show that linear polarization images provide information beyond total intensity images for distinguishing neutron stars from black holes.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "astro-ph.he"
+    ],
+    "link": "https://arxiv.org/abs/2609.00934",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.00945",
+    "title": "constraining agn disk properties with gravitational waves from inspiraling stellar-mass binary black holes in hierarchical triple systems",
+    "authors": [
+      "jie wu",
+      "mengfei sun",
+      "jin li",
+      "zhoujian cao"
+    ],
+    "abstract": "space-based gravitational-wave detectors can observe stellar-mass binary black holes (bbhs) long before merger, allowing weak environmental perturbations to accumulate. for binaries embedded in active galactic nucleus (agn) disks, the local gas density characterizes the environment of the supermassive black hole (smbh) and compact-object migration. we study whether such signals can constrain this density when a stellar-mass bbh orbits a kerr smbh. we evolve the outer orbit with relativistic corrections and gaseous dynamical friction (df), and construct the detector-frame waveform including bbh inspiral, de sitter precession, df phase correction, and moving-source effects. using fisher-matrix calculations for sampled systems, we estimate statistical uncertainties and systematic errors. larger gas densities generally improve the statistical precision of several source and outer-orbit parameters, but also increase systematic errors when df is omitted. for favorable gw190521-like systems observed by lisa for one year, the disk density can be constrained at the level of $σ_ρ\\sim10^{-12}\\text{--}10^{-10}\\,{\\rm g\\,cm^{-3}}$. such constraints would connect bbh merger environments to the gas structure of galactic nuclei and the conditions that support black hole growth. these results indicate that hierarchical bbh inspirals can probe agn disk environments, provided that gas effects are modeled consistently.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "astro-ph.he"
+    ],
+    "link": "https://arxiv.org/abs/2609.00945",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01012",
+    "title": "charging higher-dimensional spacetimes with a generalized kerr-schild transformation",
+    "authors": [
+      "aravindhan srinivasan",
+      "marcello ortaggio"
+    ],
+    "abstract": "we explore the construction of higher-dimensional einstein-maxwell(-chern-simons) solutions from vacuum seeds by means of a generalized kerr-schild transformation along a geodesic null vector field $\\mathbf{k}$. assuming the vector potential $\\mathbf{a}$ to be aligned with $\\mathbf{k}$, and $\\mathbf{k}$ to be a weyl aligned null direction satisfying the ``optical constraint'', we arrive at three distinct branches of solutions. if $\\mathbf{k}$ is expanding and twisting, then its shear must vanish -- this branch includes certain charged taub-nut metrics. if $\\mathbf{k}$ is expanding and twistfree, one finds two subfamilies: robinson-trautman electrovac solutions with a non-null maxwell field if the shear is zero, or shearing solutions with a null field. finally, the case when $\\mathbf{k}$ is non-expanding reduces to a subset of the known kundt solutions. in all cases, the chern-simons term turns out to be identically zero on-shell. in passing, by relaxing the alignment assumption on $\\mathbf{a}$, we also obtain a six-dimensional extension of a charged taub-nut metric for which the magnetic part of the field strength is a linear combination of two distinct kähler 2-forms, as opposed to the previously known examples in more than four dimensions.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2609.01012",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01063",
+    "title": "colored-noise-induced horizon fluctuations near a double root in an effective black-hole geometry",
+    "authors": [
+      "kashif ammar yasir"
+    ],
+    "abstract": "stress-tensor fluctuations carry information that is absent from the mean   semiclassical einstein equation, but their observable effect depends as much   on the response of the geometry as on the noise itself. we formulate an   effective, quasistationary spherical model organized by the response--noise   structure of a quantum langevin equation. a prescribed mean dressing and a   horizon-localized colored source are varied independently. for every source   realization we reconstruct the lapse, locate its outer trapping horizon, and   evaluate the adiabatic hayward--kodama temperature from the slope at that same   root. as the mean lapse approaches an inner--outer root merger, its inverse   slope acts as a geometric susceptibility: a fixed source covariance produces   enhanced horizon fluctuations, horizon--temperature covariance, and a   positively skewed, greybody-filtered luminosity. the specific advance is a   single-realization map from colored metric noise to correlated geometric,   thermal, and radiative statistics, together with an explicit separation of   reservoir strength from near-critical amplification. the model is a   stochastic-semiclassical testbed, not a microscopic evaluation of unruh-state   response and noise kernels.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "quant-ph"
+    ],
+    "link": "https://arxiv.org/abs/2609.01063",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01153",
+    "title": "constraints on buchdahl-inspired gravity from future pulsar timing near sgr a*",
+    "authors": [
+      "jian-ming yan",
+      "tao zhu",
+      "zong-kuan guo",
+      "zhao li"
+    ],
+    "abstract": "future pulsar timing observations near sgr~a* offer a unique probe of gravitational physics in the vicinity of a supermassive black hole. we forecast the ability of such measurements to constrain a buchdahl-inspired $r^2$ gravity, parameterized by a single deviation parameter $ε$, using a timing framework that self-consistently integrates orbital dynamics with light-propagation delays and preserves the full timing solution across the observing span. through fisher-matrix forecasts for a representative pulsar, we systematically isolate how the precision on $ε$ depends on orbital geometry. we find that shorter orbital periods and higher eccentricities significantly enhance sensitivity, consistent with a substantial contribution from observations near periastron. as a benchmark comparison, we further consider a hypothetical pulsar on an s2-like orbit ($p_b=16~{\\rm yr}$, $e=0.88$) and obtain a statistical sensitivity of $σ_ε\\sim 10^{-4}$ within the adopted weak-field, static, and spherically symmetric timing model. this sensitivity is comparable to the natural order-of-magnitude truncation scale of the 1pn expansion and should not be interpreted as a complete forecast for the real sgr~a* system. under the adopted idealized assumptions, the characteristic statistical scale is several orders of magnitude below the current s2 95\\% confidence interval half-width ($|ε|_{\\rm s2}^{\\rm 95\\%}\\approx 0.56$), though this comparison is heuristic given the differing confidence levels. these trends provide quantitative guidance for target selection and campaign design in future galactic-center pulsar searches.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "astro-ph.he",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2609.01153",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01177",
+    "title": "josephson interferometry in an oppenheimer--snyder-like scale-dependent black-hole spacetime",
+    "authors": [
+      "ali ovgun",
+      "reggie c. pantig",
+      "g. lambiase"
+    ],
+    "abstract": "we develop a covariant framework for josephson transport, superconducting interference, and shunt noise in the scale-dependent exterior generated by an oppenheimer--snyder-like collapse. static josephson frequencies and transported currents referred to killing time acquire one lapse factor, whereas power acquires two. for a junction comoving with the collapsing surface, the coordinate-time phase rate differs from the frequency received at infinity because of null propagation and doppler effects. we derive the exact radial-null travel-time kernel and show that its local near-extremal logarithmic enhancement crosses over, at fixed emission offset, to pole-controlled extremal behavior. we also obtain the redshifted resistively and capacitively shunted-junction equation and the dc and microwave-driven two-junction interference envelopes. in the negligible-total-inductance limit, static lapse imbalance modifies lobe amplitudes without shifting their centers, whereas microwave-induced translations require dynamical fluxoid closure. in a hartle--hawking state, tolman redshift produces a superconducting exclusion layer and a lapse-independent asymptotic shunt-noise spectrum; its low-frequency limit obeys a parameter-free fluctuation--delay relation. finally, we derive a shadow--josephson consistency relation and sensitivity bounds on the running parameter.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2609.01177",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01193",
+    "title": "angular power spectrum of induced gravitational waves: breaking model and parameter degeneracies in pta observations",
+    "authors": [
+      "peng-yu wu",
+      "di wu",
+      "jing-zhi zhou"
+    ],
+    "abstract": "large primordial curvature and tensor perturbations on small scales can generate second-order tensor-scalar induced gravitational waves (tsigws) through scalar-scalar, tensor-scalar, and tensor-tensor source terms. tsigws are recognized as one of the principal contributors to the stochastic gravitational wave background (sgwb) observations. we explore the energy density spectrum of second-order tsigws in the presence of non-gaussian primordial curvature perturbations. furthermore, we present the first calculation of the anisotropic angular power spectrum associated with second-order tsigws, which provides a promising tool to discriminate them from other sgwb sources.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "astro-ph.co",
+      "gr-qc",
+      "hep-ph",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2609.01193",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01290",
+    "title": "deviations from kerr: polar critical curves and photon rings in a class of separable spacetimes",
+    "authors": [
+      "hao-peng yan",
+      "xiang-qian li",
+      "xiao-jun yue"
+    ],
+    "abstract": "black-hole critical curves and photon rings provide complementary probes of strong-field geometry, motivating a unified analytic description of these observables beyond kerr and a direct comparison with the kerr predictions. we develop such a description for polar observers in a radial class of stationary, axisymmetric spacetimes with separable null geodesics. the spacetime dependence is organized through natural optical combinations selected by the null dynamics and a kerr-relative representation suited to weak deviations from kerr. we derive compact exact expressions for the polar critical radius, lyapunov exponent, time delay, and rotation parameter, together with general first-order formulas that can be applied once the deformation functions of a specific metric are supplied. the weak-deviation analysis shows that the combined polar observables probe only a finite set of local deformation values and radial derivatives at the critical orbit, rather than the full radial profiles.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2609.01290",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01331",
+    "title": "gravitational-wave signatures of primordial black hole clusters and the imprint of an early dense-core collapse",
+    "authors": [
+      "marc barceló-sastre",
+      "juan garcía-bellido"
+    ],
+    "abstract": "primordial black holes (pbhs) are expected to be born essentially non-spinning and, if the primordial curvature fluctuations possess non-gaussian tails, strongly clustered. any spin measured in a pbh population must therefore be dynamically generated. using direct $n$-body simulations with \\textsc{nbody6++gpu}, modified to treat nearly parabolic dynamical-capture mergers, we quantify the conditions under which an initially non-spinning pbh cluster develops the spin, mass and stochastic-background signatures that gravitational-wave observations are now sensitive to. we find a sharp tension: producing a root-mean-square spin $χ_{\\rm rms}\\sim0.1 - 0.2$ in the $30 - 50\\,m_\\odot$ range requires initial plummer radii of order $10^{-5}\\,{\\rm pc}$, whereas survival over cosmological times requires parsec-scale clusters. this tension is resolved naturally if pbhs form with a compact, short-lived core embedded in an extended halo, and we therefore simulate the two regimes as independent blocks. the core block ($4000$ pbhs, plummer radii $3\\times10^{-6} - 10^{-4}\\,{\\rm pc}$) collapses in days to years, producing a burst of mergers whose orbits are strongly non-circular ($e\\to1$) and of low dimensionless orbital angular momentum, so that remnant spins are systematically below the quasi-circular value $χ\\simeq0.7$. redshifted from their formation epoch, the core mergers deposit a stochastic background peaking in the $10^{-6}$--$10^{-4}\\,{\\rm hz}$ band accessible to lisa. the picture predicts a specific division of labour between observables, spins set in the primordial collapse, detectable mergers set by the long-term halo, and a two-component stochastic background, and, in particular, that both the spin and the mass data favour a primordial mass function truncated near $50\\,m_\\odot$.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "astro-ph.co"
+    ],
+    "link": "https://arxiv.org/abs/2609.01331",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01332",
+    "title": "perturbative double-scalar hair on planar black holes in ads$_{4}$ einstein-scalar gravity",
+    "authors": [
+      "sangheon yun"
+    ],
+    "abstract": "we construct a two-scalar hairy planar black hole in four-dimensional einstein gravity coupled to two scalars whose potential descends from the abjm consistent truncation of eleven-dimensional supergravity. starting from the known single-scalar hairy black brane, we switch on the second scalar $\\phim$ perturbatively in its amplitude $\\eps$ and solve the coupled einstein-scalar system to order $\\eps^{2}$. the linearized $\\phim$ profile is an exact hypergeometric function, independent of the $\\pp$ hair, whose horizon-regular branch always carries a source, so there is no spontaneous $\\phim$ hair. because the dual operator $\\mathcal{o}_{-}$ is irrelevant ($δ=4$), the second-order response develops a logarithmically running condensate with a closed-form, scheme-independent slope $\\tfrac{\\sqrt{21}}{70}c_{s}^{2}$. the renormalized free energy is scheme dependent, but the geometric temperature shift $δt/t_{0}\\approx-0.345\\,\\eps^{2}$ at fixed entropy is not. the full metric and $\\pp$ back-reaction is obtained in closed form, diagonalizing into two pöschl-teller problems with $δ\\pp=\\tfrac{6}{\\sqrt7}\\,δh$. three transport coefficients of the dual fluid remain exactly conformal to this order, while the sound speed, like the free energy, is scheme dependent.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "hep-th",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2609.01332",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01391",
+    "title": "scalar wave scattering by black holes embedded in dark matter halos",
+    "authors": [
+      "shi-qian hu",
+      "federico piazza"
+    ],
+    "abstract": "we study the scattering of massless scalar waves by static black holes embedded in dark matter halos. the halo is modelled by means of a hernquist profile, for which the einstein equations admit an exact solution. we analyse the scattering using null geodesics, the glory approximation, the partial wave expansion, and the complex angular momentum (cam) method.   the geometric analysis shows that the presence of the halo changes the light ring radius weakly but shifts the critical and glory impact parameters. the wave analysis shows that the characteristic black hole interference pattern is preserved, with halo compactness providing the leading correction and the halo scale radius playing a secondary role. for sufficiently compact halos, the environment also induces a sizeable gravitational redshift.   most of the displacement of the interference extrema can be reproduced by a vacuum schwarzschild solution with an appropriately chosen $ωm_{\\rm bh}$. a non-vanishing residual, however, reveals a genuine halo contribution that cannot be absorbed into such an effective frequency shift. finally, we perform the cam reconstruction of the scattering cross section and find that only a few regge poles are required to achieve high accuracy at large angles.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2609.01391",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2609.01536",
+    "title": "bounded electromagnetic power flux at naked kasner singularities",
+    "authors": [
+      "franco fiorini",
+      "p. a. gonzález",
+      "yerko vásquez"
+    ],
+    "abstract": "in some occasions, it would appear that classical electromagnetic fields could be able to coexist with strong curvature, naked singularities, in the sense that the electromagnetic power flux would be bounded in any open neighborhood of them. we illustrate this rare behavior by considering the naked singularity present in kasner spacetimes. there, using the plebanski--tamm map between maxwell theory in curved spacetime and the associated description corresponding to an effective anisotropic medium in flat space, we found not only some regular electrostatic field configurations, but also electromagnetic waves whose amplitudes lead to a well defined, bounded power flux as they approach the singularity. sometimes, in these unusual situations, the singularity resembles a mirror, perfectly reflecting its environs; in other occasions, the existence of a non-null, finite power flux as the waves travel to or from the singular plane, offers a very simple explanation as to how the singularity might absorb or create radiation fields.",
+    "submitted": "2026-09-01",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2609.01536",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
   }
 ]
