@@ -614,5 +614,339 @@
     "link": "https://arxiv.org/abs/2610.02004",
     "relevance_score": 1,
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2602.11883",
+    "title": "a unified framework for photon and massive particle hypersurfaces in stationary spacetimes",
+    "authors": [
+      "erasmo caponio",
+      "anna valeria germinario",
+      "antonio masiello"
+    ],
+    "abstract": "massive particle surfaces (mps), introduced by kobialko, bogush and gal'tsov, are timelike hypersurfaces confining the trajectories of charged massive particles with fixed killing energy and charge-to-mass ratio, in analogy with the photon surfaces of claudel, virbhadra and ellis. we study both classes in standard stationary spacetimes within a unified finslerian framework. for killing-invariant hypersurfaces $\\mathbb{r}\\times s_0$, with $s_0$ a hypersurface of a spacelike slice $s$, we prove that photon hypersurfaces and mps are exactly those for which $s_0$ is totally geodesic with respect to the fermat metric and to a jacobi--randers metric on $s$, respectively. for mps we also give a gauge-invariant version, in terms of a riemannian jacobi metric and a tangency condition on the reduced magnetic field. for arbitrary timelike hypersurfaces, we give a coordinate-free formulation of the partial umbilicity characterization of mps and, in dimension at least four and under a natural energy condition, we characterize when an mps is quasi-umbilical in the sense of b.-y. chen. in the som--raychaudhuri spacetime of a rigidly rotating charged dust we exhibit mps which are neither photon hypersurfaces nor quasi-umbilical. finally, under completeness assumptions on the jacobi--randers metric, we prove existence and multiplicity results for proper-time parametrized solutions of the lorentz force equation connecting a point to a flow line of the killing field and, under compactness assumptions, existence of solutions with periodic spatial projection, possibly confined to an mps.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "gr-qc",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2602.11883",
+    "relevance_score": 2,
+    "filter_reason": "mathematical cross-listing + keyword match"
+  },
+  {
+    "id": "2409.06905",
+    "title": "deep-water and shallow-water limits of statistical equilibria for the intermediate long wave equation",
+    "authors": [
+      "andreia chapouto",
+      "guopeng li",
+      "tadahiro oh"
+    ],
+    "abstract": "we study the construction of invariant measures associated with higher order conservation laws of the intermediate long wave equation (ilw) and their convergence properties in the deep-water and shallow-water limits. by exploiting its complete integrability, we first carry out detailed analysis on the construction of appropriate conservation laws of ilw at the $h^\\frac k2$-level for each $k \\in \\mathbb{n}$, and establish their convergence to those of the benjamin-ono equation (bo) in the deep-water limit and to those of the korteweg-de vries equation (kdv) in the shallow-water limit. in particular, in the shallow-water limit, we prove rather striking 2-to-1 collapse of the conservation laws of ilw to those of kdv. such 2-to-1 collapse is novel in the literature and, to our knowledge, this is the first construction of a complete family of shallow-water conservation laws with non-trivial shallow-water limits. we then construct an infinite sequence of generalized gibbs measures for ilw associated with these conservation laws and prove their convergence to the corresponding (invariant) generalized gibbs measures for bo and kdv in the respective limits. finally, for $k \\ge 3$, we establish invariance of these measures under ilw dynamics, and also convergence in the respective limits of the ilw dynamics at each equilibrium state to the corresponding invariant dynamics for bo and kdv constructed by deng, tzvetkov, and visciglia (2010-2015) and zhidkov (1996), respectively. in particular, in the shallow-water limit, we establish 2-to-1 collapse at the level of the generalized gibbs measures as well as the invariant ilw dynamics. as a byproduct of our analysis, we also prove invariance of the generalized gibbs measure associated with the $h^2$-conservation law of kdv, which seems to be missing in the literature.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp",
+      "math.pr"
+    ],
+    "link": "https://arxiv.org/abs/2409.06905",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2511.04503",
+    "title": "weighted wave envelope estimates for the parabola",
+    "authors": [
+      "jongchon kim",
+      "hyerim ko"
+    ],
+    "abstract": "in this paper, we extend the córdoba-fefferman square function estimate for the parabola to a weighted setting. our weighted square function estimate is derived from a weighted wave envelope estimate for the parabola. the bounds are formulated in terms of families of multiscale tubes together with weight parameters that quantify the distribution of the weight. as applications, we obtain weighted $l^p$-estimates for a class of fourier multiplier operators and for solutions to the free schrödinger equation.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "math.ca",
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2511.04503",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2601.15847",
+    "title": "quantitative borg-levinson theorem for the magnetic schödinger operator with unbounded electrical potential",
+    "authors": [
+      "mourad choulli",
+      "hiroshi takase"
+    ],
+    "abstract": "the first author established in [8] a quantitative borg-levinson theorem for the schrödinger operator with unbounded potential. in the present work, we extend the results in [8] to the magnetic schrödinger operator. we discuss both the isotropic and anisotropic cases. we establish hölder stability inequalities of determining the electrical potential or magnetic field from the corresponding boundary spectral data.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2601.15847",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.02721",
+    "title": "large-data global criteria for two-dimensional critical-energy schrödinger maps",
+    "authors": [
+      "pang-hung chung",
+      "dan han"
+    ],
+    "abstract": "we study large-data continuation below the critical energy for the two-dimensional sphere-valued schrödinger map \\[ \\partial_t u=u\\timesδu, \\qquad u:[0,t_+)\\times\\mathbb{r}^2\\to\\mathbb{s}^2, \\qquad e(u_0)<4π. \\] working directly with the original equation through the complex tangential fields $w_m=\\partial_m u+\\mathrm{i} u\\times\\partial_m u$ and the ambient connections $γ_α$, we prove frequency-envelope bounds governed by the critical norm $\\|\\nabla u\\|_{\\ell^2l^4_{t,x}}$. as consequences, $t_+=\\infty$ if $\\|\\nabla u\\|_{\\ell^2l^4([0,t_+)\\times\\mathbb{r}^2)}<\\infty$, and also if a terminal one-window high-frequency tail $\\mathcal{a}_{\\mathrm{win}}(t)$ satisfies $\\liminf_{t\\uparrow t_+}\\mathcal{a}_{\\mathrm{win}}(t)<\\varepsilon_*$. thus any finite-time failure must force persistent high-frequency concentration on all sufficiently late critical parabolic windows.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2610.02721",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.02747",
+    "title": "lower regularity well-posedness for a higher-order schrödinger equation with cubic nonlinearities on the half-line",
+    "authors": [
+      "yuhao xi",
+      "shenghao li"
+    ],
+    "abstract": "in this paper, we continue the study of himonas and yan\\cite{himonas2024schrodinger,himonas2026higher,himonas2024higher} on the nonlinear schrödinger equation with a dispersion of order $2m$ and cubic nonlinearities,   \\[ iu_t+\\left( -1 \\right) ^{m+1}\\partial _{x}^{2m}u=n_k\\left( u,u,u \\right), \\]   where, $m\\ge1$ being an integer,   \\[n_0\\left( u,u,u \\right) =uuu,\\quad n_1\\left( u,u,u \\right) =\\bar{u}uu,\\quad n_2\\left( u,u,u \\right) =\\bar{u}\\bar{u}u,\\quad n_3\\left( u,u,u \\right) =\\bar{u}\\bar{u}\\bar{u},\\]   we derive trilinear estimates at lower regularity and thereby prove that the cnls-2m on the half-line is well-posed at the optimal regularity $s=-\\fr{m-1}{2}$. this improves the previous result, $s>-\\fr{m-1}{2}$, and answers an open question left in \\cite{himonas2026higher}. in addition, for $k=0,2$, we establish well-posedness at $s=-\\fr{m-1}{2}$ as well. moreover, for $k=3$, the nonlinearity exhibits a stronger resonance relation, which implies well-posedness for $s>-\\fr{2m-1}{3}$. our derivation of the trilinear estimates relies on varieties of strichartz estimates, which differs from the $[k;z]$-multiplier norm method employed in \\cite{himonas2026higher}.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2610.02747",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.02790",
+    "title": "the critical boundary value for a nonlinear schrödinger equation in a half-space: rigidity and dimensional transition",
+    "authors": [
+      "phuong le"
+    ],
+    "abstract": "let $w_0$ be the positive homoclinic solution of $-w''+w=w^p$ and set $c_p=w_0(0)$. we study bounded positive solutions of \\[ -δv+v=v^p\\quad\\text{in }\\mathbb r^n_+, \\qquad v=c_p\\quad\\text{on }\\partial\\mathbb r^n_+, \\qquad v(x',x_n)\\to0 \\] uniformly as $x_n\\to\\infty$. this is the threshold boundary value left open by fernández and weth [math.\\ ann.\\ \\textbf{383} (2022), 361--397]. we prove a dimension-dependent rigidity/nonuniqueness picture. for every $p>1$, the profile $w_0(x_n)$ is the unique bounded positive solution when $2\\le n\\le5$, whereas for $n\\ge8$ there is a one-parameter family of bounded positive non-one-dimensional solutions. in the critical dimension $n=7$, nonuniqueness holds whenever a cubic coefficient $κ(p)$ of the exact reduced nonlinearity is positive; in particular $κ(p)>0$ for all $p\\ge2$, and continuity extends this range below $2$. the corresponding amplitudes have fowler ends, with their limiting energy, neck size, bulge size, and logarithmic period determined to leading order. the case $n=6$, as well as the complementary range in $n=7$, remain open.   the proof combines a boundary-adapted modica estimate, projection onto the kernel of the one-dimensional linearized operator, an automatic tail non-concentration estimate, and a nonlinear cell problem yielding the exact reduced nonlinearity. for $n\\ge8$ the reduced linearization is invertible in weighted spaces. in $n=7$ the critical resonance is bypassed by solving the projected radial equation nonlinearly and closing the transverse equation by a schauder--tychonoff fixed point.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2610.02790",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.02933",
+    "title": "normalized ground states and a mass-constrained scattering threshold for the inhomogeneous nls with an inverse-square potential",
+    "authors": [
+      "mohamed majdoub",
+      "tarek saanouni"
+    ],
+    "abstract": "we study the focusing inhomogeneous nonlinear schrödinger equation with an inverse-square potential $$ i\\partial_t u+δu-a|x|^{-2}u+|x|^{-b}|u|^αu=0, \\qquad (t,x)\\in\\mathbb{r}\\times\\mathbb{r}^{n}, $$ in the mass-supercritical and energy-subcritical regime $$ \\frac{4-2b}{n}<α<\\frac{4-2b}{n-2}, $$ where $n\\ge3$ and $0<b<2$. two main lines of research have developed largely independently for this model: scattering theory below the ground-state threshold and the variational analysis of solutions with prescribed mass. in this work, we establish a connection between these two approaches.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2610.02933",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2511.19593",
+    "title": "parametrized model for gravitational waves from eccentric, precessing binary black holes: theory-agnostic tests of general relativity with pteobresums",
+    "authors": [
+      "danilo chiaramello",
+      "nicolò cibrario",
+      "jacob lange",
+      "koustav chandra",
+      "rossella gamba",
+      "raffaella bonino",
+      "alessandro nagar"
+    ],
+    "abstract": "gravitational waves from binary black hole mergers allow us to test general relativity in the strong-field, high-curvature regime. however, existing gravitational waves-based tests for this have so far assumed non-eccentric signal sources, limiting their range of applicability. in this work, we present pteobresums, a new parametrized inspiral-merger-ringdown model for null tests of general relativity incorporating both orbital eccentricity and spin precession, building on the effective-one-body model teobresums-dalí. we introduce parametrized deviations from general relativity both in the inspiral and the merger-ringdown regimes. we validate the model through parameter estimation of synthetic signals generated with the model itself or from numerical simulations, including of systems featuring physics beyond general relativity. we thus establish the model's consistency, demonstrate its capability to identify effects beyond general relativity, and gauge the impact of eccentricity on the recovery of deviation parameters. we then analyze a set of binary black hole events from the first three ligo-virgo-kagra observing runs, under either the eccentric, spin-aligned or precessing, quasi-circular hypotheses, searching for deviations in the remnant black hole's fundamental quasi-normal mode. we find no statistically significant evidence for such deviations in any of the events. we combine single event results either by multiplying likelihoods, or via a hierarchical procedure;consistent with previous works, we infer a mild preference for longer quasi-normal mode damping times than expected, though the limited event sample and potential systematics reduce the significance of this finding. we find no support for orbital eccentricity among the events, save for gw200129. an eccentric description is strongly favored for this event, although this result could be influenced by data quality issues.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2511.19593",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2512.18795",
+    "title": "physical properties of compact star-like systems harboring traversable wormholes: effects of chaotic magnetic fields and anisotropic matter",
+    "authors": [
+      "muhammad lawrence pattersons",
+      "freddy permana zen",
+      "hadyan luthfan prihadi",
+      "muhammad f. a. r. sakti"
+    ],
+    "abstract": "in this paper, we formulate exotic compact objects in form of compact star-like systems harboring traversable wormhole (csstw) supported by two scalar fields, allowing for both chaotic magnetic field and pressure anisotropy of the neutron fluid. the wormhole is traversable regardless of whether anisotropy of the neutron fluid and/or magnetic fields are included. in particular, the null energy condition (nec) remains violated in the vicinity of the wormhole throat, ensuring the traversable nature of the geometry. the kretschmann scalars for all considered configurations show that the entire spacetime is regular. the temporal metric functions for all considered configurations show that there are no horizons in any of the considered cases. for magnetized configurations, the resulting csstw can become extremely massive, with adm masses exceeding $8\\,m_\\odot$, and can exhibit large surface redshifts exceeding $\\mathcal{z} \\simeq 1.5$. the system can also reach the ultracompact regime, which allows us to calculate echo time that might be produced the systems. our calculations of the echo time indicate that it can vary depending on the chaotic magnetic field configuration and fluid anisotropy. for non-magnetized configurations, the gravitational-wave echo time is of the order of $10^{-2}-10^{-1}$ ms. for the magnetized configurations, however, it ranges from the order of $10^{-1}$ $μ$s $-10^{-1}$ ms, suggesting that magnetic fields broaden the range of echo time. moreover, to investigate the direct impact of the magnetic field on the echo time, we derive an explicit expression for the echo time as a function of uniform magnetic field. the resulting relation shows that the echo time decreases as the magnetic field strength increases. the stability analysis of radial perturbations shows that all considered configurations with a surface magnetic field of $b_s=10^{15}$~g are stable.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "gr-qc",
+      "astro-ph.he",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2512.18795",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2603.25809",
+    "title": "primitive recovery methods for binary neutron star mergers with tabulated equations of state in sphincs_bssn",
+    "authors": [
+      "swapnil shankar",
+      "stephan rosswog",
+      "peter diener"
+    ],
+    "abstract": "the dynamics and observable signatures of neutron star mergers are governed by physics under the most extreme conditions. they are particularly impacted by the high-density equation of state, which for the most sophisticated models is usually available in the form of tables. numerical relativity codes usually evolve particularly well-behaved numerical (\"conservative\") variables, but at the price that the physically interesting (\"primitive\") variables need to be found at every computational element and at every integration sub-step by means of expensive (and not always successful) root-finding algorithms. we have recently developed the lagrangian numerical relativity code sphincs_bssn which evolves the spacetime on an adaptive mesh with well tested methods, but the fluid is evolved by means of freely moving particles. since our evolution equations differ from those of conventional numerical relativity, we need to develop new conservative-to-primitive algorithms if we want to use tabulated equations of state. we present here three such algorithms: a 3d and a 2d newton-raphson method and a 1d root-finding algorithm based on ridders' method. we find the 3d method to be very fast and robust with an average failure fraction in a full-blown neutron star merger simulation (with the dd2 equation of state) well below 1%. while we do not find obvious advantages for the 2d method, the 1d ridders' method is slow, but essentially fail-safe. therefore, we choose the 3d newton-raphson as default and fall back to the 1d ridders' method as a safe \"parachute\".",
+    "submitted": "2026-10-02",
+    "categories": [
+      "astro-ph.he",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2603.25809",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.12486",
+    "title": "magnetically charged spinning particles around a regular black hole: constraints on the monopole charge from quasi-periodic oscillations",
+    "authors": [
+      "shokhzod jumaniyozov",
+      "javlon rayimbaev",
+      "chengxun yuan",
+      "ahmadjon abdujabbarov",
+      "faisal javed",
+      "satimbay palvanov"
+    ],
+    "abstract": "we investigate the dynamics of magnetically charged spinning test particles in the spacetime of the bardeen regular black hole, sourced by nonlinear electrodynamics and featuring a magnetic monopole charge parameter g. using the mathisson-papapetrou-dixon equations with the tulczyjew spin condition, extended by the coulomb-like force between the particle's magnetic charge and the monopole, we derive the effective potential for equatorial motion and analyze circular orbits, the innermost stable circular orbit (isco), superluminality constraints and high-energy collisions. solving the isco conditions perturbatively around schwarzschild, we obtain exact coefficients, r_{\\rm isco}, and show that the magnetic coupling λg shifts r_{\\rm isco} only at higher order while it changes the isco energy and angular momentum at first order. we compute radiative efficiencies (up to \\simeq 8\\% in the explored range, against 5.72\\% for schwarzschild) and the orbital and radial epicyclic frequencies, including the isco and the 3:2 resonance, whose frequency at fixed mass is shifted by 5--11\\% for g/m=0.5--0.7.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2607.12486",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.02735",
+    "title": "non-gaussian timing residual skewness in pulsar timing arrays",
+    "authors": [
+      "reginald christian bernardo",
+      "rituparna mandal",
+      "kin-wang ng"
+    ],
+    "abstract": "motivated by searches for weak primordial non-gaussianity in the cosmic microwave background, we investigate perturbative departures from gaussian stochastic gravitational wave background statistics using pulsar timing arrays. we consider a quadratic ansatz that shows three-point correlations at first order in the nonlinear coupling and covariance corrections at second order. we first examine the ansatz for gravitational wave helicity amplitudes. however, the timing residual bispectrum that this produces is not manifestly invariant under local polarization basis rotations for tensor and vector modes. then, we formulate a polarization-frame-invariant phenomenological model for detector-projected amplitudes and evaluate its one-pulsar timing residual third moment with a simplified response. our numerical benchmarks have shown that this gives a very small gaussian-rms-normalized skewness.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "gr-qc",
+      "astro-ph.co"
+    ],
+    "link": "https://arxiv.org/abs/2610.02735",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.02900",
+    "title": "uniform strong-deflection lensing in near-extremal kerr",
+    "authors": [
+      "shakibul chowdhury"
+    ],
+    "abstract": "strong-deflection lensing by a subextremal kerr black hole exhibits a logarithmic critical divergence, whereas the exactly extremal prograde problem develops stronger power-law behavior. we construct a uniform asymptotic description of the transition between these regimes for prograde equatorial null geodesics. the distinguished joint near-critical and near-extremal limit occurs when the impact-parameter offset from the exact critical value is of order \\(mκ\\), where \\(κ=\\sqrt{1-a^2/m^2}\\). in this limit, the kerr radial potential reduces to a quadratic normal form, yielding an analytic crossover function that connects the subextremal logarithmic and extremal power-law regimes. we derive a matched next-to-leading-order correction and validate it against high-precision integrations of the exact kerr geodesic equations, finding improvement for all 55 trajectories tested. the same asymptotic structure yields a higher-order image-branch law interpolating between algebraic and exponential accumulation, with crossover order scaling as \\(κ^{-1}\\). we also derive and numerically validate the corresponding image-branch coordinate-time delay law, whose high-order extremal-like limit approaches the horizon-period spacing \\(4πm\\).",
+    "submitted": "2026-10-02",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2610.02900",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.03247",
+    "title": "sampling biases in sprinkled causal sets",
+    "authors": [
+      "marián boguñá",
+      "dmitri krioukov"
+    ],
+    "abstract": "poisson sprinkling provides a lorentz-invariant way of generating causal sets from a continuum spacetime, but numerical work necessarily restricts the sprinkling to a finite region. for observables involving causal-set links, this finite-volume restriction can generate a bias that does not disappear by simply increasing the number of sprinkled points. the origin of the problem is geometric. at fixed proper time from an event in minkowski spacetime, candidate links populate a non-compact hyperbolic space of rapidities. in dimensions $d+1$ with $d\\geq 2$, this space is boundary dominated: the fraction of volume close to the boundary of a large region does not vanish in the infinite-volume limit. different finite-volume regularizations can therefore produce different limiting normalized statistics. we relate this phenomenon to the failure of naive open-boundary thermodynamic limits on non-amenable spaces, derive explicitly the dependence of the link proper-time distribution on the finite cutoff, and distinguish a well-defined link-intensity profile from the ill-defined notion of a uniformly chosen link. we verify these results with independent poisson-sprinkling simulations in $d+1$ dimensions with $d=1,2,3$. we then propose an event-centered product-window estimator with a controlled double-scaling limit, and discuss compact hyperbolic quotients as a possible boundary-free alternative.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2610.03247",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.03397",
+    "title": "anisotropic domain walls and cosmologies",
+    "authors": [
+      "w. a. sabra"
+    ],
+    "abstract": "we investigate anisotropic domain wall and cosmological solutions in $d$-dimensional gravitational theories of arbitrary spacetime signature coupled to scalar fields with a scalar potential. we identify a class of scalar potentials for which the second-order equations of motion admit a first-order formulation. the associated bosonic flows allow non-trivial ricci-flat worldvolumes, while their killing-spinor realization further requires the worldvolume to admit a non-vanishing parallel spinor. five-dimensional ${\\cal n}=2$ gauged supergravity provides a concrete realization of this construction, with the worldvolume geometry determined by its signature and giving rise to pp-wave, hyper-kähler, and hypersymplectic geometries. we further construct a general class of anisotropic solutions depending on a single variable, with the anisotropy encoded in a constant traceless matrix. a particular branch arises when a subset of scalar fields contribute through their kinetic terms but do not enter the scalar potential; these fields follow geodesics on the scalar manifold. as an explicit application, we recover the kasner-dilaton-ads solutions and show that, in the appropriate limit, they satisfy the first-order flow equations.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "hep-th",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2610.03397",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.03459",
+    "title": "forward bayesian inference for the binary black hole populations",
+    "authors": [
+      "poulami dutta roy",
+      "tanmaya mishra",
+      "achal kumar",
+      "sergey klimenko"
+    ],
+    "abstract": "we present popcwb, a bayesian framework for the inference of the binary black hole (bbh) population based on the unmodeled search pipeline coherent waveburst (cwb). the standard population analysis takes an inverse approach by inferring the underlying population model parameters for a given set of detected events using the individual posterior samples. in popcwb, we take a forward approach to population inference by varying population models to identify the most optimal one which describes the observed events. rather than using event-level posterior samples, popcwb uses a large set of simulated events reconstructed by cwb and their total mass, estimated with a machine-learning regression, to construct marginal probability distributions. these marginal probabilities are then used in the construction of the likelihood. we apply popcwb to bbh events detected by cwb during the third observing run (o3) of the ligo--virgo--kagra detectors. we constrain an astrophysically motivated bbh population model that incorporates the effects of pulsational pair-instability supernovae and dynamical mergers. the analysis predicts a maximum black hole mass of $\\mathbf{45.5^{+5.3}_{-6.5} m_{\\odot}}$ from stellar evolution and an inferred local bbh merger rate of $\\mathbf{23.1^{+11.3}_{-8.4} \\, gpc^{-3} yr^{-1}}$. we compare these results with the existing population models from the literature.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "astro-ph.he",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2610.03459",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.03501",
+    "title": "born rule in schroedinger-newton scenarios of semiclassical gravity",
+    "authors": [
+      "tanguy fontana",
+      "axelle coulon",
+      "giovanni manfredi"
+    ],
+    "abstract": "we investigate dynamical relaxation to the born rule in a semiclassical gravity model described by the schrödinger-newton equations. using a gaussian variational solution for the self-gravitating wave packet, combined with nelson's stochastic representation of quantum dynamics, we track the evolution of particle ensembles whose initial probability distribution differs from $|ψ|^2$. relaxation to the born rule (\"quantum equilibrium\") occurs when the wave packet remains bounded, or grows sufficiently slowly in time; in contrast, for rapidly expanding solutions of the schrödinger-newton equations, deviations from the born rule can persist indefinitely. numerical simulations confirm this analytical picture. these results show that semiclassical self-gravity can either enable or inhibit relaxation towards the born rule, providing a minimal model relevant to proposals of primordial quantum non-equilibrium, as suggested by underwood and valentini [phys. rev. d 92, 063531 (2015)].",
+    "submitted": "2026-10-02",
+    "categories": [
+      "gr-qc",
+      "quant-ph"
+    ],
+    "link": "https://arxiv.org/abs/2610.03501",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2610.03701",
+    "title": "parity isospectrality of the kerr--newman--de sitter black hole",
+    "authors": [
+      "colin weller",
+      "dongjun li",
+      "pratik wagle",
+      "yanbei chen",
+      "nicolas yunes"
+    ],
+    "abstract": "vacuum kerr perturbations in general relativity have identical even- and odd-parity quasinormal frequencies. we establish this parity isospectrality for linear gravitoelectromagnetic perturbations of subextremal kerr--newman--de sitter black holes, without a slow-rotation or small-charge expansion. we reconstruct the radiative metric and gauge-potential perturbations directly from gauge-invariant master variables in radiation gauge, without an intermediate complex potential.",
+    "submitted": "2026-10-02",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2610.03701",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
   }
 ]
