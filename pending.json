@@ -762,5 +762,464 @@
     "link": "https://arxiv.org/abs/2611.26594",
     "relevance_score": 1,
     "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27271",
+    "title": "a covariant analysis of massless dirac fields in lrs spacetimes",
+    "authors": [
+      "eduardo bittencourt",
+      "sante carloni",
+      "giuseppe de maria",
+      "peter k. s. dunsby"
+    ],
+    "abstract": "we investigate the massless dirac field in locally rotationally symmetric (lrs) spacetimes using a covariant spinorial-fluid representation, with the spinor current and spin direction aligned with the lrs frame. when the current has both vorticity and sheet twist, characterized by a constant ratio $λ$, the lrs integrability condition relates evolution and propagation derivatives, reducing the field equations to an ordinary differential system that can be integrated exactly. the integrability of the chiral angle forces the heat flux to vanish and the source to saturate the null energy condition along the two radial null directions. a constant boost in the radial lorentzian two-plane maps the spinor current to a canonical congruence, which is stationary (lrs~i) for $|λ|>1$ and irrotational and geodesic (lrs~iii) for $|λ|<1$. in this frame, the local metric is reconstructed in the goode--wainwright--van den bergh canonical form. for $|λ|>1$ the energy density is positive, and the metric is locally isometric to the horizonless charged taub--nut (brill) metric: in the polar representation, the massless dirac field supplies a stress--energy tensor algebraically identical to that of the brill electromagnetic field, with no maxwell field present. for $|λ|<1$, the energy density is negative and the metric is the hyperbolic ($k=-1$) charged nut metric with a formal negative squared-charge parameter, whose homogeneous slices are of lrs bianchi type~viii.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "gr-qc",
+      "hep-th",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2611.27271",
+    "relevance_score": 2,
+    "filter_reason": "mathematical cross-listing + keyword match"
+  },
+  {
+    "id": "2502.08846",
+    "title": "recovery guarantees for compressed sensing photoacoustic tomography",
+    "authors": [
+      "alessandro felisi"
+    ],
+    "abstract": "photoacoustic tomography is an emerging medical imaging technology whose primary aim is to map the high-contrast optical properties of biological tissues by leveraging high-resolution ultrasound measurements. mathematically, this can be framed as an inverse source problem for the wave equation over a specific domain. in this work, for the first time, it is shown how, by assuming signal sparsity, it is possible to establish rigorous stable recovery guarantees when the data collection is given by spatial averages restricted to a sparse, randomly sampled portion of the boundary. our framework encompasses many approaches that have been considered in the literature. the result is a consequence of a general framework for subsampled inverse problems developed in previous works and refined stability estimates for an inverse problem for the wave equation with surface measurements.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap",
+      "math.fa",
+      "math.oc"
+    ],
+    "link": "https://arxiv.org/abs/2502.08846",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2502.13670",
+    "title": "strichartz estimates for the half klein-gordon equation on asymptotically flat backgrounds and applications to cubic dirac equations",
+    "authors": [
+      "sebastian herr",
+      "seokchang hong"
+    ],
+    "abstract": "the aim of this paper is to establish the $l^2_t$-endpoint strichartz estimate for (half) klein-gordon equations on a weakly asymptotically flat space-time. as an application we prove small data global well-posedness and scattering for massive cubic dirac equations in the full subcritical range in this setting.   crucial ingredient is a parametrix contruction following the work of metcalfe-tataru and xue and complements strichartz estimates obtained by zheng-zhang. the proof of the global result for the cubic dirac equation follows the strategy developed by machihara-nakanishi-ozawa in the euclidean setting.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2502.13670",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2604.23764",
+    "title": "a fujita-type threshold for the semilinear damped wave equation with hartree-type nonlinearity and initial data from homogeneous besov spaces",
+    "authors": [
+      "thuy hien thi nguyen",
+      "duc an phan"
+    ],
+    "abstract": "in this paper, we study the semilinear damped wave equation with hartree-type nonlinearity $\\mathcal{i}_γ(|u|^{p_1})|u|^{p_2}$, where $0<γ<n$, and initial data possessing additional negative regularity in $\\dot{b}_{2,\\infty}^{-β}$, $0\\leqβ<n/2$. we first establish decay estimates for the corresponding linear equation in homogeneous besov spaces $\\dot{b}_{q,r}^s$, allowing low-frequency data in $\\dot{b}_{m,\\infty}^{-β}$ under the condition $s+β+n(1/m-1/q)>0$. we then prove the existence of a unique global mild solution for sufficiently small initial data in the critical and supercritical range $$ p_1+p_2\\geq1+\\frac{4+2γ}{n+2β}, $$ under the remaining assumptions on $p_1$ and $p_2$. furthermore, for initial data satisfying a positive lower bound, we prove the nonexistence of global weak solutions when $$ 2<p_1+p_2<1+\\frac{4+2γ}{n+2β}. $$",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2604.23764",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.31359",
+    "title": "a pathological set regarding the propagation of almost sure properties of gaussian measures",
+    "authors": [
+      "pablo merino"
+    ],
+    "abstract": "we provide a complementary result to the quasi-invariance of gaussian measures supported on sobolev spaces with high regularity under the dynamics of the three-dimensional periodic defocusing nonlinear wave equation from gunaratnam-oh-tzvetkov-weber (2022). namely, given $p > 2$, $σ$ large enough and $α\\in [\\max\\{\\frac{1}{2} - \\frac{3}{p} , 0\\} , 1 - \\frac{2}{p})$, we prove the existence of dense subsets of the sobolev space $w^{σ+ α,p}(\\mathbb{t}^3)$ which do not preserve the $l^p$-based regularity $σ$ throughout the aforementioned dynamics. this is in sharp contrast with the propagation under the flow of almost sure properties.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2605.31359",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27484",
+    "title": "boundary gradient asymptotics for superquadratic viscous hamilton--jacobi equations via optimal control",
+    "authors": [
+      "s. e. nikitin"
+    ],
+    "abstract": "we study the boundary behavior of the maximal solution of \\[   -δu + |\\nabla u|^{p} + λu = f \\] on arbitrary bounded $c^{2}$ domains, where $p > 2$ and $λ> 0$. for bounded state-dependent terms $f$, we resolve a conjecture of lasry and lions by establishing sharp boundary gradient asymptotics without geometric restrictions on the domain. previously, such asymptotics were established only for certain classes of domains with additional restrictions on $p$ and $f$. we also extend the analysis to state-dependent terms that may be singular near the boundary and obtain sharp boundary profiles and gradient asymptotics.   our approach relies on stochastic optimal control and boundary blow-up analysis. dynamic programming estimates and comparisons of near-optimal trajectories establish tangential invariance of boundary blow-up limits, leading to the identification of one-dimensional profiles and the asymptotic formulas. for the associated state-constrained control problem, we establish sharp asymptotics for the minimizing feedback and deduce its admissibility and optimality, with corresponding results for the ergodic problem.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap",
+      "math.oc"
+    ],
+    "link": "https://arxiv.org/abs/2611.27484",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27498",
+    "title": "solutions with one dimensional concentration for a two dimensional schrödinger model with general potential and involving mass subcritical and supercritical exponents",
+    "authors": [
+      "lipeng duan",
+      "suting wei",
+      "jun yang"
+    ],
+    "abstract": "we prove the existence of solution $(\\tilde u, λ)$ which concentrates on stationary and non-degenerate curve, as $p_ε\\to 6$, to the following mass-constraint nonlinear schrödinger equation \\begin{align*} \\begin{cases}   - δ\\tilde u + w({\\bf y}) \\tilde u - |\\tilde u|^{p_ε-2} \\tilde u = λ\\tilde u, \\quad {\\bf y} \\in \\mathbb{r}^2, \\\\[2mm]   \\int_{\\r^2} |\\tilde u|^2 {\\mathrm d} {\\bf y} =a. \\end{cases} \\end{align*} here $λ$ is a lagrange multiplier, $ w({\\bf y})$ is a real-valued potential, $a \\in \\mathbb{r}_+$ is a constant, $p_ε= 6 \\pm ε, ε\\ll 1$ and $6$ is the $l^2$-critical exponent in the sense of concentration on a codimension 1 submanifold. when constructing the solution concentrating on a curve, we utilize some delicate transformations to overcome the challenges posed by the non-uniform boundedness of length of concentrating curves.   in addition, we employ some refined analytical techniques to overcome the strong resonance phenomena caused by the $l^2$ constraint. our result partially answers the ambrosetti-malchiodi-ni conjecture in the setting of the mass-constrained nonlinear elliptic equation.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2611.27498",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27558",
+    "title": "uniqueness of $l_{p}$ minkowski problem in the supercritical range near the affine exponent",
+    "authors": [
+      "devesh rajpal"
+    ],
+    "abstract": "we study the isotropic $ l_{p} $-minkowski problem. the equation is affine invariant at the exponent $ p = -n-1 $, where all origin-centered ellipsoids with the volume of the unit ball are solutions, and it is known that the unit sphere is the only solution for $ p \\in (-n-1, 1) $. we prove uniform $ c^{0} $ estimates for all solutions in the supercritical range $ p < -n-1 $. this allows us to prove a key spectral estimate of the hilbert-brunn-minkowski operator on solutions. we then utilize the rayleigh quotient method with position vectors as test functions for the operator adapted from ivaki-milman to prove uniqueness in the range $ p \\in (-n-1- δ_{n}, -n-1) $ for some $ δ_{n} > 0 $.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap",
+      "math.dg"
+    ],
+    "link": "https://arxiv.org/abs/2611.27558",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27619",
+    "title": "local well-posedness for generalized inhomogeneous nonlinear schrödinger equations",
+    "authors": [
+      "kohei inada"
+    ],
+    "abstract": "we consider the initial value problem for the nonlinear schrödinger equation \\begin{equation*}   i\\partial_t u+δu=a(x)|u|^αu, \\end{equation*} where $a(x)$ is a spatially dependent coefficient. we study a general class of coefficients that includes the usual inhomogeneous nonlinearity $a(x)=λ|x|^{-b}$ and coefficients with multiple singularities. we establish local well-posedness in $h^s(\\mathbb{r}^n)$ for both the $h^s$-subcritical and $h^s$-critical cases under suitable assumptions on $a(x)$. we also extend a fractional difference estimate of fujiwara to lorentz spaces.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2611.27619",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27629",
+    "title": "the global solutions to nonlinear thermoelastic systems under a null condition",
+    "authors": [
+      "yating xu",
+      "yi zhou"
+    ],
+    "abstract": "we study the cauchy problem for a class of homogeneous, isotropic nonlinear thermoelastic systems in three space dimensions. under a null condition for purely elastic part of our system which is different from those considered by sideris, we establish the existence and uniqueness of global classical solutions with smallness assumptions on the initial data. we use klainerman--sideris weighted energy estimates and time-weighted energy estimates for the heat equation to establish global existence. moreover, we improve upon the global existence result of ponce and racke, who assumed that the purely elastic nonlinear terms vanish.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2611.27629",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27672",
+    "title": "global existence and scattering of large solutions of the cubic dirac equation",
+    "authors": [
+      "timothy candy",
+      "sebastian herr",
+      "kenji nakanishi"
+    ],
+    "abstract": "we construct global dispersive solutions to the massive cubic dirac equation (soler model) for initial data with large critical sobolev norm. because of a lack of a coercive energy in the dirac equation, the only previously known large solutions are solitons (which are non-dispersive) and majorana-solutions (which are in fact solutions to a linear equation). here, the new strategy is to exploit the non-relativistic limit, which connects the dirac equation to a system of schrödinger equations with cubic nonlinearities, and then to develop a scattering theory for this limiting system.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2611.27672",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27676",
+    "title": "approximation of the nonautonomous maxwell system with an interface",
+    "authors": [
+      "richard nutt"
+    ],
+    "abstract": "to obtain higher-regularity solutions for nonautonomous maxwell systems with an interface, we approximate the initial data and coefficients by smoother counterparts. to preserve compatibility conditions of the approximations, required to obtain solutions to the maxwell systems, we systematically adjust the approximating sequence of initial data. while the existing well-posedness theory in [14] guarantees more regular solutions, standard a-priori estimates fail to ensure convergence in the desired norm. we overcome this by a mollification argument and a div-curl estimate from [4] and [7].",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2611.27676",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27695",
+    "title": "small noise limit for entropic variational mean-field games",
+    "authors": [
+      "alessandro cosenza",
+      "luca nenna"
+    ],
+    "abstract": "we study second order variational mean-field games with quadratic hamiltonian. in analogy with entropic optimal transport, benamou, carlier, di marino and the second author recently proposed an entropy-minimization formulation of the problem, which could be interpreted as the lagrangian counterpart of the classical eulerian approach. we investigate the small-noise $γ$-limit for the lagrangian entropy-minimization formulation and establish $γ$-convergence of second order mean-field games towards their deterministic first order counterpart. this also translates into another (dynamical) proof of the convergence of the schrödinger problem to optimal transport. moreover, we study the original eulerian problem and prove a first order energy expansion, which establishes a selection principle for minimizers of the deterministic problem.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap",
+      "math.oc"
+    ],
+    "link": "https://arxiv.org/abs/2611.27695",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27733",
+    "title": "exponential decay of the quasilinear maxwell system caused by conductivity on a collar",
+    "authors": [
+      "richard nutt",
+      "roland schnaubelt"
+    ],
+    "abstract": "we study the anisotropic, quasilinear maxwell system on a bounded domain $ω$ with perfectly conducting boundary conditions. it is damped via a conductivity $σ$ which is strictly positive on its support containing a collar of the boundary. we prove that solutions exist globally and decay exponentially to $0$ if there are no magnetic charges on $ω$, no electric charges off the support of $σ$, and the initial fields are small. our approach relies on a splitting of the solution via adapted helmholtz decompositions and an observability-type estimate for a related system without charges, shown by means of morawetz multipliers. moreover, one has to control the space derivatives of the solution by its time derivatives, exploiting the structure of the system. the discontinuity of $σ$ introduces an interface which poses significant challenges in all these steps, besides those coming from the quasilinear terms.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2611.27733",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27859",
+    "title": "a sharp dimensional threshold for polygonal bubbling in an almost critical problem",
+    "authors": [
+      "giuseppe mario rago",
+      "giusi vaira",
+      "yue wu"
+    ],
+    "abstract": "in this paper we study sign-changing solutions for the problem $-δu=|u|^{2^*-2-\\varepsilon}u$ in $\\mathcal b$, $u=0$ on $\\partial\\mathcal b$, where $\\mathcal b$ is the unit ball of $\\mathbb r^n$, $n\\geq3$, $2^*=\\frac{2n}{n-2}$ and $\\varepsilon>0$ is a small parameter, so that the problem is slightly subcritical. in \\cite{bdp}, bartsch, d'aprile and pistoia proved that, in every dimension, there exist two solutions which blow up, as $\\varepsilon\\to0$, positively at the origin and negatively at two antipodal points; as a by-product of our approach, we prove their conjecture that the corresponding reduced energy has exactly two critical points, both nondegenerate, in every dimension. we consider the natural generalization in which the negative bubbles are located at the vertices of a regular $k$-gon, $k\\geq3$, and we show that the picture changes drastically. when $k=3$ there is a sharp dimensional threshold: if $n\\geq13$ the reduced energy has exactly two critical points, a nondegenerate saddle point and a nondegenerate local minimum, which generate two distinct solutions, while if $3\\leq n\\leq12$ no solution of this type exists. when $k\\geq4$ no solution of this type exists in any dimension. moreover, for both families of solutions found for $k=3$ the nodal set stays uniformly away from $\\partial\\mathcal b$, in contrast with the case of two negative bubbles, where the nodal set of one of the two solutions touches the boundary, and with the brezis--nirenberg problem, where the nodal set of the solutions with the same configuration always reaches the boundary.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2611.27859",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27902",
+    "title": "growth of subsolutions to fully nonlinear equations in halfspaces ii",
+    "authors": [
+      "fatma gamze düzgün",
+      "niklas l. p. lundström",
+      "marcus olofsson"
+    ],
+    "abstract": "we establish sharp lower growth estimates for subsolutions of fully nonlinear elliptic equations in half-spaces, allowing source terms that depend explicitly on the solution. the estimates capture both growth at infinity and blow-up at a finite distance from the boundary. our approach extends the ode-based method introduced in [j. differential equations 320 (2022), 143--173].",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap"
+    ],
+    "link": "https://arxiv.org/abs/2611.27902",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27940",
+    "title": "well-posedness and finite-time breakdown for euler-alignment systems with diffusive chemotaxis",
+    "authors": [
+      "marta menci",
+      "marco papi"
+    ],
+    "abstract": "we investigate a recent class of pressureless euler systems arising in biological contexts, in which the velocity evolution is driven, besides the nonlocal alignment interaction, by the gradient of a concentration self-produced by the population. we first establish local existence and uniqueness of strong solutions, in a class requiring no spatial derivative of the initial population density, together with a continuation criterion. we then derive sufficient conditions on the initial data for finite-time breakdown in the multidimensional setting, with an explicit upper bound for the maximal time of existence. numerical simulations complement the analysis and illustrate the transition between regular and singular regimes, and the role of the chemotactic strength in the onset of blow-up.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "math.ap",
+      "math-ph",
+      "math.mp"
+    ],
+    "link": "https://arxiv.org/abs/2611.27940",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2503.23193",
+    "title": "gravitational landscapes: black holes with linear equations of state in asymptotically safe gravity",
+    "authors": [
+      "ramin hassannejad",
+      "fatimah shojai",
+      "kazuharu bamba"
+    ],
+    "abstract": "we study black holes with linear equation of state within the framework of asymptotically safe gravity. this study extends previous work on gravitational collapse in asymptotically safe gravity (that has been done for a dust fluid) by considering into account the pressure of stellar matter. we derive modified field equations containing the running gravitational coupling and the cosmological constant as functions of energy density. the interior space-time of collapsing star is modeled by the friedmann-lemaître-robertson-walker metric, while the exterior is described by a static spherically symmetric space-time. different equations of state from ordinary matter to exotic phantom energy are considered to investigate their impact on black hole structure and horizon formation. our results illustrate that asymptotically safe gravity can introduce non-singular black hole solutions under specific conditions. these results provide new insights into black hole physics and the avoidance of singularities within the asymptotically safe gravity framework.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "link": "https://arxiv.org/abs/2503.23193",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2601.05048",
+    "title": "jet launching from the kerr black hole magnetosphere: an electrogeodesic approach",
+    "authors": [
+      "jibril ben achour",
+      "ileyk el mellah",
+      "eric gourgoulhon"
+    ],
+    "abstract": "the launch of relativistic jets of plasma on astrophysical to cosmological scales is observed in a variety of astrophysical sources, from active galactic nuclei to x-ray binaries. while these jets can be reproduced by general relativistic magneto-hydrodynamics (grmhd) and particle-in-cells (grpic) simulations of the dynamical kerr magnetosphere, the development of analytic models to describe the physics of the jets has remained limited. a key challenge is to analytically describe the individual trajectories of accelerated charged particles, which ultimately build up the jet and emit radiation. in this work, we provide a first simple but fully analytical model of jet launching from the kerr magnetosphere based on the motion of charged particles. to that end, we use the integrability of electrogeodesic motion in the kerr monopole magnetosphere to study the ejection of charged particles near the poles. this enables us to derive (i) a criterion for the rotation axis to constitute a stable latitudinal equilibrium position, thereby representing an idealized jet, (ii) the expression for the magnetic frame-dragging effect, and (iii) the condition for an asymptotic observer to measure blueshifted particles emanating from the black hole surroundings. our study reveals that particles can be accelerated only in a specific region whose maximal radius depends on the spin and magnetization of the black hole. we further show that these results extend to the split-monopole kerr solution by a redefinition of the angular momentum of the charged particles. alongside these results, we provide a detailed review of the construction of test magnetospheres from (explicit and hidden) symmetries of the kerr geometry and the condition for the separability of the electrogeodesic motion in a test magnetosphere, which serves as a basis for the model studied in this work.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "astro-ph.he",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2601.05048",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2605.22210",
+    "title": "constraints on schwarzschild black hole in a generalized dehnen-type $(1,4,γ)$ dark matter halo via the s2 star orbit around sgr a$^\\star$",
+    "authors": [
+      "tursunali xamidov",
+      "sanjar shaymatov",
+      "qiang wu"
+    ],
+    "abstract": "the distribution of dark matter (dm) halo around supermassive black holes (bhs) may leave observable imprints on stellar dynamics near galactic centers. motivated by this, we investigate the orbital motion of the s2 star in the spacetime of a recently derived generalized schwarzschild bh solution embedded in a dehnen-type $(1,4,γ)$ dm halo, considering it as a possible model for sgr a$^{\\star}$ at the center of the milky way. unlike previous studies restricted to specific values of the halo parameter $γ$, the present solution describes the fully generalized case with arbitrary $γ$. we derive the corresponding equations of motion and obtain the associated pericenter shift over one orbital period. using observational data of the s2 star, we constrain the parameters of the schwarzschild--dehnen bh-dm system through a markov chain monte carlo (mcmc) analysis. our mcmc analysis provides constraints on the parameter $γ$ of the generalized dehnen-type dm halo. the posterior medians of $γ$ with 68% credible intervals are $γ=0.652^{+0.435}_{-0.446}$ and $γ=0.771^{+0.486}_{-0.522}$ for dataset 1 from do et al. and dataset 2 from gillessen et al., respectively. the corresponding one-sided 95% upper credible limits are $γ<1.238$ and $γ<1.389$. if the halo is instead normalized to the observed local dark-matter density at solar distance, $ρ_{\\rm dm}(8\\,\\mathrm{kpc})\\simeq0.01\\,m_\\odot\\,\\mathrm{pc}^{-3}$, the 95% upper limits become $γ<1.949$ and $γ<1.931$ for dataset 1 and dataset 2, respectively. the analysis shows that the s2 orbital motion provides constraints on the parameter $γ$ of the dm halo profile, while the characteristic halo density $ρ_s$ and scale radius $r_s$ exhibit a strong degeneracy and remain sensitive to the adopted prior ranges.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2605.22210",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2607.23119",
+    "title": "parameter estimation on ligo-virgo-kagra o4a binary merger triggers with sub-solar mass components",
+    "authors": [
+      "nelson christensen",
+      "neil cornish",
+      "florian kühnel",
+      "mairi sakellariadou",
+      "andres santiago villares guanga"
+    ],
+    "abstract": "the ligo-virgo-kagra collaboration has reported the results for searches for sub-solar mass components in compact binary coalescence during observing run o4a. no detection candidates were identified, but the most significant seven triggers were reported. we present the results of bayesian parameter inference on these triggers. five of the triggers show agreement between the bayesian parameter estimation and the search pipeline trigger. our results show that three of the triggers may contain a possible sub-solar mass component. parameter estimation indicates that the other two events, if real, would be neutron star - black hole binaries. the remaining two triggers do not provide informative parameter estimation. we also study three o4a compact binary coalescence triggers, and one o3 trigger, that have been noted by three other groups, and our parameter estimation indicates that three of these may contain a sub-solar mass component. we study the data quality associated with these triggers. finally, we discuss the challenges for parameter estimation on compact binary coalescence events containing a sub-solar mass component: long signal duration, possible small chirp masses, possible small mass ratios, and data quality issues over potentially hundreds of seconds of data.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "gr-qc",
+      "astro-ph.co"
+    ],
+    "link": "https://arxiv.org/abs/2607.23119",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27195",
+    "title": "type-ii quasinormal modes of dilaton--euler--heisenberg ads black holes",
+    "authors": [
+      "chao-ming zhang",
+      "fu-wen shu",
+      "yun soo myung",
+      "ming zhang",
+      "de-cheng zou"
+    ],
+    "abstract": "in this paper, we investigate type-ii quasinormal modes (qnms) of a magnetically charged dilaton--euler--heisenberg black hole in anti-de sitter (ads) spacetime. the type-ii includes coupled gravitational, dilaton and electromagnetic perturbations. its coupled equations are derived for $\\ell=0,1,2$ modes and the qnm frequencies are calculated by employing direct integration and chebyshev pseudospectral methods, giving consistent results. for nondegenerate dipole ($\\ell=1$) mode at fixed curvature, the nonlinear correction starts at order $q^2$ for electromagnetic-led branch and at order $q^4$ for scalar-led branch. in this case, stronger ads curvature enhances reduction of the electromagnetic-led real frequency for positive coupling, while gravitational-led quadrupole real frequency changes weakly with charge. as the curvature weakens, the dipole frequencies approach the ads normal-mode scale and their damping decreases. we find that all modes computed have negative imaginary parts for nonextremal black holes, implying this black hole is stable against type-ii perturbations. furthermore, we explore the connection between thermodynamic phase transition and qnms for $\\ell=0$ dilaton. for a subcritical isobaric process, the qnm real frequency of $\\ell=0$ dilaton decreases with increasing temperature of small black holes, while it increases with increasing temperature of large black holes. at coexistence, the damping rate for large black holes is about 4.28 times that for small black holes.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2611.27195",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27573",
+    "title": "the kerr metric in canonical harmonic coordinates to all orders",
+    "authors": [
+      "amina sadu",
+      "pierre vanhove"
+    ],
+    "abstract": "we give in closed form the transformation from boyer--lindquist coordinates to the canonical harmonic coordinates of the kerr metric, to all orders in newton's constant and in the spin. this is the canonical harmonic chart selected by the mpm prescription and by the harmonic-gauge einstein recursion sourced by the kerr multipoles, with the residual homogeneous freedom fixed by the boundary conditions. the chart is the real, time-reversal-covariant combination of the two radial harmonic functions underlying the cook--scheel coordinates, which differ from it by a definite residual harmonic transformation. the proof rests on a classification of the residual harmonic freedom. rotational covariance, parity, time reversal and analyticity in the spin allow a decaying homogeneous solution beyond the linear field only in the spatial components at third post-minkowskian order, with angular degree $\\ell=p+2$ at spin order $a^p$. this sector is a pure gauge mode, equivalent to an mpm gauge moment. the exact chart selects the representative in which this third-pm homogeneous mode vanishes; imposing the same condition on the recursion removes the only residual ambiguity and fixes its solution uniquely. as a consequence, the canonical mpm iteration needs no finite-part regularisation and no harmonicity correction at any order. we give the exact gothic metric and the post-minkowskian coefficients in closed form through fifth order, where an arctangent function first appears at fourth order. we find agreement with recent canonical mpm and amplitude-based results at fourth order, and we verify the construction in exact arithmetic through fifth order and twelfth order in the spin, with code made publicly available.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "hep-th",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2611.27573",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27588",
+    "title": "test of gravitational redshift by optical clocks at different latitudes",
+    "authors": [
+      "ingo nosske",
+      "chetan vishwakarma",
+      "tim lücke",
+      "martin steinel",
+      "melina filzinger",
+      "jochen kronjäger",
+      "alexander kuhl",
+      "shambo mukherjee",
+      "erik benkler",
+      "heiner denker",
+      "ronald holzwarth",
+      "thomas udem",
+      "sören dörscher",
+      "nils huntemann",
+      "christian lisdat"
+    ],
+    "abstract": "general relativity predicts that frequency comparisons between clocks are affected by both gravitational and kinematic time dilation. while the kinematic contribution has been tested with high accuracy, experimental tests of the gravitational redshift remain comparatively less stringent. here, we measure the frequency shift between two earth-fixed optical atomic clocks at different potentials and compare it to the redshift predicted by general relativity using independent geodetic measurements. the observed shift agrees with the prediction, testing the gravitational redshift at the $4.6 \\times 10^{-5}$ uncertainty level, improving ground-based tests by a factor two. previous ground-based tests separated the clocks mainly vertically. for clocks at different latitudes, their height difference is governed not only by the gravitational potentials at their locations but also by the centrifugal potentials caused by earth's rotation. as both contributions can partially cancel, the gravitational contribution can be considerably larger than their height difference suggests. in this work, a separation of the clocks by $4^\\circ$ in latitude enhances their sensitivity to a gravitational redshift violation threefold, to the equivalent of an approximately 1200 m difference in height for small latitudinal separation. our results establish earth's rotation as a so far unexploited resource for advancing ground-based tests of the gravitational redshift towards the sensitivity of previous space-based experiments.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "physics.atom-ph",
+      "gr-qc"
+    ],
+    "link": "https://arxiv.org/abs/2611.27588",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27651",
+    "title": "coronagraphic time-delay interferometry: fundamental steps towards concrete applications",
+    "authors": [
+      "raissa costa barroso",
+      "yves lemière",
+      "ian harry"
+    ],
+    "abstract": "the laser interferometer space antenna (lisa) is a future space-based gravitational wave (gw) observatory. central to lisa data analysis is time-delay interferometry (tdi), which reduces otherwise overwhelming laser frequency noise. in previous work, we explored coronagraphic tdi, a sky-dependent null-stream channel which cancels the gw signal of a point-like source when pointed at its sky position. because this property relies only on the geometric response of lisa, coronagraphic tdi is a candidate for model-agnostic sky localization. here, we address three challenges which arise when analyzing realistic lisa data: (i) spacecraft motion; (ii) signal superposition; (iii) instrumental noise. we derive a second-generation coronagraphic tdi variable and its analytic noise model, and show that it reduces laser frequency noise in the presence of spacecraft motion while still recovering the position of the source. using pairs of galactic binaries (gbs), we find that sources can be localized independently provided they do not overlap in frequency, even when they share the same sky position, whereas sources overlapping in frequency can only be localized if one dominates by a factor of ~100 in amplitude. this is confirmed by the analysis of a simulation containing a massive black hole binary and 49 verification gbs. finally, we introduce a statistical test based on the analytic noise model, which provides well-calibrated confidence regions for the sky position of the source. applying it to gbs in the presence of instrumental noise, we find that the geometric response alone only weakly constrains the sky position: even at signal-to-noise ratios of order 10^4, 90% confidence regions span ~10^3 deg^2. these are fundamental steps towards applications of coronagraphic tdi to lisa data, such as sky localization and glitch discrimination, which we discuss.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "gr-qc",
+      "astro-ph.im"
+    ],
+    "link": "https://arxiv.org/abs/2611.27651",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
+  },
+  {
+    "id": "2611.27848",
+    "title": "diffusing the assumptions: towards realistic lisa stochastic component separation with physics-aware simulation-based inference",
+    "authors": [
+      "iuliu cuceu",
+      "nelson christensen",
+      "astrid lamberts",
+      "coen rondeel",
+      "natalia korsakova"
+    ],
+    "abstract": "simultaneous global-fit inference of the numerous sources observed by the laser interferometer space antenna (lisa) depends on accurate modeling of its stochastic components: instrumental noise, the galactic foreground, and astrophysical or stochastic gravitational wave backgrounds (sgwb). realistic features such as non-gaussian transients and data gaps challenge traditional likelihood-based pipelines, creating an opportunity for simulation-based inference (sbi) to augment traditional analyses. here, we present an sbi framework for lisa stochastic component separation built on the simformer, a transformer trained with diffusion or flow matching that ingests the full time-delay interferometry cross-spectral matrix via a physics-aware embedding. we progressively relax standard simplifying assumptions on simulated 11.6-day datasets containing a loud foreground and a faint power-law sgwb. with unequal arms and per-link noise freedom, the networks match 17-dimensional mcmc posteriors after importance reweighting; full cross-spectra constrain each link's optical metrology noise amplitude to $1\\%$. when marginalizing over glitches or massive black hole binary transients, estimation errors remain flat up to transient signal-to-noise ratios of several hundred, whereas ignoring them severely biases likelihood fits. under time-varying spline noise levels, realistic glitch rates, and gaps up to one day long, posterior coverage remains nominal or conservative across $\\sim 10^4$ simulations. we test coverage in the local neighborhood of a given observation by introducing a novel importance-weighted localized simulation-based calibration test. we find flow matching slightly better calibrated than diffusion in simpler regimes and observe modest gains from physics-aware template inputs. finally, we outline how these networks can initialize the noise and stochastic blocks of a lisa global fit.",
+    "submitted": "2026-11-20",
+    "categories": [
+      "gr-qc",
+      "astro-ph.im"
+    ],
+    "link": "https://arxiv.org/abs/2611.27848",
+    "relevance_score": 1,
+    "filter_reason": "keyword match"
   }
 ]
